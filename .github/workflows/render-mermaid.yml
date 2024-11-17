@@ -1,0 +1,22 @@
+name: Render Mermaid
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  render-mermaid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Render Mermaid diagrams
+        uses: nielsvaneck/render-md-mermaid@v2
+
+      - name: Commit rendered diagrams
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: "*[.svg,.png]"
+          commit_message: "Automatically rendered Mermaid diagrams"

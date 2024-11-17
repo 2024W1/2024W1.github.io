@@ -1,11 +1,4 @@
 <!-- cSpell:language de -->
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-mermaid.initialize({
-  startOnLoad: true,
-  theme: 'default'
-});
-</script>
 
 # Wirtschaftslehre im StudienKolleg
 
@@ -279,6 +272,11 @@ mermaid.initialize({
 
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
 
+
+![Mermaid diagram](./path/to/diagram.svg)
+<details>
+<summary>Mermaid source</summary>
+
 ```mermaid
 graph TD
     Ausland -->|1| Haushalte
@@ -297,6 +295,7 @@ graph TD
     Unternehmen -->|14| Staat
     Banken -->|15| Staat
     Staat -->|16| Banken
+</details> 
 ```
 
 - (a) Ein deutscher Tourist bezahlt sein Hotel in Österreich.
