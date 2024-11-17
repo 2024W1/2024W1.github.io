@@ -1,4 +1,11 @@
 <!-- cSpell:language de -->
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'default'
+});
+</script>
 
 # Wirtschaftslehre im StudienKolleg
 
@@ -534,12 +541,3 @@ Die Universitäten bieten Vorlesungen entsprechend beider Gliederungen an. Sie s
 | Immobilien           |             |            |                  |                      |               |               |
 | Tourismus            |             |            |                  |                      |               |               |
 | Gesundheitswesen     |             |            |                  |                      |               |               |
-
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-mermaid.initialize({
-  startOnLoad: true,
-  theme: 'default'
-});
-</script>
