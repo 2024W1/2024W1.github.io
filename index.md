@@ -272,7 +272,6 @@
 
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
 
-
 ```mermaid
 graph TD
     Ausland -->|1| Haushalte
