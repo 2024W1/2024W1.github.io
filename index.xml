@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2024 18:40:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Sun, 17 Nov 2024 18:40:28 +0100</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h1 id=&#34;wirtschaftslehre-im-studienkolleg&#34;&gt;Wirtschaftslehre im StudienKolleg&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h1 id=&#34;经济学预科版&#34;&gt;经济学(预科版)&lt;/h1&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;0-einleitung&#34;&gt;0. Einleitung&lt;/h2&gt;&#xA;&lt;h3 id=&#34;01-inhalt-für-den-1-semester&#34;&gt;0.1 Inhalt für den 1. Semester&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Gegenstand der Wirtschaftswissenschaften, Güterklassifikation&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;经济学的研究对象，商品分类&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Modelltheorie: Wirtschaftsmodelle&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;模型理论：经济模型&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modelltheorie&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;模型理论&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Homo oeconomicus&lt;/em&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;经济人&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Wirtschaftskreislauf&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;经济循环&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Funktionale Zusammenhänge&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;功能关系&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Modelltheorie: Kennzahlen&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;模型理论：指标&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Die VWL&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;国民经济学&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gliederung&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;分支&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Geschichte&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;历史&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Mikroökonomik&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;微观经济学&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Makroökonomik&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;宏观经济学&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Die BWL&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;企业经济学&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Geschichte&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;历史&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Gliederung ABWL, SBWL&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;一般企业经济学，专门企业经济学的结构&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Analysegegenstände ausgewählter funktionaler SBWL, z.B. BCG-Matrix, Harris-Andler-Formel, das Reisender-Handelsvertreter-Problem, Finanzplan bei einer Unternehmensgründung, Vergleich lineare-geometrische Abschreibung&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
