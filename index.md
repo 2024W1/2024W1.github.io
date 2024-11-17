@@ -317,7 +317,7 @@ graph TD
 - (h) Die Landesregierung überzieht ihr Girokonto bei der Westdeutschen Landesbank.
 
 > Die Landesregierung überzieht ihr Girokonto bei der deutschen Landesbank → 15
-> 州政府在德国州立银行透支账户，属于政府 对银行的业务。
+> 州政府在德国州立银行透支账户，属于政府对银行的业务。
 
 7. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
 
