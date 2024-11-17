@@ -273,10 +273,6 @@
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
 
 
-![Mermaid diagram](./path/to/diagram.svg)
-<details>
-<summary>Mermaid source</summary>
-
 ```mermaid
 graph TD
     Ausland -->|1| Haushalte
@@ -295,7 +291,6 @@ graph TD
     Unternehmen -->|14| Staat
     Banken -->|15| Staat
     Staat -->|16| Banken
-</details> 
 ```
 
 - (a) Ein deutscher Tourist bezahlt sein Hotel in Österreich.
@@ -325,7 +320,7 @@ graph TD
 > Die Landesregierung überzieht ihr Girokonto bei der deutschen Landesbank → 15
 > 州政府在德国州立银行透支账户，属于政府对银行的业务。
 
-7. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
+1. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
 
 > Innerhalb der Haushalte: Taschengeld von Eltern an Kinder / Weihnachtsgeschenk umtauschen
 > 家长给孩子零花钱 / 圣诞节互换礼物
