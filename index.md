@@ -8,7 +8,7 @@
 
 ### 0.1 Inhalt für den 1. Semester
 
-1. Gegenstand der [Wirtschaftswissenschaften](#wort-Wirtschaftswissenschaften), [Güterklassifikation](#wort-Güterklassifikation)
+1. Gegenstand der [Wirtschaftswissenschaften](#wort-Wirtschaftswissenschaften "经济学"), [Güterklassifikation](#wort-Güterklassifikation "商品分类")
 
    > 经济学的研究对象，商品分类
 
