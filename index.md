@@ -8,42 +8,40 @@
 
 ### 0.1 Inhalt für den 1. Semester
 
-1. Gegenstand der Wirtschaftswissenschaften, Güterklassifikation
+1. Gegenstand der [Wirtschaftswissenschaften](#wort_Wirtschaftswissenschaften), Güterklassifikation
 
    > 经济学的研究对象，商品分类
-   >
+
 2. Modelltheorie: Wirtschaftsmodelle
 
    > 模型理论：经济模型
-   >
 
    - Modelltheorie
-     > 模型理论
-     >
+   > - 模型理论
+
    - *Homo oeconomicus*
-     > 经济人
-     >
+   > - 经济人
+
    - Wirtschaftskreislauf
-     > 经济循环
-     >
+   > - 经济循环
+
    - Funktionale Zusammenhänge
-     > 功能关系
-     >
+   > - 功能关系
+
 3. Modelltheorie: Kennzahlen
 
    > 模型理论：指标
-   >
+
 4. Die VWL
 
    > 国民经济学
-   >
 
    - Gliederung
      > 分支
-     >
+
    - Geschichte
      > 历史
-     >
+
    - Mikroökonomik
      > 微观经济学
      >
@@ -53,61 +51,57 @@
 5. Die BWL
 
    > 企业经济学
-   >
 
    - Geschichte
-     > 历史
-     >
+   > - 历史
+
    - Gliederung ABWL, SBWL
-     > 一般企业经济学，专门企业经济学的结构
-     >
+   > - 一般企业经济学，专门企业经济学的结构
+
    - Analysegegenstände ausgewählter funktionaler SBWL, z.B. BCG-Matrix, Harris-Andler-Formel, das Reisender-Handelsvertreter-Problem, Finanzplan bei einer Unternehmensgründung, Vergleich lineare-geometrische Abschreibung
-     > 选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……
-     >
+   > - 选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……
+
 6. Arbeitsteilung
 
    > 分工
-   >
 
    - Klassifikation nach Karl Bücher
      > 根据卡尔·比歇的分类
-     >
+
    - Arbeitsteilung im Unternehmen (Adam Smith)
      > 企业内的分工（亚当·斯密）
-     >
+
    - Arbeitsteilung in der Volkswirtschaft (Jean Fourastie)
      > 国民经济中的分工（让·富拉斯蒂耶）
-     >
+
    - Arbeitsteilung zwischen den Volkswirtschaften (absoluter und komparativer Kostenvorteil nach Smith, Ricardo)
      > 各国经济间的分工（根据斯密和李嘉图的绝对与比较成本优势）
-     >
+
 7. Markt
 
    > 市场
-   >
-
+  
    - Marktklassifikation, insbesondere Marktformen nach der Zahl der Marktteilnehmer
      > 市场分类，特别是根据市场参与者数量的市场形式
-     >
+
    - Prämissen des vollkommenen Marktes
      > 完全市场的前提
-     >
+
    - Marktgleichgewicht
      > 市场均衡
-     >
+
    - Funktionen des Preises
      > 价格功能
-     >
+
 8. Geld
 
    > 货币
-   >
 
 #### 0.1 词汇表
 
 | 德文术语                  | 词性 | 复数形式 | 中文翻译   | 解释/备注                        |
 | ------------------------- | ---- | -------- | ---------- | -------------------------------- |
-| Wirtschaftswissenschaften | f    | -        | 经济学     | -                                |
+| <a id="wort_Wirtschaftswissenschaften"></a>Wirtschaftswissenschaften | f    | -        | 经济学     | -                                |
 | Güterklassifikation      | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
 | Modelltheorie             | f    | -n       | 模型理论   | -                                |
 | Wirtschaftskreislauf      | m    | -läufe  | 经济循环   | -                                |
