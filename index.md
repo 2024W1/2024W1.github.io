@@ -8,7 +8,7 @@
 
 ### 0.1 Inhalt für den 1. Semester
 
-1. Gegenstand der [Wirtschaftswissenschaften](#wort_Wirtschaftswissenschaften), Güterklassifikation
+1. Gegenstand der [Wirtschaftswissenschaften](#wort-Wirtschaftswissenschaften), [Güterklassifikation](#wort-Güterklassifikation)
 
    > 经济学的研究对象，商品分类
 
@@ -101,8 +101,8 @@
 
 | 德文术语                  | 词性 | 复数形式 | 中文翻译   | 解释/备注                        |
 | ------------------------- | ---- | -------- | ---------- | -------------------------------- |
-| <a id="wort_Wirtschaftswissenschaften"></a>Wirtschaftswissenschaften | f    | -        | 经济学     | -                                |
-| Güterklassifikation      | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
+| <a id="wort-Wirtschaftswissenschaften">Wirtschaftswissenschaften</a> | f    | -        | 经济学     | -                                |
+| <a id="wort-Güterklassifikation">Güterklassifikation</a>      | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
 | Modelltheorie             | f    | -n       | 模型理论   | -                                |
 | Wirtschaftskreislauf      | m    | -läufe  | 经济循环   | -                                |
 | Kennzahlen                | f    | -        | 指标       | 用于评估的数值指标。             |
