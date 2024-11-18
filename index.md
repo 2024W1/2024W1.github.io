@@ -319,7 +319,7 @@ graph TD
 > Die Landesregierung überzieht ihr Girokonto bei der deutschen Landesbank → 15
 > 州政府在德国州立银行透支账户，属于政府对银行的业务。
 
-1. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
+7. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
 
 > Innerhalb der Haushalte: Taschengeld von Eltern an Kinder / Weihnachtsgeschenk umtauschen
 > 家长给孩子零花钱 / 圣诞节互换礼物
@@ -371,7 +371,7 @@ Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die
 
 | 德文术语                       | 词性 | 复数形式                 | 中文翻译       | 解释/备注                                                                  |
 | ------------------------------ | ---- | ------------------------ | -------------- | -------------------------------------------------------------------------- |
-| Betriebswirtschaftslehre (BWL) | f    | -                        | 企业经济学     | 研究企业及其运作和管理的学科。                                             |
+| Betriebswirtschaftslehre (`BWL`) | f    | -                        | 企业经济学     | 研究企业及其运作和管理的学科。                                             |
 | Volkswirtschaftslehre (VWL)    | f    | -                        | 国民经济学     | 研究整个国家或全球范围内经济活动的学科，关注宏观层面。                     |
 | Wirtschaftsakteur              | m    | -en                      | 经济活动的主体 | 在经济活动中参与交易或决策的个人或组织。（不包括政府以及各级人民代表大会） |
 | Struktur und Vorgang           | f    | Strukturen und Vorgänge | 结构和过程     | -                                                                          |
@@ -383,17 +383,17 @@ Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die
 | Haushaltstheorie               | f    | -n                       | 家庭经济学     | 研究家庭资源分配和消费行为的理论。                                         |
 | Spieltheorie                   | f    | -n                       | 博弈论         | 分析决策者在竞争环境中的策略选择及其结果的理论。                           |
 
-### 5.2 Geschichte der BWL
+### 5.2 Geschichte der `BWL`
 
 > ### 5.2 企业经济学的历史
 
-Die BWL als Wissenschaft ist relativ jung. Als Geburtsstädte der modernen Betriebswirtschaftslehre werden häufig das in Schweiz, Österreich und Deutschland wird häufig das Jahr 1898 angesehen. Es entstanden in diesem Jahr im deutschsprachigen Raum Lehrstühle(Professuren) in St. Gallen, Leipzig, Aachen und Wien. Die *Wharton School of the University of Pennsylvania* war mit dem Gründungsjahr 1881 die erste Business School in den USA. In Frankreich existierte mit der *Ecole Supérieure de Commerce* in Paris bereits 1819 eine Business School.
+Die `BWL` als Wissenschaft ist relativ jung. Als Geburtsstädte der modernen Betriebswirtschaftslehre werden häufig das in Schweiz, Österreich und Deutschland wird häufig das Jahr 1898 angesehen. Es entstanden in diesem Jahr im deutschsprachigen Raum Lehrstühle(Professuren) in St. Gallen, Leipzig, Aachen und Wien. Die *Wharton School of the University of Pennsylvania* war mit dem Gründungsjahr 1881 die erste Business School in den USA. In Frankreich existierte mit der *Ecole Supérieure de Commerce* in Paris bereits 1819 eine Business School.
 
-> BWL 作为一门科学相对较新。瑞士、奥地利和德国被普遍认为是现代商业管理学的发源地，1898年被视为其诞生之年。在这一年，德语区的圣加仑、莱比锡、亚琛和维也纳等地设立了商业管理学的教授职位。1881 年成立的宾夕法尼亚大学沃顿商学院是美国的第一所商学院，而法国巴黎高等商业学院早在 1819 年就已经存在。
+> `BWL` 作为一门科学相对较新。瑞士、奥地利和德国被普遍认为是现代商业管理学的发源地，1898年被视为其诞生之年。在这一年，德语区的圣加仑、莱比锡、亚琛和维也纳等地设立了商业管理学的教授职位。1881 年成立的宾夕法尼亚大学沃顿商学院是美国的第一所商学院，而法国巴黎高等商业学院早在 1819 年就已经存在。
 
-Da das Objekt der BWL viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der BWL im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten Buchhaltung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
+Da das Objekt der `BWL` viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der `BWL` im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten Buchhaltung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
 
-> 由于 BWL 的研究对象自古有之，故这门科学有着更长的发展历程。BWL 的某些部分，例如 BWL 中的商人技能（中世纪欧洲经济概念），自古代就已存在。会计系统和库存模型自古埃及（纸莎草纸）、美索不达米亚（泥板）、中国（竹简）等古代文明中就已知晓。如今广泛使用的复式记账法是在15世纪因意大利的黎凡特贸易（欧洲通过叙利亚与西亚，中东的贸易）而发展起来的，并于1494年首次由意大利数学家卢卡·帕乔利（Luca Pacioli，1445-1517）在其著名的百科全书《簿记论》中首次系统化记录下来。不过，在此书之前，商人技能主要通过口头传授，作为一种秘密技艺流传。
+> 由于 `BWL` 的研究对象自古有之，故这门科学有着更长的发展历程。`BWL` 的某些部分，例如 `BWL` 中的商人技能（中世纪欧洲经济概念），自古代就已存在。会计系统和库存模型自古埃及（纸莎草纸）、美索不达米亚（泥板）、中国（竹简）等古代文明中就已知晓。如今广泛使用的复式记账法是在15世纪因意大利的黎凡特贸易（欧洲通过叙利亚与西亚，中东的贸易）而发展起来的，并于1494年首次由意大利数学家卢卡·帕乔利（Luca Pacioli，1445-1517）在其著名的百科全书《簿记论》中首次系统化记录下来。不过，在此书之前，商人技能主要通过口头传授，作为一种秘密技艺流传。
 
 Als die bedeutendsten deutschsprachigen Vertreter der Allgemeinen Betriebswirtschaftslehre im 20. Jahrhundert gelten Eugen Schmalenbach (1873-1955), der der Betriebswirtschaftslehre ihren heutigen Namen gab und Erich Gutenberg (1897-1984), der die faktororientierte Betriebswirtschaftslehre begründete.
 
