@@ -610,8 +610,8 @@ Umsatz in Mio €
 | Gesamtmarkt   | 800    | 1100   | 1500              |
 | Gesamtvolumen | 1600   | 2000   | 2600              |
 
-$absoluter \space Marktanteil = \frac{eigenen Umsatz}{Umsatz des Marktes}*100$
-$relativer \space Marktanteil = \frac{eigenen Umsatz}{Umsatz des größten Konkurrenten}*100=\frac{eigenen Umsatz}{MAX(Umsatz des Konkurrent)}$
+$absoluter \space Marktanteil = \frac{eigenen \space Umsatz}{Umsatz \space des \space Marktes}*100$
+$relativer \space Marktanteil = \frac{eigenen \space Umsatz}{Umsatz \space des \space größten \space Konkurrenten}*100=\frac{eigenen \space Umsatz}{MAX(Umsatz \space des \space Konkurrent)}$
 
 | Unternehmen | MA                               | ist Marktführer(> 100%?) |
 | ----------- | -------------------------------- | ------------------------- |
