@@ -747,6 +747,17 @@ $Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen
 \* Umsatz des gesamten Marktes
 > \* 整个市场的销售额
 
+```mermaid
+quadrantChart
+    title BCG Matrix
+    x-axis Low Market Share --> High Market Share
+    y-axis Low Market Growth --> High Market Growth
+    quadrant-1 Stars
+    quadrant-2 Question Marks
+    quadrant-3 Dogs
+    quadrant-4 Cash Cows
+```
+
 **Aufgaben:**
 > **任务：**
 
