@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "language": "de,en,zh-CN",
+    "language": "de,en-US,zh-CN",
     "enableFiletypes": [
         "markdown"
     ],
@@ -13,6 +13,7 @@
         "Commerce",
         "Controlling",
         "Cournotscher",
+        "Employment",
         "Engelkurven",
         "Entrepreneurship",
         "Erlösmaximum",
@@ -25,12 +26,15 @@
         "Hicksnachfrage",
         "homo",
         "Indifferenzkurventheorie",
+        "Interest",
         "Isoquante",
         "Komplementärgut",
         "Levantehandel",
         "Levantehandels",
         "limitationale",
         "Marshallschen",
+        "Meynard",
+        "Money",
         "oeconomicus",
         "Oeconomicus",
         "Pacioli",
@@ -44,6 +48,7 @@
         "Substitutionseffekt",
         "Substitutionsgut",
         "Systematisierungskriterien",
+        "Theory",
         "Wharton"
     ]
 }

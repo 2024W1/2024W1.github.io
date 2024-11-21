@@ -338,6 +338,14 @@ graph TD
 
 ## 4. Volkswirtschaftslehre
 
+### 4.3.2 Die Makroökonomik
+
+4.3.2 Die Makroökonomik
+Die Makroökonomik als Teilgebiet der Wirtschaftstheorie betrachtet die Wirtschaft auf einer höher aggregierten (zusammenfassenden) Ebene im Gesamtzusammenhang. Im Mittelpunkt steht nicht die individuelle Entscheidung eines Wirtschaftsakteurs, sondern das Verhalten von Menschengruppen. Sie untersucht damit gesamtwirtschaftliche Zusammenhänge, d.h. das Zusammenspiel von maximal vier hoch aggregierten Märkten (Arbeitsmarkt, Gütermarkt, Geldmarkt und Kapitalmarkt) innerhalb eines administrativ entstandenen Wirtschaftsraumes, meist eines Landes. Die Makroökonomie greift damit teilweise auf die mikroökonomischen Erkenntnisse zum Marktmechanismus zurück.
+Als Begründer der makroökonomischen Theorie gilt John Meynard Keynes mit seinem Buch
+"General Theory of Employment, Interest and Money" (Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes) 1936, die wissenschaftliche Analyse gesamtgesellschaftlicher Fragestellungen beginnt allerdings schon mit den Merkantilisten bzw. früher. Analysiert werden Zusammenhänge und Methoden zur Erreichung einer erstrebenswerten wirtschaftlichen Entwicklung, die als „magisches Viereck" bezeichnet wird: hoher Beschäftigungsstand, stabiles Preisniveau, angemessenes und stetiges Wirtschaftswachstum und außenwirtschaftliches Gleichgewicht. Beispiele für Untersuchungsgegenstände sind die Änderung des Gesamt-einkommens oder des Beschäftigungsgrades, der Inflationsrate oder Konjunkturschwankungen und deren Folgen. Mittelpunkt makroökonomischer Theorien ist schließlich die Frage nach der Rolle des Staates in der Wirtschaft.
+Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftskreislaufes und die Gleichgewichtsmodelle (Vierquadrateinschema). Als Beispiel soll das Neoklassische Beschäftigungsgleichgewicht dienen:
+
 ### 4.5 Wiederholungsaufgabe
 
 1. Fertigen Sie eine Baumgrafik für das System der Wissenschaften, die Struktur der Wirtschaftswissenschaften und die Struktur der VWL an. Lassen Sie noch etwas Platz für die Struktur der BWL, die nach der folgenden Lektion ergänzt werden soll.
