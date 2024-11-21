@@ -606,7 +606,46 @@ Die Speziellen Betriebswirtschaftslehren (SBWL) spezialisieren sich auf ausgewä
 
   - - 14. Unternehmensgründung / Entrepreneurship
 
+> - (a)功能性企业经济学（根据企业功能的标准）：
+> - 该文本仅展示了一个选择，还有更多的企业功能。并且在所提到的功能中，只有一部分是功能性企业模型的重要组成部分。
+> - - 1. 企业管理（领导、规划、组织、监督）
+> - - 2. 采购、物料管理和物流
+> - - 3. 生产经济学，包括运筹学和质量管理
+> - - 4. 销售、市场营销和企业传播
+> - - 5. 财务（投资与融资、资本市场）
+> - - 6. 内部会计、成本核算（内部会计）
+> - - 7. 外部会计、审计（外部会计）
+> - - 8. 企业税务学
+> - - 9. 组织学，包括组织理论和组织文化
+> - - 10. 商业信息学和信息管理
+> - - 11. 创新与技术管理
+> - - 12. 国际企业经济学
+> - - 13. 环境管理
+>
+> - (b) 制度性企业经济学：
+> - 针对按产出标准划分行业的企业的专门化企业经济学（SBWL）：
+> - - 1. 银行业经济学
+> - - 2. 商业经济学
+> - - 3. 保险业经济学
+> - - 4. 房地产经济学
+> - - 5. 旅游业经济学
+> - - 6. 医疗行业经济学
+> - - 7. 工业经济学
+> - - 8. 农业经济学
+> - - 9. 媒体经济学或媒体管理
+> - - 10. 公共部门经济学和行政管理经济学
+> - - 11. 矿业经济学等
+>
+> 针对按企业规模/结构划分的企业的专门化企业经济学（SBWL）：
+>
+> - - 12. 中小型企业（KMU）经济学
+> - - 13. 集团管理
+> 针对按企业年龄专门化的制度性企业经济学（SBWL）：
+> 
+> - - 14. 企业创立/创业管理
+
 Die Universitäten bieten Vorlesungen entsprechend beider Gliederungen an. Sie sind unterschiedlich benannt, folgen inhaltlich der grundlegenden Literatur und / oder dem speziellen Forschungsinteresse des Professors. Folgende Skizze soll das Verhältnis der funktionalen zu den institutionellen SBWL verdeutlichen:
+> 各大学提供根据这两种分类的课程。这些课程名称各不相同，但内容上遵循基础文献和/或教授的具体研究兴趣。以下示意图旨在阐明功能性专门化企业经济学（SBWL）与制度性专门化企业经济学（SBWL）之间的关系：
 
 | Institutionelle SBWL | Beschaffung | Produktion | Absatz/Marketing | Leitung/Organisation | Externes REWE | Internes REWE |
 | -------------------- | ----------- | ---------- | ---------------- | -------------------- | ------------- | ------------- |
@@ -617,18 +656,37 @@ Die Universitäten bieten Vorlesungen entsprechend beider Gliederungen an. Sie s
 | Tourismus            |             |            |                  |                      |               |               |
 | Gesundheitswesen     |             |            |                  |                      |               |               |
 
+> | 制度性专门化企业经济学 | 采购       | 生产       | 销售/市场营销 | 管理/组织       | 外部会计       | 内部会计       |
+> | -------------------- | ---------- | ---------- | ------------ | --------------- | ------------- | ------------- |
+> | 银行业               |            |            |              |                 |               |               |
+> | 商业                 |            |            |              |                 |               |               |
+> | 保险业               |            |            |              |                 |               |               |
+> | 房地产               |            |            |              |                 |               |               |
+> | 旅游业               |            |            |              |                 |               |               |
+> | 医疗行业             |            |            |              |                 |               |               |
+
 Bei der Wahl der Vorlesungen ist folgendes zu beachten. Die funktionalen SBWL behandeln keine branchenspezifischen Probleme. Sie spezialisieren sich auf die betrieblichen Funktionen entsprechend des funktionalen Unternehmensmodells. Die institutionellen SBWL dagegen spezialisieren sich im Wesentlichen auf die Branche. Besucht man Vorlesungen zu mehreren Branchen - Betriebswirtschaftslehren, z.B. Bankbetriebslehre und Versicherungsbetriebslehre, dann kommt es zu Doppelungen. Insbesondere bei der Wahl institutioneller SBWL als Studienfächer sollte man sich über das angestrebte Ausbildungsziel bzw. den gewünschten Job im Klaren sein.
+
+> 在选择课程时，需要注意以下几点：功能性专门化企业经济学（SBWL）不处理特定行业的问题，而是根据功能性企业模型专注于企业的功能。与之相对，制度性专门化企业经济学（SBWL）主要专注于特定行业。如果选择多个行业的课程——例如银行业经济学和保险业经济学——可能会出现内容重复的情况。特别是在将制度性专门化企业经济学作为学习科目时，应明确自己的培训目标或未来期望的职业方向。
 
 ### 5.4 Ausgewählte Probleme der BWL
 
+> ### 5.4 企业经济学的选定问题
+
 Ausgehend vom allgemeinen Unternehmensmodell sollen in diesem Abschnitt Beispiele für Problemstellungen gegeben werden, die Inhalt unterschiedlicher Unternehmensfunktionen sind.
+> 基于通用的企业模型，本节将给出一些问题的示例，这些问题属于不同的企业功能内容。
 
 #### 5.4.1 Ein Beispiel für Unternehmensführung - Die BCG-Matrix
 
-Es geht um die strategische Ausrichtung eines Mehrproduktunternehmens, das sich entscheiden muss, in die Herstellung welcher Produkte es hauptsächlich investieren will. Dieses Verfahren wurde in den 1960er Jahren von der amerikanischen Unternehmensberatungsfirma Boston-Consulting-Group entwickelt und stellt eindrucksvoll die Platzierung der Produkte auf dem Markt und ihre Gewinnaussichten dar.
+Es geht um die strategische Ausrichtung eines Mehrproduktunternehmens, das sich entscheiden muss, in die Herstellung welcher Produkte es hauptsächlich investieren will. Dieses Verfahren wurde in den 1960er Jahren von der amerikanischen Unternehmensberatungsfirma *Boston-Consulting-Group* entwickelt und stellt eindrucksvoll die Platzierung der Produkte auf dem Markt und ihre Gewinnaussichten dar.
+> 这里涉及一个多产品企业的战略定位，该企业必须决定主要投资于哪些产品的生产。这种方法由美国咨询公司*波士顿咨询集团（Boston-Consulting-Group）*在20世纪60年代开发，生动地展示了产品在市场中的定位及其盈利前景。
 
-**Beispiel BCG-Matrix Löbler 1**
+##### Beispiel BCG-Matrix Löbler 1
+
+> ##### 示例：BCG矩阵 Löbler 1
+
 Umsatz in Mio €
+> 销售额（单位：百万欧元）
 
 | Produkte     | A   | B   | C   | D   | E   |
 | ------------ | --- | --- | --- | --- | --- |
@@ -642,9 +700,25 @@ Umsatz in Mio €
 | Gesamtmarkt   | 800    | 1100   | 1500              |
 | Gesamtvolumen | 1600   | 2000   | 2600              |
 
-$absoluter \space Marktanteil = \frac{eigenen \space Umsatz}{Umsatz \space des \space Marktes}*100$
+> | 产品         | A   | B   | C   | D   | E   |
+> | ------------ | --- | --- | --- | --- | --- |
+> | 企业         | 200 | 100 | 400 | 800 | 150 |
+> | 竞争者1      | 250 | 300 | 300 | 400 | 600 |
+> | 竞争者2      | 300 | 200 | 500 | 400 | 300 |
+> | 竞争者3      | 100 | 400 | 300 | 300 | 600 |
 
-$relativer \space Marktanteil = \frac{eigenen \space Umsatz}{Umsatz \space des \space größten \space Konkurrenten}*100=\frac{eigenen \space Umsatz}{MAX(Umsatz \space des \space Konkurrent)}*100\%$
+> | 市场容量*     | 第1年   | 第2年   | 第3年（预测）      |
+> | ------------ | ------- | ------- | ------------------ |
+> | 总市场       | 800     | 1100    | 1500               |
+> | 总容量       | 1600    | 2000    | 2600               |
+
+$\text{absoluter Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des Marktes}}*100\%$
+
+$\text{relativer Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des größten Konkurrenten}}*100=\frac{\text{eigenen Umsatz}}{MAX(\text{Umsatz des Konkurrent})}*100\%$
+
+> $绝对市场份额 = \frac{\text{自身销售额}}{\text{市场销售额}} * 100$
+> 
+> $相对市场份额 = \frac{\text{自身销售额}}{\text{最大竞争者销售额}} * 100 = \frac{\text{自身销售额}}{\text{最大值(竞争者销售额)}} * 100$
 
 | Unternehmen | MA                               | ist Marktführer(> 100%?) |
 | ----------- | -------------------------------- | ------------------------- |
@@ -654,17 +728,30 @@ $relativer \space Marktanteil = \frac{eigenen \space Umsatz}{Umsatz \space des \
 | D           | $\frac{800}{400}*100=200\%$    | x                         |
 | E           | $\frac{150}{600}*100=25\%$     |                           |
 
-Marktwachstum
+> | 企业       | 市场份额计算                              | 是否为市场领导者（市占率>100%？） |
+> | ---------- | ---------------------------------------- | -------------------------- |
+> | A          | $\frac{200}{250}*100=80\%$            |                            |
+> | B          | $\frac{100}{400}*100=25\%$            |                            |
+> | C          | $\frac{400}{300}*100=133,33\%$        | x                          |
+> | D          | $\frac{800}{400}*100=200\%$           | x                          |
+> | E          | $\frac{150}{600}*100=25\%$            |                            |
 
-$Marktwachstum_A=\frac{1500(Marktvolumen \space Jahr \space 3)}{1000(Marktvolumen \space Jahr \space 2)}*100-100=36,36\%$
+Marktwachstum
+> 市场增长率
+
+$Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100-100=36,36\%$
+> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100 - 100 = 36,36\%$
 
 \* Umsatz des gesamten Marktes
+> \* 整个市场的销售额 
 
 **Aufgaben:**
+> **任务：**
+
 (a) Analysieren Sie die gegenwärtige Situation des Unternehmens mithilfe der BCG-Matrix.
 (b) Geben Sie für jedes einzelne Produkt eine strategische Empfehlung.
-
----
+> (a) 使用BCG矩阵分析企业当前的状况。  
+> (b) 为每个单独的产品提出战略建议。
 
 #### 5.4.2 Ein Beispiel für Beschaffung - Die Losgrößenformel von Harris und Andler - Die optimale Bestellmenge
 
