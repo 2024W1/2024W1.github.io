@@ -276,6 +276,8 @@
 
 ## 2. Wirtschaftswissenschaftliche Arbeitsmethode
 
+### 2.3 Wirtschaftskreisläufe
+
 ### 2.9 Wiederholungsaufgabe
 
 1. Was verstehen Sie unter einem Denkmodell und welchem Zweck dient es?
@@ -706,7 +708,7 @@ Umsatz in Mio €
 > | 竞争者1      | 250 | 300 | 300 | 400 | 600 |
 > | 竞争者2      | 300 | 200 | 500 | 400 | 300 |
 > | 竞争者3      | 100 | 400 | 300 | 300 | 600 |
-> 
+
 > | 市场容量*     | 第1年   | 第2年   | 第3年（预测）      |
 > | ------------ | ------- | ------- | ------------------ |
 > | 总市场       | 800     | 1100    | 1500               |
@@ -728,7 +730,7 @@ $\text{relativer Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des gr
 | D           | $\frac{800}{400}*100=200\%$    | x                         |
 | E           | $\frac{150}{600}*100=25\%$     |                           |
 
-> | 企业       | 市场份额计算                              | 是否为市场领导者（相对市占率>100%？） |
+> | 企业       | 市场份额计算                              | 是否为市场领导者（市占率>100%？） |
 > | ---------- | ---------------------------------------- | -------------------------- |
 > | A          | $\frac{200}{250}*100=80\%$            |                            |
 > | B          | $\frac{100}{400}*100=25\%$            |                            |
