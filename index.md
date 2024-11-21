@@ -11,109 +11,139 @@
 1. Gegenstand der [Wirtschaftswissenschaften](#wort-Wirtschaftswissenschaften "经济学"), [Güterklassifikation](#wort-Güterklassifikation "商品分类")
 
    > 经济学的研究对象，商品分类
-
+   >
 2. Modelltheorie: Wirtschaftsmodelle
 
    > 模型理论：经济模型
+   >
 
    - Modelltheorie
+
    > - 模型理论
+   >
 
    - *Homo oeconomicus*
+
    > - 经济人
+   >
 
    - Wirtschaftskreislauf
+
    > - 经济循环
+   >
 
    - Funktionale Zusammenhänge
-   > - 功能关系
 
+   > - 功能关系
+   >
 3. Modelltheorie: Kennzahlen
 
    > 模型理论：指标
-
+   >
 4. Die VWL
 
    > 国民经济学
+   >
 
    - Gliederung
+
      > 分支
-
+     >
    - Geschichte
-     > 历史
 
+     > 历史
+     >
    - Mikroökonomik
+
      > 微观经济学
      >
    - Makroökonomik
+
      > 宏观经济学
      >
 5. Die BWL
 
    > 企业经济学
+   >
 
    - Geschichte
+
    > - 历史
+   >
 
    - Gliederung ABWL, SBWL
+
    > - 一般企业经济学，专门企业经济学的结构
+   >
 
    - Analysegegenstände ausgewählter funktionaler SBWL, z.B. BCG-Matrix, Harris-Andler-Formel, das Reisender-Handelsvertreter-Problem, Finanzplan bei einer Unternehmensgründung, Vergleich lineare-geometrische Abschreibung
-   > - 选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……
 
+   > - 选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……
+   >
 6. Arbeitsteilung
 
    > 分工
+   >
 
    - Klassifikation nach Karl Bücher
+
      > 根据卡尔·比歇的分类
-
+     >
    - Arbeitsteilung im Unternehmen (Adam Smith)
+
      > 企业内的分工（亚当·斯密）
-
+     >
    - Arbeitsteilung in der Volkswirtschaft (Jean Fourastie)
+
      > 国民经济中的分工（让·富拉斯蒂耶）
-
+     >
    - Arbeitsteilung zwischen den Volkswirtschaften (absoluter und komparativer Kostenvorteil nach Smith, Ricardo)
-     > 各国经济间的分工（根据斯密和李嘉图的绝对与比较成本优势）
 
+     > 各国经济间的分工（根据斯密和李嘉图的绝对与比较成本优势）
+     >
 7. Markt
 
    > 市场
-  
+   >
+
    - Marktklassifikation, insbesondere Marktformen nach der Zahl der Marktteilnehmer
+
      > 市场分类，特别是根据市场参与者数量的市场形式
-
+     >
    - Prämissen des vollkommenen Marktes
+
      > 完全市场的前提
-
+     >
    - Marktgleichgewicht
+
      > 市场均衡
-
+     >
    - Funktionen des Preises
-     > 价格功能
 
+     > 价格功能
+     >
 8. Geld
 
    > 货币
+   >
 
 #### 0.1 词汇表
 
-| 德文术语                  | 词性 | 复数形式 | 中文翻译   | 解释/备注                        |
-| ------------------------- | ---- | -------- | ---------- | -------------------------------- |
-| <a id="wort-Wirtschaftswissenschaften">Wirtschaftswissenschaften</a> | f    | -        | 经济学     | -                                |
-| <a id="wort-Güterklassifikation">Güterklassifikation</a>      | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
-| Modelltheorie             | f    | -n       | 模型理论   | -                                |
-| Wirtschaftskreislauf      | m    | -läufe  | 经济循环   | -                                |
-| Kennzahlen                | f    | -        | 指标       | 用于评估的数值指标。             |
-| Gliederung                | f    | -en      | 分支       | 学科或领域的结构划分。           |
-| Makroökonomik            | f    | -        | 宏观经济学 | -                                |
-| Mikroökonomik            | f    | -        | 微观经济学 | -                                |
-| Arbeitsteilung            | f    | -en      | 分工       | -                                |
-| Marktklassifikation       | f    | -en      | 市场分类   | -                                |
-| Marktgleichgewicht        | n    | -e       | 市场均衡   | -                                |
-| Geld                      | n    | -er      | 货币       | -                                |
-| Prämisse                 | f    | -n       | 前提       | 作为推理或论证基础的假设或条件。 |
+| 德文术语                                                                     | 词性 | 复数形式 | 中文翻译   | 解释/备注                        |
+| ---------------------------------------------------------------------------- | ---- | -------- | ---------- | -------------------------------- |
+| `<a id="wort-Wirtschaftswissenschaften">`Wirtschaftswissenschaften`</a>` | f    | -        | 经济学     | -                                |
+| `<a id="wort-Güterklassifikation">`Güterklassifikation`</a>`           | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
+| Modelltheorie                                                                | f    | -n       | 模型理论   | -                                |
+| Wirtschaftskreislauf                                                         | m    | -läufe  | 经济循环   | -                                |
+| Kennzahlen                                                                   | f    | -        | 指标       | 用于评估的数值指标。             |
+| Gliederung                                                                   | f    | -en      | 分支       | 学科或领域的结构划分。           |
+| Makroökonomik                                                               | f    | -        | 宏观经济学 | -                                |
+| Mikroökonomik                                                               | f    | -        | 微观经济学 | -                                |
+| Arbeitsteilung                                                               | f    | -en      | 分工       | -                                |
+| Marktklassifikation                                                          | f    | -en      | 市场分类   | -                                |
+| Marktgleichgewicht                                                           | n    | -e       | 市场均衡   | -                                |
+| Geld                                                                         | n    | -er      | 货币       | -                                |
+| Prämisse                                                                    | f    | -n       | 前提       | 作为推理或论证基础的假设或条件。 |
 
 ### 0.2 Inhalt für den 2. Semester
 
@@ -350,6 +380,7 @@ Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftsk
 
 > Steuern (Steuern)
 > In Krisenzeiten neigen Regierungen dazu, die Steuern zu erhöhen, um die sinkenden Einnahmen auszugleichen und die steigenden Ausgaben zu finanzieren. Dies kann verschiedene Formen annehmen:
+>
 > - Erhöhung der Einkommensteuersätze
 > - Verbreiterung der Steuerbemessungsgrundlage
 > - Einführung neuer Steuern oder Abgaben
@@ -357,10 +388,11 @@ Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftsk
 
 > Staatsschulden (Staatsschulden)
 > Die Staatsverschuldung steigt in Krisenzeiten in der Regel stark an. Gründe dafür sind:
+>
 > - Sinkende Steuereinnahmen aufgrund der wirtschaftlichen Schwäche
 > - Steigende Ausgaben für Konjunkturprogramme und Sozialleistungen
 > - Finanzierung von Krisenbekämpfungsmaßnahmen
-In Deutschland stieg die Schuldenstandquote beispielsweise von knapp 60% vor der Korona-Krise auf über 70% des BIP
+>   In Deutschland stieg die Schuldenstandquote beispielsweise von knapp 60% vor der Korona-Krise auf über 70% des BIP
 
 ### 4.5 Wiederholungsaufgabe
 
@@ -387,19 +419,19 @@ Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die
 
 #### 5.1 词汇表
 
-| 德文术语                       | 词性 | 复数形式                 | 中文翻译       | 解释/备注                                                                  |
-| ------------------------------ | ---- | ------------------------ | -------------- | -------------------------------------------------------------------------- |
+| 德文术语                           | 词性 | 复数形式                 | 中文翻译       | 解释/备注                                                                  |
+| ---------------------------------- | ---- | ------------------------ | -------------- | -------------------------------------------------------------------------- |
 | Betriebswirtschaftslehre (`BWL`) | f    | -                        | 企业经济学     | 研究企业及其运作和管理的学科。                                             |
-| Volkswirtschaftslehre (VWL)    | f    | -                        | 国民经济学     | 研究整个国家或全球范围内经济活动的学科，关注宏观层面。                     |
-| Wirtschaftsakteur              | m    | -en                      | 经济活动的主体 | 在经济活动中参与交易或决策的个人或组织。（不包括政府以及各级人民代表大会） |
-| Struktur und Vorgang           | f    | Strukturen und Vorgänge | 结构和过程     | -                                                                          |
-| Entscheidungsprozess           | m    | -e                       | 决策过程       | -                                                                          |
-| Mikroökonomie                 | f    | -                        | 微观经济学     | 研究个体经济单位行为的经济学分支。                                         |
-| Produktionstheorie             | f    | -n                       | 生产理论       | 研究生产过程中资源配置和产出关系的理论。                                   |
-| Kostentheorie                  | f    | -n                       | 成本理论       | 分析企业如何最小化成本以实现利润最大化。                                   |
-| Angebotsfunktion               | f    | -en                      | 供给函数       | 描述价格与商品供应量之间关系的函数。                                       |
-| Haushaltstheorie               | f    | -n                       | 家庭经济学     | 研究家庭资源分配和消费行为的理论。                                         |
-| Spieltheorie                   | f    | -n                       | 博弈论         | 分析决策者在竞争环境中的策略选择及其结果的理论。                           |
+| Volkswirtschaftslehre (VWL)        | f    | -                        | 国民经济学     | 研究整个国家或全球范围内经济活动的学科，关注宏观层面。                     |
+| Wirtschaftsakteur                  | m    | -en                      | 经济活动的主体 | 在经济活动中参与交易或决策的个人或组织。（不包括政府以及各级人民代表大会） |
+| Struktur und Vorgang               | f    | Strukturen und Vorgänge | 结构和过程     | -                                                                          |
+| Entscheidungsprozess               | m    | -e                       | 决策过程       | -                                                                          |
+| Mikroökonomie                     | f    | -                        | 微观经济学     | 研究个体经济单位行为的经济学分支。                                         |
+| Produktionstheorie                 | f    | -n                       | 生产理论       | 研究生产过程中资源配置和产出关系的理论。                                   |
+| Kostentheorie                      | f    | -n                       | 成本理论       | 分析企业如何最小化成本以实现利润最大化。                                   |
+| Angebotsfunktion                   | f    | -en                      | 供给函数       | 描述价格与商品供应量之间关系的函数。                                       |
+| Haushaltstheorie                   | f    | -n                       | 家庭经济学     | 研究家庭资源分配和消费行为的理论。                                         |
+| Spieltheorie                       | f    | -n                       | 博弈论         | 分析决策者在竞争环境中的策略选择及其结果的理论。                           |
 
 ### 5.2 Geschichte der `BWL`
 
@@ -518,7 +550,6 @@ Die Speziellen Betriebswirtschaftslehren (SBWL) spezialisieren sich auf ausgewä
   - - 11. Innovations- und Technologiemanagement
   - - 12. Internationale Betriebswirtschaftslehre
   - - 13. Umweltmanagement
-
 - (b) Institutionelle Betriebswirtschaftslehren:
   SBWL für Betriebe, die nach dem Kriterium Output in Branchen eingeteilt werden:
 
@@ -564,40 +595,40 @@ Ausgehend vom allgemeinen Unternehmensmodell sollen in diesem Abschnitt Beispiel
 
 Es geht um die strategische Ausrichtung eines Mehrproduktunternehmens, das sich entscheiden muss, in die Herstellung welcher Produkte es hauptsächlich investieren will. Dieses Verfahren wurde in den 1960er Jahren von der amerikanischen Unternehmensberatungsfirma Boston-Consulting-Group entwickelt und stellt eindrucksvoll die Platzierung der Produkte auf dem Markt und ihre Gewinnaussichten dar.
 
-**Beispiel BCG-Matrix Löbler 1**  
+**Beispiel BCG-Matrix Löbler 1**
 Umsatz in Mio €
 
-| Produkte      | A   | B   | C   | D   | E   |  
-|---------------|-----|-----|-----|-----|-----|  
-| Unternehmen   | 200 | 100 | 400 | 800 | 150 |  
-| Konkurrent 1  | 250 | 300 | 300 | 400 | 600 |  
-| Konkurrent 2  | 300 | 200 | 500 | 400 | 300 |  
-| Konkurrent 3  | 100 | 400 | 300 | 300 | 600 |
+| Produkte     | A   | B   | C   | D   | E   |
+| ------------ | --- | --- | --- | --- | --- |
+| Unternehmen  | 200 | 100 | 400 | 800 | 150 |
+| Konkurrent 1 | 250 | 300 | 300 | 400 | 600 |
+| Konkurrent 2 | 300 | 200 | 500 | 400 | 300 |
+| Konkurrent 3 | 100 | 400 | 300 | 300 | 600 |
 
-| Marktvolumen*  | Jahr 1 | Jahr 2 | Jahr 3 (Prognose) |
-|----------------|--------|--------|-------------------|
-| Gesamtmarkt    | 800    | 1100   | 1500             |
-| Gesamtvolumen  | 1600   | 2000   | 2600             |
+| Marktvolumen* | Jahr 1 | Jahr 2 | Jahr 3 (Prognose) |
+| ------------- | ------ | ------ | ----------------- |
+| Gesamtmarkt   | 800    | 1100   | 1500              |
+| Gesamtvolumen | 1600   | 2000   | 2600              |
 
-$absoluter Marktanteil = \frac{eigenen Umsatz}{Umsatz des Marktes}*100$
-$relativer Marktanteil = \frac{eigenen Umsatz}{Umsatz des größten Konkurrenten}*100=\frac{eigenen Umsatz}{MAX(Umsatz des Konkurrent)}$
+$absoluter \space Marktanteil = \frac{eigenen Umsatz}{Umsatz des Marktes}*100$
+$relativer \space Marktanteil = \frac{eigenen Umsatz}{Umsatz des größten Konkurrenten}*100=\frac{eigenen Umsatz}{MAX(Umsatz des Konkurrent)}$
 
-|Unternehmen|MA|ist Marktführer(> 100%?)|
-|----|----|----|
-|A|$\frac{200}{250}*100=80\%$||
-|B|$\frac{100}{400}*100=25\%$||
-|C|$\frac{400}{300}*100=133,33\%$|x|
-|D|$\frac{800}{400}*100=200\%$|x|
-|E|$\frac{150}{600}*100=25\%$||
+| Unternehmen | MA                               | ist Marktführer(> 100%?) |
+| ----------- | -------------------------------- | ------------------------- |
+| A           | $\frac{200}{250}*100=80\%$     |                           |
+| B           | $\frac{100}{400}*100=25\%$     |                           |
+| C           | $\frac{400}{300}*100=133,33\%$ | x                         |
+| D           | $\frac{800}{400}*100=200\%$    | x                         |
+| E           | $\frac{150}{600}*100=25\%$     |                           |
 
 Marktwachstum
 
-$A=\frac{1500(Marktvolumen Jahr 3)}{1000(Marktvolumen Jahr 2)}*100-100=36,36%$
+$A=\frac{1500(Marktvolumen \space Jahr \space 3)}{1000(Marktvolumen \space Jahr \space 2)}*100-100=36,36%$
 
 \* Umsatz des gesamten Marktes
 
-**Aufgaben:**  
-(a) Analysieren Sie die gegenwärtige Situation des Unternehmens mithilfe der BCG-Matrix.  
+**Aufgaben:**
+(a) Analysieren Sie die gegenwärtige Situation des Unternehmens mithilfe der BCG-Matrix.
 (b) Geben Sie für jedes einzelne Produkt eine strategische Empfehlung.
 
 ---
@@ -606,8 +637,8 @@ $A=\frac{1500(Marktvolumen Jahr 3)}{1000(Marktvolumen Jahr 2)}*100-100=36,36%$
 
 Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheorie zurück, das sich mit der optimalen Losgröße eines Fertigungsloses bei Umrüstkosten beschäftigt. Umrüstkosten sind Kosten, die beim Neueinrichten einer Maschine entstehen, und ein Produktionslos ist eine bestimmte Menge Produkte, die ohne Umrüstung auf einer Maschine produziert werden kann. Das Problem wurde zuerst von dem amerikanischen Betriebswissenschaftler Ford W. Harris 1913 beschrieben und ist im deutschen Sprachraum durch Kurt Andler 1929 bekannt gemacht worden.
 
-**Wichtige Prämissen:**  
+**Wichtige Prämissen:**
 
-1. Es handelt sich um ein Unternehmen mit einer einstufigen Einproduktfertigung.  
-2. Die Beschaffungsplanung erfolgt für ein Jahr.  
+1. Es handelt sich um ein Unternehmen mit einer einstufigen Einproduktfertigung.
+2. Die Beschaffungsplanung erfolgt für ein Jahr.
 3. Der Bedarf an Produktionsgütern in dieser Periode ist bekannt.
