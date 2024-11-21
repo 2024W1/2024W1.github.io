@@ -405,6 +405,38 @@ Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftsk
 
 > ## 5. 企业经济学（商业管理学）
 
+### 5.0 Kleinen Test am 21.11.2024
+
+I.Von welchem Sektor zu welchem Sektor fließen die **Geldströme** (z.B. Haushalt → Staat)?
+Wenn zwei Geldströme fließen, benennen Sie die Geldströme bitte.
+
+1. Ein türkischer Arbeiter, der in Deutschland arbeitet, überweist einen Teil seines Einkommens an seine Familie in der Türkei.
+2. Ein Schiffsbaubetrieb erhält Subventionen.
+3. Ein Professor bezahlt die Steuer für seinen PKW.
+4. Eine Stadt bezahlt Rechnungen für den Bau eines Hallenbades an private Unternehmer.
+5. Ein Haushalt spart 10% seines Einkommens.
+6. Das BMW-Werk in Leipzig Verkauf Fahrzeuge nach Kanada.
+7. Die Arbeiter eines Bauunternehmens erhalten Lohn.
+8. Der Staat nimmt Kredit bei einer privaten Bank auf.
+9. Deutsche Touristen geben in Kenia Geld aus.
+10. Ein angestellter Lehrer zahlt Einkommensteuer.
+11. Ein Friseur zahl Ladenniete an einen privaten Vermieter.
+12. Eine Studentin kauft einige Lebensmittel ein und zahlt dabei Umsatzsteuer.
+13. Ein privates Unternehmen legt einen Teil seines Gewinns bei einer privaten Bank an.
+
+II. Richtig oder falsch? Wenn Sie sich für „falsch" entschieden haben, begründen Sie, warum.
+
+1. Die abhängige Variable der Kostenfunktion ist das Output.
+2. Der Gewinn ist die Differenz aus Erlös und Umsatz
+3. Die Nutzenfunktion eines Gutes erläuft immer positiv.
+4. Die Elastizität einer Größe zeigt die prozentuale Veränderung der abhängigen Variablen, wenn sich die unabhängige Variable an dieser Stelle um ein Prozent ändert.
+5. In der grafische Darstellung der Nachfragefunktion trägt man die abhängige Variable auf der Abszisse und die unabhängige Variable auf der Ordinate ab. Die grafische Darstellung der Angebotsfunktion dagegen ist mathematisch korrekt.
+6. Die Erlösfunktion im Polypol ist eine Ursprungsgrade.
+7. Die Angebotsfunktion hat im Basismodell eine negative Steigung.
+8. Die Erste Ableitung der Nutzenfunktion nennt man Grenzfunktion der Nutzenfunktion oder Grenznutzenfunktion.
+9. Input bedeutet Wert der Faktoren, Output bedeutet Mengen der Produktionsergebnisse.
+10. Wenn die Nachfragefunktion nach einem Gut in Abhängigkeit vom Einkommen des Nachfragers eine positive Steigung hat, nennt man das Gut Substitut.
+
 ### 5.1 Der Gegenstand der Betriebswirtschaftslehre
 
 > ### 5.1 企业经济学的研究对象
