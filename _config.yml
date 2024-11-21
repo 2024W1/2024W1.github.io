@@ -1,6 +1,21 @@
-markdown: GFM
-theme: just-the-docs
-color_scheme: dark
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+
+highlighter: rouge
+
+mathjax: true
+mathjax_autoNumber: true
+
+plugins:
+  - jekyll-mermaid
+
 mermaid:
-  version: "9.1.3"
-title: Wirtschaftslehre im StudienKolleg
+  src: 'https://unpkg.com/mermaid@9.1.0/dist/mermaid.min.js'
