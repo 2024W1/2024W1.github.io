@@ -281,11 +281,15 @@
 ### 2.9 Wiederholungsaufgabe
 
 1. Was verstehen Sie unter einem Denkmodell und welchem Zweck dient es?
+Denkmodell ist eine vereinfachte Repräsentation komplexer Dinge.（对复杂事物的简单表示）
+Zweck  
+
 2. Nennen Sie ein Modell aus Ihrem Erfahrungsbereich (ein nicht wirtschaftswissenschaftliches Modell). Erklären Sie.Trennen Sie insbesondere (b) und (c) deutlich voneinander.
 
 - (a)den Zweck, der mit der Schaffung des Modells verfolgt wird
 - (b)worin die Vereinfachung liegt (mindestens 3 Vereinfachungen)
 - (c)welche Elemente der Realität im Modell vernachlässigt werden (mindestens 3 Vernachlässigung)
+  >Beispiel: Landkarte
 
 3. Wie können wirtschaftswissenschaftliche Modelle dargestellt werden?
 
@@ -297,6 +301,13 @@
 > Journalisten interpretieren den homo oeconomicus oft falsch als rein materialistisch. Tatsächlich ist homo oeconomicus rational und strebt der nach Nutzenmaximierung, wobei der Nutzen auch immaterielle Aspekte umfassen kann.
 
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
+
+  >einfach:nur Haushalt und  Unternehmen
+    AV verändert sich nicht
+    Alle Produkte von Unternehmen werden gekauft und Haushalten sparen kein Geld 
+    Güter und Geldströme Haushalt->Haushalt&Unternehmen->Unternehmen werden vernachlässigt
+  >erweitert: Haushalt, Unternehmen, Kapitalsammelstellen(Bank), Staat und Ausland
+    realistischer(nicht so viel Vernachlässigungen und Vereinfachungen wie einfache Wirtschaftskreislauf)
 
 ```mermaid
 graph TD
@@ -345,7 +356,7 @@ graph TD
 > Die Landesregierung überzieht ihr Girokonto bei der deutschen Landesbank → 15
 > 州政府在德国州立银行透支账户，属于政府对银行的业务。
 
-7. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
+1. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
 
 > Innerhalb der Haushalte: Taschengeld von Eltern an Kinder / Weihnachtsgeschenk umtauschen
 > 家长给孩子零花钱 / 圣诞节互换礼物
@@ -443,7 +454,7 @@ II. Richtig oder falsch? Wenn Sie sich für „falsch" entschieden haben, begrü
 
 > ### 5.1 企业经济学的研究对象
 
-Die Betriebswirtschaftslehre (Abkürzung `BWL`, in der Schweiz bei Fachhochschulen `Betriebsökonomie`) ist ein Teilgebiet der Wirtschaftswissenschaft. Das Untersuchungsobjekt der Betriebswirtschaftslehre ist, worauf hier die Bezeichnung des Faches hinweist, der Betrieb bzw. das Unternehmen und seine Beziehungen zu anderen Wirtschaftsakteuren. Im Unterschied zur VWL, in der ein Unternehmen immer als „black box“ betrachtet wird, konzentriert sich die Betriebswirtschaftslehre auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme. Die Bezeichnungen „Unternehmen“, auch „Unternehmung“ und „Betrieb“ werden z.T. synonym als auch als unter- bzw. übergeordnete Begriffe verwendet.
+Die Betriebswirtschaftslehre (Abkürzung `BWL`, in der Schweiz bei FacHaushaltochschulen `Betriebsökonomie`) ist ein Teilgebiet der Wirtschaftswissenschaft. Das Untersuchungsobjekt der Betriebswirtschaftslehre ist, worauf hier die Bezeichnung des Faches hinweist, der Betrieb bzw. das Unternehmen und seine Beziehungen zu anderen Wirtschaftsakteuren. Im Unterschied zur VWL, in der ein Unternehmen immer als „black box“ betrachtet wird, konzentriert sich die Betriebswirtschaftslehre auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme. Die Bezeichnungen „Unternehmen“, auch „Unternehmung“ und „Betrieb“ werden z.T. synonym als auch als unter- bzw. übergeordnete Begriffe verwendet.
 
 > 企业经济学（简称 `BWL`，在瑞士高等院校称为 `Betriebsökonomie`，国内称为 `企业经济学`，`工商管理`或 `商业管理学`）是经济学的一个分支。企业经济学的研究对象是企业，这一点从该学科的名称中可以看出。有别于 VWL 中企业被视为一个“黑箱”，`BWL` 重点关注企业内部的结构和过程，以及从企业或人的角度来看，企业与其他经济参与者之间的关系。然而，正如定义问题所示，仍然存在一些不确定性。术语“`Unternehmen`”、“`Unternehmung`”以及“`Betrieb`”在某些情况下被部分地作为同义词或上位概念使用。
 
@@ -475,7 +486,7 @@ Die `BWL` als Wissenschaft ist relativ jung. Als Geburtsstädte der modernen Bet
 
 > `BWL` 作为一门科学相对较新。瑞士、奥地利和德国被普遍认为是现代商业管理学的发源地，1898年被视为其诞生之年。在这一年，德语区的圣加仑、莱比锡、亚琛和维也纳等地设立了商业管理学的教授职位。1881 年成立的宾夕法尼亚大学沃顿商学院是美国的第一所商学院，而法国巴黎高等商业学院早在 1819 年就已经存在。
 
-Da das Objekt der `BWL` viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der `BWL` im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten Buchhaltung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
+Da das Objekt der `BWL` viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der `BWL` im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten BucHaushaltaltung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
 
 > 由于 `BWL` 的研究对象自古有之，故这门科学有着更长的发展历程。`BWL` 的某些部分，例如 `BWL` 中的商人技能（中世纪欧洲经济概念），自古代就已存在。会计系统和库存模型自古埃及（纸莎草纸）、美索不达米亚（泥板）、中国（竹简）等古代文明中就已知晓。如今广泛使用的复式记账法是在15世纪因意大利的黎凡特贸易（欧洲通过叙利亚与西亚，中东的贸易）而发展起来的，并于1494年首次由意大利数学家卢卡·帕乔利（Luca Pacioli，1445-1517）在其著名的百科全书《簿记论》中首次系统化记录下来。不过，在此书之前，商人技能主要通过口头传授，作为一种秘密技艺流传。
 
@@ -496,7 +507,7 @@ Als die bedeutendsten deutschsprachigen Vertreter der Allgemeinen Betriebswirtsc
 | Kaufmannshandwerk    | n    | -e       | 商人技艺   | 与贸易和商业相关的技能与知识。                             |
 | Rechnungswesen       | n    | -        | 会计       | 记录、分类、总结和报告财务信息的系统。                     |
 | Lagerhaltungsmodelle | n    | -        | 库存模型   | 管理库存水平和流动的方法与模型。                           |
-| Doppelte Buchhaltung | f    | -        | 复式记账法 | 一种记录每笔交易时同时影响两个账户的会计方法。             |
+| Doppelte BucHaushaltaltung | f    | -        | 复式记账法 | 一种记录每笔交易时同时影响两个账户的会计方法。             |
 | Levantehandel        | m    | -        | 黎凡特贸易 | 中世纪意大利与地中海东部地区，西亚（如叙利亚）的贸易活动。 |
 | Geheimlehre          | f    | -        | 秘密技艺   | 一种通过口头传授而非书面记录传播的专业知识或技能。         |
 
