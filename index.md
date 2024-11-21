@@ -742,10 +742,10 @@ Marktwachstum
 > 市场增长率
 
 $Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100-100=36,36\%$
-> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100 - 100 = 36,36\%$
+> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100 - 100 = 36.36\%$
 
 \* Umsatz des gesamten Marktes
-> \* 整个市场的销售额 
+> \* 整个市场的销售额
 
 **Aufgaben:**
 > **任务：**
