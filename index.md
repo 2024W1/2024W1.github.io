@@ -345,6 +345,23 @@ Die Makroökonomik als Teilgebiet der Wirtschaftstheorie betrachtet die Wirtscha
 Als Begründer der makroökonomischen Theorie gilt John Meynard Keynes mit seinem Buch "General Theory of Employment, Interest and Money" (Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes) 1936, die wissenschaftliche Analyse gesamtgesellschaftlicher Fragestellungen beginnt allerdings schon mit den Merkantilisten bzw. früher. Analysiert werden Zusammenhänge und Methoden zur Erreichung einer erstrebenswerten wirtschaftlichen Entwicklung, die als „magisches Viereck" bezeichnet wird: hoher Beschäftigungsstand, stabiles Preisniveau, angemessenes und stetiges Wirtschaftswachstum und außenwirtschaftliches Gleichgewicht. Beispiele für Untersuchungsgegenstände sind die Änderung des Gesamt-einkommens oder des Beschäftigungsgrades, der Inflationsrate oder Konjunkturschwankungen und deren Folgen. Mittelpunkt makroökonomischer Theorien ist schließlich die Frage nach der Rolle des Staates in der Wirtschaft.
 Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftskreislaufes und die Gleichgewichtsmodelle (Vierquadrateinschema). Als Beispiel soll das Neoklassische Beschäftigungsgleichgewicht dienen:
 
+> Was steigt in eine Depression(Inflation)?
+> Steuer und Schuld.
+
+> Steuern (Steuern)
+> In Krisenzeiten neigen Regierungen dazu, die Steuern zu erhöhen, um die sinkenden Einnahmen auszugleichen und die steigenden Ausgaben zu finanzieren. Dies kann verschiedene Formen annehmen:
+> - Erhöhung der Einkommensteuersätze
+> - Verbreiterung der Steuerbemessungsgrundlage
+> - Einführung neuer Steuern oder Abgaben
+> - Allerdings ist der Spielraum für Steuererhöhungen oft begrenzt, da die Steuerquote in vielen fortgeschrittenen Volkswirtschaften bereits hoch ist.
+
+> Staatsschulden (Staatsschulden)
+> Die Staatsverschuldung steigt in Krisenzeiten in der Regel stark an. Gründe dafür sind:
+> - Sinkende Steuereinnahmen aufgrund der wirtschaftlichen Schwäche
+> - Steigende Ausgaben für Konjunkturprogramme und Sozialleistungen
+> - Finanzierung von Krisenbekämpfungsmaßnahmen
+In Deutschland stieg die Schuldenstandquote beispielsweise von knapp 60% vor der Korona-Krise auf über 70% des BIP
+
 ### 4.5 Wiederholungsaufgabe
 
 1. Fertigen Sie eine Baumgrafik für das System der Wissenschaften, die Struktur der Wirtschaftswissenschaften und die Struktur der VWL an. Lassen Sie noch etwas Platz für die Struktur der BWL, die nach der folgenden Lektion ergänzt werden soll.
@@ -501,6 +518,7 @@ Die Speziellen Betriebswirtschaftslehren (SBWL) spezialisieren sich auf ausgewä
   - - 11. Innovations- und Technologiemanagement
   - - 12. Internationale Betriebswirtschaftslehre
   - - 13. Umweltmanagement
+
 - (b) Institutionelle Betriebswirtschaftslehren:
   SBWL für Betriebe, die nach dem Kriterium Output in Branchen eingeteilt werden:
 
@@ -535,3 +553,61 @@ Die Universitäten bieten Vorlesungen entsprechend beider Gliederungen an. Sie s
 | Immobilien           |             |            |                  |                      |               |               |
 | Tourismus            |             |            |                  |                      |               |               |
 | Gesundheitswesen     |             |            |                  |                      |               |               |
+
+Bei der Wahl der Vorlesungen ist folgendes zu beachten. Die funktionalen SBWL behandeln keine branchenspezifischen Probleme. Sie spezialisieren sich auf die betrieblichen Funktionen entsprechend des funktionalen Unternehmensmodells. Die institutionellen SBWL dagegen spezialisieren sich im Wesentlichen auf die Branche. Besucht man Vorlesungen zu mehreren Branchen - Betriebswirtschaftslehren, z.B. Bankbetriebslehre und Versicherungsbetriebslehre, dann kommt es zu Doppelungen. Insbesondere bei der Wahl institutioneller SBWL als Studienfächer sollte man sich über das angestrebte Ausbildungsziel bzw. den gewünschten Job im Klaren sein.
+
+### 5.4 Ausgewählte Probleme der BWL
+
+Ausgehend vom allgemeinen Unternehmensmodell sollen in diesem Abschnitt Beispiele für Problemstellungen gegeben werden, die Inhalt unterschiedlicher Unternehmensfunktionen sind.
+
+#### 5.4.1 Ein Beispiel für Unternehmensführung - Die BCG-Matrix
+
+Es geht um die strategische Ausrichtung eines Mehrproduktunternehmens, das sich entscheiden muss, in die Herstellung welcher Produkte es hauptsächlich investieren will. Dieses Verfahren wurde in den 1960er Jahren von der amerikanischen Unternehmensberatungsfirma Boston-Consulting-Group entwickelt und stellt eindrucksvoll die Platzierung der Produkte auf dem Markt und ihre Gewinnaussichten dar.
+
+**Beispiel BCG-Matrix Löbler 1**  
+Umsatz in Mio €
+
+| Produkte      | A   | B   | C   | D   | E   |  
+|---------------|-----|-----|-----|-----|-----|  
+| Unternehmen   | 200 | 100 | 400 | 800 | 150 |  
+| Konkurrent 1  | 250 | 300 | 300 | 400 | 600 |  
+| Konkurrent 2  | 300 | 200 | 500 | 400 | 300 |  
+| Konkurrent 3  | 100 | 400 | 300 | 300 | 600 |
+
+| Marktvolumen*  | Jahr 1 | Jahr 2 | Jahr 3 (Prognose) |
+|----------------|--------|--------|-------------------|
+| Gesamtmarkt    | 800    | 1100   | 1500             |
+| Gesamtvolumen  | 1600   | 2000   | 2600             |
+
+$absoluter Marktanteil = \frac{eigenen Umsatz}{Umsatz des Marktes}*100$
+$relativer Marktanteil = \frac{eigenen Umsatz}{Umsatz des größten Konkurrenten}*100=\frac{eigenen Umsatz}{MAX(Umsatz des Konkurrent)}$
+
+|Unternehmen|MA|ist Marktführer(> 100%?)|
+|----|----|----|
+|A|$\frac{200}{250}*100=80\%$||
+|B|$\frac{100}{400}*100=25\%$||
+|C|$\frac{400}{300}*100=133,33\%$|x|
+|D|$\frac{800}{400}*100=200\%$|x|
+|E|$\frac{150}{600}*100=25\%$||
+
+Marktwachstum
+
+$A=\frac{1500(Marktvolumen Jahr 3)}{1000(Marktvolumen Jahr 2)}*100-100=36,36%$
+
+\* Umsatz des gesamten Marktes
+
+**Aufgaben:**  
+(a) Analysieren Sie die gegenwärtige Situation des Unternehmens mithilfe der BCG-Matrix.  
+(b) Geben Sie für jedes einzelne Produkt eine strategische Empfehlung.
+
+---
+
+#### 5.4.2 Ein Beispiel für Beschaffung - Die Losgrößenformel von Harris und Andler - Die optimale Bestellmenge
+
+Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheorie zurück, das sich mit der optimalen Losgröße eines Fertigungsloses bei Umrüstkosten beschäftigt. Umrüstkosten sind Kosten, die beim Neueinrichten einer Maschine entstehen, und ein Produktionslos ist eine bestimmte Menge Produkte, die ohne Umrüstung auf einer Maschine produziert werden kann. Das Problem wurde zuerst von dem amerikanischen Betriebswissenschaftler Ford W. Harris 1913 beschrieben und ist im deutschen Sprachraum durch Kurt Andler 1929 bekannt gemacht worden.
+
+**Wichtige Prämissen:**  
+
+1. Es handelt sich um ein Unternehmen mit einer einstufigen Einproduktfertigung.  
+2. Die Beschaffungsplanung erfolgt für ein Jahr.  
+3. Der Bedarf an Produktionsgütern in dieser Periode ist bekannt.
