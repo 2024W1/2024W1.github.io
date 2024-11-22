@@ -818,6 +818,12 @@ Multiple-Choice-Fragen zur BCG-Matrix
   (b) Cash Cows
   (c) Poor Dogs
   (d) Question Marks
+6. Ein Unternehmen hat folgende Produkte in seinem Portfolio:
+  Produkt A: Marktwachstum 15%, relativer Marktanteil 80%
+  Produkt B: Marktwachstum 2%, relativer Marktanteil 250%
+  Produkt C: Marktwachstum -18%, relativer Marktanteil 150%
+  Produkt D: Marktwachstum 1%, relativer Marktanteil 30%
+Ordnen Sie diese Produkte in die entsprechenden Quadranten der BCG-Matrix ein und begründen Sie Ihre Entscheidung.
 
 Lösung:
 
