@@ -854,6 +854,15 @@ Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheor
 
 Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffungskostenfunktion** in Abhängigkeit von der Bestellmenge und die **Lagerkostenfunktion** in Abhängigkeit von der Bestellmenge. Beide Funktionen setzen sich aus einem **fixen (nicht abhängig von der Bestellmenge)** und einem **variablen Anteil (abhängig von der Bestellmenge)** zusammen.
 
+$\text{Gesamt Kosten} = \text{BK}+ \text{LK}$
+$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
+$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{m}}{\text{q}}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
+$\frac{d\text{Gesamt Kosten(q)}}{d\text{q}}=-\text{Kosten}_\text{fB}*\frac{m}{q^2}+\frac{1}{2}*\text{Preis}*z$
+$\text{Kosten}_\text{fB}*\frac{m}{q^2}=\frac{1}{2}*p*z$
+$2\text{Kosten}_\text{fB}*\frac{m}{pz}=q^2$
+$q=\sqrt{\frac{2*\text{Kosten}_\text{fB}*m}{p*z}}$
+$q=\sqrt{\frac{200\%*\text{Kosten}_\text{fB}*m}{p*z}}$
+
 Der fixe Anteil der Beschaffungskosten sind die Materialkosten für ein Jahr, dem Produkt aus Preis und Menge an Material für ein Jahr. Der Preis ändert sich in Abhängigkeit von der Bestellmenge nicht. Der variable Anteil der Beschaffungskosten sind die gesamten Bestellkosten. Sie sind das Produkt aus den fixen Bestellkosten, die sich pro Bestellung nicht verändern, und der Anzahl der Bestellungen pro Jahr. Wenn kleine Mengen bestellt werden, dann muss häufig bestellt werden und damit steigen die gesamten Bestellkosten in diesem Jahr. Wenn große Mengen bestellt werden, dann sinken die gesamten Bestellkosten dieses Jahres.
 Der fixe Anteil der Lagerkosten kann z.B. die Miete des Lagergebäudes oder der Lohn des Lageristen sein. Diese Kosten entstehen unabhängig davon, ob das Lager voll oder leer ist.
 Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Geld, das das Unternehmen für das Umlaufvermögen im Lager bezahlt hat, kann nicht mehr für eine andere Investition verwendet oder bei einer Bank mit Zins angelegt werden. Die Kosten für die Kapitalbindung berechnet man mit einem Lagerhaltungszinssatz in einer angenommenen Höhe.
