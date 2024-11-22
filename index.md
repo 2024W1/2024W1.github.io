@@ -791,6 +791,42 @@ Star: Investition !!!
 Cash Cow: Erhaltungsinvestition. Der Buchwert beleibt gleich.
 Poor Dog: Desinvestition.
 
+Multiple-Choice-Fragen zur BCG-Matrix
+
+1. Was bedeutet die Abkürzung "BCG" in BCG-Matrix?
+  (a) Business Consulting Group
+  (b) Boston Consulting Group
+  (c) Business Control Group
+  (d) Boston Control Group
+2. Welche zwei Hauptfaktoren werden in der BCG-Matrix berücksichtigt?
+  (a) Umsatz und Gewinn
+  (b) Marktwachstum und relativer Marktanteil
+  (c) Produktqualität und Kundenzufriedenheit
+  (d) Investitionen und Rendite
+3. Welches der folgenden Produkte würde am ehesten als "Cash Cow" bezeichnet werden?
+  (a) Ein neues, innovatives Smartphone-Modell
+  (b) Eine etablierte Waschmaschinenmarke
+  (c) Ein experimentelles Elektroauto
+  (d) Eine veraltete Softwareanwendung
+4. Welche Strategie wird üblicherweise für "Question Marks" empfohlen?
+  (a) Abschöpfungsstrategie
+  (b) Desinvestitionsstrategie
+  (c) Investitionsstrategie
+  (d) Wachstumsstrategie
+5. In welchem Quadranten der BCG-Matrix befinden sich Produkte mit hohem Marktwachstum und hohem relativen Marktanteil?
+  (a) Stars
+  (b) Cash Cows
+  (c) Poor Dogs
+  (d) Question Marks
+
+Lösung:
+
+1. b
+2. b
+3. ?
+4. c
+5. a
+
 #### 5.4.2 Ein Beispiel für Beschaffung - Die Losgrößenformel von Harris und Andler - Die optimale Bestellmenge
 
 Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheorie zurück, das sich mit der optimalen Losgröße eines Fertigungsloses bei Umrüstkosten beschäftigt. Umrüstkosten sind Kosten, die beim Neueinrichten einer Maschine entstehen, und ein Produktionslos ist eine bestimmte Menge Produkte, die ohne Umrüstung auf einer Maschine produziert werden kann. Das Problem wurde zuerst von dem amerikanischen Betriebswissenschaftler Ford W. Harris 1913 beschrieben und ist im deutschen Sprachraum durch Kurt Andler 1929 bekannt gemacht worden.
@@ -800,3 +836,20 @@ Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheor
 1. Es handelt sich um ein Unternehmen mit einer einstufigen Einproduktfertigung.
 2. Die Beschaffungsplanung erfolgt für ein Jahr.
 3. Der Bedarf an Produktionsgütern in dieser Periode ist bekannt.
+4. Die fixen Bestellkosten z.B. Kosten für die Bearbeitung der Bestellung, für den Transport z.B. Lohn des Fahrers, Benzin, Transportversicherung etc. sind bekannt.
+5. Die fixen Lagerkosten z.B. Abschreibung oder Miete des Lagers, Lohn des Lageristen, Heizung etc. sind bekannt.
+6. Der Preis bleibt innerhalb des Betrachtungszeitraumes immer gleich. Es gibt keine Mengenrabatte für große Bestellmengen.
+7. Die Beschaffungsgeschwindigkeit ist unendlich groß.
+8. Die Bestellung ist in jeder Höhe sofort lieferbar.
+9. Eine neue Lieferung trifft erst ein, wenn das Lager vollständig leer ist.
+10. Die Produktion und Entnahme aus dem Lager erfolgen kontinuierlich (lineare Verbrauchs-funktion) und unterliegen keinen zeitlichen Schwankungen.
+11. Während der Lagerung gibt es keine Verluste (kein verdorbenes Lagergut, kein Diebstahl usw.)
+12. Das Lager und die Liquidität des Unternehmens sind unendlich groß.
+
+Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffungskostenfunktion** in Abhängigkeit von der Bestellmenge und die **Lagerkostenfunktion** in Abhängigkeit von der Bestellmenge. Beide Funktionen setzen sich aus einem **fixen (nicht abhängig von der Bestellmenge)** und einem **variablen Anteil (abhängig von der Bestellmenge)** zusammen.
+
+Der fixe Anteil der Beschaffungskosten sind die Materialkosten für ein Jahr, dem Produkt aus Preis und Menge an Material für ein Jahr. Der Preis ändert sich in Abhängigkeit von der Bestellmenge nicht. Der variable Anteil der Beschaffungskosten sind die gesamten Bestellkosten. Sie sind das Produkt aus den fixen Bestellkosten, die sich pro Bestellung nicht verändern, und der Anzahl der Bestellungen pro Jahr. Wenn kleine Mengen bestellt werden, dann muss häufig bestellt werden und damit steigen die gesamten Bestellkosten in diesem Jahr. Wenn große Mengen bestellt werden, dann sinken die gesamten Bestellkosten dieses Jahres.
+Der fixe Anteil der Lagerkosten kann z.B. die Miete des Lagergebäudes oder der Lohn des Lageristen sein. Diese Kosten entstehen unabhängig davon, ob das Lager voll oder leer ist.
+Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Geld, das das Unternehmen für das Umlaufvermögen im Lager bezahlt hat, kann nicht mehr für eine andere Investition verwendet oder bei einer Bank mit Zins angelegt werden. Die Kosten für die Kapitalbindung berechnet man mit einem Lagerhaltungszinssatz in einer angenommenen Höhe.
+Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten ge-ring, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
+Mit Hilfe des Modells soll nun die optimale Bestellmenge berechnet werden. Bei der optimalen Bestellmenge erreicht die Gesamtkostenfunktion als Summe der Beschaffungs- und der Lagerkostenfunktion ihr Minimum.
