@@ -289,6 +289,7 @@ Zweck
 - (a)den Zweck, der mit der Schaffung des Modells verfolgt wird
 - (b)worin die Vereinfachung liegt (mindestens 3 Vereinfachungen)
 - (c)welche Elemente der Realität im Modell vernachlässigt werden (mindestens 3 Vernachlässigung)
+
   >Beispiel: Landkarte
 
 3. Wie können wirtschaftswissenschaftliche Modelle dargestellt werden?
@@ -297,16 +298,16 @@ Zweck
 
 4. Was verstehen Journalisten falsch, wenn sie den *homo oeconomicus* als einen nur auf materielle Ziele fixierten Menschen interpretieren?
 
-> Homo oeconomicus ist einen Modell, aber kein Mensch.
-> Journalisten interpretieren den homo oeconomicus oft falsch als rein materialistisch. Tatsächlich ist homo oeconomicus rational und strebt der nach Nutzenmaximierung, wobei der Nutzen auch immaterielle Aspekte umfassen kann.
+  > Homo oeconomicus ist einen Modell, aber kein Mensch.
+  > Journalisten interpretieren den homo oeconomicus oft falsch als rein materialistisch. Tatsächlich ist homo oeconomicus rational und strebt der nach Nutzenmaximierung, wobei der Nutzen auch immaterielle Aspekte umfassen kann.
 
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
 
-  >einfach:nur Haushalt und  Unternehmen
+  >Vereinfachung:nur Haushalt und  Unternehmen
     AV verändert sich nicht
     Alle Produkte von Unternehmen werden gekauft und Haushalten sparen kein Geld 
     Güter und Geldströme Haushalt->Haushalt&Unternehmen->Unternehmen werden vernachlässigt
-  >erweitert: Haushalt, Unternehmen, Kapitalsammelstellen(Bank), Staat und Ausland
+  >Erweiterung: Haushalt, Unternehmen, Kapitalsammelstellen(Bank), Staat und Ausland
     realistischer(nicht so viel Vernachlässigungen und Vereinfachungen wie einfache Wirtschaftskreislauf)
 
 ```mermaid
@@ -331,15 +332,16 @@ graph TD
 
 - (a) Ein deutscher Tourist bezahlt sein Hotel in Österreich.
 
-> Ein deutscher Tourist bezahlt sein Hotel in Österreich → 1
+  > Ein deutscher Tourist bezahlt sein Hotel in Österreich → 1
+  > 德国游客在奥地利消费，属于居民对国外的支付。
 
 - (b) Die Stadtverwaltung gleicht die Rechnung eines Dachdeckers für Bauarbeiten an einem Hallenschwimmbad aus.
 - (c) Eine Hausfrau bezahlt an der Kasse eines Supermarktes.
 - (d) Ein Landwirt erhält eine Prämie für die Stilllegung von landwirtschaftlichen Nutzungsflächen.
 - (e) Ein Unternehmen überweist die fällige Körperschaftsteuer.
 
-> Ein Unternehmen überweist die fällige Körperschaftssteuer → 14
-> 企业缴纳企业所得税，属于企业对政府的支付。
+  > Ein Unternehmen überweist die fällige Körperschaftssteuer → 14
+  > 企业缴纳企业所得税，属于企业对政府的支付。
 
 - (f) Ein Unternehmen in Bremen erhält die 2. Rate aus einem Geschäft mit einem brasilianischen Importeur.
 
