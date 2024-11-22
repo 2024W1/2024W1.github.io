@@ -767,10 +767,13 @@ quadrantChart
     title BCG Matrix
     x-axis Low Market Share --> High Market Share
     y-axis Low Market Growth --> High Market Growth
-    quadrant-1 Stars
-    quadrant-2 Question Marks
-    quadrant-3 Dogs
-    quadrant-4 Cash Cows
+    quadrant-1 Star
+    quadrant-2 Question Mark
+    quadrant-3 Poor Dog
+    quadrant-4 Cash Cow
+    A : [0.4,0.9]
+    B : [0.125,0.75]
+    C : [0.66,0.48]
 ```
 
 **Aufgaben:**
@@ -780,6 +783,11 @@ quadrantChart
 (b) Geben Sie für jedes einzelne Produkt eine strategische Empfehlung.
 > (a) 使用BCG矩阵分析企业当前的状况。  
 > (b) 为每个单独的产品提出战略建议。
+
+Question Mark: Investition
+Star: Investition !!!
+Cash Cow: Erhaltungsinvestition. Der Buchwert beleibt gleich.
+Poor Dog: Desinvestition.
 
 #### 5.4.2 Ein Beispiel für Beschaffung - Die Losgrößenformel von Harris und Andler - Die optimale Bestellmenge
 
