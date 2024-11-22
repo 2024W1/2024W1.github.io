@@ -750,16 +750,16 @@ $\text{relativer Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des gr
 Marktwachstum
 > 市场增长率
 
-$Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100-100=36,36\%$
-> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100 - 100 = 36.36\%$
+$Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100\%-100\%=36,36\%$
+> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100\% - 100\% = 36.36\%$
 
 | Unternehmen | MA(ist > 100%?)                               | MarktWachstum(ist > 10%?) |
 | ----------- | -------------------------------- | ------------------------- |
-| A           | $\frac{200}{250}*100=80\%$     | $\frac{1500}{1000}*100-100=36,4\%$                          |
-| B           | $\frac{100}{400}*100=25\%$     | $\frac{2600}{2000}*100-100=30\%$                          |
-| C           | $\frac{400}{300}*100=133,33\%$ | $\frac{1805}{1810}*100-100=-0,3\%$                         |
-| D           | $\frac{800}{400}*100=200\%$    | $\frac{2500}{2200}*100-100=14\%$                         |
-| E           | $\frac{150}{600}*100=25\%$     |  $\frac{3000}{3100}*100-100=-3,3\%$                         |
+| A           | $\frac{200}{250}*100\%=80\%$     | $\frac{1500}{1000}*100-100=36,4\%$                          |
+| B           | $\frac{100}{400}*100\%=25\%$     | $\frac{2600}{2000}*100-100=30\%$                          |
+| C           | $\frac{400}{300}*100\%=133,33\%$ | $\frac{1805}{1810}*100-100=-0,3\%$                         |
+| D           | $\frac{800}{400}*100\%=200\%$    | $\frac{2500}{2200}*100-100=14\%$                         |
+| E           | $\frac{150}{600}*100\%=25\%$     |  $\frac{3000}{3100}*100-100=-3,3\%$                         |
 
 \* Umsatz des gesamten Marktes
 > \* 整个市场的销售额
@@ -836,6 +836,7 @@ Lösung:
 #### 5.4.2 Ein Beispiel für Beschaffung - Die Losgrößenformel von Harris und Andler - Die optimale Bestellmenge
 
 Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheorie zurück, das sich mit der optimalen Losgröße eines Fertigungsloses bei Umrüstkosten beschäftigt. Umrüstkosten sind Kosten, die beim Neueinrichten einer Maschine entstehen, und ein Produktionslos ist eine bestimmte Menge Produkte, die ohne Umrüstung auf einer Maschine produziert werden kann. Das Problem wurde zuerst von dem amerikanischen Betriebswissenschaftler Ford W. Harris 1913 beschrieben und ist im deutschen Sprachraum durch Kurt Andler 1929 bekannt gemacht worden.
+> 最优订购量的问题可以追溯到生产理论中的一个问题，该问题涉及在存在调整成本的情况下确定生产批次的最优批量。调整成本是指在重新设置机器时产生的成本，而生产批次是指可以在不调整机器的情况下生产的一定数量的产品。该问题最早由美国管理科学家福特·W·哈里斯（Ford W. Harris）于1913年提出，并于1929年通过库尔特·安德勒（Kurt Andler）在德语地区传播开来。
 
 **Wichtige Prämissen:**
 
@@ -852,6 +853,37 @@ Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheor
 11. Während der Lagerung gibt es keine Verluste (kein verdorbenes Lagergut, kein Diebstahl usw.)
 12. Das Lager und die Liquidität des Unternehmens sind unendlich groß.
 
+> 1. 这是一个具有单阶段单产品生产的企业。
+> 2. 采购计划是为期一年的。
+> 3. 在该期间内的生产物资需求是已知的。
+> 4. 固定的订购成本，例如订单处理费用、运输费用（如司机工资、燃油费、运输保险等）是已知的。
+> 5. 固定的库存成本，例如仓库折旧或租金、仓库管理员工资、供暖费用等是已知的。
+> 6. 在观察期内价格始终保持不变。对于大批量订单没有数量折扣。
+> 7. 采购速度无限快。
+> 8. 订单可以以任何数量立即交付。
+> 9. 新的货物只有在库存完全清空后才会到达。
+> 10. 生产和库存提取是连续进行的（线性消耗函数），且不受时间波动影响。
+> 11. 在存储期间没有损失（没有变质的库存货物、没有被盗等）。
+> 12. 企业的库存容量和流动资金是无限大的。
+
+Modellkritik (Welche Modellprämissen werden kritisiert?)
+
+1. Das Verbrauchsverhalten ist nicht linear. (Prämisse 10)
+2. Der Preis variiert innerhalb einer Periode nicht nur in Abhängigkeit von der Bestellmenge, sondern auch in Abhängigkeit von anderen Faktoren.(Prämisse 6)
+3. Die Beschaffungsgeschwindigkeit ist nicht unendlich groß.(Prämisse 7)
+4. Die Ermittlung der Fixkosten einer Bestellung ist schwierig.(Prämisse 4)
+5. Der Lieferant kann nicht unendlich große Mengen liefern.(Prämisse 8)
+6. Das Unternehmen kann nicht unendlich große Mengen bezahlen (Liquiditätsengpässe)(Prämisse 12)
+
+> 模型批评（哪些模型假设受到批评？）
+> 
+> 1. 消费行为不是线性的。（假设 10）
+> 2. 价格在一个周期内不仅取决于订购量，还取决于其他因素。（假设 6）
+> 3. 采购速度并非无限快。（假设 7）
+> 4. 确定订单的固定成本是困难的。（假设 4）
+> 5. 供应商无法交付无限大的数量。（假设 8）
+> 6. 企业无法支付无限大的数量（流动性不足）。（假设 12）
+
 Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffungskostenfunktion** in Abhängigkeit von der Bestellmenge und die **Lagerkostenfunktion** in Abhängigkeit von der Bestellmenge. Beide Funktionen setzen sich aus einem **fixen (nicht abhängig von der Bestellmenge)** und einem **variablen Anteil (abhängig von der Bestellmenge)** zusammen.
 
 $\text{Gesamt Kosten} = \text{BK}+ \text{LK}$
@@ -864,7 +896,14 @@ $q=\sqrt{\frac{2*\text{Kosten}_\text{fB}*m}{p*z}}$
 $q=\sqrt{\frac{200\%*\text{Kosten}_\text{fB}*m}{p*z}}$
 
 Der fixe Anteil der Beschaffungskosten sind die Materialkosten für ein Jahr, dem Produkt aus Preis und Menge an Material für ein Jahr. Der Preis ändert sich in Abhängigkeit von der Bestellmenge nicht. Der variable Anteil der Beschaffungskosten sind die gesamten Bestellkosten. Sie sind das Produkt aus den fixen Bestellkosten, die sich pro Bestellung nicht verändern, und der Anzahl der Bestellungen pro Jahr. Wenn kleine Mengen bestellt werden, dann muss häufig bestellt werden und damit steigen die gesamten Bestellkosten in diesem Jahr. Wenn große Mengen bestellt werden, dann sinken die gesamten Bestellkosten dieses Jahres.
+> 采购成本的固定部分是全年材料成本，即价格与全年材料数量的乘积。价格不随订购量的变化而改变。采购成本的可变部分是总订购成本，它是固定订购成本（每次订购不变）与全年订购次数的乘积。如果订购小批量，则需要频繁订购，从而导致当年的总订购成本增加。如果订购大批量，则当年的总订购成本会减少。
+
 Der fixe Anteil der Lagerkosten kann z.B. die Miete des Lagergebäudes oder der Lohn des Lageristen sein. Diese Kosten entstehen unabhängig davon, ob das Lager voll oder leer ist.
+> 库存成本的固定部分可以是例如仓库租金或仓库管理员的工资。这些成本无论仓库是满的还是空的都会产生。
+
 Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Geld, das das Unternehmen für das Umlaufvermögen im Lager bezahlt hat, kann nicht mehr für eine andere Investition verwendet oder bei einer Bank mit Zins angelegt werden. Die Kosten für die Kapitalbindung berechnet man mit einem Lagerhaltungszinssatz in einer angenommenen Höhe.
+> 可变库存成本则来源于资本占用成本。企业为库存中的流动资产支付的资金无法用于其他投资，也无法存入银行赚取利息。资本占用成本通过一个假定的库存持有利率来计算。如果订购和存储小批量，资本占用成本较低；如果订购和存储大批量，资本占用成本增加，从而导致总库存成本上升。虽然大量库存可以使企业免受供应风险的影响，但由于资本占用成本较高，这种做法被认为对企业不利。
+
 Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten ge-ring, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
 Mit Hilfe des Modells soll nun die optimale Bestellmenge berechnet werden. Bei der optimalen Bestellmenge erreicht die Gesamtkostenfunktion als Summe der Beschaffungs- und der Lagerkostenfunktion ihr Minimum.
+> 通过该模型，现在需要计算出最优订购量。在最优订购量下，总成本函数（即采购成本函数与库存成本函数之和）达到其最低值。
