@@ -938,26 +938,46 @@ Ein zentrales Beispiel in ihrer Forschung sind Fallstudien (auch: Case Study, ei
 #### A1.2.3 Zur Analyse der Rechtsstaatlichkeit
 
 In der Forschung von Daron Acemoglu, Simon Johnson und James A. Robinson ging es um die Stärke rechtsstaatlicher Institutionen, insbesondere der Verwaltung und Rechtssprechung.
+> 在达龙·阿西莫格鲁、西蒙·约翰逊和詹姆斯·A·罗宾逊的研究中，涉及到法治机构的强度，特别是行政和司法方面。
 
 Die Forscher unterscheiden zwischen inklusiven und ausbeuterischen (auch extraktiven) Institutionen, um die unterschiedlichen Auswirkungen auf den wirtschaftlichen Wohlstand von Nationen zu erklären.
+> 研究人员区分了包容性和剥削性（也称为榨取性）制度，以解释它们对国家经济繁荣的不同影响。
 
 #### A1.2.4 Inklusive Institutionen
 
 Inklusive Institutionen ermöglichen es allen Bürgern, an wirtschaftlichen und politischen Prozessen teilzuhaben. Sie zeichnen sich durch folgende Merkmale aus:
+> 包容性制度使所有公民能够参与经济和政治进程。它们具有以下特征：
 
 1. Schutz der Eigentumsrechte: Sie garantieren den Schutz von Eigentum und fördern das Vertrauen in Investitionen.
 2. Politische Mitbestimmung: Bürger haben Einfluss auf politische Entscheidungen, was zu einer stabileren und gerechteren Regierungsführung führt.
 3. Wirtschaftlicher Wettbewerb: Inklusive Institutionen schaffen ein Umfeld, in dem Wettbewerb gefördert wird, was Innovation und Wachstum begünstigt.
 4. Bildung und Chancengleichheit: Gute öffentliche Bildungssysteme bieten allen Gesellschaftsschichten die Möglichkeit, sich weiterzuentwickeln. Sie machen die Gesellschaften durchlässig, das heißt, über Bildung können Kinder aus armen Schichten Zugang zum Mittelstand finden bzw. ein höheres Einkommen erzielen.
 
+> 1. 保护产权：它们保证财产的保护，并促进对投资的信任。
+> 2. 政治参与：公民对政治决策有影响力，这导致更稳定和公正的治理。
+> 3. 经济竞争：包容性制度创造了一个促进竞争的环境，有利于创新和增长。
+> 4. 教育和机会平等：良好的公共教育系统为所有社会阶层提供发展的机会。它们使社会变得流动，这意味着通过教育，来自贫困阶层的孩子可以进入中产阶级或获得更高的收入。
+
 Ein Beispiel aus Afrika ist Botswana. Nach seiner Unabhängigkeit im Jahr 1960 entwickelte Botswana eine Demokratie mit stabilen politischen Institutionen, was zu schnellem wirtschaftlichem Wachstum führte. Beispielhaft dafür sind auch Länder wie die USA, Neuseeland und Australien, in denen schon während der Kolonisierung starke institutionelle Rahmenbedingungen geschaffen wurden, die langfristig zu wirtschaftlichem Wachstum und Wohlstand führten.
-Ausbeuterische Institutionen (auch extraktive Institutionen)
+> 非洲的一个例子是博茨瓦纳。1960年独立后，博茨瓦纳发展了一个具有稳定政治制度的民主国家，这导致了快速的经济增长。美国、新西兰和澳大利亚等国家也是典型例子，在殖民时期就建立了强大的制度框架，长期导致经济增长和繁荣。
+
+#### A1.2.5 Ausbeuterische Institutionen (auch extraktive Institutionen)
+
+> #### A1.2.5 剥削性制度（也称为榨取性制度）
+
 Ausbeuterische Institutionen begünstigen eine kleine Elite und nutzen die breite Bevölkerung aus. Merkmale sind:
+> 剥削性制度有利于小部分精英，并剥削广大民众。其特征是：
 
 1. Mangelnder Schutz der Eigentumsrechte: Diese Institutionen bieten keinen ausreichenden Schutz für das Eigentum, was zu Unsicherheit bei Investitionen führt.
 2. Politische Repression: Die politische Macht ist oft in den Händen einer kleinen Gruppe konzentriert, was die Mitbestimmung der Bürger einschränkt. Die politische Opposition wird verfolgt bzw. getötet.
-3. Wirtschaftliche Kontrolle durch die Elite: Ausbeuterische Institutionen regulieren die Wirtschaft zugunsten der Elite und behindern andere Gruppen, wirtschaftlichen Erfolg zu er-zielen.
+3. Wirtschaftliche Kontrolle durch die Elite: Ausbeuterische Institutionen regulieren die Wirtschaft zugunsten der Elite und behindern andere Gruppen, wirtschaftlichen Erfolg zu erzielen.
 4. Korruption und Ineffizienz: Oft sind diese Systeme von Korruption geprägt, was das Vertrauen in staatliche Institutionen weiter untergräbt.
+
+> 1. 缺乏产权保护：这些制度不能为财产提供充分的保护，导致投资的不确定性。
+> 2. 政治压制：政治权力通常集中在一小群人手中，这限制了公民的参与。政治反对派会受到迫害或被杀害。
+> 3. 精英对经济的控制：剥削性制度为精英利益调控经济，阻碍其他群体取得经济成功。
+> 4. 腐败和低效：这些系统通常充斥着腐败，进一步削弱了对国家机构的信任。
+
 Ein Beispiel aus Afrika ist Simbabwe. Nach seiner Unabhängigkeit 1980 blieb das Land unter der Kontrolle einer autoritären Regierung unter Robert Mugabe, die die Wirtschaft regulierte und private Unternehmen unterdrückte. Mugabes Aktivitäten richteten sich insbesondere gegen die Landbesitzer, die die Nahrungsmittel produzierten. Dies führte zu einem wirtschaftlichen Zusammenbruch. Beispielhaft dafür sind viele andere Länder in Zentralafrika oder in Lateinamerika, wo schwache Rechtsstaatlichkeit herrscht und die Kolonialgeschichte oft zu einer Ausbeutung der Ressourcen und der Bevölkerung führte.
 
 ### A1.3 Erkenntnisse
