@@ -907,3 +907,61 @@ Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Gel
 Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten ge-ring, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
 Mit Hilfe des Modells soll nun die optimale Bestellmenge berechnet werden. Bei der optimalen Bestellmenge erreicht die Gesamtkostenfunktion als Summe der Beschaffungs- und der Lagerkostenfunktion ihr Minimum.
 > 通过该模型，现在需要计算出最优订购量。在最优订购量下，总成本函数（即采购成本函数与库存成本函数之和）达到其最低值。
+
+## A1. Der Wirtschaftsnobelpreis 2024
+
+### A1.1 Der Forschungsansatz
+
+Die Forschung der drei Ökonomen konzentriert sich darauf, wie staatliche Institutionen entstehen und welchen Einfluss sie auf den wirtschaftlichen Wohlstand eines Landes haben. Sie haben also die Beziehung Rechtsstaatlichkeit und Wohlstand untersucht. Ihre Forschung zeigt, dass die Art der institutionellen Rahmenbedingungen entscheidend für die wirtschaftliche Entwicklung eines Landes ist.
+> 这三位经济学家的研究集中于国家机构是如何产生的，以及它们对一个国家的经济繁荣有何影响。因此，他们研究了法治与繁荣之间的关系。他们的研究表明，制度框架的性质对一个国家的经济发展至关重要。
+
+### A1.2 Die Forschungsmethoden
+
+> ### A1.2 研究方法
+
+Die gewählten Methoden stellen eine Kombination aus empirischen Analysen, historischen Vergleichen und theoretischen Modellen dar. Hier sind die zentralen Aspekte ihrer Methodik:
+> 所选择的方法代表了实证分析、历史比较和理论模型的结合。以下是他们方法论的核心方面：
+
+- statistische Analysen(Qualität der Leben)
+- Falschstudien
+
+#### A1.2.1 Statistische Analysen historischer Daten
+
+Acemoglu und seine Kollegen verwendeten umfangreiche statistische Daten, um Korrelationen zwischen institutionellen Rahmenbedingungen und wirtschaftlichem Wachstum zu messen. Die Forscher analysierten Daten zu Einkommen, Bildung, Investitionen und anderen wirtschaftlichen Indikatoren in verschiedenen Ländern über längere Zeiträume hinweg. Ihre Arbeiten haben gezeigt, dass Unterschiede im Pro-Kopf-Einkommen stark mit der Qualität der institutionellen Rahmenbedingungen korrelieren. Die Forscher haben historische Daten verwendet, um zu zeigen, wie unterschiedliche politische und wirtschaftliche Institutionen in ehemaligen Kolonien entstanden sind und welchen Einfluss diese auf den heutigen Wohlstand haben.
+> 阿西莫格鲁和他的同事们使用了大量的统计数据来测量制度框架与经济增长之间的相关性。研究人员分析了不同国家长时期内的收入、教育、投资和其他经济指标的数据。他们的研究表明，人均收入的差异与制度框架的质量高度相关。研究人员使用了历史数据来展示前殖民地中不同的政治和经济制度是如何形成的，以及这些制度对当今财富的影响。
+
+#### A1.2.2 Fallstudien zum Vergleich von Ländern
+
+Ein zentrales Beispiel in ihrer Forschung sind Fallstudien (auch: Case Study, eine empirische und qualitative Forschungsmethode, bei der ein Fall aus der Realität betrachtet und analysiert wird, um daraus verallgemeinernde Schlüsse zu ziehen). So erstellten die Forscher Fallstudien zum Vergleich zwischen verschiedenen Ländern, wie beispielsweise zwischen den USA und Mexiko, am Beispiel der Stadt Nogales, die durch die US-mexikanische Grenze geteilt ist. Es konnte nachgewiesen werden, dass die Unterschiede im Wohlstand nicht durch geografische oder kulturelle Faktoren bedingt sind, sondern durch die unterschiedlichen institutionellen Rahmenbedingungen auf beiden Seiten der Grenze. Auf der US-Seite gibt es stärkere demokratische Strukturen und mehr Mitspracherechte, was zu einem höheren Wohlstand führt.
+> 他们研究中的一个核心例子是案例研究（也称为个案研究，一种实证和定性的研究方法，通过观察和分析现实中的一个案例来得出普遍性结论）。研究人员进行了不同国家之间的比较案例研究，例如美国和墨西哥之间的比较，以被美墨边境分割的诺加莱斯市为例。研究证明，福利差异并非由地理或文化因素造成，而是由边境两侧不同的制度框架条件造成。在美国一侧，存在更强的民主结构和更多的参与权，这导致了更高的福利水平。
+
+#### A1.2.3 Zur Analyse der Rechtsstaatlichkeit
+
+In der Forschung von Daron Acemoglu, Simon Johnson und James A. Robinson ging es um die Stärke rechtsstaatlicher Institutionen, insbesondere der Verwaltung und Rechtssprechung.
+
+Die Forscher unterscheiden zwischen inklusiven und ausbeuterischen (auch extraktiven) Institutionen, um die unterschiedlichen Auswirkungen auf den wirtschaftlichen Wohlstand von Nationen zu erklären.
+
+#### A1.2.4 Inklusive Institutionen
+
+Inklusive Institutionen ermöglichen es allen Bürgern, an wirtschaftlichen und politischen Prozessen teilzuhaben. Sie zeichnen sich durch folgende Merkmale aus:
+
+1. Schutz der Eigentumsrechte: Sie garantieren den Schutz von Eigentum und fördern das Vertrauen in Investitionen.
+2. Politische Mitbestimmung: Bürger haben Einfluss auf politische Entscheidungen, was zu einer stabileren und gerechteren Regierungsführung führt.
+3. Wirtschaftlicher Wettbewerb: Inklusive Institutionen schaffen ein Umfeld, in dem Wettbewerb gefördert wird, was Innovation und Wachstum begünstigt.
+4. Bildung und Chancengleichheit: Gute öffentliche Bildungssysteme bieten allen Gesellschaftsschichten die Möglichkeit, sich weiterzuentwickeln. Sie machen die Gesellschaften durchlässig, das heißt, über Bildung können Kinder aus armen Schichten Zugang zum Mittelstand finden bzw. ein höheres Einkommen erzielen.
+
+Ein Beispiel aus Afrika ist Botswana. Nach seiner Unabhängigkeit im Jahr 1960 entwickelte Botswana eine Demokratie mit stabilen politischen Institutionen, was zu schnellem wirtschaftlichem Wachstum führte. Beispielhaft dafür sind auch Länder wie die USA, Neuseeland und Australien, in denen schon während der Kolonisierung starke institutionelle Rahmenbedingungen geschaffen wurden, die langfristig zu wirtschaftlichem Wachstum und Wohlstand führten.
+Ausbeuterische Institutionen (auch extraktive Institutionen)
+Ausbeuterische Institutionen begünstigen eine kleine Elite und nutzen die breite Bevölkerung aus. Merkmale sind:
+
+1. Mangelnder Schutz der Eigentumsrechte: Diese Institutionen bieten keinen ausreichenden Schutz für das Eigentum, was zu Unsicherheit bei Investitionen führt.
+2. Politische Repression: Die politische Macht ist oft in den Händen einer kleinen Gruppe konzentriert, was die Mitbestimmung der Bürger einschränkt. Die politische Opposition wird verfolgt bzw. getötet.
+3. Wirtschaftliche Kontrolle durch die Elite: Ausbeuterische Institutionen regulieren die Wirtschaft zugunsten der Elite und behindern andere Gruppen, wirtschaftlichen Erfolg zu er-zielen.
+4. Korruption und Ineffizienz: Oft sind diese Systeme von Korruption geprägt, was das Vertrauen in staatliche Institutionen weiter untergräbt.
+Ein Beispiel aus Afrika ist Simbabwe. Nach seiner Unabhängigkeit 1980 blieb das Land unter der Kontrolle einer autoritären Regierung unter Robert Mugabe, die die Wirtschaft regulierte und private Unternehmen unterdrückte. Mugabes Aktivitäten richteten sich insbesondere gegen die Landbesitzer, die die Nahrungsmittel produzierten. Dies führte zu einem wirtschaftlichen Zusammenbruch. Beispielhaft dafür sind viele andere Länder in Zentralafrika oder in Lateinamerika, wo schwache Rechtsstaatlichkeit herrscht und die Kolonialgeschichte oft zu einer Ausbeutung der Ressourcen und der Bevölkerung führte.
+
+### A1.3 Erkenntnisse
+
+Während die Forscher die Auswirkungen der Kolonialisierung auf die Entwicklung der Institutionen in verschiedenen Ländern analysierten, konnten sie feststellen, dass die unterschiedlichen politischen und wirtschaftlichen Systeme in den von den Europäern kolonisierten Gebieten langfristige Auswirkungen auf die wirtschaftliche Entwicklung und den Wohlstand der ehemaligen Kolonien hatten. Ihre Theorie legt nahe, dass die Art der Institutionen, die in einer Kolonie etabliert wurden, stark von der Siedlermigration, also von der Anzahl der Siedler und deren Einfluss auf die lokale Politik und Wirtschaft abhängt. Die Forscher unterscheiden Siedlungskolonien von Beherrschungskolonien.
+In Siedlungskolonien, wie den britischen Kolonien in Nordamerika oder Australien, wanderten viele Europäer aus und gründeten dauerhafte Siedlungen. Diese Siedler hatten ein starkes Interesse daran, inklusive Institutionen zu etablieren, die politische Mitbestimmung und wirtschaftliche Teilhabe ermöglichten. Sie schufen Strukturen, die Eigentumsrechte schützten und eine gewisse politische Stabilität förderten.
+Im Gegensatz dazu standen Beherrschungskolonien, in die weniger oder keine europäischen Siedler auswanderten (z.B. viele afrikanische Kolonien), oft geprägt von ausbeuterischen Institutionen. Hier lag der Fokus der Kolonialmächte auf der Ausbeutung von Ressourcen und der Kontrolle der einheimischen Bevölkerung, was zu einer Konzentration von Macht und Reichtum in den Händen einer kleinen Elite führte.
