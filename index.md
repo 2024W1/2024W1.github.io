@@ -945,6 +945,8 @@ Die Forscher unterscheiden zwischen inklusiven und ausbeuterischen (auch extrakt
 
 #### A1.2.4 Inklusive Institutionen
 
+> #### A1.2.4 包容性制度
+
 Inklusive Institutionen ermöglichen es allen Bürgern, an wirtschaftlichen und politischen Prozessen teilzuhaben. Sie zeichnen sich durch folgende Merkmale aus:
 > 包容性制度使所有公民能够参与经济和政治进程。它们具有以下特征：
 
@@ -979,9 +981,56 @@ Ausbeuterische Institutionen begünstigen eine kleine Elite und nutzen die breit
 > 4. 腐败和低效：这些系统通常充斥着腐败，进一步削弱了对国家机构的信任。
 
 Ein Beispiel aus Afrika ist Simbabwe. Nach seiner Unabhängigkeit 1980 blieb das Land unter der Kontrolle einer autoritären Regierung unter Robert Mugabe, die die Wirtschaft regulierte und private Unternehmen unterdrückte. Mugabes Aktivitäten richteten sich insbesondere gegen die Landbesitzer, die die Nahrungsmittel produzierten. Dies führte zu einem wirtschaftlichen Zusammenbruch. Beispielhaft dafür sind viele andere Länder in Zentralafrika oder in Lateinamerika, wo schwache Rechtsstaatlichkeit herrscht und die Kolonialgeschichte oft zu einer Ausbeutung der Ressourcen und der Bevölkerung führte.
+> 一个来自非洲的例子是津巴布韦。1980年独立后，该国仍然处于罗伯特·穆加贝领导下的威权政府控制之下，该政府管制经济并压制私营企业。穆加贝的行动特别针对生产粮食的土地所有者。这导致了经济崩溃。许多中非或拉丁美洲国家也是如此，那里法治薄弱，殖民历史常常导致资源和人口被剥削。
 
 ### A1.3 Erkenntnisse
 
 Während die Forscher die Auswirkungen der Kolonialisierung auf die Entwicklung der Institutionen in verschiedenen Ländern analysierten, konnten sie feststellen, dass die unterschiedlichen politischen und wirtschaftlichen Systeme in den von den Europäern kolonisierten Gebieten langfristige Auswirkungen auf die wirtschaftliche Entwicklung und den Wohlstand der ehemaligen Kolonien hatten. Ihre Theorie legt nahe, dass die Art der Institutionen, die in einer Kolonie etabliert wurden, stark von der Siedlermigration, also von der Anzahl der Siedler und deren Einfluss auf die lokale Politik und Wirtschaft abhängt. Die Forscher unterscheiden Siedlungskolonien von Beherrschungskolonien.
 In Siedlungskolonien, wie den britischen Kolonien in Nordamerika oder Australien, wanderten viele Europäer aus und gründeten dauerhafte Siedlungen. Diese Siedler hatten ein starkes Interesse daran, inklusive Institutionen zu etablieren, die politische Mitbestimmung und wirtschaftliche Teilhabe ermöglichten. Sie schufen Strukturen, die Eigentumsrechte schützten und eine gewisse politische Stabilität förderten.
 Im Gegensatz dazu standen Beherrschungskolonien, in die weniger oder keine europäischen Siedler auswanderten (z.B. viele afrikanische Kolonien), oft geprägt von ausbeuterischen Institutionen. Hier lag der Fokus der Kolonialmächte auf der Ausbeutung von Ressourcen und der Kontrolle der einheimischen Bevölkerung, was zu einer Konzentration von Macht und Reichtum in den Händen einer kleinen Elite führte.
+
+## A2 Die inklusive Institutionen mit Ausbeutung in China
+
+### A2.1 Politische Inklusivität
+
+Das chinesische Modell zeigt in gewissem Maße politische Inklusivität:
+
+1. China hat ein umfassendes System der Konsultativdemokratie eingerichtet, um durch Kanäle wie die Politische Konsultativkonferenz des chinesischen Volkes Meinungen von allen Seiten einzuholen und einen größtmöglichen Konsens zu erzielen.
+2. Die regierende Partei bemüht sich, die Interessen verschiedener sozialer Schichten zu vertreten und zu koordinieren, um die soziale Stabilität zu wahren.
+Auswahl der Fähigen: Der Mechanismus zur Auswahl von Führungskräften betont Fähigkeiten und Leistung, was zur Gewinnung von Talenten aus verschiedenen Bereichen beiträgt.
+3. China hat eine offene Gesellschaft, die ein gewisses Maß an geistliche Pluralismus zulässt.
+
+### A2.2 Ausbeutung
+
+Allerdings weist das chinesische Modell auch deutliche ausbeuterische Probleme auf:
+
+1. Niedrige Löhne und begrenzte soziale Sicherheit führen zu einer institutionalisierten Ausbeutung von Wanderarbeitern.
+2. Einige privilegierte Gruppen nutzen ihre Macht, um ungerechtfertigte Vorteile zu erlangen, was die soziale Ungleichheit verschärft.
+3. Einige politische Rechte der Bürger sind eingeschränkt, was eine effektive Überwachung der Macht erschwert.
+
+### A2.3 Bewertung
+
+Das chinesische Modell zeigt einen Widerspruch zwischen Inklusivität und Ausbeutung. Einerseits stärkt es die politische Inklusivität durch Mechanismen wie die Konsultativdemokratie; andererseits führen strukturelle Probleme wie das Hukou-System zu ernsthafter Ausbeutung. In Zukunft muss China, während es die politische Stabilität aufrechterhält, weitere Reformen vorantreiben, um institutionelle Ausbeutung zu reduzieren und soziale Gerechtigkeit zu stärken, um eine nachhaltige Entwicklung zu erreichen.
+
+### Von A2.2(2): Korruption
+
+![Korruptionswahrnehmungsindex weltweit 2017](./assets/pictures/Corruption_Perception_index_2017.svg)
+
+```mermaid
+xychart-beta
+    title "Korruptionswahrnehmungsindex (2015-2023)"
+    x-axis [2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023]
+    y-axis "Korruptionswahrnehmungsindex (CPI Score)" 20 --> 100
+    line "China" [40,36,37,40,41,39,41,42,45,45,42]
+    line "Deutschland" [78,79,81,81,81,80,80,80,80,79,78]
+```
+
+(Die Linie ganz oben steht für Deutschland und unten für China)
+
+Oberflächlich betrachtet behauptet Xi., dass seine intensive Korruptionsbekämpfung Erfolge zeigt. Kürzlich veröffentlichten jedoch die Tsinghua-Universität und zwei Universitäten aus USA einen Forschungsbericht über den aktuellen Stand der Korruption in China. Die Wissenschaftler verglichen die offiziell angegebenen Gehälter von Beamten einer großen chinesischen Stadt mit den bei Hauskäufen registrierten Einkommensdetails. Sie stellten fest, dass je höher der Rang des Beamten, desto höher der Anteil des "informellen Einkommens" - also Einkommen unklarer Herkunft - am Gesamtgehalt. Die Untersuchung ergab, dass bei einem Beamten auf Abteilungsleiterebene das "informelle Einkommen" mehr als das Vierfache des "formellen Einkommens" betrug.
+
+Was mich interessiert, ist dass [ein Text](http://fanfu.people.com.cn/n/2013/0205/c64371-20437546.html) behaupte, dass der Korruptionswahrnehmungsindex China ziemlich unfair bewertet.
+
+So geht es um im Text:
+> Nehmen wir als Beispiel die Punktzahl des Korruptionswahrnehmungsindex von 2012, bei dem China 39 Punkte erhielt. Diese Punktzahl wurde als Durchschnitt aus neun Datenquellen berechnet, darunter der Bertelsmann Transformationsindex, das IMD World Competitiveness Center und der Bribe Payers Index von Transparency International. Allerdings waren in diesen neun Berichten die Befragten selten Chinesen. Verstehen die Befragten aus anderen Ländern China wirklich? Haben sie China fair bewertet? Wie groß ist die Kluft zwischen ihrer subjektiven Wahrnehmung und den objektiven Fakten über China? All diese Fragen beeinflussen Chinas Punktzahl im Korruptionswahrnehmungsindex, was offensichtlich unfair ist.
+> Daher sollten wir die Bewertung Chinas durch den Korruptionswahrnehmungsindex richtig einordnen. Einerseits bietet der Index eine internationale Perspektive zur Bewertung der Korruptionssituation in unserem Land, insbesondere die Einstellung von Geschäftsleuten, was direkte Auswirkungen auf praktische Fragen wie ausländische Investitionen hat. Andererseits sollten wir den Korruptionswahrnehmungsindex nicht blind als vollständig wissenschaftliche Grundlage für Antikorruptionsforschung und -praxis betrachten.
