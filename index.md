@@ -904,9 +904,39 @@ Der fixe Anteil der Lagerkosten kann z.B. die Miete des Lagergebäudes oder der 
 Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Geld, das das Unternehmen für das Umlaufvermögen im Lager bezahlt hat, kann nicht mehr für eine andere Investition verwendet oder bei einer Bank mit Zins angelegt werden. Die Kosten für die Kapitalbindung berechnet man mit einem Lagerhaltungszinssatz in einer angenommenen Höhe.
 > 可变库存成本则来源于资本占用成本。企业为库存中的流动资产支付的资金无法用于其他投资，也无法存入银行赚取利息。资本占用成本通过一个假定的库存持有利率来计算。如果订购和存储小批量，资本占用成本较低；如果订购和存储大批量，资本占用成本增加，从而导致总库存成本上升。虽然大量库存可以使企业免受供应风险的影响，但由于资本占用成本较高，这种做法被认为对企业不利。
 
-Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten ge-ring, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
+Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten gering, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
 Mit Hilfe des Modells soll nun die optimale Bestellmenge berechnet werden. Bei der optimalen Bestellmenge erreicht die Gesamtkostenfunktion als Summe der Beschaffungs- und der Lagerkostenfunktion ihr Minimum.
 > 通过该模型，现在需要计算出最优订购量。在最优订购量下，总成本函数（即采购成本函数与库存成本函数之和）达到其最低值。
+
+#### 5.4.5 Ein Beispiel für das externe Rechnungswesen - Die Abschreibung
+
+Die Abschreibung ist **der Wertverzehr eines Anlagegutes über die geplante Nutzungsdauer hinweg**.Nur selten entspricht die geplante Nutzungsdauer der realen Nutzungsdauer. Wenn das Anlagegut z.B. vorzeitig kaputt geht, muss es durch eine Sonderabschreibung aus dem Anlagevermögen gelöscht werden. Ist die Nutzungsdauer üblicherweise länger, bleibt das Anlagegut mit einem Erinnerungswert von einem Euro in den Büchern und kann weiterhin Nutzungsströme abgeben, obwohl es bereits abgeschrieben ist. Der Nutzwert, der dann noch in dem Anlagegut enthalten ist, gilt als stille Reserve. Die stille Reserve wird aufgedeckt, wenn das Anlagegut auf dem Markt einen höheren Preis erzielt als der Buchwert. Somit ist die stille Reserve also die Differenz zwischen dem Buchwert und dem Nutzwert oder die Differenz zwischen dem Buchwert und dem Marktpreis.
+> 折旧是一项固定资产在其计划使用寿命内的价值损耗。计划使用寿命很少与实际使用寿命相符。例如，如果固定资产提前损坏，就必须通过特别折旧从固定资产中注销。如果使用寿命通常更长，固定资产会以1欧元的象征性价值保留在账簿中，并可以继续提供使用价值，尽管它已经完全折旧。此时固定资产中仍然包含的使用价值被视为隐藏储备。当固定资产在市场上获得的价格高于账面价值时，隐藏储备就会被揭示。因此，隐藏储备是账面价值与使用价值之间的差额，或者是账面价值与市场价格之间的差额。
+
+Der Wertverlust ist am besten zu erfassen, wenn er an die tatsächliche Nutzung gekoppelt ist, z.B. kann ein Fahrzeug über die zurückgelegten Kilometer abgeschrieben werden. In einem Jahr, in dem das Fahrzeug oft eingesetzt wurde, ist der Abschreibungsbetrag dann höher als in einem Jahr, in dem das Fahrzeug wenig genutzt wurde. Dieses Verfahren kann z.B. auch angewandt werden für die Nutzung eines Kopierers, der die kopierten Seiten zählt oder für Maschinen, deren Maschinenlaufzeit bestimmt werden kann.
+> 当价值损耗与实际使用情况挂钩时，最容易进行评估。例如，车辆可以根据行驶的公里数进行折旧。在使用频繁的一年中，折旧金额会高于使用较少的一年。这种方法也可以应用于计算复印机的使用情况（通过计数复印的页数）或确定机器运行时间的设备。
+
+Oft ist das aber nicht möglich und so gibt es mehrere rechnerische Abschreibungsverfahren, die den Wert von Anlagegütern pauschal, d.h., unabhängig von der tatsächlichen Nutzung nach einem vorgegebenen Prinzip mindern, z.B. die lineare oder die geometrische Abschreibung.
+> 然而，这种方法通常是不可行的，因此存在多种计算折旧的方法，这些方法按照预定原则统一减少固定资产的价值，即不依赖于实际使用情况，例如线性折旧法或几何折旧法。
+
+Beispiel Abschreibung und Bildung stiller Reserven 6
+> 折旧和隐藏储备形成的示例6：
+
+Eine Maschine wurde für 90 000 € erworben. Die geplante Nutzungsdauer beträgt 6 Jahre. Der Abschreibungssatz für die geometrische Abschreibung beträgt 30 %. Berechnen Sie die linearen und die geometrischen Abschreibungsbeträge und die entsprechenden Buchwerte. Nach welchem Jahr geht man von der geometrischen zur linearen Abschreibung über? (alle
+Beträge in €)
+> 一台机器以90,000欧元购入。计划使用寿命为6年。几何折旧的折旧率为30%。请计算线性折旧和几何折旧的金额以及相应的账面价值。在哪一年后应从几何折旧转为线性折旧？（所有金额单位为欧元）
+
+||Linear Abschreibungsbetrag|Buchwert|Geometrischer Abschreibung|Buchwert|
+|:--:|:--:|:--:|:--:|:--:|
+|Anschaffungskosten||90000||90000|
+|nach dem 1.Jahr|15000|90000-15000=75000|27000|90000-27000=63000|
+|nach dem 2.Jahr|15000|60000|18900|44100|
+|nach dem 3.Jahr|15000|45000|nach geometrischer Methode 13230<15000, deshalb Methodenwechsel|33075|
+|nach dem 4.Jahr|15000|30000|11025|22050|
+|nach dem 5.Jahr|15000|15000|11025|11025|
+|nach dem 6.Jahr|15000|1|11025|1|
+
+![ ](./assets/pictures/截屏2024-11-28%2014.30.12.png)
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
@@ -986,8 +1016,43 @@ Ein Beispiel aus Afrika ist Simbabwe. Nach seiner Unabhängigkeit 1980 blieb das
 ### A1.3 Erkenntnisse
 
 Während die Forscher die Auswirkungen der Kolonialisierung auf die Entwicklung der Institutionen in verschiedenen Ländern analysierten, konnten sie feststellen, dass die unterschiedlichen politischen und wirtschaftlichen Systeme in den von den Europäern kolonisierten Gebieten langfristige Auswirkungen auf die wirtschaftliche Entwicklung und den Wohlstand der ehemaligen Kolonien hatten. Ihre Theorie legt nahe, dass die Art der Institutionen, die in einer Kolonie etabliert wurden, stark von der Siedlermigration, also von der Anzahl der Siedler und deren Einfluss auf die lokale Politik und Wirtschaft abhängt. Die Forscher unterscheiden Siedlungskolonien von Beherrschungskolonien.
+> 在研究殖民化对不同国家制度发展的影响时，研究人员发现，欧洲人在殖民地建立的不同政治和经济体系对前殖民地的经济发展和繁荣产生了长期影响。他们的理论表明，在殖民地建立的制度类型在很大程度上取决于殖民者的迁移情况，即殖民者的数量及其对当地政治和经济的影响。研究人员区分了定居殖民地和统治殖民地。
+
 In Siedlungskolonien, wie den britischen Kolonien in Nordamerika oder Australien, wanderten viele Europäer aus und gründeten dauerhafte Siedlungen. Diese Siedler hatten ein starkes Interesse daran, inklusive Institutionen zu etablieren, die politische Mitbestimmung und wirtschaftliche Teilhabe ermöglichten. Sie schufen Strukturen, die Eigentumsrechte schützten und eine gewisse politische Stabilität förderten.
+> 在定居殖民地，如北美或澳大利亚的英国殖民地，许多欧洲人移民并建立了永久性的定居点。这些定居者强烈希望建立包容性制度，使政治参与和经济参与成为可能。他们创建了保护产权并促进一定程度政治稳定的结构。
+
 Im Gegensatz dazu standen Beherrschungskolonien, in die weniger oder keine europäischen Siedler auswanderten (z.B. viele afrikanische Kolonien), oft geprägt von ausbeuterischen Institutionen. Hier lag der Fokus der Kolonialmächte auf der Ausbeutung von Ressourcen und der Kontrolle der einheimischen Bevölkerung, was zu einer Konzentration von Macht und Reichtum in den Händen einer kleinen Elite führte.
+> 相比之下，统治殖民地（如许多非洲殖民地）很少或没有欧洲定居者移民，通常以剥削性制度为特征。在这里，殖民强国的重点是开发资源和控制当地人口，这导致权力和财富集中在少数精英手中。
+
+Die Autoren betonen auch den selbstverstärkenden Charakter von inklusiven Institutionen:
+> 作者还强调了包容性制度的自我强化特性：
+
+Wenn einmal inklusive Strukturen etabliert sind, fördern sie weitere politische Stabilität und wirtschaftliches Wachstum, was wiederum zu mehr Inklusivität führt. In ausbeuterischen Systemen hingegen erneuern sich Ungleichheit und Instabilität.
+> 一旦建立了包容性结构，它们就会促进进一步的政治稳定和经济增长，这反过来又会带来更多的包容性。相比之下，在剥削性系统中，不平等和不稳定会不断重复。
+
+Die Forscher behaupteten also, dass es eine klare Tendenz gibt, dass Kolonien mit einer hohen Anzahl an Siedlern eher inklusive Institutionen entwickelten als solche ohne signifikante europäische Ansiedlung. Die Art der hinterlassenen Institutionen hängt also stark von der Migration europäischer Siedler ab und beeinflusst bis heute die wirtschaftliche Entwicklung ehemaliger Kolonien.
+> 研究人员因此声称，有一个明显的趋势：拥有大量定居者的殖民地比那些没有显著欧洲定居的殖民地更容易发展出包容性制度。因此，遗留下来的制度类型在很大程度上取决于欧洲定居者的迁移情况，并且至今仍在影响着前殖民地的经济发展。
+
+Selbstverwaltungsstrukturen in Siedlungskolonien: Die englischen Kolonien in Nordamerika entwickelten von Anfang an Systeme der Selbstverwaltung, die durch gewählte Versammlungen (Assemblies) geprägt waren. Diese Strukturen ermöglichten den Siedlern, ihre eigenen Gesetze zu erlassen und politische Entscheidungen zu treffen, was zu einer stärkeren politischen Teilhabe führte.
+> 定居殖民地的自治结构：北美的英国殖民地从一开始就发展出了以选举产生的议会（Assemblies）为特征的自治系统。这些结构使定居者能够制定自己的法律并做出政治决策，从而导致了更强的政治参与。
+
+Ressourcennutzung in Siedlungskolonien: In Siedlungskolonien war es für die Siedler wichtig, stabile und inklusive Institutionen zu schaffen, um ihre wirtschaftlichen Interessen zu schützen. Die Sicherung von Eigentumsrechten und der Zugang zu Märkten waren entscheidend für den wirtschaftlichen Erfolg.
+> 定居殖民地的资源利用：在定居殖民地，为了保护自身的经济利益，定居者认为创建稳定和包容的制度至关重要。保障产权和获得市场准入对经济成功起着决定性作用。
+
+Neben der Siedlermigration konnten die Forscher auch andere Einflussfaktoren auf die Etablierung inklusiver Institutionen identifizieren:
+> 除了定居者迁移之外，研究人员还确定了其他影响包容性制度建立的因素：
+
+Wettbewerb um Ressourcen: In Regionen mit intensiver Konkurrenz zwischen verschiedenen Kolonialmächten oder innerhalb der Kolonien selbst gab es einen Anreiz, inklusive Institutionen zu etablieren, um die Loyalität der Bevölkerung zu gewinnen und Stabilität zu fördern.
+>
+
+Krisen als Katalysatoren: Historische Umbruchphasen, die viele Tote forderten, wie etwa die Beulenpest in Europa, führten dazu, dass überlebende Arbeitskräfte mehr Rechte einforderten und bestehende Machtstrukturen herausforderten. Solche Veränderungen schufen ebenfalls Raum für die Entwicklung inklusiver Institutionen.
+> 资源竞争：在不同殖民强国之间或殖民地内部存在激烈竞争的地区，建立包容性制度成为一种激励，目的是赢得民众的忠诚并促进稳定。
+
+Die Schaffung inklusiver Institutionen in Kolonien war das Ergebnis einer Kombination aus Siedlermigration, lokalen Selbstverwaltungsstrukturen, wirtschaftlichen Anreizen sowie kulturellen und sozialen Dynamiken. Diese Faktoren trugen dazu bei, dass einige Kolonien prosperierten und stabile Gesellschaften mit politischen Mitbestimmungsmöglichkeiten entwickel-ten, während andere unter extraktiven Institutionen litten.
+> 在殖民地建立包容性制度是定居者迁移、当地自治结构、经济激励以及文化和社会动态相结合的结果。这些因素促使一些殖民地繁荣发展，形成了具有政治参与机会的稳定社会，而其他殖民地则遭受着剥削性制度的困扰。
+
+Die drei Forscher betonen die Bedeutung der Rechtsstaatlichkeit als eine Voraussetzung für wirtschaftliches Wachstum. Ein starkes Rechtssystem fördert das Vertrauen von Investoren und Bürgern, was zu höherem wirtschaftlichem Engagement führt. In Ländern mit schwacher Rechtsstaatlichkeit sind die Risiken für Investitionen viel höher, was das Wirtschaftswachstum hemmt. Es verschwinden zu viele finanzielle Mittel in den privaten Konsum korrupter Eliten und stehen damit nicht für neue Investitionen zur Verfügung.
+> 这三位研究人员强调法治作为经济增长先决条件的重要性。强大的法律体系能够增进投资者和公民的信任，从而带来更高水平的经济参与。在法治薄弱的国家，投资风险要高得多，这阻碍了经济增长。大量财政资金消失在腐败精英的私人消费中，因此无法用于新的投资。
 
 ## A2 Die inklusive Institutionen mit Ausbeutung in China
 
@@ -1012,7 +1077,7 @@ Allerdings weist das chinesische Modell auch deutliche ausbeuterische Probleme a
 
 Das chinesische Modell zeigt einen Widerspruch zwischen Inklusivität und Ausbeutung. Einerseits stärkt es die politische Inklusivität durch Mechanismen wie die Konsultativdemokratie; andererseits führen strukturelle Probleme wie das Hukou-System zu ernsthafter Ausbeutung. In Zukunft muss China, während es die politische Stabilität aufrechterhält, weitere Reformen vorantreiben, um institutionelle Ausbeutung zu reduzieren und soziale Gerechtigkeit zu stärken, um eine nachhaltige Entwicklung zu erreichen.
 
-### Von A2.2(2): Korruption
+### A2.4 Von A2.2(2): Korruption
 
 ![Korruptionswahrnehmungsindex weltweit 2017](./assets/pictures/Corruption_Perception_index_2017.svg)
 
