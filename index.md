@@ -928,15 +928,70 @@ Beträge in €)
 
 ||Linear Abschreibungsbetrag|Buchwert|Geometrischer Abschreibung|Buchwert|
 |:--:|:--:|:--:|:--:|:--:|
-|Anschaffungskosten||90000||90000|
-|nach dem 1.Jahr|15000|90000-15000=75000|27000|90000-27000=63000|
-|nach dem 2.Jahr|15000|60000|18900|44100|
-|nach dem 3.Jahr|15000|45000|nach geometrischer Methode 13230<15000, deshalb Methodenwechsel|33075|
-|nach dem 4.Jahr|15000|30000|11025|22050|
-|nach dem 5.Jahr|15000|15000|11025|11025|
-|nach dem 6.Jahr|15000|1|11025|1|
+|Anschaffungskosten||$90000$||$90000$|
+|nach dem 1.Jahr|$15000$|$90000-15000=75000$|$27000$|$90000-27000=63000$|
+|nach dem 2.Jahr|$15000$|$60000$|$18900$|$44100$|
+|nach dem 3.Jahr|$15000$|$45000$|nach geometrischer Methode $13230<15000$, deshalb Methodenwechsel, $33075 \div 3=11025$|$33075$|
+|nach dem 4.Jahr|$15000$|$30000$|$11025$|$22050$|
+|nach dem 5.Jahr|$15000$|$15000$|$11025$|$11025$|
+|nach dem 6.Jahr|$15000$|$1$|$11025$|$1$|
 
+Linear:
+$$
+\left\{
+\begin{aligned}
+y &= 90000-15000x \space (x \in [0,6)) \\
+y &= 1 \space (x = 6)
+\end{aligned}
+\right.
+$$
 ![ ](./assets/pictures/截屏2024-11-28%2014.30.12.png)
+Geometrischer:
+$$
+\left\{
+\begin{aligned}
+y &= 90000 * (1-30\%)^x \space (x \in [0,3)) \\
+y &= 33075-11025x \space (x \in [3,6)) \\
+y &= 1 \space (x = 6)
+\end{aligned}
+\right.
+$$
+![ ](./assets/pictures/截屏2024-11-29%2003.48.17.png)
+
+> Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) smf. in der Intervalle $[0,3)$
+> Um die Monotonie dieser Fkt. zu bestimmen, zuerst sollen wir wissen, was  die erste Ableitung von $y = 90000 * (1-30\%)^x $ ist.
+> geg. $y=f(x)= 90000 * (1-30\%)^x = 90000 * 0.7^x$
+> $u(x)=0.7^x \text{ //aber habe ich keine Ahnung, wie ich diese Fkt. ableiten kann}$
+> $\ln(u(x))=x\ln(0.7) \Rightarrow u(x)=e^{\ln(u(x))}=e^{x\ln(0.7)}$
+> $u(x)=a(b(x)),a(b)=e^b,b(x)=\ln(0.7)x$
+> $\frac{da(b)}{db}=e^b,\frac{db(x)}{dx}=\ln(0.7)$
+> $\frac{du(x)}{dx}=\frac{da(b)}{db}*\frac{db(x)}{dx}=e^{\ln(0.7)x}*\ln(0.7)$
+> $\because f(x)=90000*u(x)$
+> $\therefore f'(x)=90000*\frac{du(x)}{dx}=90000*e^{\ln(0.7)x}*\ln(0.7)$
+> Wenn $x \in [0,3)$, $e^{\ln(0.7)x}>0,\ln(0.7)<0 \Rightarrow f'(x)=90000*e^{\ln(0.7)x}*\ln(0.7)<0$
+> $\therefore y = 90000 * (1-30\%)^x \space (x \in [0,3))\text{ ist smf.}$
+
+Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Abschreibungsbeträge der geometrischen Abschreibung verringern sich immer weiter, erreichen aber nie Null. Deshalb ist es möglich, aus der geometrischen in die lineare Abschreibung zu wechseln, wenn der Abschreibungsbetrag der geometrischen Abschreibung kleiner als der lineare Abschreibungsbetrag ist.
+
+### 5.5 Wiederholungsaufgaben
+
+1. Vergleichen Sie die VWL und die BWL miteinander. Wählen Sie mindestens 6 Kriterien (Beispiele: Gegenstand, Ziel, Modelle, Beziehung zwischen Theorie und Praxis, Geschichte, Verhältnis des Gegenstandes zur Wissenschaft, Klassifikation der Produktionsfaktoren, Sicht auf das Unternehmen). Sie können auch eigene Kriterien wählen.
+
+> ||BWL|VWL|
+> |:--:|:--:|:--:|
+> |Ziel|Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die konkrete Unterstützung der Entscheidungsprozesse in Unternehmen. |?|
+> |Gegenstand|||
+> |Modelle|BCG-Matrix, Die Optimal Bestellung, Das Handelsvertreter-Reisender-Problem(4P)|Das neoklassische Synthesemodell(in Mikroökonomie), erweiterten Wirtschaftskreislauf|
+> |Geschichte|nicht lang als ein Fach, aber lang existiert|nicht lang existiert, aber länger als ein Fach als BWL|
+> 
+
+2. Lesen Sie die Studienangebote der Universität Leipzig zum Bachelor- und Masterstudium bzw. zum Diplomstudium auf dem Gebiet der Wirtschaftswissenschaften. Formulieren Sie ein Ziel für Ihr Studium und kombinieren Sie dazu einen möglichen Weg an der Universität Leipzig. (Sie verpflichten sich mit der Hausaufgabe nicht, an der Universität Leipzig zu studieren. Diese Übung soll als Beispiel verstanden werden.)
+
+>
+
+3. Zu berechnen sind jeweils die optimalen Bestellmengen, die zeitliche Reichweite der Bestellung und die Anzahl der Bestellung pro Jahr.
+Für das erste Unternehmen gelten folgende Zahlen: Bestellkosten 360 €, Gesamtmenge an Produktionsmaterial 3200 Stück, Stückpreis 90 €, Lagerhaltungszinssatz 16%.
+Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesamtmenge an Produktionsmaterial 100 Stück, Stückpreis 40 €, Lagerhaltungszinssatz 10%.
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
