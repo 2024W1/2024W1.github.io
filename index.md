@@ -1106,8 +1106,10 @@ Wie?
 
 ```mermaid
 graph TD;
-  Markt-->Monopol;
-  Markt-->Polypol;
+  Markt--Wie viel Angeboter-->Monopol;
+  Markt--Wie viel Angeboter-->Polypol;
+  Markt--Wie viel Nachfrager-->Monopson;
+  Markt--Wie viel Nachfrager-->Polypson;
 ```
 
 ## A1. Der Wirtschaftsnobelpreis 2024
