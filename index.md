@@ -1038,7 +1038,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
 (b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in (a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
-> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug}$ // Hier gibt es aber kein Miete oder Energieaufwand.
+> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}$ // Hier gibt es aber kein Miete oder Energieaufwand.
 > 
 > |Anteil des Finanzierungsbedarfs(AV+)|Preis(€)|
 > |:--:|:--:|
