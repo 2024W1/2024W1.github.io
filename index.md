@@ -1019,8 +1019,8 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 (c) Wie hoch müsste die Umsatzprovision des Handelsvertreters sein, wenn er bei einem Absatz von 600 Stück genauso viel verdienen soll wie der Reisende?
 (d) Ist es einfach für den Marketingleiter, einen Handelsvertreter zu den Konditionen von (c) zu finden? Begründen Sie Ihre Antwort.
 
-> (a) $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}*3\%=2200+3\% * 600 * 160 = 5080 € $
-> $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*14\%=14\% * 600 * 160 = 13440 € > 5080 € $
+> (a) $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}*3\%= 2200 + 600 * 160 = 5080 \text{€}$
+> $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*14\%=14\% * 600 * 160 = 13440 \text{€} > 5080\text{€}$
 > Deshalb sollte der Marketingleiter einen Handelsvertreter mit dem Vertrieb beauftragen.
 >
 > (b) $\text{Kost}_\text{Reisende}=\text{Kost}_\text{Handelsvertreter} \Rightarrow 2200+3\% * \text{Menge} * 160 = 14\% * \text{Menge} * 160 $
