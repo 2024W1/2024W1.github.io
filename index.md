@@ -1034,13 +1034,51 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 >
 > (d) Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne und hat normalerweise eine höher Erwartung auf seinen Einkommen.
 
-6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der Kreditanstalt für Wiederaufbau beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
+6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der *Kreditanstalt für Wiederaufbau* beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
 (b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in (a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
+> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug}$ // Hier gibt es aber kein Miete oder Energieaufwand.
 > 
+> |Anteil des Finanzierungsbedarfs(AV+)|Preis(€)|
+> |:--:|:--:|
+> |Brauanlage|$40.000$|
+> |Verpackungsanlage|$10.000$|
+> |Betriebs- und Geschäftsausstattung|$75.000$|
+> |Produktionsgebäude|$450.000$|
+> |Lieferfahrzeug|$70.000$|
+> |Aufbau eines eisernen Bestandes|$20\%*27.000=5.400$|
+> |Summe(Finanzierungsbedarf)|$650.400$|
+> 
+> Antwortsatz. Der Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens ist 650.400 €.
 
-1. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Ab-schreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+> ||Aktiva|||Passiva||
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |AV|Brauanlage|40.000 €||||
+> ||Verpackungsanlage BGA|10.000 € ||||
+> ||Betriebs- und Geschäftsausstattung|75.000 €||||
+> ||Produktionsgebäude|450.000 €||||
+> ||Lieferfahrzeug|70.000 €||||
+> |UV|Miete für ein kleines Restaurant|8.000 €/Monat||||
+> ||Personalaufwand|9.000 €/Monat|FK|Kredit(Verbindlichkeiten)|300.000 €|
+> ||Materialkosten|27.000 €/Monat||||
+> ||Energieaufwand|200 €/Tag||||
+> ||eisernen Bestand|5.400 €||||
+
+7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+
+> ||Linear Abschreibungsbetrag|Buchwert|Geometrischer Abschreibung|Buchwert|
+> |:--:|:--:|:--:|:--:|:--:|
+> |Anschaffungskosten||$49000$||$49000$|
+> |nach dem 1.Jahr|$49000 \div 7 =7000$|$49000-7000=42000$|$49000*32\%=15680$|$49000-15680=33320$|
+> |nach dem 2.Jahr|$7000$|$35000$|$33320*32\%=10662.4$|$33320-10662.4=22657.6$|
+> |nach dem 3.Jahr|$7000$|$28000$|$22657.6*32\% \approx 7250.43$|$22657.6-7250.43=15407.17$|
+> |nach dem 4.Jahr|$7000$|$21000$|$15407.17*32\%=4930.29<7000$||
+> |nach dem 5.Jahr|$7000$|$14000$|||
+> |nach dem 6.Jahr|$7000$|$7000$|||
+> |nach dem 7. Jahr|$7000$|$1$|||
+>
+> Antwortsatz. Nach dem 4. Jahr geht man von der geometrischen Abschreibung zur linearen Abschreibung über.
 
 ## 7. Realer Markt und Marktmodell
 
