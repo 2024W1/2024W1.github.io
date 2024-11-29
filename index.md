@@ -958,7 +958,7 @@ y &= 1 \space (x = 6)
 $$
 ![ ](./assets/pictures/截屏2024-11-29%2003.48.17.png)
 
-> Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) smf. in der Intervalle $[0,3)$
+> Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) smf. in der Intervalle $[0,3)$ ?
 > Um die Monotonie dieser Fkt. zu bestimmen, zuerst sollen wir wissen, was  die erste Ableitung von $y = 90000 * (1-30\%)^x $ ist.
 > geg. $y=f(x)= 90000 * (1-30\%)^x = 90000 * 0.7^x$
 > $u(x)=0.7^x \text{ //aber habe ich keine Ahnung, wie ich diese Fkt. ableiten kann}$
@@ -1024,6 +1024,89 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 (b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
 7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Ab-schreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+
+## 7. Realer Markt und Marktmodell
+
+### 7.1 Reale Märkte und der Begriff des Marktes
+
+Brainstorming: Sammeln Sie Begriffe, die Märkte und Verkaufs- bzw. Kaufhandlung beschreiben.
+
+Was?
+
+- Aggregation
+- Homogenität
+
+Wo zu handeln?
+
+```mermaid
+graph TD;
+    Markt--is Online?-->1[Online / Virtuell];
+    Markt--is Online?-->2[Offline / Real];
+    Markt--Ausdehnung-->Staatlich;
+    Markt--Ausdehnung-->International;
+```
+
+Was zu handeln?
+
+```mermaid
+graph TD;
+    Markt--Non-Objekt-->Dienstleistungsmarkt;
+    Markt--Objekt-->Materialmarkt;
+    Materialmarkt-->Immobilienmarkt;
+    Materialmarkt-->Konsumgütermarkt;
+    Materialmarkt-->Supermarkt;
+    Konsumgütermarkt-->Biermarkt;
+    Supermarkt -..-> Biermarkt;
+```
+
+Welche Faktoren?
+
+```mermaid
+graph TD;
+    1[Faktoren der Märkte] --> Marktplatz-->Börse;
+    1 --> 2[Kunde / Nachfrage];
+    1 --> 3[Verkäufer];
+```
+
+Wann?
+
+Nach Öffnungszeit klassifiziert.
+
+- pro Stunde
+- pro Monat
+- immer
+- Saison
+
+```mermaid
+graph TD
+Markt --> Weihnachtsmarkt
+Markt --> Sommermarkt
+```
+
+Wer?
+
+```mermaid
+graph TD;
+  Markt--Nachfrager-->1[Faktormarkt / Business to Business];
+  Markt--Nachfrager-->2[Konsumgütermarkt / Business to Consumer];
+  Markt--Wohlstand der Marktteilnehmer-->3[Arm]
+  Markt--Wohlstand der Marktteilnehmer-->4[Reich]
+```
+
+Wie?
+
+- Preisbildung
+  - Wer sitzt den Preis?
+  - Wird gehandelt? (Wie?)
+- Legalität?
+  - Schwarzmarkt
+
+- Staatseingriff?
+- Beziehung zwischen Nachfrager und Anbieter?
+
+```mermaid
+graph TD;
+```
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
