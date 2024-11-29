@@ -1019,11 +1019,28 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 (c) Wie hoch müsste die Umsatzprovision des Handelsvertreters sein, wenn er bei einem Absatz von 600 Stück genauso viel verdienen soll wie der Reisende?
 (d) Ist es einfach für den Marketingleiter, einen Handelsvertreter zu den Konditionen von (c) zu finden? Begründen Sie Ihre Antwort.
 
+> (a) $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}*3\%=2200+3\% * 600 * 160 = 5080 € $
+> $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*14\%=14\% * 600 * 160 = 13440 € > 5080 € $
+> Deshalb sollte der Marketingleiter einen Handelsvertreter mit dem Vertrieb beauftragen.
+>
+> (b) $\text{Kost}_\text{Reisende}=\text{Kost}_\text{Handelsvertreter} \Rightarrow 2200+3\% * \text{Menge} * 160 = 14\% * \text{Menge} * 160 $
+> $\Rightarrow x=125$
+> Wenn beiden verkaufen 125 Stücke, verdienen sie gleich.
+>
+> (c)  $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}* \text{Umsatzprovision} $
+> $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*\text{Umsatzprovision}$
+> $\because \text{Preis}=160,\text{Menge}=600$
+> $\therefore 2200 + 160*600*3\%=160*600*x \Rightarrow x=\frac{127}{2400} \approx 5.2\% $ //?
+>
+> (d) Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne und hat normalerweise eine höher Erwartung auf seinen Einkommen.
+
 6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der Kreditanstalt für Wiederaufbau beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
-(b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
+(b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in (a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
-7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Ab-schreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+> 
+
+1. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Ab-schreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
 
 ## 7. Realer Markt und Marktmodell
 
