@@ -1106,11 +1106,17 @@ Wie?
 
 ```mermaid
 graph TD;
-  Markt--Wie viel Angeboter-->Monopol;
-  Markt--Wie viel Angeboter-->Polypol;
-  Markt--Wie viel Nachfrager-->Monopson;
-  Markt--Wie viel Nachfrager-->Polypson;
+  Markt--Wie viel Angeboter?-->Monopol;
+  Markt--Wie viel Angeboter?-->Polypol;
+  Markt--Wie viel Nachfrager?-->Monopson;
+  Markt--Wie viel Nachfrager?-->Polypson;
 ```
+
+| Nachfrager\\Angeboter | Viel | Wenig | Ein |
+| :--: | :--: | :--: | :--: |
+|**Viel**|Polypol|beschränktes Polypol|Monopol|
+|**Wenig**|Oligopson|zweiseitiges Oligopol|beschränktes Monopson|
+|**Ein**|Monopson|beschränktes Monopson|Monopol|
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
