@@ -1141,6 +1141,11 @@ Die Schaffung inklusiver Institutionen in Kolonien war das Ergebnis einer Kombin
 Die drei Forscher betonen die Bedeutung der Rechtsstaatlichkeit als eine Voraussetzung für wirtschaftliches Wachstum. Ein starkes Rechtssystem fördert das Vertrauen von Investoren und Bürgern, was zu höherem wirtschaftlichem Engagement führt. In Ländern mit schwacher Rechtsstaatlichkeit sind die Risiken für Investitionen viel höher, was das Wirtschaftswachstum hemmt. Es verschwinden zu viele finanzielle Mittel in den privaten Konsum korrupter Eliten und stehen damit nicht für neue Investitionen zur Verfügung.
 > 这三位研究人员强调法治作为经济增长先决条件的重要性。强大的法律体系能够增进投资者和公民的信任，从而带来更高水平的经济参与。在法治薄弱的国家，投资风险要高得多，这阻碍了经济增长。大量财政资金消失在腐败精英的私人消费中，因此无法用于新的投资。
 
+Kritikpunkt
+
+1. Vereinfachung komplexer Zusammenhänge
+2. Mangel an empirischer Evidenz / Gegenwart
+
 ## A2 Die inklusive Institutionen mit Ausbeutung in China
 
 ### A2.1 Politische Inklusivität
