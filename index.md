@@ -794,36 +794,36 @@ Poor Dog: Desinvestition.
 Multiple-Choice-Fragen zur BCG-Matrix
 
 1. Was bedeutet die Abkürzung "BCG" in BCG-Matrix?
-  (a) Business Consulting Group
-  (b) Boston Consulting Group
-  (c) Business Control Group
-  (d) Boston Control Group
+    (a) Business Consulting Group
+    (b) Boston Consulting Group
+    (c) Business Control Group
+    (d) Boston Control Group
 2. Welche zwei Hauptfaktoren werden in der BCG-Matrix berücksichtigt?
-  (a) Umsatz und Gewinn
-  (b) Marktwachstum und relativer Marktanteil
-  (c) Produktqualität und Kundenzufriedenheit
-  (d) Investitionen und Rendite
+    (a) Umsatz und Gewinn
+    (b) Marktwachstum und relativer Marktanteil
+    (c) Produktqualität und Kundenzufriedenheit
+    (d) Investitionen und Rendite
 3. Welches der folgenden Produkte würde am ehesten als "Cash Cow" bezeichnet werden?
-  (a) Ein neues, innovatives Smartphone-Modell
-  (b) Eine etablierte Waschmaschinenmarke
-  (c) Ein experimentelles Elektroauto
-  (d) Eine veraltete Softwareanwendung
+    (a) Ein neues, innovatives Smartphone-Modell
+    (b) Eine etablierte Waschmaschinenmarke
+    (c) Ein experimentelles Elektroauto
+    (d) Eine veraltete Softwareanwendung
 4. Welche Strategie wird üblicherweise für "Question Marks" empfohlen?
-  (a) Abschöpfungsstrategie
-  (b) Desinvestitionsstrategie
-  (c) Investitionsstrategie
-  (d) Wachstumsstrategie
+    (a) Abschöpfungsstrategie
+    (b) Desinvestitionsstrategie
+    (c) Investitionsstrategie
+    (d) Wachstumsstrategie
 5. In welchem Quadranten der BCG-Matrix befinden sich Produkte mit hohem Marktwachstum und hohem relativen Marktanteil?
-  (a) Stars
-  (b) Cash Cows
-  (c) Poor Dogs
-  (d) Question Marks
+    (a) Stars
+    (b) Cash Cows
+    (c) Poor Dogs
+    (d) Question Marks
 6. Ein Unternehmen hat folgende Produkte in seinem Portfolio:
-  Produkt A: Marktwachstum 15%, relativer Marktanteil 80%
-  Produkt B: Marktwachstum 2%, relativer Marktanteil 250%
-  Produkt C: Marktwachstum -18%, relativer Marktanteil 150%
-  Produkt D: Marktwachstum 1%, relativer Marktanteil 30%
-Ordnen Sie diese Produkte in die entsprechenden Quadranten der BCG-Matrix ein und begründen Sie Ihre Entscheidung.
+    Produkt A: Marktwachstum 15%, relativer Marktanteil 80%
+    Produkt B: Marktwachstum 2%, relativer Marktanteil 250%
+    Produkt C: Marktwachstum -18%, relativer Marktanteil 150%
+    Produkt D: Marktwachstum 1%, relativer Marktanteil 30%
+    Ordnen Sie diese Produkte in die entsprechenden Quadranten der BCG-Matrix ein und begründen Sie Ihre Entscheidung.
 
 Lösung:
 
