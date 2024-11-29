@@ -958,7 +958,7 @@ y &= 1 \space (x = 6)
 $$
 ![ ](./assets/pictures/截屏2024-11-29%2003.48.17.png)
 
-> Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) smf. in der Intervalle $[0,3)$ ?
+> Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) fallend in der Intervalle $[0,3)$ ?
 > Um die Monotonie dieser Fkt. zu bestimmen, zuerst sollen wir wissen, was  die erste Ableitung von $y = 90000 * (1-30\%)^x $ ist.
 > geg. $y=f(x)= 90000 * (1-30\%)^x = 90000 * 0.7^x$
 > $u(x)=0.7^x \text{ //aber habe ich keine Ahnung, wie ich diese Fkt. ableiten kann}$
@@ -969,7 +969,7 @@ $$
 > $\because f(x)=90000*u(x)$
 > $\therefore f'(x)=90000*\frac{du(x)}{dx}=90000*e^{\ln(0.7)x}*\ln(0.7)$
 > Wenn $x \in [0,3)$, $e^{\ln(0.7)x}>0,\ln(0.7)<0 \Rightarrow f'(x)=90000*e^{\ln(0.7)x}*\ln(0.7)<0$
-> $\therefore y = 90000 * (1-30\%)^x \space (x \in [0,3))\text{ ist smf.}$
+> $\therefore y = 90000 * (1-30\%)^x \space (x \in [0,3))\text{ ist fallend in der Intervalle }[0,3) $
 
 Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Abschreibungsbeträge der geometrischen Abschreibung verringern sich immer weiter, erreichen aber nie Null. Deshalb ist es möglich, aus der geometrischen in die lineare Abschreibung zu wechseln, wenn der Abschreibungsbetrag der geometrischen Abschreibung kleiner als der lineare Abschreibungsbetrag ist.
 
