@@ -886,14 +886,14 @@ Modellkritik (Welche Modellprämissen werden kritisiert?)
 
 Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffungskostenfunktion** in Abhängigkeit von der Bestellmenge und die **Lagerkostenfunktion** in Abhängigkeit von der Bestellmenge. Beide Funktionen setzen sich aus einem **fixen (nicht abhängig von der Bestellmenge)** und einem **variablen Anteil (abhängig von der Bestellmenge)** zusammen.
 
-$\text{Gesamt Kosten} = \text{BK}+ \text{LK}$
-$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
-$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{m}}{\text{q}}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
-$\frac{d\text{Gesamt Kosten(q)}}{d\text{q}}=-\text{Kosten}_\text{fB}*\frac{m}{q^2}+\frac{1}{2}*\text{Preis}*z$
-$\text{Kosten}_\text{fB}*\frac{m}{q^2}=\frac{1}{2}*p*z$
-$2\text{Kosten}_\text{fB}*\frac{m}{pz}=q^2$
-$q=\sqrt{\frac{2*\text{Kosten}_\text{fB}*m}{p*z}}$
-$q=\sqrt{\frac{200\%*\text{Kosten}_\text{fB}*m}{p*z}}$
+$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{BK}_\text{Bestellmenge}+ \text{LK}_\text{Bestellmenge}$
+$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
+$\frac{d\text{Gesamt Kosten(q)}}{d\text{q}}=-\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}+\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}=\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$2\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}=\text{Bestellmenge}^2$
+$\text{Bestellmenge}=\sqrt{\frac{2*\text{Kosten}_\text{fB}*\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}}$
+$\text{Bestellmenge}=\sqrt{\frac{200\%*\text{Kosten}_\text{fB}*\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}}$
 
 Der fixe Anteil der Beschaffungskosten sind die Materialkosten für ein Jahr, dem Produkt aus Preis und Menge an Material für ein Jahr. Der Preis ändert sich in Abhängigkeit von der Bestellmenge nicht. Der variable Anteil der Beschaffungskosten sind die gesamten Bestellkosten. Sie sind das Produkt aus den fixen Bestellkosten, die sich pro Bestellung nicht verändern, und der Anzahl der Bestellungen pro Jahr. Wenn kleine Mengen bestellt werden, dann muss häufig bestellt werden und damit steigen die gesamten Bestellkosten in diesem Jahr. Wenn große Mengen bestellt werden, dann sinken die gesamten Bestellkosten dieses Jahres.
 > 采购成本的固定部分是全年材料成本，即价格与全年材料数量的乘积。价格不随订购量的变化而改变。采购成本的可变部分是总订购成本，它是固定订购成本（每次订购不变）与全年订购次数的乘积。如果订购小批量，则需要频繁订购，从而导致当年的总订购成本增加。如果订购大批量，则当年的总订购成本会减少。
@@ -992,6 +992,24 @@ Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Ab
 3. Zu berechnen sind jeweils die optimalen Bestellmengen, die zeitliche Reichweite der Bestellung und die Anzahl der Bestellung pro Jahr.
 Für das erste Unternehmen gelten folgende Zahlen: Bestellkosten 360 €, Gesamtmenge an Produktionsmaterial 3200 Stück, Stückpreis 90 €, Lagerhaltungszinssatz 16%.
 Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesamtmenge an Produktionsmaterial 100 Stück, Stückpreis 40 €, Lagerhaltungszinssatz 10%.
+
+> | | Unternehmen 1 | Unternehmen 2 |
+> |:--:|:--:|:--:|
+> | Bestellkosten pro Bestellung (€) | 360 € | 288 € |
+> | Gesamtmenge pro Jahr (Stück) | 3200 | 100 |
+> | Stückpreis (€)| 90 € | 40 € |
+> | Lagerhaltungszinshatz | 16 % | 10 % |
+> 
+> $\text{Bestellmenge}=\sqrt{\frac{2*\text{Kosten}_\text{fB}*\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}}$
+> $\text{Bestellmenge}_1=\sqrt{\frac{2*360*3200}{90*0.16}}=400$
+> $\text{Anzahl der Bestellung}_1=\frac{\text{Menge}}{\text{Bestellmenge}}=\frac{3200}{400}=8$
+> $\text{zeitliche Reichweite einer Bestellung}_1=\frac{360}{\text{Anzahl der Bestellung}_1}=\frac{360}{8}=45$
+> 
+> $\text{Bestellmenge}_2=\sqrt{\frac{2*288*100}{40*0.1}}=120$
+> $\text{Anzahl der Bestellung}_2=\frac{\text{Menge}}{\text{Bestellmenge}}=\frac{100}{120}=\frac{5}{6}$
+> $\text{zeitliche Reichweite einer Bestellung}_2=\frac{360}{\text{Anzahl der Bestellung}_2}=\frac{360}{\frac{5}{6}}=432$
+
+
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
