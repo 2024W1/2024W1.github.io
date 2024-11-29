@@ -1032,7 +1032,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > $\because \text{Preis}=160,\text{Menge}=600$
 > $\therefore 2200 + 160*600*3\%=160*600*x \Rightarrow x=\frac{127}{2400} \approx 5.2\% $ //?
 >
-> (d) Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne und hat normalerweise eine höher Erwartung auf seinen Einkommen.
+> (d) Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne bekommt und normalerweise eine höher Erwartung auf seinen Einkommen hat.
 
 6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der *Kreditanstalt für Wiederaufbau* beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
