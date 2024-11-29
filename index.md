@@ -887,9 +887,9 @@ Modellkritik (Welche Modellprämissen werden kritisiert?)
 Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffungskostenfunktion** in Abhängigkeit von der Bestellmenge und die **Lagerkostenfunktion** in Abhängigkeit von der Bestellmenge. Beide Funktionen setzen sich aus einem **fixen (nicht abhängig von der Bestellmenge)** und einem **variablen Anteil (abhängig von der Bestellmenge)** zusammen.
 
 $\text{Gesamt Kosten}_\text{Bestellmenge} = \text{BK}_\text{Bestellmenge}+ \text{LK}_\text{Bestellmenge}$
-$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
-$\text{Gesamt Kosten}_\text{q} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}q*p*z$
-$\frac{d\text{Gesamt Kosten(q)}}{d\text{q}}=-\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}+\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\frac{d\text{Gesamt Kosten(Bestellmenge)}}{d\text{Bestellmenge}}=-\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}+\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}=\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $2\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}=\text{Bestellmenge}^2$
 $\text{Bestellmenge}=\sqrt{\frac{2*\text{Kosten}_\text{fB}*\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}}$
