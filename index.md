@@ -1009,8 +1009,6 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > $\text{Anzahl der Bestellung}_2=\frac{\text{Menge}}{\text{Bestellmenge}}=\frac{100}{120}=\frac{5}{6}$
 > $\text{zeitliche Reichweite einer Bestellung}_2=\frac{360}{\text{Anzahl der Bestellung}_2}=\frac{360}{\frac{5}{6}}=432$
 
-
-
 ## A1. Der Wirtschaftsnobelpreis 2024
 
 ### A1.1 Der Forschungsansatz
