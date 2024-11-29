@@ -1106,6 +1106,8 @@ Wie?
 
 ```mermaid
 graph TD;
+  Markt-->Monopol;
+  Markt-->Polypol;
 ```
 
 ## A1. Der Wirtschaftsnobelpreis 2024
