@@ -1006,8 +1006,9 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > $\text{zeitliche Reichweite einer Bestellung}_1=\frac{360}{\text{Anzahl der Bestellung}_1}=\frac{360}{8}=45$
 > 
 > $\text{Bestellmenge}_2=\sqrt{\frac{2*288*100}{40*0.1}}=120$
-> $\text{Anzahl der Bestellung}_2=\frac{\text{Menge}}{\text{Bestellmenge}}=\frac{100}{120}=\frac{5}{6}$
-> $\text{zeitliche Reichweite einer Bestellung}_2=\frac{360}{\text{Anzahl der Bestellung}_2}=\frac{360}{\frac{5}{6}}=432$
+> $\text{Anzahl der Bestellung}_2=\frac{\text{Menge}}{\text{Bestellmenge}}=\frac{100}{120}=\frac{5}{6}=0,83$
+> $\text{zeitliche Reichweite einer Bestellung}_2=\frac{360}{\text{Anzahl der Bestellung}_2}=\frac{360}{\frac{5}{6}}=433,73$
+> Antwortsatz. Die optimalen Bestellmengen von Unternehmen 1 ist 400 Stücke und die zeitliche Reichweite der Bestellung sowie die Anzahl der Bestellung pro Jahr sind 45 und 8. Die optimalen Bestellmengen von Unternehmen 2 ist 120 Stücke und die zeitliche Reichweite der Bestellung sowie die Anzahl der Bestellung pro Jahr sind 433,73 und 0,83.
 
 4. Zur Harris-Andler-Formel: Das Minimum der Gesamtkostenfunktion liegt normalerweise nicht bei der Menge, bei der sich die Beschaffungskostenfunktion und die Lagerkostenfunktion schneiden. Warum nicht?
 
@@ -1021,18 +1022,19 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 
 > (a) $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}*3\%= 2200 + 600 * 160 = 5080 \text{€}$
 > $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*14\%=14\% * 600 * 160 = 13440 \text{€} > 5080\text{€}$
-> Deshalb sollte der Marketingleiter einen Handelsvertreter mit dem Vertrieb beauftragen.
+> Antwortsatz. Deshalb sollte der Marketingleiter einen Handelsvertreter mit dem Vertrieb beauftragen.
 >
 > (b) $\text{Kost}_\text{Reisende}=\text{Kost}_\text{Handelsvertreter} \Rightarrow 2200+3\% * \text{Menge} * 160 = 14\% * \text{Menge} * 160 $
 > $\Rightarrow x=125$
-> Wenn beiden verkaufen 125 Stücke, verdienen sie gleich.
+> Antwortsatz. Wenn beiden verkaufen 125 Stücke, verdienen sie gleich.
 >
 > (c)  $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}* \text{Umsatzprovision} $
 > $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*\text{Umsatzprovision}$
 > $\because \text{Preis}=160,\text{Menge}=600$
 > $\therefore 2200 + 160*600*3\%=160*600*x \Rightarrow x=\frac{127}{2400} \approx 5.2\% $ //?
+> Antwortsatz. Die Umsatzprovision des Handelsvertreter sollte ungefähr 5,2% sein.
 >
-> (d) Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne bekommt und normalerweise eine höher Erwartung auf seinen Einkommen hat.
+> (d) Antwortsatz. Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne bekommt und normalerweise eine höher Erwartung auf seinen Einkommen hat.
 
 6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der *Kreditanstalt für Wiederaufbau* beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
