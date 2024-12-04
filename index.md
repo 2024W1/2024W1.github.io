@@ -888,7 +888,7 @@ Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffu
 
 $\text{Gesamt Kosten}_\text{Bestellmenge} = \text{BK}_\text{Bestellmenge}+ \text{LK}_\text{Bestellmenge}$
 $\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
-$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$$$
 $\frac{d\text{Gesamt Kosten(Bestellmenge)}}{d\text{Bestellmenge}}=-\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}+\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}=\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $2\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}=\text{Bestellmenge}^2$
