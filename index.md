@@ -979,15 +979,15 @@ Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Ab
 
 > ||BWL|VWL|
 > |:--:|:--:|:--:|
-> |Ziel|Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die konkrete Unterstützung der Entscheidungsprozesse in Unternehmen. |?|
-> |Gegenstand|||
+> |Ziel|Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die konkrete Unterstützung der Entscheidungsprozesse in Unternehmen. |Sie untersucht damit gesamtwirtschaftliche Zusammenhänge, d.h. das Zusammenspiel von maximal vier hoch aggregierten Märkten (Arbeitsmarkt, Gütermarkt, Geldmarkt und Kapitalmarkt) innerhalb eines administrativ entstandenen Wirtschaftsraumes, meist eines Landes.|
+> |Gegenstand|Unternehmen|Länder|
 > |Modelle|BCG-Matrix, Die Optimal Bestellung, Das Handelsvertreter-Reisender-Problem(4P)|Das neoklassische Synthesemodell(in Mikroökonomie), erweiterten Wirtschaftskreislauf|
 > |Geschichte|nicht lang als ein Fach, aber lang existiert|nicht lang existiert, aber länger als ein Fach als BWL|
-> 
+> |Sicht auf das Unternehmen|"black box"(Als eine Einheit)| Die Betriebswirtschaftslehre konzentriert sich auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme.|
 
 2. Lesen Sie die Studienangebote der Universität Leipzig zum Bachelor- und Masterstudium bzw. zum Diplomstudium auf dem Gebiet der Wirtschaftswissenschaften. Formulieren Sie ein Ziel für Ihr Studium und kombinieren Sie dazu einen möglichen Weg an der Universität Leipzig. (Sie verpflichten sich mit der Hausaufgabe nicht, an der Universität Leipzig zu studieren. Diese Übung soll als Beispiel verstanden werden.)
 
->
+> Keine Ahnung
 
 3. Zu berechnen sind jeweils die optimalen Bestellmengen, die zeitliche Reichweite der Bestellung und die Anzahl der Bestellung pro Jahr.
 Für das erste Unternehmen gelten folgende Zahlen: Bestellkosten 360 €, Gesamtmenge an Produktionsmaterial 3200 Stück, Stückpreis 90 €, Lagerhaltungszinssatz 16%.
@@ -1040,7 +1040,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 
 > (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}$ // Hier gibt es aber kein Miete oder Energieaufwand.
 > 
-> |Anteil des Finanzierungsbedarfs(AV+)|Preis(€)|
+> |Anteil des Finanzierungsbedarfs(AV+Eiseren Bestand)|Preis(€)|
 > |:--:|:--:|
 > |Brauanlage|$40.000$|
 > |Verpackungsanlage|$10.000$|
