@@ -937,17 +937,17 @@ Beträge in €)
 |nach dem 6.Jahr|$15000$|$1$|$11025$|$1$|
 
 Linear:
-$$
+$
 \left\{
 \begin{aligned}
 y &= 90000-15000x \space (x \in [0,6)) \\
 y &= 1 \space (x = 6)
 \end{aligned}
 \right.
-$$
+$
 ![ ](./assets/pictures/截屏2024-11-28%2014.30.12.png)
 Geometrischer:
-$$
+$
 \left\{
 \begin{aligned}
 y &= 90000 * (1-30\%)^x \space (x \in [0,3)) \\
@@ -955,7 +955,7 @@ y &= 33075-11025x \space (x \in [3,6)) \\
 y &= 1 \space (x = 6)
 \end{aligned}
 \right.
-$$
+$
 ![ ](./assets/pictures/截屏2024-11-29%2003.48.17.png)
 
 > Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) fallend in der Intervalle $[0,3)$ ?
