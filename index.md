@@ -968,6 +968,92 @@ $
 > $\text{p}(\text{m}_\text{A}) = \frac{1}{0,1}\text{m}_\text{A}$
 > $30-\text{m}_\text{N}=\frac{1}{0,1}\text{m}_\text{A} \Rightarrow \text{m}_\text{gg}=2,73;\text{p}_\text{gg}=27,27;\text{m}_\text{v}=74,44$
 
+$\text{(d) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
+\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\end{aligned}
+\right.
+$
+
+$\text{(e) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
+\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\end{aligned}
+\right.
+$
+
+$\text{(f) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
+\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\end{aligned}
+\right.
+$
+
+$\text{(g) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
+\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\end{aligned}
+\right.
+$
+
+## 9. Die Produktionsfunktion
+
+### 9.1 Die Produktion
+
+Die Herstellung von Gütern erfordert den Einsatz von **Produktionsfaktoren** (Synonyme: Input, Inputmenge, Faktoren, Faktoreinsatz, Faktoreinsatzmenge, Inputfaktoren, Ressourcen, Produktionsgüter). Im Modell werden die Produktions Faktoren Arbeit, Boden und Kapital (VWL) bzw. Arbeit, Betriebsmittel und Werkstoffe (BWL) in der Weise planmäßig kombiniert, dass ein Output entsteht. Den Prozess der Umwandlung von Produktionsfaktoren in Güter nennt man **Produktion** (Synonyme: Technologie, Throughput usw.), das Ergebnis nennt man **der oder das Output** (Es existieren sehr viele Synonyme: Ausbringung, Ausbringungsmenge, Outputmenge, Produktionsmenge, betriebliche Leistungserstellung, Beschäftigung, Produktionsergebnis usw.)
+> 生产商品需要使用**生产要素**。在模型中，生产要素包括劳动、土地和资本（国民经济学）或劳动、生产设备和原材料（企业经济学），这些要素以计划的方式结合，从而产生产出。将生产要素转化为商品的过程被称为**生产**，其结果被称为**产出**（存在很多同义词：产出、产出量、输出量、生产量、企业绩效创造、就业、生产结果等）。
+
+Der Begriff „Produktion" kann ebenso wie andere Basisbegriffe der Wirtschaftswissenschaften unterschiedlich definiert werden. In der Mikroökonomik wird der Begriff sehr weit gefasst. **Produktion** umfasst hier alle menschlichen Tätigkeiten von der Rohstoffgewinnung über die Be- und Verarbeitung bis hin zur Verteilung der knappen Güter. Nur die Konsumtion, der Verbrauch der Güter, gehört nicht mehr dazu.
+> "生产"这个概念，就像经济学中的其他基本概念一样，可以有不同的定义。在微观经济学中，这个概念的定义非常广泛。在这里，**生产**包括从原材料开采、加工和处理，直到稀缺商品的分配的所有人类活动。只有消费，即商品的使用，不属于生产的范畴。
+
+Beispiele:
+> 例如:
+
+- Landwirtschaftlicher Betrieb: Das Zusammenwirken von Boden als Anbauboden, Arbeit des Landwirtes und Kapital (Landmaschinen, Saatgut) ergibt eine bestimmt Menge Weizen.
+- Papierfabrik: Die Kombination von Boden als Standortboden, Arbeit der Arbeitnehmer und Kapital (Maschinen, Werkstoffe) ergibt eine bestimmte Menge Papier.
+- Universität: Das Zusammenwirken der Leistungen des Professors, Wissen aus Büchern und anderen Medien, Zeit, einem realen oder virtuellen Ort führt zu einem gebildeten Studenten.
+
+> - 农业经营：土地作为耕地、农民的劳动和资本（农业机械、种子）的结合产生一定数量的小麦。
+> - 造纸厂：土地作为厂址、工人的劳动和资本（机器、原材料）的组合产生一定数量的纸张。
+> - 大学：教授的授课、来自书籍和其他媒体的知识、时间、以及实体或虚拟场所的共同作用，最终培养出一个受过教育的学生。
+
+Zur wissenschaftlichen Beschreibung der Produktion wurde das Modell der Produktionsfunktionen entwickelt.
+> 为了科学地描述生产过程，生产函数模型被开发出来。
+
+### 9.2 Die Produktionsfaktoren in der VWL und in der BWL
+
+#### 9.2.1 Die Klassifikation der Produktionsfaktoren aus der Sicht der VWL
+
+Schreiben Sie Produktionsfaktoren, die notwendig sind, um ein Brot zu produzieren.
+> 请列出生产一个面包所需的生产要素。
+
+Der Blick der VWL auf die Produktionsfaktoren ist etwas anders als der Blick der BWL. Daraus ergeben sich andere Klassifikationsbedürfnisse.
+> 国民经济学（VWL）和企业经济学（BWL）对生产要素的看法有所不同。这导致了不同的分类需求。
+
+Unter Produktionsfaktoren versteht man alle materiellen und immateriellen Güter und Leistungen, die zur Produktion von Gütern eingesetzt werden. Es kann vorkommen, dass auch ungewünschte Produktionsfaktoren („Bads") in Produktionsprozesse eingehen, diese werden aber aus der Definition der Faktoren ausgeschlossen.
+> 生产要素是指所有用于生产商品的物质和非物质商品及服务。在生产过程中，也可能会涉及一些不受欢迎的生产要素（“?我真不知道中文咋翻这个”），但这些因素被排除在生产要素的定义之外。
+
+Auf die Klassiker der Volkswirtschaftslehre, Adam Smith und insbesondere David Ricardo geht die Einteilung der Produktionsfaktoren in Arbeit, Boden und Kapital zurück. In neueren Publikationen wird als vierter volkswirtschaftlicher Produktionsfaktor das Wissen erwähnt, das unabhängig vom Faktor Arbeit existieren kann (im Extremfall existieren Patente oder Bücher auch, wenn keine Menschen existieren). Aufgrund der wachsenden Bedeutung des Faktors betrachtet man auch die Energie als neuen fünften Produktionsfaktor.
+> 生产要素的分类可以追溯到古典经济学的奠基人亚当·斯密，尤其是大卫·李嘉图，他们将生产要素划分为劳动、土地和资本。在较新的文献中，知识被提到作为第四种国民经济学的生产要素，它可以独立于劳动而存在（例如，在极端情况下，即使没有人类存在，专利或书籍也可以存在）。由于这一要素的重要性日益增加，能源也被视为第五种新的生产要素。
+
+Der Faktor **Arbeit** ist gebunden an die Existenz des Menschen. Definiert wird sie als Einsatz der körperlichen und geistigen Fähigkeiten des Menschen mit dem Ziel, Einkommen zu erzielen. Die Produktion von Gütern, die der Bedürfnisbefriedigung dienen, nimmt zwar ihren Ausgang bei Rohstoffen, die der Natur entnommen sind, die Natur bietet jedoch nur in einem eingeschränkten Maße gebrauchsfertige Güter, zumeist bietet sie nur Rohstoffe oder Energie-quellen. Zur Erstellung der Güter muss menschliche Arbeitskraft aufgewandt werden. Arbeit im volkswirtschaftlichen Sinne ist homogen, das heißt, es wird nicht unterschieden zwischen verschiedenen Arten der Arbeit. Sie erfolgt außerdem ausschließlich zum Zweck der Einkommenserzielung, die Tätigkeit z.B. einer Person, die ihre Wohnung renoviert oder Essen für ihre Familie kocht ist im volkswirtschaftlichen Sinne keine Arbeit.
+
+Die Klassifikation entstand in einer Zeit, in der die landwirtschaftliche Produktion eine hohe Bedeutung hatte, deshalb stand der Faktor **Boden** im Mittelpunkt der Betrachtung. Erste wissenschaftliche Darstellungen bezogen sich also auf den Produktionsfaktor Ackerboden (Boden als **Anbauboden**). Die wissenschaftliche Analyse wurde anschließend auf die Nutzung des Bodens in seiner Funktion als Rohstofflager (Boden als Abbaufläche oder Abbauboden) erweitert. Zum Produktionsfaktor Boden zählten nun auch Güter, die dem Boden entnommen werden konnten, also Bodenschätze. Während der Industrialisierung war die Produktion nicht mehr an eine bestimmte Bodenfläche gebunden, sondern gewann als Lage- oder Standortfaktor (Boden als Standortfaktor oder Standortboden) an Bedeutung. Als man hauptsächlich Wasserkraft zur Energiegewinnung nutzte, waren die Nutzungsrechte an einem Fluss von entscheidender Bedeutung. Heute werden verschiedene Energiequellen genutzt, eine höhere Bedeutung für die Lage eines Unternehmens hat heute z.B. die Nähe zu den Rohstoffquellen, die Nähe zu qualifizierten oder besonders billigen Arbeitskräften oder die Nähe zu einem Markt. Aufgrund des veränderten Einsatzes des Faktors Boden wurden die anderen Produktionsfaktoren im Laufe der industriellen Entwicklung zunehmend mobil. Aufgrund der Verknappung ursprünglich freier Produktionsmittel wie sauberer Luft oder sauberem Wasser musste der Produktionsfaktor Boden zum Produktionsfaktor Natur oder Umwelt erweitert werden.
+
+Eine besondere Rolle spielt der Produktionsfaktor **Kapital**. Er ist, wenn man den einfachen Wirtschaftskreislauf als Modell aufgibt, der Teil des Produktionsergebnisses früherer Perioden, der die Grundlage der Produktion der gegenwärtigen Periode bildet. Kapital entsteht in der volkswirtschaftlichen Theorie aus der Kombination der zwei originären Faktoren Arbeit und Boden und wird deshalb als derivativer Faktor bezeichnet. Kapital kann einerseits als **Sach- bzw. Realkapital**, andererseits als **Geld- bzw. Finanzkapital** auftreten. Zum Sachkapital zählen bereits existierende Produktionsmittel, wie etwa Gebäude, Maschinen, Fahrzeuge, Werkzeuge usw. Grundlegende klassische und neoklassische Theorien sind güterwirtschaftliche Theorien, die den Tauschvorgang Gut gegen Gut analysieren, deshalb wird das Kapital in seiner Form als Geld- oder Finanzkapital in den Basismodellen meist vernachlässigt. Es birgt lediglich die Möglichkeit der Umwandlung in Realkapital.
+
+Die Produktionsfaktoren in der Volkswirtschaftslehre sind, da hoch aggregierte Zusammenhänge in relativ langen Zeiträumen betrachtet werden, zumindest in Grenzen substituierbar.
+
+Hauptsächlich wird der Einsatz des Faktors Arbeit in Kombination mit dem Faktor Kapital analysiert und z.B. nachgewiesen, dass die Bildung von Kapital die Produktivität des Faktors Arbeit erhöhen kann.
+
 ## A1. Der Wirtschaftsnobelpreis 2024
 
 ### A1.1 Der Forschungsansatz
