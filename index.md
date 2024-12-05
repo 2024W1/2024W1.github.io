@@ -888,7 +888,8 @@ Bei der Beschaffung gibt es zwei gegenläufige Kostenfunktionen, die **Beschaffu
 
 $\text{Gesamt Kosten}_\text{Bestellmenge} = \text{BK}_\text{Bestellmenge}+ \text{LK}_\text{Bestellmenge}$
 $\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\text{n}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
-$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$$$
+$\text{Gesamt Kosten}_\text{Bestellmenge} = \text{Menge}* \text{Preis}+\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}}+\text{Kosten}_\text{fL}+\frac{1}{2}*\text{Bestellmenge}*\text{Preis}*\text{Lagerhaltungszinshatz}$
+
 $\frac{d\text{Gesamt Kosten(Bestellmenge)}}{d\text{Bestellmenge}}=-\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}+\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Bestellmenge}^2}=\frac{1}{2}*\text{Preis}*\text{Lagerhaltungszinshatz}$
 $2\text{Kosten}_\text{fB}*\frac{\text{Menge}}{\text{Preis}*\text{Lagerhaltungszinshatz}}=\text{Bestellmenge}^2$
@@ -981,8 +982,8 @@ Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Ab
 > |:--:|:--:|:--:|
 > |Ziel|Ziele der `BWL` sind nicht nur die Beschreibung und Erklärung, sondern auch die konkrete Unterstützung der Entscheidungsprozesse in Unternehmen. |Sie untersucht damit gesamtwirtschaftliche Zusammenhänge, d.h. das Zusammenspiel von maximal vier hoch aggregierten Märkten (Arbeitsmarkt, Gütermarkt, Geldmarkt und Kapitalmarkt) innerhalb eines administrativ entstandenen Wirtschaftsraumes, meist eines Landes.|
 > |Gegenstand|Unternehmen|Länder|
-> |Modelle|BCG-Matrix, Die Optimal Bestellung, Das Handelsvertreter-Reisender-Problem(4P)|Das neoklassische Synthesemodell(in Mikroökonomie), erweiterten Wirtschaftskreislauf|
-> |Geschichte|nicht lang als ein Fach, aber lang existiert|nicht lang existiert, aber länger als ein Fach als BWL|
+> |Modelle|BCG-Matrix, Die Optimal Bestellung, Das Handelsvertreter-Reisender-Problem(4P)|das neoklassische Synthesemodell(in Mikroökonomie), erweiterten Wirtschaftskreislauf|
+> |Geschichte|nicht lang als ein Fach, aber schon lange existiert|nicht lang existiert, aber länger als ein Fach als BWL|
 > |Sicht auf das Unternehmen|"black box"(Als eine Einheit)| Die Betriebswirtschaftslehre konzentriert sich auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme.|
 
 2. Lesen Sie die Studienangebote der Universität Leipzig zum Bachelor- und Masterstudium bzw. zum Diplomstudium auf dem Gebiet der Wirtschaftswissenschaften. Formulieren Sie ein Ziel für Ihr Studium und kombinieren Sie dazu einen möglichen Weg an der Universität Leipzig. (Sie verpflichten sich mit der Hausaufgabe nicht, an der Universität Leipzig zu studieren. Diese Übung soll als Beispiel verstanden werden.)
@@ -1012,7 +1013,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 
 4. Zur Harris-Andler-Formel: Das Minimum der Gesamtkostenfunktion liegt normalerweise nicht bei der Menge, bei der sich die Beschaffungskostenfunktion und die Lagerkostenfunktion schneiden. Warum nicht?
 
-> Die Bestellkostenkurve fällt hyperbolisch ab, da bei größeren Bestellmengen seltener bestellt werden muss. Und gleichzeitig steigt die Lagerkostenkurve linear an, da bei größeren Bestellmengen mehr Waren gelagert werden müssen. Die gesamte Kosten ist die Summe dieser zwei Kurven.
+> Antwortsatz. Die Bestellkostenkurve fällt hyperbolisch ab, da bei größeren Bestellmengen seltener bestellt werden muss. Und gleichzeitig steigt die Lagerkostenkurve linear an, da bei größeren Bestellmengen mehr Waren gelagert werden müssen. Die gesamte Kosten ist die Summe dieser zwei Kurven.
 
 5. Der Reisende einer Firma erhält für den Vertrieb von neuartigen kleinen Staubsaugern ein Fixum von 2200 € im Monat und eine Verkaufsprovision von 3% vom Umsatz. Für den Vertrieb durch einen Handelsvertreter müsste man diesem eine Umsatzprovision von 14% bezahlen. Der Verkaufspreis des Staubsaugers beträgt 160 € und der Manager geht von einem Absatz von 600 Stück im Monat aus.
 (a) Sollte der Marketingleiter einen Reisenden oder einen Handelsvertreter mit dem Vertrieb beauftragen?
@@ -1040,7 +1041,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
 (b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in (a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
-> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}$ // Hier gibt es aber kein Miete oder Energieaufwand.
+> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{AV}+\text{eisernen Bestand}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}$ // Hier gibt es aber kein Miete oder Energieaufwand.
 > 
 > |Anteil des Finanzierungsbedarfs(AV+Eiseren Bestand)|Preis(€)|
 > |:--:|:--:|
