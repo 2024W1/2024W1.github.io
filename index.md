@@ -929,7 +929,44 @@ graph TD;
 |**Wenig**|Oligopson|zweiseitiges Oligopol|beschränktes Monopson|
 |**Ein**|Monopson|beschränktes Monopson|Monopol|
 
+$\text{(a) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= -\frac{1}{2}\text{p} + 350 \\
+\text{m}_\text{A}(\text{p}) &= 2\text{p} -250
+\end{aligned}
+\right.
+$
 
+> $\text{\text{p}}_\text{N}(m)=-2\text{m}+700$
+> $\text{\text{p}}_\text{A}(m)=-\frac{1}{2}\text{m}_\text{A}+125$
+> $-2\text{m}+700=-\frac{1}{2}\text{m}_\text{A}+125 \Rightarrow \text{m}_\text{gg}=230,\text{p}_\text{gg}=240,\text{m}_\text{v}=55200$
+
+$\text{(b) }
+\left\{
+\begin{aligned}
+\text{m}_\text{A}(\text{p}) &= \text{p} - 20 \\
+\text{p}(\text{m}_\text{N}) &= -\frac{1}{2}\text{m}_\text{N} +400
+\end{aligned}
+\right.
+$
+
+> $\text{p}(\text{m}_\text{A})=\text{m}_\text{A}+20$
+> $\text{p}(\text{m}_\text{N}) = -\frac{1}{2}\text{m}_\text{N} +400$
+> $\text{m}_\text{A}+20=-\frac{1}{2}\text{m}_\text{N} +400 \Rightarrow \text{m}_\text{gg}=253,33;\text{p}_\text{gg}=273,33;\text{m}_\text{v}=69242,68$
+
+$\text{(c) }
+\left\{
+\begin{aligned}
+\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
+\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\end{aligned}
+\right.
+$
+
+> $\text{p}_\text{N}=30-\text{m}_\text{N}$
+> $\text{p}(\text{m}_\text{A}) = \frac{1}{0,1}\text{m}_\text{A}$
+> $30-\text{m}_\text{N}=\frac{1}{0,1}\text{m}_\text{A} \Rightarrow \text{m}_\text{gg}=2,73;\text{p}_\text{gg}=27,27;\text{m}_\text{v}=74,44$
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
