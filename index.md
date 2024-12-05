@@ -599,6 +599,8 @@ Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheor
 > 11. 在存储期间没有损失（没有变质的库存货物、没有被盗等）。
 > 12. 企业的库存容量和流动资金是无限大的。
 
+
+
 Modellkritik (Welche Modellprämissen werden kritisiert?)
 
 1. Das Verbrauchsverhalten ist nicht linear. (Prämisse 10)
@@ -810,20 +812,18 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 
 > ||Aktiva|||Passiva||
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> |AV|Brauanlage|$40.000 \text{ €}$||||
+> |**AV**|Brauanlage|$40.000 \text{ €}$|**EK**||$677900-300000=377.400\text{ €}$|
 > ||Verpackungsanlage BGA|$10.000 \text{ €}$ ||||
 > ||Betriebs- und Geschäftsausstattung|$75.000 \text{ €}$||||
 > ||Produktionsgebäude|$450.000 \text{ €}$||||
 > ||Lieferfahrzeug|$70.000 \text{ €}$||||
-> |UV|Miete für ein kleines Restaurant|$8.000 \text{ €/Monat}*\frac{49}{30}=$||||
-> ||Personalaufwand|$9.000 \text{ €/Monat}*\frac{49}{30}=$|FK|Kredit(Verbindlichkeiten)|$300.000 \text{ €}$|
-> ||Materialkosten|$27.000 \text{ €/Monat}*\frac{49}{30}=$||||
-> ||Energieaufwand|$200 \text{ €/Tag}*49=$||||
-> ||eisernen Bestand|$5.400 \text{ €}$||||
+> |**UV**|RHB(Materialkosten und eisern Bestand)|$27.000 \text{ €/Monat}*(1+20\%)=32400\text{ €}$|**FK**|Kredit(Verbindlichkeiten)|$300.000 \text{ €}$|
+> |Summe||$677.400\text{ €}$|Summe||$677.400\text{ €}$|
 
-1. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
 
-> ||Linear Abschreibungsbetrag|Buchwert|Geometrischer Abschreibung|Buchwert|
+7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+
+> ||Linear Abschreibungsbetrag (€) |Buchwert (€) |Geometrischer Abschreibung (€) |Buchwert (€) |
 > |:--:|:--:|:--:|:--:|:--:|
 > |Anschaffungskosten||$49000$||$49000$|
 > |nach dem 1.Jahr|$49000 \div 7 =7000$|$49000-7000=42000$|$49000*32\%=15680$|$49000-15680=33320$|
