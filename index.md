@@ -929,6 +929,8 @@ graph TD;
 |**Wenig**|Oligopson|zweiseitiges Oligopol|beschränktes Monopson|
 |**Ein**|Monopson|beschränktes Monopson|Monopol|
 
+
+
 ## A1. Der Wirtschaftsnobelpreis 2024
 
 ### A1.1 Der Forschungsansatz
