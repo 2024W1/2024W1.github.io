@@ -984,7 +984,12 @@ Die Abschreibungsbeträge der linearen Abschreibung bleiben immer gleich. Die Ab
 > |Gegenstand|Unternehmen|Länder|
 > |Modelle|BCG-Matrix, Die Optimal Bestellung, Das Handelsvertreter-Reisender-Problem(4P)|das neoklassische Synthesemodell(in Mikroökonomie), erweiterten Wirtschaftskreislauf|
 > |Geschichte|nicht lang als ein Fach, aber schon lange existiert|nicht lang existiert, aber länger als ein Fach als BWL|
-> |Sicht auf das Unternehmen|"black box"(Als eine Einheit)| Die Betriebswirtschaftslehre konzentriert sich auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme.|
+> |Sicht auf das Unternehmen| Die Betriebswirtschaftslehre konzentriert sich auf die Strukturen und Vorgänge innerhalb des Unternehmens und beurteilt die Beziehungen zu anderen Wirtschaftsobjekten aus der Sicht des Unternehmens bzw. des Unternehmers. Es existieren allerdings nach wie vor Definitionsprobleme.|"black box"(Als eine Einheit)|
+>
+> Warum ABWL studieren:
+> 
+>   - Die Mehrheit der Firmen produziert Produkte.
+>   - Die wichtige Modelle sind in der Anteil der ABWL.
 
 2. Lesen Sie die Studienangebote der Universität Leipzig zum Bachelor- und Masterstudium bzw. zum Diplomstudium auf dem Gebiet der Wirtschaftswissenschaften. Formulieren Sie ein Ziel für Ihr Studium und kombinieren Sie dazu einen möglichen Weg an der Universität Leipzig. (Sie verpflichten sich mit der Hausaufgabe nicht, an der Universität Leipzig zu studieren. Diese Übung soll als Beispiel verstanden werden.)
 
@@ -1032,16 +1037,16 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > (c)  $\text{Kost}_\text{Reisende}=\text{Kosten}_\text{fix}+\text{Preis}*\text{Menge}* \text{Umsatzprovision} $
 > $\text{Kost}_\text{Handelsvertreter}=\text{Preis}*\text{Menge}*\text{Umsatzprovision}$
 > $\because \text{Preis}=160,\text{Menge}=600$
-> $\therefore 2200 + 160*600*3\%=160*600*x \Rightarrow x=\frac{127}{2400} \approx 5.2\% $ //?
+> $\therefore 2200 + 160*600*3\%=160*600*x \Rightarrow x=\frac{127}{2400} \approx 5.2\% $
 > Antwortsatz. Die Umsatzprovision des Handelsvertreter sollte ungefähr 5,2% sein.
 >
-> (d) Antwortsatz. Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne bekommt und normalerweise eine höher Erwartung auf seinen Einkommen hat.
+> (d) Antwortsatz. Nicht so einfach, weil der Handelsvertreter hat kein fixe Löhne bekommt und normalerweise eine höher Erwartung auf seinen Einkommen hat und in diesem Fall soll der Handelsvertreter die Risiken selbst nehmen.
 
 6. Ein Bierbrauer plant eine Betriebsgründung und möchte einen Kredit bei der *Kreditanstalt für Wiederaufbau* beantragen. Dafür muss er einen Finanzierungsplan erstellen. In seine Betrachtung bezieht er folgende Kosten / Aufwände ein: Brauanlage 40.000 €, Verpackungsanlage 10.000 € (BGA), Miete für ein kleines Restaurant 8.000 €/Monat, Personalaufwand 9.000 €/Monat, Materialkosten 27.000 €/Monat, davon plant er einmalig zusätzlich 20% für den Aufbau eines eisernen Bestandes ein, Betriebs- und Geschäftsausstattung (ohne die Verpackungsanlage) 75.000 €, Energieaufwand 200 €/Tag, Produktionsgebäude 450.000 €, Lieferfahrzeug 70.000 €. Der Bierbrauer rechnet mit einer Produktionszeit von 10 Tagen, mit einer durchschnittlichen Lagerdauer der fertigen Biere von 25 Tagen und mit einem durchschnittlichen Zahlungsziel von 14 Tagen.
 (a) Berechnen Sie den Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens bis zu dem Zeitpunkt, an dem das Unternehmen wieder liquide ist.
 (b) Schreiben Sie eine Bilanz. Der Bilanzstichtag soll der Zeitpunkt sein, an dem die Bank einen Kredit von 300 000 € ausgezahlt hat, alle Anlagegüter und Faktoren des Finanzplanes in (a) bezahlt sind und keine Liquiditätsreserve mehr vorhanden ist.
 
-> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{AV}+\text{eisernen Bestand}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}$ // Hier gibt es aber kein Miete oder Energieaufwand.
+> (a) $\text{Finanzierungsbedarf}_\text{Bierbrauer}=\text{AV}+\text{eisernen Bestand}+\text{Kosten}=\text{Brauanlage}+\text{Verpackungsanlage}+\text{Betriebs- und Geschäftsausstattung}+\text{Produktionsgebäude}+\text{Lieferfahrzeug} + \text{eisernen Bestand}+\text{Kosten}$ // Hier gibt es aber kein Miete oder Energieaufwand.
 > 
 > |Anteil des Finanzierungsbedarfs(AV+Eiseren Bestand)|Preis(€)|
 > |:--:|:--:|
@@ -1051,9 +1056,22 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > |Produktionsgebäude|$450.000$|
 > |Lieferfahrzeug|$70.000$|
 > |Aufbau eines eisernen Bestandes|$20\%*27.000=5.400$|
-> |Summe(Finanzierungsbedarf)|$650.400$|
+> |Summe|$650.400$|
+>
+> |Kosten|Preis(€/Monat)|
+> |:---:|:---:|
+> |Miete für Restaurant|$8.000$|
+> |Personalaufwand|$9.000$|
+> |Materialkosten|$27.000$|
+> |Energieaufwand|$200*30=6000$|
+> |Gesamt|$50000$|
+>
+> $\text{Zeit}=\text{Produktionszeit}+\text{Lagerdauer}+\text{Zahlungszeit}=10+25+14=49$
+> $\text{Kost}=\text{gesamte Kosten pro Monat}*30/\text{Zeit}=81666,67$
+>
+> $\text{Finanzierung}=\text{Summe}+\text{Kosten}=650.400+81.666,67=732066,67$
 > 
-> Antwortsatz. Der Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens ist 650.400 €.
+> Antwortsatz. Der Finanzierungsbedarf des Bierbrauers für die Gründung des Unternehmens ist 732066,67 €.
 
 > ||Aktiva|||Passiva||
 > |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1068,7 +1086,7 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > ||Energieaufwand|200 €/Tag||||
 > ||eisernen Bestand|5.400 €||||
 
-7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
+1. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
 
 > ||Linear Abschreibungsbetrag|Buchwert|Geometrischer Abschreibung|Buchwert|
 > |:--:|:--:|:--:|:--:|:--:|
