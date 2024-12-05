@@ -4,274 +4,6 @@
 
 > # 经济学(预科版)
 
-## 0. Einleitung
-
-### 0.1 Inhalt für den 1. Semester
-
-1. Gegenstand der Wirtschaftswissenschaften, Güterklassifikation
-
-   > 经济学的研究对象，商品分类
-   >
-2. Modelltheorie: Wirtschaftsmodelle
-
-   > 模型理论：经济模型
-   >
-
-   - Modelltheorie
-
-   > - 模型理论
-   >
-
-   - *Homo oeconomicus*
-
-   > - 经济人
-   >
-
-   - Wirtschaftskreislauf
-
-   > - 经济循环
-   >
-
-   - Funktionale Zusammenhänge
-
-   > - 功能关系
-   >
-3. Modelltheorie: Kennzahlen
-
-   > 模型理论：指标
-   >
-4. Die VWL
-
-   > 国民经济学
-   >
-
-   - Gliederung
-
-     > 分支
-     >
-   - Geschichte
-
-     > 历史
-     >
-   - Mikroökonomik
-
-     > 微观经济学
-     >
-   - Makroökonomik
-
-     > 宏观经济学
-     >
-5. Die BWL
-
-   > 企业经济学
-   >
-
-   - Geschichte
-
-   > - 历史
-   >
-
-   - Gliederung ABWL, SBWL
-
-   > - 一般企业经济学，专门企业经济学的结构
-   >
-
-   - Analysegegenstände ausgewählter funktionaler SBWL, z.B. BCG-Matrix, Harris-Andler-Formel, das Reisender-Handelsvertreter-Problem, Finanzplan bei einer Unternehmensgründung, Vergleich lineare-geometrische Abschreibung
-
-   > - 选定的功能性专门企业经济学的分析对象，例如BCG矩阵、Harris-Andler公式……
-   >
-6. Arbeitsteilung
-
-   > 分工
-   >
-
-   - Klassifikation nach Karl Bücher
-
-     > 根据卡尔·比歇的分类
-     >
-   - Arbeitsteilung im Unternehmen (Adam Smith)
-
-     > 企业内的分工（亚当·斯密）
-     >
-   - Arbeitsteilung in der Volkswirtschaft (Jean Fourastie)
-
-     > 国民经济中的分工（让·富拉斯蒂耶）
-     >
-   - Arbeitsteilung zwischen den Volkswirtschaften (absoluter und komparativer Kostenvorteil nach Smith, Ricardo)
-
-     > 各国经济间的分工（根据斯密和李嘉图的绝对与比较成本优势）
-     >
-7. Markt
-
-   > 市场
-   >
-
-   - Marktklassifikation, insbesondere Marktformen nach der Zahl der Marktteilnehmer
-
-     > 市场分类，特别是根据市场参与者数量的市场形式
-     >
-   - Prämissen des vollkommenen Marktes
-
-     > 完全市场的前提
-     >
-   - Marktgleichgewicht
-
-     > 市场均衡
-     >
-   - Funktionen des Preises
-
-     > 价格功能
-     >
-8. Geld
-
-   > 货币
-   >
-
-#### 0.1 词汇表
-
-| 德文术语                                                                     | 词性 | 复数形式 | 中文翻译   | 解释/备注                        |
-| ---------------------------------------------------------------------------- | ---- | -------- | ---------- | -------------------------------- |
-| Wirtschaftswissenschaften | f    | -        | 经济学     | -                                |
-| Güterklassifikation           | f    | -en      | 商品分类   | 对商品进行分类的方法。           |
-| Modelltheorie                                                                | f    | -n       | 模型理论   | -                                |
-| Wirtschaftskreislauf                                                         | m    | -läufe  | 经济循环   | -                                |
-| Kennzahlen                                                                   | f    | -        | 指标       | 用于评估的数值指标。             |
-| Gliederung                                                                   | f    | -en      | 分支       | 学科或领域的结构划分。           |
-| Makroökonomik                                                               | f    | -        | 宏观经济学 | -                                |
-| Mikroökonomik                                                               | f    | -        | 微观经济学 | -                                |
-| Arbeitsteilung                                                               | f    | -en      | 分工       | -                                |
-| Marktklassifikation                                                          | f    | -en      | 市场分类   | -                                |
-| Marktgleichgewicht                                                           | n    | -e       | 市场均衡   | -                                |
-| Geld                                                                         | n    | -er      | 货币       | -                                |
-| Prämisse                                                                    | f    | -n       | 前提       | 作为推理或论证基础的假设或条件。 |
-
-### 0.2 Inhalt für den 2. Semester
-
-9. Produktionsfunktion
-
-> 9. 生产函数
-
-- Produktionsfaktoren nach Smith, Gutenberg
-
-> - 史密斯和古腾堡的生产要素
-
-- Produktionsfunktion
-
-> - 生产函数
-
-- Isoquante Variation: unterschiedliche Faktoreinsatzverhältnisse z.B. limitationale, peripher, alternativ und absolut substitutionale, Ermittlung der Minimalkostenkombination
-
-> - 等产量线变动：不同的要素投入比例，例如限制性、周边性、选择性和绝对替代性，确定最小成本组合
-
-- Partielle Variation: z.B. ertragsgesetzliche Produktionsfunktion
-
-> - 部分变动：例如收益法则生产函数
-
-- Totale Variation: Skalenproduktivität, Homogenität
-
-> - 总体变动：规模生产力，均质性
-
-10. Kostenfunktion
-
-> 10. 成本函数
-
-- Herleitung der variablen Kostenfunktion aus der Produktionsfunktion
-
-> - 从生产函数推导出可变成本函数
-
-- Die Berechnung der Kostenfunktion aus einer Punktewolke Fixkosten, variable Kosten, Leerkosten und Nutzkosten Unterschiedliche Funktionsverläufe der Kostenfunktion
-
-> - 从点云计算成本函数固定成本，变动成本，空闲成本和有效成本不同的成本函数曲线
-
-- Gesamtbetrachtung, Stückbetrachtung z.B. ertragsgesetzliche Kostenfunktion
-
-> - 总体考虑，单件考虑例如收益法则成本函数
-
-11. Angebotsfunktion
-
-- Herleitung der Angebotsfunktion aus der Grenzkostenfunktion Stückkosten, Preis und Stückgewinn im Polypol
-
-> - 从边际成本函数推导供给函数单位成本，价格和单位利润在多厂商竞争中
-
-- Kosten, Erlös und Gewinn im Polypol
-
-> - 多厂商竞争中的成本，收入和利润
-
-12. Nutzenfunktion
-
-- Prämissen
-
-> - 前提
-
-- Indifferenzkurventheorie (Klassifikation nach den Funktionsverläufen)
-
-> - 无差异曲线理论（根据函数曲线进行分类）
-
-- Grenznutzentheorie (Gossensche Gesetze)
-
-> - 边际效用理论（戈森法则）
-
-- Haushaltsoptimum
-
-> - 家庭最优
-
-- Komparativ statische Betrachtung (Substitutionseffekt, Einkommenseffekt)
-
-> - 比较静态观察（替代效应，收入效应）
-
-13. Nachfragefunktion
-
-> 13. 需求函数
-
-- Herleitung der partiellen Nachfragefunktionen (Engelkurven, der Marshallschen Nachfrage und der Hicksnachfrage) aus der Nutzenfunktion
-
-> - 从效用函数推导部分需求函数（恩格尔曲线，马歇尔需求和希克斯需求）
-
-- Marktnachfragefunktion
-
-> - 市场需求函数
-
-- Klassifikation der Nachfragefunktion nach den Funktionsverläufen
-
-> - 根据函数曲线对需求函数进行分类
-
-- Zur Abhängigkeit vom Preis: normale Nachfrage, anomale Nachfrage, starre Nachfrage Zur Abhängigkeit vom Kreuzpreis: Substitutionsgut, Komplementärgut, indifferentes Gut Zur Abhängigkeit vom Einkommen: superiores Gut, inferiores Gut, Sättigungsgut
-
-> - 与价格相关：正常需求，异常需求，刚性需求与交叉价格相关：替代品，互补品，无关物品与收入相关：优越品，劣等品，饱和品
-
-14. Elastizität
-
-> 14. 弹性
-
-- Absolute und relative Veränderlichkeit
-
-> - 绝对和相对变动性
-
-- Bogenelastizität und Punktelastizität
-
-> - 弧弹性和点弹性
-
-- Elastizität der partiellen Nachfragefunktionen
-
-> - 部分需求函数的弹性
-
-15. Preisbildung im Polypol
-
-- Produzentenrente, Konsumentenrente, soziale Wohlfahrt
-- Abschöpfung der Konsumentenrente durch Preisdifferenzierung
-- Komparativ statische Betrachtung: Staatseingriff (Höchstpreis, Mindestpreis, Mengen-steuer, Wertsteuer) und Auswirkungen auf die soziale Wohlfahrt
-- Dynamische Betrachtung: Spinnweb-Theorem
-- Börsenpreisbildung
-
-1. Preisbildung im Monopol
-
-- Erlösfunktion, Kostenfunktion und Gewinnfunktion im Monopol
-- Optimierungsregeln: Gewinnmaximum (Cournotscher Punkt), Kostendeckung, bestimmter Gewinn, Stückgewinnmaximum, Erlösmaximum, bestimmter Erlös Renten und Wohlfahrtsverlust im Monopol
-- Monopolgrad
-- Amoroso-Robinson-Relation
-
-17. Wiederholung und Prüfungsvorbereitung
-
 ## 1.Der Gegenstand der Wirtschaftswissen
 
 ## 2. Wirtschaftswissenschaftliche Arbeitsmethode
@@ -281,7 +13,8 @@
 ### 2.9 Wiederholungsaufgabe
 
 1. Was verstehen Sie unter einem Denkmodell und welchem Zweck dient es?
-Denkmodell ist eine vereinfachte Repräsentation komplexer Dinge.（对复杂事物的简单表示）
+
+> Denkmodell ist eine vereinfachte Repräsentation komplexer Dinge.（对复杂事物的简单表示）
 Zweck  
 
 2. Nennen Sie ein Modell aus Ihrem Erfahrungsbereich (ein nicht wirtschaftswissenschaftliches Modell). Erklären Sie.Trennen Sie insbesondere (b) und (c) deutlich voneinander.
@@ -290,7 +23,7 @@ Zweck
 - (b)worin die Vereinfachung liegt (mindestens 3 Vereinfachungen)
 - (c)welche Elemente der Realität im Modell vernachlässigt werden (mindestens 3 Vernachlässigung)
 
-  >Beispiel: Landkarte
+> Beispiel: Landkarte
 
 3. Wie können wirtschaftswissenschaftliche Modelle dargestellt werden?
 
@@ -303,11 +36,11 @@ Zweck
 
 5. Vergleichen Sie den einfachen und den erweiterten Wirtschaftskreislauf.
 
-  >Vereinfachung:nur Haushalt und  Unternehmen
+  > Vereinfachung:nur Haushalt und  Unternehmen
     AV verändert sich nicht
     Alle Produkte von Unternehmen werden gekauft und Haushalten sparen kein Geld 
     Güter und Geldströme Haushalt->Haushalt&Unternehmen->Unternehmen werden vernachlässigt
-  >Erweiterung: Haushalt, Unternehmen, Kapitalsammelstellen(Bank), Staat und Ausland
+  > Erweiterung: Haushalt, Unternehmen, Kapitalsammelstellen(Bank), Staat und Ausland
     realistischer(nicht so viel Vernachlässigungen und Vereinfachungen wie einfache Wirtschaftskreislauf)
 
 ```mermaid
@@ -350,15 +83,15 @@ graph TD
 
 - (g) Ein Geschäftsführer überweist seine Einkommensteuer.
 
-> Ein Geschäftsführer überweist seine Einkommensteuer → 8
-> 企业经理缴纳个人所得税，属于居民对政府的支付。
+> Ein Geschäftsführer überweist seine Einkommensteuer → 8/14
+> 企业经理缴纳个人所得税，属于居民/企业对政府的支付。
 
 - (h) Die Landesregierung überzieht ihr Girokonto bei der Westdeutschen Landesbank.
 
 > Die Landesregierung überzieht ihr Girokonto bei der deutschen Landesbank → 15
 > 州政府在德国州立银行透支账户，属于政府对银行的业务。
 
-1. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
+7. Innerhalb der Volkswirtschaftlichen Gesamtrechnung werden die Gruppen von Wirtschaftsakteuren „Sektoren" genannt. Nennen Sie Transaktionen innerhalb der Sektoren Haushalte und Unternehmungen, die im Modell des Wirtschaftskreislaufes nicht erfasst werden.
 
 > Innerhalb der Haushalte: Taschengeld von Eltern an Kinder / Weihnachtsgeschenk umtauschen
 > 家长给孩子零花钱 / 圣诞节互换礼物
@@ -488,7 +221,7 @@ Die `BWL` als Wissenschaft ist relativ jung. Als Geburtsstädte der modernen Bet
 
 > `BWL` 作为一门科学相对较新。瑞士、奥地利和德国被普遍认为是现代商业管理学的发源地，1898年被视为其诞生之年。在这一年，德语区的圣加仑、莱比锡、亚琛和维也纳等地设立了商业管理学的教授职位。1881 年成立的宾夕法尼亚大学沃顿商学院是美国的第一所商学院，而法国巴黎高等商业学院早在 1819 年就已经存在。
 
-Da das Objekt der `BWL` viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der `BWL` im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten BucHaushaltaltung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
+Da das Objekt der `BWL` viel älter ist, hat die Wissenschaft auch eine viel längere Vorgeschichte. Einzelne Teile der `BWL` im Sinne der Lehre des Kaufmannshandwerks, insbesondere des Rechnungswesens, existieren schon seit den alten Hochkulturen. Rechnungssysteme und Lagerhaltungsmodelle sind bekannt aus dem alten Ägypten (auf Papyrus), aus Ländern des Vorderen Orients (auf Tontafeln), aus dem alten China (auf Bambus). Das heute noch angewandte System der doppelten Buchführung hat sich im 15.Jh. infolge des Levantehandels in Italien (Handel mit den Produkten aus dem Osten über Syrien) entwickelt und wurde erstmals 1494 von dem italienischen Mathematiker *Luca Pacioli* (1445-1517) in seiner berühmten Enzyklopädie „*Summa de arithmetica*“ aufgezeichnet. Es gab neben diesem Buch mehr Literatur, das Kaufmannshandwerk wurde allerdings vorwiegend mündlich im Sinne einer Geheimlehre weitergegeben.
 
 > 由于 `BWL` 的研究对象自古有之，故这门科学有着更长的发展历程。`BWL` 的某些部分，例如 `BWL` 中的商人技能（中世纪欧洲经济概念），自古代就已存在。会计系统和库存模型自古埃及（纸莎草纸）、美索不达米亚（泥板）、中国（竹简）等古代文明中就已知晓。如今广泛使用的复式记账法是在15世纪因意大利的黎凡特贸易（欧洲通过叙利亚与西亚，中东的贸易）而发展起来的，并于1494年首次由意大利数学家卢卡·帕乔利（Luca Pacioli，1445-1517）在其著名的百科全书《簿记论》中首次系统化记录下来。不过，在此书之前，商人技能主要通过口头传授，作为一种秘密技艺流传。
 
@@ -509,7 +242,7 @@ Als die bedeutendsten deutschsprachigen Vertreter der Allgemeinen Betriebswirtsc
 | Kaufmannshandwerk    | n    | -e       | 商人技艺   | 与贸易和商业相关的技能与知识。                             |
 | Rechnungswesen       | n    | -        | 会计       | 记录、分类、总结和报告财务信息的系统。                     |
 | Lagerhaltungsmodelle | n    | -        | 库存模型   | 管理库存水平和流动的方法与模型。                           |
-| Doppelte BucHaushaltaltung | f    | -        | 复式记账法 | 一种记录每笔交易时同时影响两个账户的会计方法。             |
+| Doppelte Buchführung | f    | -        | 复式记账法 | 一种记录每笔交易时同时影响两个账户的会计方法。             |
 | Levantehandel        | m    | -        | 黎凡特贸易 | 中世纪意大利与地中海东部地区，西亚（如叙利亚）的贸易活动。 |
 | Geheimlehre          | f    | -        | 秘密技艺   | 一种通过口头传授而非书面记录传播的专业知识或技能。         |
 
@@ -750,8 +483,8 @@ $\text{relativer Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des gr
 Marktwachstum
 > 市场增长率
 
-$Marktwachstum_A=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100\%-100\%=36,36\%$
-> $市场增长率_A = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100\% - 100\% = 36.36\%$
+$\text{Marktwachstum}_\text{A}=\frac{1500(\text{Marktvolumen Jahr 3})}{1100(\text{Marktvolumen Jahr 2})}*100\%-100\%=36,36\%$
+> $\text{市场增长率}_\text{A} = \frac{\text{第3年市场容量（1500）}}{\text{第2年市场容量（1100）}} * 100\% - 100\% = 36.36\%$
 
 | Unternehmen | MA(ist > 100%?)                  | MarktWachstum(ist > 10%?)          |
 | ----------- | -------------------------------- | ---------------------------------- |
@@ -906,8 +639,10 @@ Die variablen Lagerkosten entstehen durch die Kosten der Kapitalbindung. Das Gel
 > 可变库存成本则来源于资本占用成本。企业为库存中的流动资产支付的资金无法用于其他投资，也无法存入银行赚取利息。资本占用成本通过一个假定的库存持有利率来计算。如果订购和存储小批量，资本占用成本较低；如果订购和存储大批量，资本占用成本增加，从而导致总库存成本上升。虽然大量库存可以使企业免受供应风险的影响，但由于资本占用成本较高，这种做法被认为对企业不利。
 
 Wenn kleine Mengen bestellt und gelagert werden, dann sind die Kapitalbindungskosten gering, wenn große Mengen bestellt und gelagert werden, steigen die Kapitalbindungskosten und damit die gesamten Lagerkosten. Eine umfangreiche Lagerhaltung macht das Unternehmen zwar unabhängig von Lieferrisiken, gilt aber aufgrund der Kapitalbindungskosten als nachteilig für ein Unternehmen.
+> 当订购和储存小批量时，资金占用成本较低；而当订购和储存大批量时，资金占用成本就会上升，从而导致总库存成本增加。虽然大规模的库存管理使企业不受供应风险的影响，但由于资金占用成本的原因，这被认为对企业是不利的。
+
 Mit Hilfe des Modells soll nun die optimale Bestellmenge berechnet werden. Bei der optimalen Bestellmenge erreicht die Gesamtkostenfunktion als Summe der Beschaffungs- und der Lagerkostenfunktion ihr Minimum.
-> 通过该模型，现在需要计算出最优订购量。在最优订购量下，总成本函数（即采购成本函数与库存成本函数之和）达到其最低值。
+> 现在，通过使用这个模型来计算最佳订购量。在最佳订购量时，总成本函数（即采购成本函数和库存成本函数的总和）达到其最小值。
 
 #### 5.4.5 Ein Beispiel für das externe Rechnungswesen - Die Abschreibung
 
