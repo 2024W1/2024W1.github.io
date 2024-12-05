@@ -1075,16 +1075,16 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 
 > ||Aktiva|||Passiva||
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> |AV|Brauanlage|40.000 €||||
-> ||Verpackungsanlage BGA|10.000 € ||||
-> ||Betriebs- und Geschäftsausstattung|75.000 €||||
-> ||Produktionsgebäude|450.000 €||||
-> ||Lieferfahrzeug|70.000 €||||
-> |UV|Miete für ein kleines Restaurant|8.000 €/Monat||||
-> ||Personalaufwand|9.000 €/Monat|FK|Kredit(Verbindlichkeiten)|300.000 €|
-> ||Materialkosten|27.000 €/Monat||||
-> ||Energieaufwand|200 €/Tag||||
-> ||eisernen Bestand|5.400 €||||
+> |AV|Brauanlage|$40.000 \text{ €}$||||
+> ||Verpackungsanlage BGA|$10.000 \text{ €}$ ||||
+> ||Betriebs- und Geschäftsausstattung|$75.000 \text{ €}$||||
+> ||Produktionsgebäude|$450.000 \text{ €}$||||
+> ||Lieferfahrzeug|$70.000 \text{ €}$||||
+> |UV|Miete für ein kleines Restaurant|$8.000 \text{ €/Monat}*\frac{49}{30}=$||||
+> ||Personalaufwand|$9.000 \text{ €/Monat}*\frac{49}{30}=$|FK|Kredit(Verbindlichkeiten)|$300.000 \text{ €}$|
+> ||Materialkosten|$27.000 \text{ €/Monat}*\frac{49}{30}=$||||
+> ||Energieaufwand|$200 \text{ €/Tag}*49=$||||
+> ||eisernen Bestand|$5.400 \text{ €}$||||
 
 1. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
 
