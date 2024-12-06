@@ -971,38 +971,67 @@ $
 $\text{(d) }
 \left\{
 \begin{aligned}
-\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
-\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\text{p}(\text{m}_\text{N}) &= 1080-12\text{m}_\text{N}^2 \\
+\text{p}(\text{m}_\text{A}) &= 405+15\text{m}_\text{A}^2
 \end{aligned}
 \right.
 $
+
+> $\text{p}(\text{m}_\text{N}) = \text{p}(\text{m}_\text{A}) = \text{p}_\text{gg} \land \text{m}_\text{N} = \text{m}_\text{A} = \text{m}_\text{gg}$
+> $1080-12\text{m}_\text{gg}^2 = 405+15\text{m}_\text{gg}^2$
+> $\text{m}_\text{gg} = 5$
+> $\text{p}_\text{gg} = 1080-12\text{m}_\text{gg}^2 = 1080-12 \cdot 25 = 780$
+> $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 5 \cdot 780 = 3900$
 
 $\text{(e) }
 \left\{
 \begin{aligned}
-\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
-\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\text{m}_\text{N}(\text{p}) &= 80-4\text{p} \\
+\text{m}_\text{A}(\text{p}) &= 12
 \end{aligned}
 \right.
 $
+
+> $\text{p}_\text{N}(\text{m}_\text{N}) = \frac{80-\text{m}_\text{N}}{4}$
+> $\text{m}_\text{A}(\text{p}) = 12$
+> $\text{m}_\text{N} = \text{m}_\text{A} = \text{m}_\text{gg} = 12$
+> $\text{p}_\text{gg} = \frac{80-\text{m}_\text{gg}}{4} = \frac{80-12}{4} = 17$
+> $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 12 \cdot 17 = 204$
 
 $\text{(f) }
 \left\{
 \begin{aligned}
-\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
-\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\text{m}_\text{N}(\text{p}) &= -2\text{p}+30 \\
+\text{m}_\text{A}(\text{p}) &= (\text{p}-3)^2
 \end{aligned}
 \right.
 $
 
+> $\text{p}_\text{N}(\text{m}_\text{N}) = \frac{30-\text{m}_\text{N}}{2}$
+> $\text{p}_\text{A}(\text{m}_\text{A}) = \sqrt{\text{m}_\text{A}} + 3$
+> $\text{m}_\text{N} = \text{m}_\text{A} = \text{m}_\text{gg} \land \text{p}_\text{N} = \text{p}_\text{A} = \text{p}_\text{gg}$
+> $\frac{30-\text{m}_\text{gg}}{2} = \sqrt{\text{m}_\text{gg}} + 3$
+> $\text{m}_\text{gg}^2-25\text{m}_\text{gg}+144 = 0$
+> $\text{m}_\text{gg} = 16$
+> $\text{p}_\text{gg} = \frac{30-\text{m}_\text{gg}}{2} = \frac{30-16}{2} = 7$
+> $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 16 \cdot 7 = 112$
+
 $\text{(g) }
 \left\{
 \begin{aligned}
-\text{m}_\text{N}(\text{p}) &= 30-\text{p} \\
-\text{p}(\text{m}_\text{A}) &= \frac{1}{0,1}\text{m}_\text{A}
+\text{m}_\text{N}(\text{p}) &= 100-5\sqrt{\text{p}} \\
+\text{m}_\text{A}(\text{p}) &= -20+\frac{1}{4}\text{p}
 \end{aligned}
 \right.
 $
+
+> $\text{p}_\text{N}(\text{m}_\text{N}) = (\frac{100-\text{m}_\text{N}}{5})^2$
+> $\text{p}_\text{A}(\text{m}_\text{A}) = 4\text{m}_\text{A} + 80$
+> $\text{m}_\text{N} = \text{m}_\text{A} = \text{m}_\text{gg}\land \text{p}_\text{N} = \text{p}_\text{A} = \text{p}_\text{gg}$
+> $(\frac{100-\text{m}_\text{gg}}{5})^2 = 4\text{m}_\text{gg} + 80$
+> $\text{m}_\text{gg} = 100 + 20\sqrt{2} \approx 128.28 \space (\text{m}_\text{gg}>0)$
+> $\text{p}_\text{gg} = 4\text{m}_\text{gg} + 80 = 4(100 + 20\sqrt{2}) + 80 = 480 + 80\sqrt{2} \approx 593.14$
+> $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = (100 + 20\sqrt{2})(480 + 80\sqrt{2}) = 76000 + 22400\sqrt{2} \approx 76080.61$
 
 ## 9. Die Produktionsfunktion
 
