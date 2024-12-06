@@ -1231,6 +1231,31 @@ Die Produktionstheorie beschäftigt sich mit den Fragen:
 Der erste Schnitt entsteht bei Konstanthaltung des Outputs. Er zeigt das Einsatzverhältnis der Produktionsfaktoren, um dieses bestimmte Output zu produzieren. Dargestellt werden können in dieser Ebene Isoquanten. Eine Isoquante kann man sich vorstellen als Höhenlinie auf einer Karte, die die Oberfläche eines Gebietes mit Bergen und Tälern zeigt. Eine Isoquante wird definiert als der geometrische Ort aller Faktorkombinationen, die zum gleichen Output führen.
 Der Begriff ist ein Kunstwort, das sich aus dem griechischen Element „iso"= gleich und dem lateinischen Element „quante" = Menge zusammensetzt. Produktionsfunktionen kann man nach dem Verlauf ihrer Isoquanten klassifizieren.
 
+##### 9.3.2.1 Limitationale Produktionsfunktionen
+
+Von limitationalen Produktionsfunktionen wird gesprochen, wenn zur Erzielung eines bestimmten Outputs die Produktionsfaktoren nur in einem festen Verhältnis (lat. *limitatio* = Festsetzung) zueinander eingesetzt werden können. Das Einsatzverhältnis der Produktionsfaktoren ist technisch bedingt.
+Beispiele:
+
+- In einem Einzelhandelsgeschäft kann eine Kassiererin nur eine Kasse bedienen.
+- In einer Schule unterrichtet ein Lehrer eine Gruppe Schüler innerhalb einer bestimmten
+Zeiteinheit (Unterrichtsstunde).
+- Ein Bus kann nur von einem Fahrer gefahren werden.
+- Zur Herstellung eines Tisches benötigt man 4 Beine und eine Tischplatte.
+- Zur Herstellung eines Fahrrades benötigt man einen Rahmen, zwei Räder, einen Lenker, einen Sattel und andere Teile in einer bestimmten Menge.
+
+Es wäre unsinnig, bei einem gegeben Einsatzverhältnis von Produktionsfaktoren eine andere Faktorkombination zu wählen. Wenn das Einzelhandelsgeschäft vier Kassen besitzt, jedoch nur eine Kassiererin einstellt, ist der Output „Kunden, die bezahlt haben" ebenso hoch wie bei einem Geschäft mit einer Kasse und einer Kassiererin.
+Die analytische Darstellung einer limitationalen Produktionsfunktion erfolgt so:
+
+Allgemeine Form: $\text{O}(\text{v}_1,\text{v}_2)=\min(\frac{1}{a}\text{v}_1,\frac{1}{b}\text{v}_2)$
+Für den Tisch gilt dann: $\text{O}(\text{b},\text{p})=\min(\lfloor \frac{1}{4}\text{b} \rfloor,\text{p})$
+
+3 Grafik:
+Wenn sich im Lager eines Unternehmens 9 Tischbeine und 3 Tischplatten befinden, lassen sich ebenso viele Tische herstellen wie in einer Situation, in der sich 10 Tischbeine und 5 Tischplatten im Lager befinden. Da in unserem Fall immer 4 Tischbeine und eine Platte zu kombinieren wären (laut Definition hat unser Tisch vier Beine), könnten in beiden Fällen nur 2 Tische als Output hergestellt werden.
+Stellen Sie drei Isoquanten und die zwei gegebenen Faktorpakete grafisch dar. Wählen Sie das Gut, dessen Mengeneinheiten auf der Abszisse und jenes, dessen Mengeneinheiten auf der Ordinate dargestellt werden, in Abhängigkeit vom Platzangebot des Lehrmaterials.
+
+4 Berechnung:
+Ein Tischler hat in seinem Lager 224 Tischbeine und 76 Tischplatten. Berechnen Sie bitte schriftlich (nicht im Kopf) die Anzahl der Tische, die er aus den Faktoren produzieren kann. Welcher Faktor ist der limitierende?
+
 ## A1. Der Wirtschaftsnobelpreis 2024
 
 ### A1.1 Der Forschungsansatz
