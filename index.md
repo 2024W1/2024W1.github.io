@@ -1170,9 +1170,9 @@ Zur wissenschaftlichen Beschreibung der Produktion wurde das Modell der Produkti
 Schreiben Sie Produktionsfaktoren, die notwendig sind, um ein Brot zu produzieren.
 > 请列出生产一个面包所需的生产要素。
 
-|Rohstoffe|Personal|Anlage|Lage|Methode/Wissenschaft|Energie|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|Mehl, Wasser, Zucker, Milch, Hefe| Bäcker, Verkäufer(?)| Ofen, Tisch| Bäckerei, Lager| Brotzubereitungsweisen|Storm, Holz|
+|Rohstoffe|Personal|Anlage|Lage|Methode/Wissenschaft|Energie|Zeit|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Mehl, Wasser, Zucker, Milch, Hefe| Bäcker | Ofen, Tisch| Lager| Brotzubereitungsweisen|Storm, Holz|Zeit|
 
 Der Blick der VWL auf die Produktionsfaktoren ist etwas anders als der Blick der BWL. Daraus ergeben sich andere Klassifikationsbedürfnisse.
 > 国民经济学（VWL）和企业经济学（BWL）对生产要素的看法有所不同。这导致了不同的分类需求。
@@ -1184,14 +1184,52 @@ Auf die Klassiker der Volkswirtschaftslehre, Adam Smith und insbesondere David R
 > 生产要素的分类可以追溯到古典经济学的奠基人亚当·斯密，尤其是大卫·李嘉图，他们将生产要素划分为劳动、土地和资本。在较新的文献中，知识被提到作为第四种国民经济学的生产要素，它可以独立于劳动而存在（例如，在极端情况下，即使没有人类存在，专利或书籍也可以存在）。由于这一要素的重要性日益增加，能源也被视为第五种新的生产要素。
 
 Der Faktor **Arbeit** ist gebunden an die Existenz des Menschen. Definiert wird sie als Einsatz der körperlichen und geistigen Fähigkeiten des Menschen mit dem Ziel, Einkommen zu erzielen. Die Produktion von Gütern, die der Bedürfnisbefriedigung dienen, nimmt zwar ihren Ausgang bei Rohstoffen, die der Natur entnommen sind, die Natur bietet jedoch nur in einem eingeschränkten Maße gebrauchsfertige Güter, zumeist bietet sie nur Rohstoffe oder Energie-quellen. Zur Erstellung der Güter muss menschliche Arbeitskraft aufgewandt werden. Arbeit im volkswirtschaftlichen Sinne ist homogen, das heißt, es wird nicht unterschieden zwischen verschiedenen Arten der Arbeit. Sie erfolgt außerdem ausschließlich zum Zweck der Einkommenserzielung, die Tätigkeit z.B. einer Person, die ihre Wohnung renoviert oder Essen für ihre Familie kocht ist im volkswirtschaftlichen Sinne keine Arbeit.
+> 劳动因素与人类的存在密切相关。它被定义为人类运用身体和智力能力以获得收入的过程。虽然用于满足需求的商品生产始于从自然中获取的原材料，但自然界只能在有限程度上提供现成的商品，大多数情况下只提供原材料或能源。为了生产商品，必须投入人力劳动。从经济学角度来看，劳动是同质的，这意味着不区分不同类型的劳动。此外，劳动仅仅是为了获得收入而进行的，例如，一个人装修自己的住房或为家人做饭，从经济学的角度来看并不被视为劳动。
 
 Die Klassifikation entstand in einer Zeit, in der die landwirtschaftliche Produktion eine hohe Bedeutung hatte, deshalb stand der Faktor **Boden** im Mittelpunkt der Betrachtung. Erste wissenschaftliche Darstellungen bezogen sich also auf den Produktionsfaktor Ackerboden (Boden als **Anbauboden**). Die wissenschaftliche Analyse wurde anschließend auf die Nutzung des Bodens in seiner Funktion als Rohstofflager (Boden als Abbaufläche oder Abbauboden) erweitert. Zum Produktionsfaktor Boden zählten nun auch Güter, die dem Boden entnommen werden konnten, also Bodenschätze. Während der Industrialisierung war die Produktion nicht mehr an eine bestimmte Bodenfläche gebunden, sondern gewann als Lage- oder Standortfaktor (Boden als Standortfaktor oder Standortboden) an Bedeutung. Als man hauptsächlich Wasserkraft zur Energiegewinnung nutzte, waren die Nutzungsrechte an einem Fluss von entscheidender Bedeutung. Heute werden verschiedene Energiequellen genutzt, eine höhere Bedeutung für die Lage eines Unternehmens hat heute z.B. die Nähe zu den Rohstoffquellen, die Nähe zu qualifizierten oder besonders billigen Arbeitskräften oder die Nähe zu einem Markt. Aufgrund des veränderten Einsatzes des Faktors Boden wurden die anderen Produktionsfaktoren im Laufe der industriellen Entwicklung zunehmend mobil. Aufgrund der Verknappung ursprünglich freier Produktionsmittel wie sauberer Luft oder sauberem Wasser musste der Produktionsfaktor Boden zum Produktionsfaktor Natur oder Umwelt erweitert werden.
 
 Eine besondere Rolle spielt der Produktionsfaktor **Kapital**. Er ist, wenn man den einfachen Wirtschaftskreislauf als Modell aufgibt, der Teil des Produktionsergebnisses früherer Perioden, der die Grundlage der Produktion der gegenwärtigen Periode bildet. Kapital entsteht in der volkswirtschaftlichen Theorie aus der Kombination der zwei originären Faktoren Arbeit und Boden und wird deshalb als derivativer Faktor bezeichnet. Kapital kann einerseits als **Sach- bzw. Realkapital**, andererseits als **Geld- bzw. Finanzkapital** auftreten. Zum Sachkapital zählen bereits existierende Produktionsmittel, wie etwa Gebäude, Maschinen, Fahrzeuge, Werkzeuge usw. Grundlegende klassische und neoklassische Theorien sind güterwirtschaftliche Theorien, die den Tauschvorgang Gut gegen Gut analysieren, deshalb wird das Kapital in seiner Form als Geld- oder Finanzkapital in den Basismodellen meist vernachlässigt. Es birgt lediglich die Möglichkeit der Umwandlung in Realkapital.
+> 这种分类产生于农业生产具有重要意义的时代，因此**土地**因素成为关注的焦点。最初的科学描述主要涉及耕地这一生产要素（土地作为**耕种土地**）。随后，科学分析扩展到土地作为原材料储存地的功能（土地作为开采区或开采土地）。现在，可以从土地中提取的商品，即矿产资源，也被计入土地生产要素。在工业化过程中，生产不再局限于特定的土地面积，而是作为位置或区位因素（土地作为区位因素或区位土地）变得更加重要。当主要使用水力发电时，对河流的使用权至关重要。如今，各种能源都被利用，企业选址更重要的因素包括靠近原材料来源、靠近合格或特别便宜的劳动力，或靠近市场。由于土地因素使用方式的变化，其他生产要素在工业发展过程中变得越来越具有流动性。由于原本免费的生产资源如清洁空气或清洁水的稀缺，土地生产要素必须扩展为自然或环境生产要素。
 
 Die Produktionsfaktoren in der Volkswirtschaftslehre sind, da hoch aggregierte Zusammenhänge in relativ langen Zeiträumen betrachtet werden, zumindest in Grenzen substituierbar.
+> 在国民经济学中，由于考察的是长时期内高度聚合的关系，生产要素至少在一定程度上是可以相互替代的。
 
 Hauptsächlich wird der Einsatz des Faktors Arbeit in Kombination mit dem Faktor Kapital analysiert und z.B. nachgewiesen, dass die Bildung von Kapital die Produktivität des Faktors Arbeit erhöhen kann.
+> 主要分析的是劳动要素与资本要素的结合使用，例如，可以证明资本的形成能够提高劳动要素的生产率。
+
+#### 9.2.2 Die Klassifikation der Produktionsfaktoren aus der Sicht der BWL
+
+In der Betriebswirtschaftslehre wird das Unternehmen nicht mehr als black box gesehen. Die Analyse des Unternehmens erfordert eine andere, teils allgemeinere, meist aber differenziertere Betrachtung der Produktionsfaktoren. Der Boden hat normalerweise für ein Unternehmen nur eine Bedeutung als Standortfaktor, das Kapital dagegen ist viel zu umfangreich, umfasst sowohl einen Nagel als auch eine Chemieanlage, und muss aus diesem Grund genauer differenziert werden, und auch Arbeit wird zum Zwecke der Analyse eines Unternehmens nicht mehr nur als homogen betrachtet. Allgemeine Akzeptanz fand dabei die Klassifikation von Erich Gutenberg (1951).
+Grundsätzlich unterscheidet Gutenberg nur noch Arbeit und Kapital. Die Arbeit wird in zwei Arten untergliedert, in die leitende Arbeit (Arbeit der Leitung) und in die ausführende Arbeit (Arbeit in der Produktion). Die Differenzierung erfolgt nach dem Kriterium, ob die Arbeit weisungsberechtigt ist, d.h., ob sie damit verbunden ist, Anordnungen zu erteilen oder nicht. Die leitende Arbeit, die Gutenberg als vierten (dispositiven) betrieblichen Produktionsfaktor betrachtet, umfasst die Leitung, Planung, Organisation und Kontrolle des Betriebsablaufes. Das ist die Aufgabe der Betriebs- oder Abteilungsleitung. Zur ausführenden Arbeit gehören z.B. Tätigkeiten eines Elektrikers, eines Buchhalters oder einer Verkäuferin. Es werden Arbeitsvorgänge erledigt, der Hauptinhalt der Arbeit besteht nicht darin, Anordnungen zu er-teilen.
+Das Kapital muss der VWL-Betrachtungsweise entgegen viel genauer klassifiziert werden. So vernachlässigt Gutenberg das Finanzkapital in seiner Klassifikation und unterteilt das Realkapital in Betriebsmittel und Werkstoffe. Betriebsmittel sind Faktoren, die über einen langen Zeitraum eingesetzt werden können (Gebrauchsgüter) und dabei einen Strom von Nutzungen abgeben. Ihr Wert wird über die geschätzte Nutzungsdauer hinweg abgeschrieben. Die Betriebsmittel werden im Anlagevermögen erfasst. Werkstoffe dagegen sind Verbrauchsgüter, also Produktionsmaterial. Sie werden im Umlaufvermögen erfasst.
+
+### 9.3 Das Modell der Produktionsfunktion
+
+#### 9.3.1 Der Aufbau des Modells
+
+Unter einer Produktionsfunktion versteht man den mathematischen Zusammenhang zwischen dem Input und dem Output, der eine bestimmte Zeitdauer lang gilt. Auch hier gibt es eine Anzahl von Synonymen: Ertragsfunktion, Produktionsgebirge, Ertragsgebirge usw. Die Faktormengen sind dabei die unabhängigen Variablen, die Menge des Outputs ist die abhängige Variable. Die Anzahl der Faktoren bestimmt dabei die Dimension der Produktionsfunktion. In der Realität führt der Einsatz vieler Faktoren zu einer bestimmten Menge eines oder einiger Outputs in einem Unternehmen. Grafisch darstellbar sind allerdings nur Produktionsprozesse, bei denen maximal zwei Inputs zur Erzeugung eines Outputs führen.
+
+Nur bei unendlich teilbaren Faktormengen kann eine differenzierbare Funktion diesen Zusammenhang beschreiben. Wenn die Faktormengen nicht unendlich teilbar sind, kann der Zusammenhang nur durch eine Menge von Input-Output-Kombinationen, also durch eine Menge von Punkten beschrieben werden, zwischen denen keine Verbindungslinie eingezeichnet werden darf. Die Produktionsfunktion oder diese Punkte begrenzen den maximal möglichen Output bei einem gegebenen Input und sind damit Ausdruck der technologischen Beschränkung der Produktionsmenge.
+
+Von der Dauer der Produktion einer bestimmten Menge an Output wird abstrahiert, d.h., produziert wird unendlich schnell.
+Produktionsfunktionen wurden bereits im 17. Jahrhundert beobachtet und beschrieben. Die Theorie wird jedoch bis in die Gegenwart stetig weiterentwickelt, so dass die Systematisierung Schwierigkeiten bereiten kann. Im Mittelpunkt der Lektion stehen Produktionsfunktio-nen, die grafisch darstellbar sind. Eine Produktionsfunktion mit einem Input und einem Output kann problemlos im zweidimensionalen Raum und damit auf einem Blatt Papier dargestellt werden. Eine Produktionsfunktion mit zwei Inputs und einem Output kann nur mit Hilfe einer Perspektivdarstellung auf einem Blatt Papier dargestellt werden. Um sie im zweidimensionalen Raum darzustellen und zu analysieren, schneidet man diese Funktionen auf drei unterschiedliche Arten:
+
+1. Schnitt parallel zur Abszissen-Ordinaten-Ebene = isoquante Faktorvariation
+2. Schnitt parallel zur Abszissen-Applikaten-Ebene oder zur Ordinaten-Applikaten-Ebene = partielle Faktorvariation
+3. Schnitt entlang des Expansionspfades des Outputs = totale oder proportionale Faktorvariation
+
+Beschriften Sie die Achsen der Koordinatensysteme mit Input $\text{v}_1$, Input $\text{v}_2$ und Output O.
+
+Die Produktionstheorie beschäftigt sich mit den Fragen:
+
+- Welche Menge an Input benötigt man, um eine bestimmte Menge Output zu erzeugen?
+- Wie verändert sich die Menge an Output, wenn die Menge des Inputs verändert wird?
+- Wie können die Mengen an Input variiert werden, um eine bestimmte Menge Output mit möglichst minimalen Kosten zu erzeugen?
+
+#### 9.3.2 Die isoquante Faktorvariation
+
+Der erste Schnitt entsteht bei Konstanthaltung des Outputs. Er zeigt das Einsatzverhältnis der Produktionsfaktoren, um dieses bestimmte Output zu produzieren. Dargestellt werden können in dieser Ebene Isoquanten. Eine Isoquante kann man sich vorstellen als Höhenlinie auf einer Karte, die die Oberfläche eines Gebietes mit Bergen und Tälern zeigt. Eine Isoquante wird definiert als der geometrische Ort aller Faktorkombinationen, die zum gleichen Output führen.
+Der Begriff ist ein Kunstwort, das sich aus dem griechischen Element „iso"= gleich und dem lateinischen Element „quante" = Menge zusammensetzt. Produktionsfunktionen kann man nach dem Verlauf ihrer Isoquanten klassifizieren.
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
