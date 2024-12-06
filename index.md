@@ -1033,6 +1033,98 @@ $
 > $\text{p}_\text{gg} = 4\text{m}_\text{gg} + 80 = 4(100 + 20\sqrt{2}) + 80 = 480 + 80\sqrt{2} \approx 593.14$
 > $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = (100 + 20\sqrt{2})(480 + 80\sqrt{2}) = 76000 + 22400\sqrt{2} \approx 76080.61$
 
+### 7.3 Marktversagen
+
+#### 7.3.1 Externe Effekte oder Externalitäten
+
+Externe Effekte liegen vor, wenn die Handlungen eines Wirtschaftsakteurs (Verursacher) wissentlich oder auch unwissentlich Kosten oder Erlöse bei anderen Wirtschaftsakteuren (Empfänger) verursachen, und damit den Nutzen / Gewinn des anderen Wirtschaftsakteurs beeinflussen, ohne dass dieser dafür eine Gegenleistung erbringen muss oder empfangen wird. Externe Effekte nach dieser Definition treten überall im Leben auf.
+> 外部效应是指当一个经济主体（造成者）的行为有意或无意地给其他经济主体（接受者）带来成本或收益，从而影响其他经济主体的效用/利润，而这些受影响的经济主体无需为此提供或接受任何补偿。根据这个定义，外部效应在生活中无处不在。
+
+Sie können unterteilt werden in:
+> 外部效应可以分为:
+
+1. Positive und negative externe Effekte
+Positiv: Der Nutzen des Empfängers steigt, ohne dass er dem Verursacher dafür eine Zahlung leisten muss.
+Negativ: Der Nutzen des Empfängers sinkt oder der Schaden des Empfängers steigt, ohne dass der Verursacher dafür eine Zahlung leisten muss.
+
+> 1. 正面和负面外部效应
+> 正面：接受者的效用增加，而无需向造成者支付任何费用。
+> 负面：接受者的效用下降或损失增加，而造成者无需为此支付任何费用。
+
+2. Einseitig und wechselseitig
+Einseitige: Ein Wirtschaftsakteur ist Verursacher, ein anderer Wirtschaftsakteur Empfänger Wechselseitig: Jeder der beiden beteiligten Wirtschaftsakteure ist einerseits Verursacher eines externen Effektes, andererseits auch Empfänger. Ewig zitiertes Beispiel sind Imker und Obst-bauer. Der Obstbauer benötigt Bienen, die ihm der Imker liefert, um die Blüten zu bestäuben.
+Der Imker kann mit seinen Bienen in der Nähe einer Obstplantage viel und guten Honig produzieren. Diese Effekte existieren oft in der Flora und Fauna unter dem Begriff Symbiose.
+
+> 2. 单向和互惠外部效应
+> 单向：一个经济主体是造成者，另一个经济主体是接受者。
+> 互惠：参与的两个经济主体既是外部效应的造成者，又是接受者。一个经常被引用的例子是养蜂人和果农。果农需要养蜂人提供的蜜蜂来为花朵授粉。养蜂人可以在果园附近用他的蜜蜂生产大量优质的蜂蜜。这些效应在动植物界中经常以共生的形式存在。
+
+3. Arten externer Effekte
+Die Klassifikation externer Effekte ist in vielen Lehrbüchern sehr unterschiedlich dargestellt.
+Nach der sehr weiten Definition oben kann man z.B. drei Merkhalsausprägungen unterscheiden, die wirtschaftswissenschaftliche Definition ist meist enger und bezieht sich nur auf die dritte Gruppe.
+
+- (a) Pekuniäre externe Effekte
+- - Pekuniäre externe Effekte wirken auf Märkten. Sie sind ein grundlegendes Instrument der Marktwirtschaft. Sie können in komparativ statischen Marktmodellen dargestellt werden. Wenn beispielsweise die Zahl der Nachfrager für ein Gut steigt, verschiebt sich die Nach-fragefunktion nach rechts und die Angebotsfunktion verändert sich zunächst nicht. Durch die Wirkung des Marktmechanismus kommt es zu einem neuen Gleichgewicht, der Preis steigt für alte und neue Nachfrager.
+- (b) Psychologische externe Effekte
+- - Psychologische externe Effekte wirken insbesondere auf die Nutzenfunktionen anderer Haushalte. Wenn der Nachbar (Verursacher) ein neues Auto gekauft hat, freue ich (Empfänger) mich, weil ich hoffe, dass ich auch mal mitfahren kann (positiv) oder ich bin neidisch (negativ). Es handelt sich um gefühlten Nutzen oder Schaden ohne finanzielle Auswirkung auf den Einzelnen und ohne Ausgleich. Negative psychologische externe Effekte treten immer auf, wenn Güter rival sind.
+- (c) Technologische externe Effekte
+- - Technologische externe Effekte senken oder steigern die Kosten der Herstellung von Gütern für die ganze Gesellschaft, ohne dass sie Kostenfunktionen der einzelnen Marktteilnehmer beeinflussen. Zwischen dem Verursacher und dem Empfänger des externen Effektes wirkt der Marktmechanismus nicht. Da die gesellschaftlichen Kosten oder Erlöse und damit die finanziellen Auswirkungen eines externen Effektes oft nicht genau bestimmbar sind, können die Grenzen zu den psychologischen externen Effekten fließend sein. Im Mittelpunkt der Analyse stehen negative technologische externe Effekte, die von Unternehmen verursacht werden, z.B. Luftverschmutzung, Wasserverschmutzung, Übernutzung natürlicher Reserven bei der Produktion von Gütern, also die Umweltproblematik. Die Tabelle zeigt typische negative technologische externe Effekte. Zum Beispiel: Das Schürfen von Bitcoin in China verbraucht große Mengen an Energie, was zu steigenden Strompreisen führt. Dies verdrängt die Stromnutzung anderer Industrien und beeinträchtigt die Entwicklung der lokalen Wirtschaft.
+
+> 3. 外部效应的类型
+在许多教科书中，外部效应的分类方式差异很大。根据上述广泛的定义，我们可以区分三种特征表现，而经济学的定义通常更为狭窄，仅涉及第三组。
+> 
+> - (a) 金钱性外部效应
+> - - 金钱性外部效应在市场中发挥作用。它们是市场经济的基本工具，可以在比较静态的市场模型中表现出来。例如，当某种商品的需求者数量增加时，需求函数向右移动，而供给函数最初保持不变。通过市场机制的作用，会形成一个新的均衡，价格对新旧需求者都会上涨。
+> - (b) 心理性外部效应
+> - - 心理性外部效应主要影响其他家庭的效用函数。例如，当邻居（造成者）买了一辆新车，我（接受者）可能会感到高兴，因为我希望有机会搭乘（正面效应）；或者我可能会感到嫉妒（负面效应）。这涉及到感受到的效用或损害，不会对个人产生财务影响，也不会有补偿。当商品具有竞争性时，负面心理外部效应总是会出现。
+> - (c) 技术性外部效应
+> - - 技术性外部效应会降低或提高整个社会生产商品的成本，但不会影响单个市场参与者的成本函数。在外部效应的造成者和接受者之间，市场机制不起作用。由于社会成本或收益以及外部效应的财务影响通常难以准确确定，因此与心理性外部效应的界限可能会模糊。分析的重点是企业造成的负面技术性外部效应，例如空气污染、水污染、生产商品时过度使用自然资源，即环境问题。表格显示了典型的负面技术性外部效应。例如:在国内加密货币挖矿大量耗能，导致电价上升，挤占了其他产业的电力使用，影响了当地经济的发展。
+
+||Empfänger: Unternehmen|Empfänger: Haushalt|
+|:--:|:--:|:--:|
+|Verursacher: Unternehmen, negativ|Wasserverschmutzung durch Industrie verursacht Kosten bzw.Gewinnausfall bei Fischereibetrieb|Wasserverschmutzung durch Industrie zerstört Bademöglichkeit, Familien müssen zum Baden weiter weg fahren (Kosten steigen)|
+
+Negative technologische externe Effekte haben ihre Ursache fast immer in fehlenden oder nicht exakt zugeordneten Eigentumsrechten bei Gütern, bei denen Nutzer, die nicht zahlen wollen, nur schlecht vom Konsum ausgeschlossen werden können (Ausschließbarkeit) und rivalisierenden Nutzern beim Konsum von Gütern (Rivalität).
+> 负面技术性外部效应几乎总是源于缺失或未被精确分配的产权，这种情况发生在以下商品中：不愿意付费的用户难以被排除在消费之外的商品（排他性），在商品消费中存在竞争性用户的商品（竞争性）
+
+Daraus ergibt sich folgendes Problem: Der Wirtschaftsakteur betrachtet ein knappes Gut als ein freies Gut. Bei einem negativen externen Effekt spart der Verursacher Kosten, die auf die Gesellschaft abgewälzt werden. Bei einem positiven externen Effekt bezahlt der Empfänger des Gutes nichts an den Verursacher. Das bedeutet, dass bei einem negativen externen Effekt immer zu viel von dem Gut angeboten wird, bei einem positiven zu wenig. Die Verteilung der Güter erfolgt aus der Sicht der Gesellschaft nicht mehr paretooptimal (Siehe später).
+> 从这种情况产生了以下问题：经济主体将一种稀缺商品视为免费商品。在负面外部效应中，造成者节省了成本，而这些成本被转嫁给了社会。在正面外部效应中，商品的接受者不向造成者支付任何费用。这意味着：
+> 
+> 1. 在负面外部效应的情况下，该商品总是供给过多
+> 2. 在正面外部效应的情况下，该商品供给不足
+> 
+> 从社会的角度来看，商品的分配不再是帕累托最优的（详见后文）。
+
+Zur Beseitigung negativer technologischer externer Effekte gibt es unterschiedliche Lösungsansätze:
+> 解决负面技术性外部效应的不同方法：
+
+1. moralische Appelle durch den Staat oder durch betroffene Bürger, Presse usw.
+2. Käuferboykott
+3. Ge-, Verbote, Auflagen durch den Staat
+4. Steuern, Subventionen durch den Staat
+5. Staat übernimmt die Reinigung
+6. Verhandlungen zwischen den Verursachern und den Empfängern
+7. Fusion
+8. Zertifikate (Marktlösung)
+
+> 1. 国家、受影响的公民、媒体等发出道德呼吁
+> 2. 消费者抵制
+> 3. 国家制定法规、禁令、要求
+> 4. 国家征税、提供补贴
+> 5. 国家承担清理工作
+> 6. 造成者与接受者之间进行谈判
+> 7. 合并
+> 8. 排放权证（市场解决方案）
+
+Wenn negative technologische externe Effekte auftreten, geht es darum, Lösungen zu finden, die näher am Wohlfahrtsoptimum liegen, da sie die Existenz der Menschheit und der Erde gefährden. Diese können grundsätzlich durch Staatseingriff (Steuern, Verbote mit Strafen) angestrebt werden oder durch die Schaffung eines Marktes, nachdem man einem Wirtschafts-akteur Eigentumsrechte zugeteilt hat. Ziel ist es, negative externe Effekte zu internalisieren, d.h. als Kosten in die Kostenfunktionen der Marktakteure und damit auch in die Marktangebotsfunktion einfließen zu lassen.
+
+Bei einem Staatseingriff erhebt der Staat beispielsweise bei einem Chemiebetrieb, der giftiges Abwasser in einen Fluss einleitet, eine Steuer, mit der der Staat eine Filteranlage bauen kann, die die Verschmutzung beseitigt. Die Steuerlösung wurde von Pigou 1912 beschrieben (Pigousteuer). Wenn die Steuer höher ist als die Kostenersparnis des Unternehmens, ist das Unternehmen daran interessiert, die Filteranlage selbst zu bauen.
+Bei Lösungen ohne Staatseingriff muss zunächst ein Eigentumsrecht an dem sauberen Wasser für den Staat oder für einen Wirtschaftsakteur definiert werden. Wenn der Staat das Eigentumsrecht für sich definiert hat, kann er Umweltverschmutzern die Erlaubnis verkaufen, die Umwelt bis zu einem bestimmten Maße zu verschmutzen (ein Zertifikat). Die Unternehmen können dieses Zertifikat dann verkaufen und auch kaufen, es kommt zu einer Marktlösung.
+Wenn der Staat einem Wirtschaftsakteur das Eigentum zuspricht, also dem Chemiebetrieb oder dem Fischereibetrieb, so kann entweder der Chemiebetrieb eine Zahlung vom Fischerei-betrieb fordert, damit er eine Filteranlage bauen kann oder der Fischereibetrieb kann bei dem Chemieunternehmen eine Entschädigungszahlung für den entgangenen Gewinn durch Verhandlung einfordern. Die Verhandlungslösung beschreibt Coase 1960 in seinem Coase Theorem. Wenn die Forderung des Fischereibetriebs nach Entschädigung höher ist als die Kostenersparnis des Chemieunternehmens, ist das Unternehmen ebenfalls daran interessiert, die Filteranlage selbst zu bauen.
+Bei einer Fusion der beiden Unternehmen wird das Problem in ein Unternehmen verlagert.
+Das kann nur funktionieren, wenn beide Teilunternehmen einen ähnlichen Beitrag zum Gewinn erwirtschaften können, denn sonst würde das weniger wirtschaftliche Teilunternehmen einfach geschlossen werden.
+Die Internalisierung der externen Effekte führt zu steigenden Kosten für die Verursacher der Umweltverschmutzung. Die steigenden Kosten erhöhen die Angebotspreise, bei normal verlaufenden Nachfrage- und Angebotsfunktionen sinken dann die nachgefragten Mengen.
+
 ## 9. Die Produktionsfunktion
 
 ### 9.1 Die Produktion
