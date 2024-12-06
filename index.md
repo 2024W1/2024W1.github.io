@@ -938,8 +938,8 @@ $\text{(a) }
 \right.
 $
 
-> $\text{p}_\text{N}(\text{m})=-2\text{m}+700$
-> $\text{p}_\text{A}(\text{m})=-\frac{1}{2}\text{m}_\text{A}+125$
+> $\text{\text{p}}_\text{N}(\text{m})=-2\text{m}+700$
+> $\text{\text{p}}_\text{A}(\text{m})=-\frac{1}{2}\text{m}_\text{A}+125$
 > $-2\text{m}+700=-\frac{1}{2}\text{m}_\text{A}+125 \Rightarrow \text{m}_\text{gg}=230,\text{p}_\text{gg}=240,\text{m}_\text{v}=55200$
 
 $\text{(b) }
