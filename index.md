@@ -1100,7 +1100,7 @@ Zur Beseitigung negativer technologischer externer Effekte gibt es unterschiedli
 
 1. moralische Appelle durch den Staat oder durch betroffene Bürger, Presse usw.
 2. Käuferboykott
-3. Ge-, Verbote, Auflagen durch den Staat
+3. Gebote, Verbote, Auflagen durch den Staat
 4. Steuern, Subventionen durch den Staat
 5. Staat übernimmt die Reinigung
 6. Verhandlungen zwischen den Verursachern und den Empfängern
@@ -1113,17 +1113,30 @@ Zur Beseitigung negativer technologischer externer Effekte gibt es unterschiedli
 > 4. 国家征税、提供补贴
 > 5. 国家承担清理工作
 > 6. 造成者与接受者之间进行谈判
-> 7. 合并
+> 7. 公司合并
 > 8. 排放权证（市场解决方案）
 
-Wenn negative technologische externe Effekte auftreten, geht es darum, Lösungen zu finden, die näher am Wohlfahrtsoptimum liegen, da sie die Existenz der Menschheit und der Erde gefährden. Diese können grundsätzlich durch Staatseingriff (Steuern, Verbote mit Strafen) angestrebt werden oder durch die Schaffung eines Marktes, nachdem man einem Wirtschafts-akteur Eigentumsrechte zugeteilt hat. Ziel ist es, negative externe Effekte zu internalisieren, d.h. als Kosten in die Kostenfunktionen der Marktakteure und damit auch in die Marktangebotsfunktion einfließen zu lassen.
+Wenn negative technologische externe Effekte auftreten, geht es darum, Lösungen zu finden, die näher am Wohlfahrtsoptimum liegen, da sie die Existenz der Menschheit und der Erde gefährden. Diese können grundsätzlich durch Staatseingriff (Steuern, Verbote mit Strafen) angestrebt werden oder durch die Schaffung eines Marktes, nachdem man einem Wirtschaftsakteur Eigentumsrechte zugeteilt hat. Ziel ist es, negative externe Effekte zu internalisieren, d.h. als Kosten in die Kostenfunktionen der Marktakteure und damit auch in die Marktangebotsfunktion einfließen zu lassen.
+> 当出现负面技术性外部效应时，需要寻找更接近福利最优的解决方案，因为这些效应威胁到人类和地球的存在。这些解决方案可以通过国家干预（如征税、禁令和惩罚）来实现，或者通过为某个经济主体分配产权来创造市场。目标是将负面外部效应内部化，即将其作为成本纳入市场参与者的成本函数，从而影响市场供给函数。
 
 Bei einem Staatseingriff erhebt der Staat beispielsweise bei einem Chemiebetrieb, der giftiges Abwasser in einen Fluss einleitet, eine Steuer, mit der der Staat eine Filteranlage bauen kann, die die Verschmutzung beseitigt. Die Steuerlösung wurde von Pigou 1912 beschrieben (Pigousteuer). Wenn die Steuer höher ist als die Kostenersparnis des Unternehmens, ist das Unternehmen daran interessiert, die Filteranlage selbst zu bauen.
+> 国家可以对向河流排放有毒废水的化工厂征税，用税收建设过滤设施以消除污染。这种税收解决方案由Pigou于1912年提出（庇古税）。如果税额高于企业的成本节省，企业就会有兴趣自行建设过滤设施。
+
 Bei Lösungen ohne Staatseingriff muss zunächst ein Eigentumsrecht an dem sauberen Wasser für den Staat oder für einen Wirtschaftsakteur definiert werden. Wenn der Staat das Eigentumsrecht für sich definiert hat, kann er Umweltverschmutzern die Erlaubnis verkaufen, die Umwelt bis zu einem bestimmten Maße zu verschmutzen (ein Zertifikat). Die Unternehmen können dieses Zertifikat dann verkaufen und auch kaufen, es kommt zu einer Marktlösung.
-Wenn der Staat einem Wirtschaftsakteur das Eigentum zuspricht, also dem Chemiebetrieb oder dem Fischereibetrieb, so kann entweder der Chemiebetrieb eine Zahlung vom Fischerei-betrieb fordert, damit er eine Filteranlage bauen kann oder der Fischereibetrieb kann bei dem Chemieunternehmen eine Entschädigungszahlung für den entgangenen Gewinn durch Verhandlung einfordern. Die Verhandlungslösung beschreibt Coase 1960 in seinem Coase Theorem. Wenn die Forderung des Fischereibetriebs nach Entschädigung höher ist als die Kostenersparnis des Chemieunternehmens, ist das Unternehmen ebenfalls daran interessiert, die Filteranlage selbst zu bauen.
+Wenn der Staat einem Wirtschaftsakteur das Eigentum zuspricht, also dem Chemiebetrieb oder dem Fischereibetrieb, so kann entweder der Chemiebetrieb eine Zahlung vom Fischereibetrieb fordert, damit er eine Filteranlage bauen kann oder der Fischereibetrieb kann bei dem Chemieunternehmen eine Entschädigungszahlung für den entgangenen Gewinn durch Verhandlung einfordern. Die Verhandlungslösung beschreibt Coase 1960 in seinem Coase Theorem. Wenn die Forderung des Fischereibetriebs nach Entschädigung höher ist als die Kostenersparnis des Chemieunternehmens, ist das Unternehmen ebenfalls daran interessiert, die Filteranlage selbst zu bauen.
+> 首先需要为国家或某个经济主体定义清洁水的产权。如果国家为自己定义了产权，可以向污染者出售一定程度的污染许可（证书）。企业可以买卖这些证书，形成市场解决方案。
+> 如果国家将产权赋予某个经济主体（如化工厂或渔业公司），则可能出现以下情况：
+> 化工厂要求渔业公司支付费用以建设过滤设施
+> 渔业公司通过谈判向化工企业索要利润损失的赔偿金
+> Coase在1960年的科斯定理中描述了谈判解决方案。如果渔业公司的赔偿要求高于化工企业的成本节省，化工企业也会有兴趣自行建设过滤设施。
+> 注意:根据中国现行法律法规，个人和企业不能通过购买从国家手中获得水资源的所有权，但可以通过合法途径获得水资源的使用权。国内的水权交易主要涉及水资源使用权的转让，而非所有权的转让。《水权交易管理暂行办法》规定了可交易的水权范围、类型、交易主体和程序等内容。
+
 Bei einer Fusion der beiden Unternehmen wird das Problem in ein Unternehmen verlagert.
 Das kann nur funktionieren, wenn beide Teilunternehmen einen ähnlichen Beitrag zum Gewinn erwirtschaften können, denn sonst würde das weniger wirtschaftliche Teilunternehmen einfach geschlossen werden.
+> 通过合并两家公司，问题被转移到一个企业内部。这只有在两个子公司能够为利润做出类似贡献时才能奏效，否则经济效益较差的子公司可能会被简单地关闭。
+
 Die Internalisierung der externen Effekte führt zu steigenden Kosten für die Verursacher der Umweltverschmutzung. Die steigenden Kosten erhöhen die Angebotspreise, bei normal verlaufenden Nachfrage- und Angebotsfunktionen sinken dann die nachgefragten Mengen.
+> 外部效应的内部化导致污染者的成本上升。成本上升会提高供给价格，在正常的需求和供给函数下，需求量会下降。
 
 ## 9. Die Produktionsfunktion
 
@@ -1136,12 +1149,13 @@ Der Begriff „Produktion" kann ebenso wie andere Basisbegriffe der Wirtschaftsw
 > "生产"这个概念，就像经济学中的其他基本概念一样，可以有不同的定义。在微观经济学中，这个概念的定义非常广泛。在这里，**生产**包括从原材料开采、加工和处理，直到稀缺商品的分配的所有人类活动。只有消费，即商品的使用，不属于生产的范畴。
 
 Beispiele:
-> 例如:
 
 - Landwirtschaftlicher Betrieb: Das Zusammenwirken von Boden als Anbauboden, Arbeit des Landwirtes und Kapital (Landmaschinen, Saatgut) ergibt eine bestimmt Menge Weizen.
 - Papierfabrik: Die Kombination von Boden als Standortboden, Arbeit der Arbeitnehmer und Kapital (Maschinen, Werkstoffe) ergibt eine bestimmte Menge Papier.
 - Universität: Das Zusammenwirken der Leistungen des Professors, Wissen aus Büchern und anderen Medien, Zeit, einem realen oder virtuellen Ort führt zu einem gebildeten Studenten.
 
+> 例如:
+> 
 > - 农业经营：土地作为耕地、农民的劳动和资本（农业机械、种子）的结合产生一定数量的小麦。
 > - 造纸厂：土地作为厂址、工人的劳动和资本（机器、原材料）的组合产生一定数量的纸张。
 > - 大学：教授的授课、来自书籍和其他媒体的知识、时间、以及实体或虚拟场所的共同作用，最终培养出一个受过教育的学生。
@@ -1155,6 +1169,10 @@ Zur wissenschaftlichen Beschreibung der Produktion wurde das Modell der Produkti
 
 Schreiben Sie Produktionsfaktoren, die notwendig sind, um ein Brot zu produzieren.
 > 请列出生产一个面包所需的生产要素。
+
+|Rohstoffe|Personal|Anlage|Lage|Methode/Wissenschaft|Energie|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Mehl, Wasser, Zucker, Milch, Hefe| Bäcker, Verkäufer(?)| Ofen, Tisch| Bäckerei, Lager| Brotzubereitungsweisen|Storm, Holz|
 
 Der Blick der VWL auf die Produktionsfaktoren ist etwas anders als der Blick der BWL. Daraus ergeben sich andere Klassifikationsbedürfnisse.
 > 国民经济学（VWL）和企业经济学（BWL）对生产要素的看法有所不同。这导致了不同的分类需求。
