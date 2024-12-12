@@ -1303,7 +1303,7 @@ $\Rightarrow \text{Antwort. Die Anzahl der Tische ist 56 und die Anzahl der Tisc
 
 ###### 9.3.2.2.1 Funktionsverlauf
 
-Substitutionalität besagt zunächst, dass die Produktionsfaktoren untereinander ausgetauscht werden können, ohne dass sich der Output verändert. Es können zwei grundsätzliche Arten der Substitutionalität unterschieden werden: Bei der **peripheren** Substitution ( ) ist der Austausch der Faktoren nur bis zu einer bestimmten Grenze möglich, z.B. in der Landwirtschaft müssen Boden und Saatgut immer miteinander kombiniert eingesetzt werden, um Ernten zu erzielen, der Verzicht auf einen Produktionsfaktor ist hier nicht möglich. Bei der alternativen Substitution ( ) hingegen ist der vollständige Ersatz eines Produktions faktors durch einen anderen möglich. Ein Sonderfall der alternativen Substitution ist die absolute Substitution von Produktionsfaktoren ( ), wenn sich ein Unternehmen schon bei einer geringen Kosten-änderung für den Einsatz entweder des einen oder des anderen Produktionsfaktors entscheiden kann.
+Substitutionalität besagt zunächst, dass die Produktionsfaktoren untereinander ausgetauscht werden können, ohne dass sich der Output verändert. Es können zwei grundsätzliche Arten der Substitutionalität unterschieden werden: Bei der **peripheren** Substitution (C) ist der Austausch der Faktoren nur bis zu einer bestimmten Grenze möglich, z.B. in der Landwirtschaft müssen Boden und Saatgut immer miteinander kombiniert eingesetzt werden, um Ernten zu erzielen, der Verzicht auf einen Produktionsfaktor ist hier nicht möglich. Bei der alternativen Substitution (A/B) hingegen ist der vollständige Ersatz eines Produktions faktors durch einen anderen möglich. Ein Sonderfall der alternativen Substitution ist die absolute Substitution von Produktionsfaktoren (A), wenn sich ein Unternehmen schon bei einer geringen Kostenänderung für den Einsatz entweder des einen oder des anderen Produktionsfaktors entscheiden kann.
 Ordnen Sie die Grafiken dem Text zu: 5
 > 可替代性首先意味着生产要素之间可以相互替换，而不改变产出。可以区分两种基本类型的可替代性：
 > 边际替代（peripheral substitution）中，要素的替换只能到达一定的限度。例如，在农业中，土地和种子必须始终结合使用才能获得收成，在这里不可能完全放弃某一生产要素。
@@ -1324,24 +1324,33 @@ Aus der folgenden Tabelle wird ersichtlich, dass sich eine bestimmte Ausbringung
 
 |Einheiten Arbeit(Arbeitsstunden)\\Einheiten Kapital (Maschinenstunden)|2|4|6|8|10|12|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|6|3000|6000|9000|12000|15000|18000|
-|12|6000|12000|18000|24000|30000|36000|
-|18|9000|18000|27000|36000|45000|54000|
+|6|3000|6000|9000|12000|15000|==18000==|
+|12|6000|12000|==18000==|24000|30000|36000|
+|18|9000|==18000==|27000|36000|45000|54000|
 |24|12000|24000|36000|48000|60000|72000|
 |30|15000|30000|45000|60000|75000|90000|
-|36|18000|36000|54000|72000|90000|108000|
+|36|==18000==|36000|54000|72000|90000|108000|
 
 Zeichnen Sie nun die Isoquante für den geplanten Output von 18 000 Stück.
+> 现在绘制计划产量为18,000件的等产量曲线。
 
 Die analytische Darstellung einer substitutionalen Produktionsfunktion mit zwei Faktoren kann z.B. so erfolgen:
 Allgemeine Form: $O(v_1,v_2)=av_1^{\alpha}bv_2^{\beta}$
 Diese Form wird Cobb-Douglas-Funktion genannt.
 Welche Faktorkombination die optimale ist, ist nur von den Kosten der Faktoren abhängig.
 Der Optimalpunkt, bei dem eine bestimmte Menge des Faktors vi mit einer bestimmten Menge des Faktors v2 so kombiniert wird, dass die Gesamtkosten der Produktion minimal sind, wird als Minimalkostenkombination bezeichnet.
+> 具有两个生产要素的可替代生产函数的解析表示形式可以例如如下：
+一般形式：
+>  $O(v_1,v_2)=av_1^{\alpha}bv_2^{\beta}$
+> 这种形式被称为柯布-道格拉斯函数。哪种要素组合是最优的，仅取决于要素的成本。
+将某一数量的要素$v_1$与某一数量的要素 $v_2$​ 结合，使得生产的总成本达到最小的点被称为最小成本组合。
 
 ###### Der Optimalpunkt: Die Minimalkostenkombination
 
 Die Minimalkostenkombination ist die Faktorkombination, mit der ein gewünschtes Output zu minimalen Kosten produziert werden kann. Um die Minimalkostenkombination grafisch zu ermitteln, ist es notwendig, die Kosten (Faktorpreise) im Koordinatensystem darzustellen. Dazu wählt man eine geeignete Höhe an Kosten, z.B. 10 GE oder 100 GE, die nur zum Kauf des Faktors vi oder zum Kauf des Faktors Vz eingesetzt werden. Wenn man die berechneten Mengen auf der Abszisse und der Ordinate kennzeichnet und beide Punkte verbindet, erhält man eine Isokostengerade oder Kostengerade. Sie wird definiert als geometrischer Ort aller Faktorkombinationen, die die gleichen Kosten verursachen. Da die Kosten der Produktion im Normalfall nicht gegeben sind, sondern erst berechnet werden sollen, ist die Lage der Kostengeraden zunächst nicht bekannt. Gegeben ist bei gegebenen Faktorpreisen nur die Steigung der Kostengeraden.
+> 最小成本组合是能以最低成本生产所需产出的要素组合。为了图形化地确定最小成本组合，有必要在坐标系中表示成本（要素价格）。为此，选择一个适当的成本水平，例如10货币单位或100货币单位，这些成本仅用于购买要素 $v_1$ 或要素 $v_2$ 。如果在横轴和纵轴上标记计算出的数量并连接这两个点，就得到一条等成本线或成本线。它被定义为所有导致相同成本的要素组合的几何位置。
+> 由于生产成本在正常情况下并不是给定的，而是需要计算的，因此成本线的位置最初是未知的。在给定要素价格的情况下，只有成本线的斜率是已知的。
+
 Zeichnen Sie eine Kostengerade für ein angenommenes Budget von $100$ € und Faktorpreis $q_1 = 33,33$ € und Faktorpreis $q_2= 50$ €. 7 Grafik
 
 Indem man die Kostengerade nun solange parallel verschiebt, bis sie eine Tangente an die gegebene Isoquante bildet, dann ist der Tangentialpunkt die Minimalkostenkombination. Für diesen Punkt können nun die Koordinaten bestimmt werden. Die Länge der Kostengeraden kennzeichnet die Höhe der Kosten.
