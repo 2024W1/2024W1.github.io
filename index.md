@@ -1258,7 +1258,7 @@ Produktionsfunktionen wurden bereits im 17. Jahrhundert beobachtet und beschrieb
 2. Schnitt parallel zur Abszissen-Applikaten-Ebene oder zur Ordinaten-Applikaten-Ebene = partielle Faktorvariation
 3. Schnitt entlang des Expansionspfades des Outputs = totale oder proportionale Faktorvariation
 
-Beschriften Sie die Achsen der Koordinatensysteme mit Input $\text{v}_1$, Input $\text{v}_2$ und Output O.
+Beschriften Sie die Achsen der Koordinatensysteme mit Input $\text{v}_1$, Input $\text{v}_2$ und Output $O$.
 
 Die Produktionstheorie beschäftigt sich mit den Fragen:
 
@@ -1295,6 +1295,9 @@ Stellen Sie drei Isoquanten und die zwei gegebenen Faktorpakete grafisch dar. W�
 
 4 Berechnung:
 Ein Tischler hat in seinem Lager 224 Tischbeine und 76 Tischplatten. Berechnen Sie bitte schriftlich (nicht im Kopf) die Anzahl der Tische, die er aus den Faktoren produzieren kann. Welcher Faktor ist der limitierende?
+$v_1=76,v_2=224$
+$O(v_1,v_2)=\min(\lfloor v_1\rfloor,\lfloor \frac{v_2}{4}\rfloor)=\min(\lfloor 76\rfloor,\lfloor \frac{224}{4}\rfloor)=\min(\lfloor 76\rfloor,\lfloor 56\rfloor)=56$
+$\Rightarrow \text{Antwort. Die Anzahl der Tische ist 56 und die Anzahl der Tischbeine }v_2\text{ ist der limitierende Faktor.}$
 
 ##### 9.3.2.2 Substitutionale Produktionsfunktionen
 
@@ -1302,11 +1305,24 @@ Ein Tischler hat in seinem Lager 224 Tischbeine und 76 Tischplatten. Berechnen S
 
 Substitutionalität besagt zunächst, dass die Produktionsfaktoren untereinander ausgetauscht werden können, ohne dass sich der Output verändert. Es können zwei grundsätzliche Arten der Substitutionalität unterschieden werden: Bei der **peripheren** Substitution ( ) ist der Austausch der Faktoren nur bis zu einer bestimmten Grenze möglich, z.B. in der Landwirtschaft müssen Boden und Saatgut immer miteinander kombiniert eingesetzt werden, um Ernten zu erzielen, der Verzicht auf einen Produktionsfaktor ist hier nicht möglich. Bei der alternativen Substitution ( ) hingegen ist der vollständige Ersatz eines Produktions faktors durch einen anderen möglich. Ein Sonderfall der alternativen Substitution ist die absolute Substitution von Produktionsfaktoren ( ), wenn sich ein Unternehmen schon bei einer geringen Kosten-änderung für den Einsatz entweder des einen oder des anderen Produktionsfaktors entscheiden kann.
 Ordnen Sie die Grafiken dem Text zu: 5
+> 可替代性首先意味着生产要素之间可以相互替换，而不改变产出。可以区分两种基本类型的可替代性：
+> 边际替代（peripheral substitution）中，要素的替换只能到达一定的限度。例如，在农业中，土地和种子必须始终结合使用才能获得收成，在这里不可能完全放弃某一生产要素。
+> 而在替代性替代（alternative substitution）中，一个生产要素可以完全被另一个替代。替代性替代的一个特殊情况是生产要素的绝对替代（absolute substitution），即当成本发生微小变化时，企业就可以决定使用其中一种或另一种生产要素。
+> 根据您提供的信息，这段文字应该与图5相对应。
 
-Wenn man die limitationale Produktionsfunktion, bei der alle Faktoren in einer festen Kombination zu einem bestimmten Output führen als extreme Merkmalsausprägung einerseits be-trachtet, so stellt die absolut substitutionale Produktionsfunktion die andere extreme Merk-malsausprägung dar, bei der der gewünschte Output entweder mithilfe des einen oder des anderen Faktors bzw. beider in beliebiger Kombination erzeugt werden kann.
+Wenn man die limitationale Produktionsfunktion, bei der alle Faktoren in einer festen Kombination zu einem bestimmten Output führen als extreme Merkmalsausprägung einerseits be-trachtet, so stellt die absolut substitutionale Produktionsfunktion die andere extreme Merkmalsausprägung dar, bei der der gewünschte Output entweder mithilfe des einen oder des anderen Faktors bzw. beider in beliebiger Kombination erzeugt werden kann.
+> 如果我们将限制性生产函数（所有要素以固定比例组合产生特定产出）视为一个极端特征表现，那么绝对可替代生产函数则代表另一个极端特征表现。在绝对可替代生产函数中，所需的产出可以通过使用其中一种要素，或另一种要素，或者两种要素的任意组合来实现。
+
 Aus der folgenden Tabelle wird ersichtlich, dass sich eine bestimmte Ausbringungsmenge (Output) durch die Kombination von menschlicher Arbeit und Maschinenstunden herstellen lässt. Suchen Sie bitte alle möglichen Faktorkombinationen, mit denen der Unternehmer einen gewünschten Output von 18 000 Stück eines Produktes produzieren kann. 6
+> 从下表可以看出，特定的产出量可以通过人工和机器工时的组合来实现。请找出所有可能的要素组合，使企业家能够生产出18,000件产品的预期产出。
+> 这个任务涉及到生产要素的最优组合问题。在给定的产出水平下，企业需要寻找成本最小化或效率最大化的生产要素投入组合。具体来说：
+> 企业的目标是生产18,000件产品。
+> 生产要素包括人工（劳动力）和机器工时（资本）。
+> 需要找出所有可以实现18,000件产出的劳动力和机器工时的组合。
+> 这种分析有助于企业了解不同生产要素组合的可能性，从而在考虑成本、效率和其他因素的基础上做出最优选择。通过比较不同组合的成本或效率，企业可以确定在给定产出水平下的最佳生产方式。
+> 要确定具体的要素组合，需要查看原文中提供的表格数据。不同的劳动力投入和机器工时投入组合，只要能产出18,000件产品的，都应该被列出来。这样的分析可以帮助企业在保持产出不变的情况下，灵活调整生产要素的投入比例，以适应不同的生产条件和成本结构。
 
-|Einheiten Arbeit(Arbeitsstunden)\Einheiten Kapital (Maschinenstunden)|2|4|6|8|10|12|
+|Einheiten Arbeit(Arbeitsstunden)\\Einheiten Kapital (Maschinenstunden)|2|4|6|8|10|12|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |6|3000|6000|9000|12000|15000|18000|
 |12|6000|12000|18000|24000|30000|36000|
