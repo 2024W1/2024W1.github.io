@@ -1256,6 +1256,58 @@ Stellen Sie drei Isoquanten und die zwei gegebenen Faktorpakete grafisch dar. W�
 4 Berechnung:
 Ein Tischler hat in seinem Lager 224 Tischbeine und 76 Tischplatten. Berechnen Sie bitte schriftlich (nicht im Kopf) die Anzahl der Tische, die er aus den Faktoren produzieren kann. Welcher Faktor ist der limitierende?
 
+##### 9.3.2.2 Substitutionale Produktionsfunktionen
+
+###### 9.3.2.2.1 Funktionsverlauf
+
+Substitutionalität besagt zunächst, dass die Produktionsfaktoren untereinander ausgetauscht werden können, ohne dass sich der Output verändert. Es können zwei grundsätzliche Arten der Substitutionalität unterschieden werden: Bei der **peripheren** Substitution ( ) ist der Austausch der Faktoren nur bis zu einer bestimmten Grenze möglich, z.B. in der Landwirtschaft müssen Boden und Saatgut immer miteinander kombiniert eingesetzt werden, um Ernten zu erzielen, der Verzicht auf einen Produktionsfaktor ist hier nicht möglich. Bei der alternativen Substitution ( ) hingegen ist der vollständige Ersatz eines Produktions faktors durch einen anderen möglich. Ein Sonderfall der alternativen Substitution ist die absolute Substitution von Produktionsfaktoren ( ), wenn sich ein Unternehmen schon bei einer geringen Kosten-änderung für den Einsatz entweder des einen oder des anderen Produktionsfaktors entscheiden kann.
+Ordnen Sie die Grafiken dem Text zu: 5
+
+Wenn man die limitationale Produktionsfunktion, bei der alle Faktoren in einer festen Kombination zu einem bestimmten Output führen als extreme Merkmalsausprägung einerseits be-trachtet, so stellt die absolut substitutionale Produktionsfunktion die andere extreme Merk-malsausprägung dar, bei der der gewünschte Output entweder mithilfe des einen oder des anderen Faktors bzw. beider in beliebiger Kombination erzeugt werden kann.
+Aus der folgenden Tabelle wird ersichtlich, dass sich eine bestimmte Ausbringungsmenge (Output) durch die Kombination von menschlicher Arbeit und Maschinenstunden herstellen lässt. Suchen Sie bitte alle möglichen Faktorkombinationen, mit denen der Unternehmer einen gewünschten Output von 18 000 Stück eines Produktes produzieren kann. 6
+
+|Einheiten Arbeit(Arbeitsstunden)\Einheiten Kapital (Maschinenstunden)|2|4|6|8|10|12|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|6|3000|6000|9000|12000|15000|18000|
+|12|6000|12000|18000|24000|30000|36000|
+|18|9000|18000|27000|36000|45000|54000|
+|24|12000|24000|36000|48000|60000|72000|
+|30|15000|30000|45000|60000|75000|90000|
+|36|18000|36000|54000|72000|90000|108000|
+
+Zeichnen Sie nun die Isoquante für den geplanten Output von 18 000 Stück.
+
+Die analytische Darstellung einer substitutionalen Produktionsfunktion mit zwei Faktoren kann z.B. so erfolgen:
+Allgemeine Form: $O(v_1,v_2)=av_1^{\alpha}bv_2^{\beta}$
+Diese Form wird Cobb-Douglas-Funktion genannt.
+Welche Faktorkombination die optimale ist, ist nur von den Kosten der Faktoren abhängig.
+Der Optimalpunkt, bei dem eine bestimmte Menge des Faktors vi mit einer bestimmten Menge des Faktors v2 so kombiniert wird, dass die Gesamtkosten der Produktion minimal sind, wird als Minimalkostenkombination bezeichnet.
+
+###### Der Optimalpunkt: Die Minimalkostenkombination
+
+Die Minimalkostenkombination ist die Faktorkombination, mit der ein gewünschtes Output zu minimalen Kosten produziert werden kann. Um die Minimalkostenkombination grafisch zu ermitteln, ist es notwendig, die Kosten (Faktorpreise) im Koordinatensystem darzustellen. Dazu wählt man eine geeignete Höhe an Kosten, z.B. 10 GE oder 100 GE, die nur zum Kauf des Faktors vi oder zum Kauf des Faktors Vz eingesetzt werden. Wenn man die berechneten Mengen auf der Abszisse und der Ordinate kennzeichnet und beide Punkte verbindet, erhält man eine Isokostengerade oder Kostengerade. Sie wird definiert als geometrischer Ort aller Faktorkombinationen, die die gleichen Kosten verursachen. Da die Kosten der Produktion im Normalfall nicht gegeben sind, sondern erst berechnet werden sollen, ist die Lage der Kostengeraden zunächst nicht bekannt. Gegeben ist bei gegebenen Faktorpreisen nur die Steigung der Kostengeraden.
+Zeichnen Sie eine Kostengerade für ein angenommenes Budget von $100$ € und Faktorpreis $q_1 = 33,33$ € und Faktorpreis $q_2= 50$ €. 7 Grafik
+
+Indem man die Kostengerade nun solange parallel verschiebt, bis sie eine Tangente an die gegebene Isoquante bildet, dann ist der Tangentialpunkt die Minimalkostenkombination. Für diesen Punkt können nun die Koordinaten bestimmt werden. Die Länge der Kostengeraden kennzeichnet die Höhe der Kosten.
+8 Berechnung und Grafik
+Minimalkostenkombination und Höhe der Kosten (viel Platz)
+Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}$ Es soll zunächst ein Output von 180 Stück produziert werden. Der Preis des Faktors $v_1$ beträgt $q_1 = 2$ €, der Preis des Faktors $v_2$ beträgt $q_2 = 18$ €.
+
+- Situation 0
+(a) Berechnen Sie die Minimalkostenkombination für dieses Output und die Höhe der Kosten.
+(b) Berechnen Sie die Isoquante 180 und zeichnen Sie sie in ein $v_1$ - $v_2$ - Diagramm ein.
+Dazu müssen Sie zuerst eine Wertetabelle für die $v_1$ - Werte 40; 50; 60; 70; 80; 100; 150;
+200; 250 und 300 berechnen. (Abszissenmaßstab: 20 $v_1$ entsprechen 1cm, Ordinatenmaßstab: 10 $v_2$ entsprechen $2.5$ cm).
+(c) Berechnen Sie die Nullstelle der Kostengeraden und ihren Schnittpunkt mit der Ordinate und zeichnen Sie sie in das Koordinatensystem in (b) ein.
+Situation 1
+(d) Berechnen Sie c.p. die Minimalkostenkombination für ein Output von 200 Stück und die Höhe der Kosten.
+(e) Berechnen Sie die Isoquante 200 und zeichnen Sie sie in das $v_1$ - $v_2$ - Diagramm in (b) ein.
+Verwenden Sie für die Wertetabelle einige geeignete Werte aus (b).
+(f) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (d) andersfarbig in das Koordinatensystem in (b) ein.
+Situation 2
+(g) Berechnen Sie c.p. gegenüber der Ausgangssituation die Minimalkostenkombination und die Höhe der Kosten, wenn der Preis des Faktors $v_1$ um $6$ € erhöht wird.
+(h) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (f) wieder andersfarbig in das Koordinatensystem in (b) ein.
+
 ## A1. Der Wirtschaftsnobelpreis 2024
 
 ### A1.1 Der Forschungsansatz
