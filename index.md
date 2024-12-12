@@ -1364,12 +1364,14 @@ Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) 
 Dazu müssen Sie zuerst eine Wertetabelle für die $v_1$ - Werte 40; 50; 60; 70; 80; 100; 150;
 200; 250 und 300 berechnen. (Abszissenmaßstab: 20 $v_1$ entsprechen 1cm, Ordinatenmaßstab: 10 $v_2$ entsprechen $2.5$ cm).
 (c) Berechnen Sie die Nullstelle der Kostengeraden und ihren Schnittpunkt mit der Ordinate und zeichnen Sie sie in das Koordinatensystem in (b) ein.
-Situation 1
+
+- Situation 1
 (d) Berechnen Sie c.p. die Minimalkostenkombination für ein Output von 200 Stück und die Höhe der Kosten.
 (e) Berechnen Sie die Isoquante 200 und zeichnen Sie sie in das $v_1$ - $v_2$ - Diagramm in (b) ein.
 Verwenden Sie für die Wertetabelle einige geeignete Werte aus (b).
 (f) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (d) andersfarbig in das Koordinatensystem in (b) ein.
-Situation 2
+
+- Situation 2
 (g) Berechnen Sie c.p. gegenüber der Ausgangssituation die Minimalkostenkombination und die Höhe der Kosten, wenn der Preis des Faktors $v_1$ um $6$ € erhöht wird.
 (h) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (f) wieder andersfarbig in das Koordinatensystem in (b) ein.
 
