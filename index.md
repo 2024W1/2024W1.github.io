@@ -1200,19 +1200,59 @@ Hauptsächlich wird der Einsatz des Faktors Arbeit in Kombination mit dem Faktor
 #### 9.2.2 Die Klassifikation der Produktionsfaktoren aus der Sicht der BWL
 
 In der Betriebswirtschaftslehre wird das Unternehmen nicht mehr als black box gesehen. Die Analyse des Unternehmens erfordert eine andere, teils allgemeinere, meist aber differenziertere Betrachtung der Produktionsfaktoren. Der Boden hat normalerweise für ein Unternehmen nur eine Bedeutung als Standortfaktor, das Kapital dagegen ist viel zu umfangreich, umfasst sowohl einen Nagel als auch eine Chemieanlage, und muss aus diesem Grund genauer differenziert werden, und auch Arbeit wird zum Zwecke der Analyse eines Unternehmens nicht mehr nur als homogen betrachtet. Allgemeine Akzeptanz fand dabei die Klassifikation von Erich Gutenberg (1951).
-Grundsätzlich unterscheidet Gutenberg nur noch Arbeit und Kapital. Die Arbeit wird in zwei Arten untergliedert, in die leitende Arbeit (Arbeit der Leitung) und in die ausführende Arbeit (Arbeit in der Produktion). Die Differenzierung erfolgt nach dem Kriterium, ob die Arbeit weisungsberechtigt ist, d.h., ob sie damit verbunden ist, Anordnungen zu erteilen oder nicht. Die leitende Arbeit, die Gutenberg als vierten (dispositiven) betrieblichen Produktionsfaktor betrachtet, umfasst die Leitung, Planung, Organisation und Kontrolle des Betriebsablaufes. Das ist die Aufgabe der Betriebs- oder Abteilungsleitung. Zur ausführenden Arbeit gehören z.B. Tätigkeiten eines Elektrikers, eines Buchhalters oder einer Verkäuferin. Es werden Arbeitsvorgänge erledigt, der Hauptinhalt der Arbeit besteht nicht darin, Anordnungen zu er-teilen.
+> 在经营管理学中，企业不再被视为一个黑匣子。对企业的分析需要一种不同的、部分更加普遍、但通常更加细致的生产要素观点。对于一个企业来说，土地通常只作为一个区位因素具有意义，而资本则范围广泛得多，既包括一枚钉子，也包括一个化工厂，因此必须更精确地加以区分。同样，为了分析企业，劳动力也不再仅仅被视为同质的。在这方面，埃里希·古滕贝格（Erich Gutenberg）1951年提出的分类方法获得了普遍认可。
+
+Grundsätzlich unterscheidet Gutenberg nur noch Arbeit und Kapital. Die Arbeit wird in zwei Arten untergliedert, in die leitende Arbeit (Arbeit der Leitung) und in die ausführende Arbeit (Arbeit in der Produktion). Die Differenzierung erfolgt nach dem Kriterium, ob die Arbeit weisungsberechtigt ist, d.h., ob sie damit verbunden ist, Anordnungen zu erteilen oder nicht. Die leitende Arbeit, die Gutenberg als vierten (dispositiven) betrieblichen Produktionsfaktor betrachtet, umfasst die Leitung, Planung, Organisation und Kontrolle des Betriebsablaufes. Das ist die Aufgabe der Betriebs- oder Abteilungsleitung. Zur ausführenden Arbeit gehören z.B. Tätigkeiten eines Elektrikers, eines Buchhalters oder einer Verkäuferin. Es werden Arbeitsvorgänge erledigt, der Hauptinhalt der Arbeit besteht nicht darin, Anordnungen zu erteilen.
+> 基本上，古滕贝格只区分劳动和资本。劳动分为两种类型：管理性劳动（领导工作的劳动）和执行性劳动（生产中的劳动）。这种区分是根据工作是否具有指挥权来进行的，即是否与发出指令相关。古滕贝格将管理性劳动视为第四种（处置性）企业生产要素，包括对企业流程的管理、规划、组织和控制。这是企业或部门管理的职责。执行性劳动则包括例如电工、会计或销售员的工作。执行性劳动涉及完成工作过程，工作的主要内容并不在于发出指令。
+
 Das Kapital muss der VWL-Betrachtungsweise entgegen viel genauer klassifiziert werden. So vernachlässigt Gutenberg das Finanzkapital in seiner Klassifikation und unterteilt das Realkapital in Betriebsmittel und Werkstoffe. Betriebsmittel sind Faktoren, die über einen langen Zeitraum eingesetzt werden können (Gebrauchsgüter) und dabei einen Strom von Nutzungen abgeben. Ihr Wert wird über die geschätzte Nutzungsdauer hinweg abgeschrieben. Die Betriebsmittel werden im Anlagevermögen erfasst. Werkstoffe dagegen sind Verbrauchsgüter, also Produktionsmaterial. Sie werden im Umlaufvermögen erfasst.
+> 资本必须比宏观经济学的视角进行更精确的分类。因此，古滕贝格在其分类中忽略了金融资本，并将实物资本划分为生产设备和原材料。生产设备是指可以长时间使用的要素（耐用消费品），并在使用过程中提供效用流。其价值根据估计的使用期限进行折旧，生产设备被记录在固定资产中。而原材料则是消耗品，即生产材料，它们被记录在流动资产中。
+
+```mermaid
+graph TD
+    A[Produktionsfaktoren nach Gutenberg]
+    A --> B[Arbeit]
+    A --> C[Kapital]
+    B --> D[Leitende Arbeit]
+    B --> E[Ausführende Arbeit]
+    D --> F[Leitung]
+    D --> G[Planung]
+    D --> H[Organisation]
+    D --> I[Kontrolle]
+    E -..-> J[z.B. Elektriker]
+    E -..-> K[z.B. Buchhalter]
+    E -..-> L[z.B. Verkäuferin]
+    C --> M[Realkapital]
+    C --> T[Finanz]
+    M --> N[Betriebsmittel]
+    M --> O[Werkstoffe]
+    N --> V[Grundstücke und Gebäude]
+    N --> X[Maschinen und Anlage]
+    N --> Y[Fahrzeuge]
+    N --> Z[BGA]
+    O --> Q[Rohstoffe]
+    O --> R[Hilfsstoffe]
+    O --> S[Betriebsstoffe]
+    U[Elementarfaktoren] --> E
+    U --> N
+    U --> O
+
+```
 
 ### 9.3 Das Modell der Produktionsfunktion
 
 #### 9.3.1 Der Aufbau des Modells
 
 Unter einer Produktionsfunktion versteht man den mathematischen Zusammenhang zwischen dem Input und dem Output, der eine bestimmte Zeitdauer lang gilt. Auch hier gibt es eine Anzahl von Synonymen: Ertragsfunktion, Produktionsgebirge, Ertragsgebirge usw. Die Faktormengen sind dabei die unabhängigen Variablen, die Menge des Outputs ist die abhängige Variable. Die Anzahl der Faktoren bestimmt dabei die Dimension der Produktionsfunktion. In der Realität führt der Einsatz vieler Faktoren zu einer bestimmten Menge eines oder einiger Outputs in einem Unternehmen. Grafisch darstellbar sind allerdings nur Produktionsprozesse, bei denen maximal zwei Inputs zur Erzeugung eines Outputs führen.
+> 生产函数是指在特定时间段内，投入与产出之间的数学关系。这里也有一些同义词：产出函数、生产山、产出山等。在这个关系中，要素数量是自变量，而产出数量是因变量。要素的数量决定了生产函数的维度。在现实中，多种要素的投入会在一个企业中产生一定数量的一种或几种产出。然而，在图形上只能表示最多两种投入产生一种产出的生产过程。
 
 Nur bei unendlich teilbaren Faktormengen kann eine differenzierbare Funktion diesen Zusammenhang beschreiben. Wenn die Faktormengen nicht unendlich teilbar sind, kann der Zusammenhang nur durch eine Menge von Input-Output-Kombinationen, also durch eine Menge von Punkten beschrieben werden, zwischen denen keine Verbindungslinie eingezeichnet werden darf. Die Produktionsfunktion oder diese Punkte begrenzen den maximal möglichen Output bei einem gegebenen Input und sind damit Ausdruck der technologischen Beschränkung der Produktionsmenge.
+> 只有当要素数量无限可分时，才能用一个可微函数来描述这种关系。如果要素数量不是无限可分的，那么这种关系只能通过一系列投入-产出组合来描述，也就是说，通过一系列不能用连线相连的点来表示。生产函数或这些点限定了在给定投入下可能达到的最大产出，因此它们表达了生产数量的技术限制。
 
 Von der Dauer der Produktion einer bestimmten Menge an Output wird abstrahiert, d.h., produziert wird unendlich schnell.
-Produktionsfunktionen wurden bereits im 17. Jahrhundert beobachtet und beschrieben. Die Theorie wird jedoch bis in die Gegenwart stetig weiterentwickelt, so dass die Systematisierung Schwierigkeiten bereiten kann. Im Mittelpunkt der Lektion stehen Produktionsfunktio-nen, die grafisch darstellbar sind. Eine Produktionsfunktion mit einem Input und einem Output kann problemlos im zweidimensionalen Raum und damit auf einem Blatt Papier dargestellt werden. Eine Produktionsfunktion mit zwei Inputs und einem Output kann nur mit Hilfe einer Perspektivdarstellung auf einem Blatt Papier dargestellt werden. Um sie im zweidimensionalen Raum darzustellen und zu analysieren, schneidet man diese Funktionen auf drei unterschiedliche Arten:
+Produktionsfunktionen wurden bereits im 17. Jahrhundert beobachtet und beschrieben. Die Theorie wird jedoch bis in die Gegenwart stetig weiterentwickelt, so dass die Systematisierung Schwierigkeiten bereiten kann. Im Mittelpunkt der Lektion stehen Produktionsfunktionen, die grafisch darstellbar sind. Eine Produktionsfunktion mit einem Input und einem Output kann problemlos im zweidimensionalen Raum und damit auf einem Blatt Papier dargestellt werden. Eine Produktionsfunktion mit zwei Inputs und einem Output kann nur mit Hilfe einer Perspektivdarstellung auf einem Blatt Papier dargestellt werden. Um sie im zweidimensionalen Raum darzustellen und zu analysieren, schneidet man diese Funktionen auf drei unterschiedliche Arten:
+> 对于生产一定数量产出的时间长度进行了抽象化处理，也就是说，假设生产是瞬时完成的。
+> 生产函数早在17世纪就已被观察和描述。然而，该理论至今仍在不断发展，这使得其系统化变得困难。课程的重点是那些可以图形化表示的生产函数。具有一个投入和一个产出的生产函数可以轻松地在二维空间中表示，因此可以在一张纸上绘制。而具有两个投入和一个产出的生产函数只能通过透视图在纸上表示。为了在二维空间中表示并分析这些函数，通常采用三种不同的切割方式：
 
 1. Schnitt parallel zur Abszissen-Ordinaten-Ebene = isoquante Faktorvariation
 2. Schnitt parallel zur Abszissen-Applikaten-Ebene oder zur Ordinaten-Applikaten-Ebene = partielle Faktorvariation
