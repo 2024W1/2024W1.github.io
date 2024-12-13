@@ -4,7 +4,11 @@
 
 > # 经济学(预科版)
 
+<div STYLE="page-break-after: always;"></div>
+
 ## 1.Der Gegenstand der Wirtschaftswissen
+
+<div STYLE="page-break-after: always;"></div>
 
 ## 2. Wirtschaftswissenschaftliche Arbeitsmethode
 
@@ -112,7 +116,11 @@ graph TD
 >
 > - Maximierung der Produktqualität (Wenn man selbe Brötchen aus der gleichen Rohstoffen produziert, soll die Qualität maximiert.)
 
+<div STYLE="page-break-after: always;"></div>
+
 ## 3. Kennzahlen
+
+<div STYLE="page-break-after: always;"></div>
 
 ## 4. Volkswirtschaftslehre
 
@@ -148,6 +156,8 @@ Wichtige Modelle der Makroökonomik sind das Modell des erweiterten Wirtschaftsk
 2. Vergleichen Sie die Mikro- und die Makroökonomik hinsichtlich folgender Kriterien:
 
 - Entwicklung, Sichtweise, Forschungsobjekt und Modellbau.
+
+<div STYLE="page-break-after: always;"></div>
 
 ## 5. Die Betriebswirtschaftslehre
 
@@ -827,6 +837,8 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 >
 > Antwortsatz. Nach dem 4. Jahr geht man von der geometrischen Abschreibung zur linearen Abschreibung über.
 
+<div STYLE="page-break-after: always;"></div>
+
 ## 7. Realer Markt und Marktmodell
 
 ### 7.1 Reale Märkte und der Begriff des Marktes
@@ -1129,6 +1141,8 @@ Das kann nur funktionieren, wenn beide Teilunternehmen einen ähnlichen Beitrag 
 
 Die Internalisierung der externen Effekte führt zu steigenden Kosten für die Verursacher der Umweltverschmutzung. Die steigenden Kosten erhöhen die Angebotspreise, bei normal verlaufenden Nachfrage- und Angebotsfunktionen sinken dann die nachgefragten Mengen.
 > 外部效应的内部化导致污染者的成本上升。成本上升会提高供给价格，在正常的需求和供给函数下，需求量会下降。
+
+<div STYLE="page-break-after: always;"></div>
 
 ## 9. Die Produktionsfunktion
 
@@ -1465,11 +1479,17 @@ Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) 
 > K=6 \cdot 45\sqrt{3}+18 \cdot 15\sqrt{3}=540\sqrt{3}
 > \therefore 6v_1+18v_2=540\sqrt{3}
 > $
-> ![ ](./assets/pictures/截屏2024-12-13%2009.08.14.png)
+> ![ ](./assets/pictures/截屏2024-12-13%2009.12.56.png)
 
 (h) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (f) wieder andersfarbig in das Koordinatensystem in (b) ein.
 
 | Situation | Output | Faktorpreis $q_1$ | Faktorpreis $q_2$ | Expansionspfad | MKK | Höhe der Kosten | Nullstelle der Kostengerade | Ordinatenabschnitt der Kostengerade |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|0|180|2|18|$v_2=\frac{1}{9}v_1$|(135;15)|540|(270;0)|(0;30)|
+|1|200|2|18|$v_2=\frac{1}{9}v_1$|$(150;\frac{50}{3})$|600|(300;0)|$(0;\frac{50}{3})$|
+|2|180|6|18|$v_2=\frac{1}{3}v_1$|$(45\sqrt{3;}15\sqrt{3})$|$540\sqrt{}3$|$(90\sqrt{3};0)$||
+
+<div STYLE="page-break-after: always;"></div>
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 

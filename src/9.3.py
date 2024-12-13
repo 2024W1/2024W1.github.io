@@ -16,9 +16,8 @@ Z = np.minimum(X // 4, Y)  # 每张桌子需要4条腿，桌子数量受桌腿�
 fig = plt.figure(figsize=(10, 7))
 ax = fig.add_subplot(111, projection='3d')
 
-
-# 绘制三维表面
-surf = ax.plot_surface(X, Y, Z, cmap='viridis', edgecolor='k')
+# 绘制三维阶梯图
+surf = ax.plot_surface(X, Y, Z, cmap='viridis', edgecolor='k', rstride=1, cstride=1, linewidth=0, antialiased=False)
 
 # 设置轴标签
 ax.set_xlabel('Beine (x)')
