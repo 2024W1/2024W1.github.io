@@ -593,8 +593,6 @@ Das Problem der optimalen Bestellmenge geht auf ein Problem der Produktionstheor
 > 11. 在存储期间没有损失（没有变质的库存货物、没有被盗等）。
 > 12. 企业的库存容量和流动资金是无限大的。
 
-
-
 Modellkritik (Welche Modellprämissen werden kritisiert?)
 
 1. Das Verbrauchsverhalten ist nicht linear. (Prämisse 10)
@@ -651,8 +649,8 @@ Der Wertverlust ist am besten zu erfassen, wenn er an die tatsächliche Nutzung 
 Oft ist das aber nicht möglich und so gibt es mehrere rechnerische Abschreibungsverfahren, die den Wert von Anlagegütern pauschal, d.h., unabhängig von der tatsächlichen Nutzung nach einem vorgegebenen Prinzip mindern, z.B. die lineare oder die geometrische Abschreibung.
 > 然而，这种方法通常是不可行的，因此存在多种计算折旧的方法，这些方法按照预定原则统一减少固定资产的价值，即不依赖于实际使用情况，例如线性折旧法或几何折旧法。
 
-Beispiel Abschreibung und Bildung stiller Reserven 6
-> 折旧和隐藏储备形成的示例6：
+Beispiel Abschreibung und Bildung stiller Reserven
+> 折旧和隐藏储备形成的示例：
 
 Eine Maschine wurde für 90 000 € erworben. Die geplante Nutzungsdauer beträgt 6 Jahre. Der Abschreibungssatz für die geometrische Abschreibung beträgt 30 %. Berechnen Sie die linearen und die geometrischen Abschreibungsbeträge und die entsprechenden Buchwerte. Nach welchem Jahr geht man von der geometrischen zur linearen Abschreibung über? (alle
 Beträge in €)
@@ -813,7 +811,6 @@ Für das zweite Unternehmen gelten folgende Zahlen: Bestellkosten 288 €, Gesam
 > ||Lieferfahrzeug|$70.000 \text{ €}$||||
 > |**UV**|RHB(Materialkosten und eisern Bestand)|$27.000 \text{ €/Monat}*(1+20\%)=32400\text{ €}$|**FK**|Kredit(Verbindlichkeiten)|$300.000 \text{ €}$|
 > |Summe||$677.400\text{ €}$|Summe||$677.400\text{ €}$|
-
 
 7. Ein Unternehmen hat eine Maschine im Wert von 49 000 € gekauft. Es sollen nun die Abschreibungssätze für eine lineare und eine geometrische Abschreibung mit 32% über sieben Jahre verglichen werden. Wann geht man von der geometrischen Abschreibung zur linearen Abschreibung über?
 
@@ -1090,7 +1087,6 @@ Daraus ergibt sich folgendes Problem: Der Wirtschaftsakteur betrachtet ein knapp
 > 从社会的角度来看，商品的分配不再是帕累托最优的（详见后文）。
 
 Zur Beseitigung negativer technologischer externer Effekte gibt es unterschiedliche Lösungsansätze:
-> 解决负面技术性外部效应的不同方法：
 
 1. moralische Appelle durch den Staat oder durch betroffene Bürger, Presse usw.
 2. Käuferboykott
@@ -1101,6 +1097,8 @@ Zur Beseitigung negativer technologischer externer Effekte gibt es unterschiedli
 7. Fusion
 8. Zertifikate (Marktlösung)
 
+> 解决负面技术性外部效应的不同方法：
+> 
 > 1. 国家、受影响的公民、媒体等发出道德呼吁
 > 2. 消费者抵制
 > 3. 国家制定法规、禁令、要求
