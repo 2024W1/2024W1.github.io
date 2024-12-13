@@ -1363,7 +1363,39 @@ Minimalkostenkombination und Höhe der Kosten (viel Platz)
 Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}$ Es soll zunächst ein Output von 180 Stück produziert werden. Der Preis des Faktors $v_1$ beträgt $q_1 = 2$ €, der Preis des Faktors $v_2$ beträgt $q_2 = 18$ €.
 
 - Situation 0
-(a) Berechnen Sie die Minimalkostenkombination für dieses Output und die Höhe der Kosten.
+- - (a) Berechnen Sie die Minimalkostenkombination für dieses Output und die Höhe der Kosten.
+
+> $
+> \left\{
+> \begin{aligned}
+> K &= q_1 \cdot v_1 + q_2 \cdot v_2 \\
+> O &= 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}=180
+> \end{aligned}
+> \right.
+> $
+> $
+> \text{Sei }O_0(v_1,v_2)=4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}-180=0,\mathbb{L}=k(v_1,v_2)-\lambda \cdot O_0(v_1,v_2) \\
+> \because q_1=2,q_2=18 \\
+> K(v_1,v_2)=2v_1+18v_2 \\
+> \left\{
+> \begin{aligned}
+> \frac{\partial \mathbb{L}}{\partial v_1} &= 2-2\lambda\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=0 \\
+> \frac{\partial \mathbb{L}}{\partial v_2} &= 18-2\lambda\frac{v_1^{\frac{1}{2}}}{v_2^{\frac{1}{2}}}=0
+> \end{aligned}
+> \right.\\
+> \text{Sei }\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=a
+> \Rightarrow
+> \left\{
+> \begin{aligned}
+> 2-2\lambda a &=0 \\
+> 18-\frac{2\lambda}{a} &= 0
+> \end{aligned}
+> \right.
+> \Rightarrow a=\frac{1}{3},a^2=\frac{v_2}{v_1}=\frac{1}{9} \Rightarrow v_1 = 9v_2 \\
+> \therefore v_1 = 135,v_2=15,K=2 \cdot 135 +18 \cdot 15 = 540
+> $
+
+
 (b) Berechnen Sie die Isoquante 180 und zeichnen Sie sie in ein $v_1$ - $v_2$ - Diagramm ein.
 Dazu müssen Sie zuerst eine Wertetabelle für die $v_1$ - Werte 40; 50; 60; 70; 80; 100; 150;
 200; 250 und 300 berechnen. (Abszissenmaßstab: 20 $v_1$ entsprechen 1cm, Ordinatenmaßstab: 10 $v_2$ entsprechen $2.5$ cm).
