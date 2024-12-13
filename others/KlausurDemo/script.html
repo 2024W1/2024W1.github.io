@@ -1,0 +1,24 @@
+<script>
+    function submitExam() {
+      var answers = ['B', 'C'];
+      var score = 0;
+      var result = "";
+    
+      for (var i = 1; i <= answers.length; i++) {
+        var select = document.getElementById('q' + i);
+        var userAnswer = select.value;
+    
+        if (userAnswer === answers[i-1]) {
+          score++;
+          select.classList.remove('incorrect');
+        } else {
+          select.classList.add('incorrect');
+          select.value = ''; // 清除错误答案
+        }
+      }
+    
+      result = "你的得分是: " + score + " / " + answers.length;
+      document.getElementById('result').innerHTML = result;
+    }
+    </script>
+    
