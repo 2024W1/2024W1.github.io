@@ -458,25 +458,25 @@ Umsatz in Mio €
 
 $\text{absoluter Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des Marktes}}*100\%$
 
-$\text{relativer Marktanteil} = \frac{\text{eigenen Umsatz}}{\text{Umsatz des größten Konkurrenten}}*100=\frac{\text{eigenen Umsatz}}{MAX(\text{Umsatz des Konkurrent})}*100\%$
+$\text{relativer Marktanteil} =\frac{\text{eigenen Umsatz}}{MAX(\text{Umsatz des Konkurrent})}*100\%$
 
-> $绝对市场份额 = \frac{\text{自身销售额}}{\text{市场销售额}} * 100$
+> $绝对市场份额 = \frac{\text{自身销售额}}{\text{市场销售额}} * 100\%$
 > 
-> $相对市场份额 = \frac{\text{自身销售额}}{\text{最大竞争者销售额}} * 100 = \frac{\text{自身销售额}}{\text{最大值(竞争者销售额)}} * 100$
+> $相对市场份额 = \frac{\text{自身销售额}}{\text{最大竞争者销售额}} * 100\% = \frac{\text{自身销售额}}{\text{最大值(竞争者销售额)}} * 100\%$
 
 | Unternehmen | MA                               | ist Marktführer(> 100%?) |
 | ----------- | -------------------------------- | ------------------------- |
-| A           | $\frac{200}{250}*100=80\%$     |                           |
+| A           | $\frac{200}{300}*100=66,67\%$     |                           |
 | B           | $\frac{100}{400}*100=25\%$     |                           |
-| C           | $\frac{400}{300}*100=133,33\%$ | x                         |
+| C           | $\frac{400}{500}*100=80\%$     |                           |
 | D           | $\frac{800}{400}*100=200\%$    | x                         |
 | E           | $\frac{150}{600}*100=25\%$     |                           |
 
 > | 企业       | 市场份额计算                              | 是否为市场领导者（市占率>100%？） |
 > | ---------- | ---------------------------------------- | -------------------------- |
-> | A          | $\frac{200}{250}*100=80\%$            |                            |
+> | A          | $\frac{200}{300}*100=66,67\%$            |                            |
 > | B          | $\frac{100}{400}*100=25\%$            |                            |
-> | C          | $\frac{400}{300}*100=133,33\%$        | x                          |
+> | C          | $$\frac{400}{500}*100=80\%$           |                            |
 > | D          | $\frac{800}{400}*100=200\%$           | x                          |
 > | E          | $\frac{150}{600}*100=25\%$            |                            |
 
@@ -551,18 +551,12 @@ Multiple-Choice-Fragen zur BCG-Matrix
     (b) Cash Cows
     (c) Poor Dogs
     (d) Question Marks
-6. Ein Unternehmen hat folgende Produkte in seinem Portfolio:
-    Produkt A: Marktwachstum 15%, relativer Marktanteil 80%
-    Produkt B: Marktwachstum 2%, relativer Marktanteil 250%
-    Produkt C: Marktwachstum -18%, relativer Marktanteil 150%
-    Produkt D: Marktwachstum 1%, relativer Marktanteil 30%
-    Ordnen Sie diese Produkte in die entsprechenden Quadranten der BCG-Matrix ein und begründen Sie Ihre Entscheidung.
 
 Lösung:
 
 1. b
 2. b
-3. ?
+3. b
 4. c
 5. a
 
