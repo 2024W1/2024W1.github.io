@@ -1338,20 +1338,24 @@ Die analytische Darstellung einer substitutionalen Produktionsfunktion mit zwei 
 Allgemeine Form: $O(v_1,v_2)=av_1^{\alpha}bv_2^{\beta}$
 Diese Form wird Cobb-Douglas-Funktion genannt.
 Welche Faktorkombination die optimale ist, ist nur von den Kosten der Faktoren abhängig.
-Der Optimalpunkt, bei dem eine bestimmte Menge des Faktors vi mit einer bestimmten Menge des Faktors v2 so kombiniert wird, dass die Gesamtkosten der Produktion minimal sind, wird als Minimalkostenkombination bezeichnet.
+Der Optimalpunkt, bei dem eine bestimmte Menge des Faktors vi mit einer bestimmten Menge des Faktors $v_2$ so kombiniert wird, dass die Gesamtkosten der Produktion minimal sind, wird als Minimalkostenkombination bezeichnet.
 > 具有两个生产要素的可替代生产函数的解析表示形式可以例如如下：
 一般形式：
 >  $O(v_1,v_2)=av_1^{\alpha}bv_2^{\beta}$
 > 这种形式被称为柯布-道格拉斯函数。哪种要素组合是最优的，仅取决于要素的成本。
 将某一数量的要素$v_1$与某一数量的要素 $v_2$​ 结合，使得生产的总成本达到最小的点被称为最小成本组合。
 
-###### Der Optimalpunkt: Die Minimalkostenkombination
+###### 9.3.2.2.2 Der Optimalpunkt: Die Minimalkostenkombination
 
 Die Minimalkostenkombination ist die Faktorkombination, mit der ein gewünschtes Output zu minimalen Kosten produziert werden kann. Um die Minimalkostenkombination grafisch zu ermitteln, ist es notwendig, die Kosten (Faktorpreise) im Koordinatensystem darzustellen. Dazu wählt man eine geeignete Höhe an Kosten, z.B. 10 GE oder 100 GE, die nur zum Kauf des Faktors vi oder zum Kauf des Faktors Vz eingesetzt werden. Wenn man die berechneten Mengen auf der Abszisse und der Ordinate kennzeichnet und beide Punkte verbindet, erhält man eine Isokostengerade oder Kostengerade. Sie wird definiert als geometrischer Ort aller Faktorkombinationen, die die gleichen Kosten verursachen. Da die Kosten der Produktion im Normalfall nicht gegeben sind, sondern erst berechnet werden sollen, ist die Lage der Kostengeraden zunächst nicht bekannt. Gegeben ist bei gegebenen Faktorpreisen nur die Steigung der Kostengeraden.
 > 最小成本组合是能以最低成本生产所需产出的要素组合。为了图形化地确定最小成本组合，有必要在坐标系中表示成本（要素价格）。为此，选择一个适当的成本水平，例如10货币单位或100货币单位，这些成本仅用于购买要素 $v_1$ 或要素 $v_2$ 。如果在横轴和纵轴上标记计算出的数量并连接这两个点，就得到一条等成本线或成本线。它被定义为所有导致相同成本的要素组合的几何位置。
 > 由于生产成本在正常情况下并不是给定的，而是需要计算的，因此成本线的位置最初是未知的。在给定要素价格的情况下，只有成本线的斜率是已知的。
 
 Zeichnen Sie eine Kostengerade für ein angenommenes Budget von $100$ € und Faktorpreis $q_1 = 33,33$ € und Faktorpreis $q_2= 50$ €. 7 Grafik
+
+$K=(v_1,q_1,v_2,q_2)=v_1 \cdot q_1+v_2 \cdot q_2$
+$\Rightarrow v_2 =-\frac{q_1}{q_2}\cdot v_1 + \frac{K}{q_2}$
+$\frac{q_1}{q_2}\text{: Steigung}$
 
 Indem man die Kostengerade nun solange parallel verschiebt, bis sie eine Tangente an die gegebene Isoquante bildet, dann ist der Tangentialpunkt die Minimalkostenkombination. Für diesen Punkt können nun die Koordinaten bestimmt werden. Die Länge der Kostengeraden kennzeichnet die Höhe der Kosten.
 8 Berechnung und Grafik
