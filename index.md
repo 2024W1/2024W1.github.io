@@ -1387,21 +1387,85 @@ Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) 
 > \therefore v_1 = 135,v_2=15,K=2 \cdot 135 +18 \cdot 15 = 540
 > $
 
-
-(b) Berechnen Sie die Isoquante 180 und zeichnen Sie sie in ein $v_1$ - $v_2$ - Diagramm ein.
-Dazu müssen Sie zuerst eine Wertetabelle für die $v_1$ - Werte 40; 50; 60; 70; 80; 100; 150;
-200; 250 und 300 berechnen. (Abszissenmaßstab: 20 $v_1$ entsprechen 1cm, Ordinatenmaßstab: 10 $v_2$ entsprechen $2.5$ cm).
-(c) Berechnen Sie die Nullstelle der Kostengeraden und ihren Schnittpunkt mit der Ordinate und zeichnen Sie sie in das Koordinatensystem in (b) ein.
+- - (b) Berechnen Sie die Isoquante 180 und zeichnen Sie sie in ein $v_1$ - $v_2$ - Diagramm ein.
+    Dazu müssen Sie zuerst eine Wertetabelle für die $v_1$ - Werte 40; 50; 60; 70; 80; 100; 150; 200; 250 und 300 berechnen. (Abszissenmaßstab: 20 $v_1$ entsprechen 1cm, Ordinatenmaßstab: 10 $v_2$ entsprechen $2.5$ cm).
+- - (c) Berechnen Sie die Nullstelle der Kostengeraden und ihren Schnittpunkt mit der Ordinate und zeichnen Sie sie in das Koordinatensystem in (b) ein.
 
 - Situation 1
-(d) Berechnen Sie c.p. die Minimalkostenkombination für ein Output von 200 Stück und die Höhe der Kosten.
-(e) Berechnen Sie die Isoquante 200 und zeichnen Sie sie in das $v_1$ - $v_2$ - Diagramm in (b) ein.
-Verwenden Sie für die Wertetabelle einige geeignete Werte aus (b).
-(f) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (d) andersfarbig in das Koordinatensystem in (b) ein.
+- - (d) Berechnen Sie c.p. die Minimalkostenkombination für ein Output von 200 Stück und die Höhe der Kosten.
+
+> $
+> \left\{
+> \begin{aligned}
+> K &= q_1 \cdot v_1 + q_2 \cdot v_2 \\
+> O &= 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}=200
+> \end{aligned}
+> \right.
+> $
+> $
+> \text{Sei }O_0(v_1,v_2)=4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}-200=0,\mathbb{L}=k(v_1,v_2)-\lambda \cdot O_0(v_1,v_2) \\
+> \because q_1=2,q_2=18 \\
+> K(v_1,v_2)=2v_1+18v_2 \\
+> \left\{
+> \begin{aligned}
+> \frac{\partial \mathbb{L}}{\partial v_1} &= 2-2\lambda\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=0 \\
+> \frac{\partial \mathbb{L}}{\partial v_2} &= 18-2\lambda\frac{v_1^{\frac{1}{2}}}{v_2^{\frac{1}{2}}}=0
+> \end{aligned}
+> \right.\\
+> \text{Sei }\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=a
+> \Rightarrow
+> \left\{
+> \begin{aligned}
+> 2-2\lambda a &=0 \\
+> 18-\frac{2\lambda}{a} &= 0
+> \end{aligned}
+> \right.
+> \Rightarrow a=\frac{1}{3},a^2=\frac{v_2}{v_1}=\frac{1}{9} \Rightarrow v_1 = 9v_2 \\
+> \therefore 2 \cdot 12v_2 =200 \Rightarrow v_2 = \frac{50}{3} \approx 16,67 \\
+> \therefore v_1 = 9v_2 =150,K=\frac{50}{3} \cdot 18+150 \cdot 2 =300 +300 =600
+> $
+
+- - (e) Berechnen Sie die Isoquante 200 und zeichnen Sie sie in das $v_1$ - $v_2$ - Diagramm in (b) ein. Verwenden Sie für die Wertetabelle einige geeignete Werte aus (b).
+
+> $4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}=200 \Rightarrow v_1 \cdot v_2 = \frac{200}{4}^2,v_2 = \frac{2500}{v_1},600=2v_1+18v_2$
+> ![ ](./assets/pictures/截屏2024-12-13%2008.45.32.png)
+
+- - (f) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (d) andersfarbig in das Koordinatensystem in (b) ein.
 
 - Situation 2
-(g) Berechnen Sie c.p. gegenüber der Ausgangssituation die Minimalkostenkombination und die Höhe der Kosten, wenn der Preis des Faktors $v_1$ um $6$ € erhöht wird.
+- - (g) Berechnen Sie c.p. gegenüber der Ausgangssituation(b) die Minimalkostenkombination und die Höhe der Kosten, wenn der Preis des Faktors $v_1$ um $6$ € erhöht wird.
+
+> $
+> \left\{
+> \begin{aligned}
+> K &= q_1 \cdot v_1 + q_2 \cdot v_2 \\
+> O &= 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}=180
+> \end{aligned}
+> \right.
+> $
+> $
+> \text{Sei }O_0(v_1,v_2)=4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}-200=0,\mathbb{L}=k(v_1,v_2)-\lambda \cdot O_0(v_1,v_2) \\
+> \because q_1=2+4=6,q_2=18 \\
+> K(v_1,v_2)=6v_1+18v_2 \\
+> \left\{
+> \begin{aligned}
+> \frac{\partial \mathbb{L}}{\partial v_1} &= 6-2\lambda\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=0 \\
+> \frac{\partial \mathbb{L}}{\partial v_2} &= 18-2\lambda\frac{v_1^{\frac{1}{2}}}{v_2^{\frac{1}{2}}}=0
+> \end{aligned}
+> \right.\\
+> \text{Sei }\frac{v_2^{\frac{1}{2}}}{v_1^{\frac{1}{2}}}=a
+> \Rightarrow
+> \left\{
+> \begin{aligned}
+> 6-2\lambda a &=0 \\
+> 18-\frac{2\lambda}{a} &= 0
+> \end{aligned}
+> \right.
+> $
+
 (h) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (f) wieder andersfarbig in das Koordinatensystem in (b) ein.
+
+| Situation | Output | Faktorpreis $q_1$ | Faktorpreis $q_2$ | Expansionspfad | MKK | Höhe der Kosten | Nullstelle der Kostengerade | Ordinatenabschnitt der Kostengerade |
 
 ## A1. Der Wirtschaftsnobelpreis 2024
 
