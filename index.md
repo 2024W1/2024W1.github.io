@@ -1460,8 +1460,12 @@ Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) 
 > 6-2\lambda a &=0 \\
 > 18-\frac{2\lambda}{a} &= 0
 > \end{aligned}
-> \right.
+> \right.\\
+> \Rightarrow a= \frac{\sqrt{3}}{3} \Rightarrow v_2=3v_1 \Rightarrow v_2 = 15\sqrt{3}, v_2 = 45\sqrt{3}\\
+> K=6 \cdot 45\sqrt{3}+18 \cdot 15\sqrt{3}=540\sqrt{3}
+> \therefore 6v_1+18v_2=540\sqrt{3}
 > $
+> ![ ](./assets/pictures/截屏2024-12-13%2009.08.14.png)
 
 (h) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (f) wieder andersfarbig in das Koordinatensystem in (b) ein.
 
