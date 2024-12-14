@@ -1,7 +1,74 @@
 ---
 title: "Wirtschaftslehre im StudienKolleg"
-output: html_notebook
+output: 
+  html_document:
+    toc: true
+    self_contained: false
+    mathjax: local
+  pdf_document:
+    latex_engine: xelatex
+    citation_package: natbib
+
+author:
+  - name: Begonia
+    affiliation: Uni Leipzig
+tags: [Wirtschaft]
 ---
+
+```{r echo=FALSE}
+pdf.options(family="GB1")
+latex2rmd <- function(fname="_tmp/tomd.tex", encoding="UTF-8"){
+  lines <- readLines(fname, encoding=encoding)
+  if(encoding != "UTF-8")
+    lines <- iconv(lines, from=encoding, to="UTF-8")
+  print(head(lines, 10))
+  lines <- gsub("\\\\keyword[{]([^}]+?)[}]", "**\\1**", lines, perl=TRUE)
+  lines <- gsub("\\\\textbf[{]([^}]+?)[}]", "**\\1**", lines, perl=TRUE)
+  lines <- gsub("\\\\texttt[{]([^}]+?)[}]", "`\\1`", lines, perl=TRUE)
+  lines <- gsub("\\\\label[{](eq:[^}]+?)[}]", "(\\\\#\\1)", lines, perl=TRUE)
+  lines <- gsub("\\\\eqref[{]([^}]+?)[}]", "\\\\@ref(\\1)", lines, perl=TRUE)
+  lines <- gsub("\\\\bs\\\\", "\\\\boldsymbol\\\\", lines, perl=TRUE)
+  lines <- gsub("\\\\bs ", "\\\\boldsymbol ", lines, perl=TRUE)
+  lines <- gsub("\\\\Rbb", "\\\\mathbb R", lines, perl=TRUE)
+  lines <- gsub("\\\\Zbb", "\\\\mathbb Z", lines, perl=TRUE)
+  lines <- gsub("\\\\Var[(]", "\\\\text\\{Var\\}(", lines, perl=TRUE)
+  lines <- gsub("\\\\Cov[(]", "\\\\text\\{Cov\\}(", lines, perl=TRUE)
+  lines <- gsub("(\\\\S)(\\d)", "§\\2", lines, perl=TRUE)
+  lines <- gsub("(\\\\S) ", "§ ", lines, perl=TRUE)
+  lines <- gsub("(\\\\defeq)", "\\\\stackrel{\\\\triangle}{=}", lines, perl=TRUE)
+  lines <- gsub("\\\\argmin_", "\\\\mathop{\\\\text{argmin}}_", lines, perl=TRUE)
+  lines <- gsub("^\\s*\\\\item", "*", lines, perl=TRUE)
+  lines <- gsub("\\\\begin[{]frame[}]", "", lines, perl=TRUE)
+  lines <- gsub("\\\\end[{]frame[}]", "", lines, perl=TRUE)
+  lines <- gsub("\\\\begin[{]itemize[}]\\[<\\+->\\]", "", lines, perl=TRUE)
+  lines <- gsub("\\\\end[{]itemize[}]", "", lines, perl=TRUE)
+  lines <- gsub("\\\\begin[{]itemize[}]", "", lines, perl=TRUE)
+  lines <- gsub("\\\\bm ", "\\\\boldsymbol ", lines, perl=TRUE)
+  lines <- gsub("\\\\bm\\\\", "\\\\boldsymbol\\\\", lines, perl=TRUE)
+  lines <- gsub("\\\\tr[(]", "\\\\text{tr}(", lines, perl=TRUE)
+  lines <- gsub("\\begin{align*}", "$$\\begin{aligned}", lines, fixed=TRUE)
+  lines <- gsub("\\end{align*}", "\\end{aligned}$$", lines, fixed=TRUE)
+  
+  print(head(lines, 20))
+  ##writeLines(lines, "_tmp/fromtex-clean.Rmd")
+  con1 <- file("_tmp/fromtex-clean.Rmd", "wt", encoding="UTF-8")
+  writeLines(lines, con=con1)
+  close(con1)
+}
+```
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX","output/HTML-CSS"],
+  extensions: ["tex2jax.js","MathMenu.js","MathZoom.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  }
+});
+</script>
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js">
+</script>
 
 ## 1.Der Gegenstand der Wirtschaftswissen
 
@@ -20,9 +87,9 @@ Zweck
 
 2. Nennen Sie ein Modell aus Ihrem Erfahrungsbereich (ein nicht wirtschaftswissenschaftliches Modell). Erklären Sie.Trennen Sie insbesondere (b) und (c) deutlich voneinander.
 
-- (a)den Zweck, der mit der Schaffung des Modells verfolgt wird
-- (b)worin die Vereinfachung liegt (mindestens 3 Vereinfachungen)
-- (c)welche Elemente der Realität im Modell vernachlässigt werden (mindestens 3 Vernachlässigung)
+- (a) den Zweck, der mit der Schaffung des Modells verfolgt wird
+- (b) worin die Vereinfachung liegt (mindestens 3 Vereinfachungen)
+- (c) welche Elemente der Realität im Modell vernachlässigt werden (mindestens 3 Vernachlässigung)
 
 > Beispiel: Landkarte
 
@@ -680,26 +747,95 @@ Beträge in €)
 |nach dem 6.Jahr|$15000$|$1$|$11025$|$1$|
 
 Linear:
-$
-\left\{
+
+$\left\{
 \begin{aligned}
 y &= 90000-15000x \space (x \in [0,6)) \\
 y &= 1 \space (x = 6)
 \end{aligned}
-\right.
-$
-![ ](./assets/pictures/截屏2024-11-28%2014.30.12.png)
+\right.$
+
+```{r}
+# 加载必要的库
+library(ggplot2)
+
+# 定义分段函数
+piecewise_function <- function(x) {
+  ifelse(x < 6, 90000 - 15000 * x, 1)
+}
+
+# 创建x值
+x_values <- seq(0, 6, length.out = 400)
+
+# 计算y值
+y_values <- sapply(x_values, piecewise_function)
+
+# 创建数据框
+data <- data.frame(x = x_values, y = y_values)
+
+# 绘制图形
+ggplot(data, aes(x = x, y = y)) +
+  geom_line(color = "blue") +
+  geom_point(aes(x = 6, y = 1), color = "red", size = 3) +
+  labs(title = "Piecewise Function Plot", x = "x", y = "y") +
+  theme_minimal() +
+  geom_vline(xintercept=6, color='gray', linetype='dashed') +
+  annotate("text", x = 5.5, y = 20000, label = "y = 90000 - 15000x for x in [0, 6)", color="blue") +
+  annotate("text", x = 6.5, y = 1.5, label = "y = 1", color="red")
+
+```
+
 Geometrischer:
-$
-\left\{
+
+$\left\{
 \begin{aligned}
 y &= 90000 * (1-30\%)^x \space (x \in [0,3)) \\
-y &= 33075-11025x \space (x \in [3,6)) \\
+y &= 66150-11025x \space (x \in [3,6)) \\
 y &= 1 \space (x = 6)
 \end{aligned}
-\right.
-$
-![ ](./assets/pictures/截屏2024-11-29%2003.48.17.png)
+\right.$
+
+```{r}
+# 加载必要的库
+library(ggplot2)
+
+# 定义分段函数
+piecewise_function <- function(x) {
+  if (x < 3) {
+    return(90000 * (1 - 0.3)^x)
+  } else if (x < 6) {
+    return(66150 - 11025 * x)
+  } else {
+    return(1)
+  }
+}
+
+# 创建 x 值范围
+x_values <- seq(0, 6, length.out = 400)
+
+# 计算 y 值
+y_values <- sapply(x_values, piecewise_function)
+
+# 创建数据框
+data <- data.frame(x = x_values, y = y_values)
+
+# 绘制图形
+ggplot(data, aes(x = x, y = y)) +
+  geom_line(color = "blue", size = 1) + # 绘制分段函数曲线
+  geom_point(aes(x = 6, y = 1), color = "red", size = 3) + # 标记点 (6,1)
+  geom_vline(xintercept = 6, color = "gray", linetype = "dashed") + # 添加垂直虚线
+  labs(title = "Piecewise Function Plot",
+       x = "x",
+       y = "y") +
+  annotate("text", x = 1.5, y = 70000,
+           label = "y = 90000 * (1-30%)^x for x in [0,3)", color = "blue") +
+  annotate("text", x = 4.5, y = -10000,
+           label = "y = 33075 - 11025x for x in [3,6)", color = "blue") +
+  annotate("text", x = 6.5, y = 5,
+           label = "y = 1 at x=6", color = "red") +
+  theme_minimal()
+
+```
 
 > Warum ist die Fkt. ( $y = 90000 * (1-30\%)^x$ ) fallend in der Intervalle $[0,3)$ ?
 > Um die Monotonie dieser Fkt. zu bestimmen, zuerst sollen wir wissen, was  die erste Ableitung von $y = 90000 * (1-30\%)^x $ ist.
@@ -1238,33 +1374,33 @@ Das Kapital muss der VWL-Betrachtungsweise entgegen viel genauer klassifiziert w
 ```{r, echo=FALSE}
 library(DiagrammeR)
 mermaid("
-graph TD
-    A[Produktionsfaktoren nach Gutenberg]
-    A --> B[Arbeit]
-    A --> C[Kapital]
-    B --> D[Leitende Arbeit]
-    B --> E[Ausführende Arbeit]
-    D --> F[Leitung]
-    D --> G[Planung]
-    D --> H[Organisation]
-    D --> I[Kontrolle]
-    E -..-> J[z.B. Elektriker]
-    E -..-> K[z.B. Buchhalter]
-    E -..-> L[z.B. Verkäuferin]
-    C --> M[Realkapital]
-    C --> T[Finanz]
-    M --> N[Betriebsmittel]
-    M --> O[Werkstoffe]
-    N --> V[Grundstücke und Gebäude]
-    N --> X[Maschinen und Anlage]
-    N --> Y[Fahrzeuge]
-    N --> Z[BGA]
-    O --> Q[Rohstoffe]
-    O --> R[Hilfsstoffe]
-    O --> S[Betriebsstoffe]
-    U[Elementarfaktoren] --> E
-    U --> N
-    U --> O
+graph TD;
+    A[Produktionsfaktoren nach Gutenberg];
+    A --> B[Arbeit];
+    A --> C[Kapital];
+    B --> D[Leitende Arbeit];
+    B --> E[Ausführende Arbeit];
+    D --> F[Leitung];
+    D --> G[Planung];
+    D --> H[Organisation];
+    D --> I[Kontrolle];
+    E -..-> J[z.B. Elektriker];
+    E -..-> K[z.B. Buchhalter];
+    E -..-> L[z.B. Verkäuferin];
+    C --> M[Realkapital];
+    C --> T[Finanz];
+    M --> N[Betriebsmittel];
+    M --> O[Werkstoffe];
+    N --> V[Grundstücke und Gebäude];
+    N --> X[Maschinen und Anlage];
+    N --> Y[Fahrzeuge];
+    N --> Z[BGA];
+    O --> Q[Rohstoffe];
+    O --> R[Hilfsstoffe];
+    O --> S[Betriebsstoffe];
+    U[Elementarfaktoren] --> E;
+    U --> N;
+    U --> O;
 ")
 ```
 
@@ -1391,6 +1527,33 @@ Indem man die Kostengerade nun solange parallel verschiebt, bis sie eine Tangent
 Minimalkostenkombination und Höhe der Kosten (viel Platz)
 Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = 4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}$ Es soll zunächst ein Output von 180 Stück produziert werden. Der Preis des Faktors $v_1$ beträgt $q_1 = 2$ €, der Preis des Faktors $v_2$ beträgt $q_2 = 18$ €.
 
+```{r}
+library(plotly)
+
+# 定义函数
+O <- function(v1, v2) {
+  4 * sqrt(v1) * sqrt(v2)
+}
+
+# 创建值网格
+v1 <- seq(0, 10, length.out = 100)
+v2 <- seq(0, 10, length.out = 100)
+
+# 计算外积
+z <- outer(v1, v2, O)
+
+# 绘制图像并重命名Z轴为O
+plot_ly(x = ~v1, y = ~v2, z = ~z) %>%
+  add_surface() %>%
+  layout(scene = list(
+    xaxis = list(title = "v1"),
+    yaxis = list(title = "v2"),
+    zaxis = list(title = "O")
+  ))
+
+
+```
+
 - Situation 0
 - - (a) Berechnen Sie die Minimalkostenkombination für dieses Output und die Höhe der Kosten.
 
@@ -1460,7 +1623,42 @@ Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) 
 - - (e) Berechnen Sie die Isoquante 200 und zeichnen Sie sie in das $v_1$ - $v_2$ - Diagramm in (b) ein. Verwenden Sie für die Wertetabelle einige geeignete Werte aus (b).
 
 > $4v_1^{\frac{1}{2}}v_2^{\frac{1}{2}}=200 \Rightarrow v_1 \cdot v_2 = \frac{200}{4}^2,v_2 = \frac{2500}{v_1},600=2v_1+18v_2$
-> ![ ](./assets/pictures/截屏2024-12-13%2008.45.32.png)
+
+```{r}
+# 加载必要的库
+library(ggplot2)
+
+# 定义数据
+v1_values <- seq(10, 200, length.out = 100) # v1 的值范围
+v2_values_isoquant <- 2500 / v1_values      # Isoquant 方程 v2 = 2500 / v1
+
+# 创建数据框
+isoquant_data <- data.frame(v1 = v1_values, v2 = v2_values_isoquant)
+
+# 定义直线方程 600 = 2v1 + 18v2 -> v2 = (600 - 2*v1) / 18
+v1_line <- seq(10, 200, length.out = 100)
+v2_line <- (600 - 2 * v1_line) / 18
+
+line_data <- data.frame(v1 = v1_line, v2 = v2_line)
+
+# 找到交点
+intersection_v1 <- 150
+intersection_v2 <- 16.67
+
+# 绘制图形
+ggplot() +
+  geom_line(data = isoquant_data, aes(x = v1, y = v2), color = "blue", size = 1, linetype = "solid") +
+  geom_line(data = line_data, aes(x = v1, y = v2), color = "red", size = 1, linetype = "solid") +
+  geom_point(aes(x = intersection_v1, y = intersection_v2), color = "black", size = 3) +
+  annotate("text", x = intersection_v1 + 10, y = intersection_v2 + 5,
+           label = paste0("Intersection: (", intersection_v1, ", ", intersection_v2, ")"),
+           color = "black") +
+  labs(title = "Isoquant and Cost Line Intersection",
+       x = expression(v[1]),
+       y = expression(v[2])) +
+  theme_minimal()
+
+```
 
 - - (f) Berechnen Sie die Schnittpunkte der Kostengeraden mit Abszisse und Ordinate und zeichnen Sie die neue Kostengerade und die neue Minimalkostenkombination aus (d) andersfarbig in das Koordinatensystem in (b) ein.
 
@@ -1626,18 +1824,6 @@ Das chinesische Modell zeigt einen Widerspruch zwischen Inklusivität und Ausbeu
 ### A2.4 Von A2.2(2): Korruption
 
 ![Korruptionswahrnehmungsindex weltweit 2017](./assets/pictures/Corruption_Perception_index_2017.svg)
-
-```{r, echo=FALSE}
-library(DiagrammeR)
-mermaid("
-xychart-beta
-    title "Korruptionswahrnehmungsindex (2015-2023)"
-    x-axis [2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023]
-    y-axis "Korruptionswahrnehmungsindex (CPI Score)" 20 --> 100
-    line "China" [40,36,37,40,41,39,41,42,45,45,42]
-    line "Deutschland" [78,79,81,81,81,80,80,80,80,79,78]
-")
-```
 
 (Die Linie ganz oben steht für Deutschland und unten für China)
 
