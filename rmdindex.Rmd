@@ -1755,6 +1755,29 @@ ggplot(df, aes(x = Menge, y = Preis)) +
   theme_minimal()
 ```
 
+```{r,echo=FALSE}
+# Gemeinsame Funktionen für alle Diagramme
+add_labels <- function(plot, m_gg, p_gg, p_prohibitiv = NULL, m_Sattigung = NULL) {
+  plot <- plot +
+    geom_point(aes(x = m_gg, y = p_gg), color = "red", size = 3) +
+    annotate("text", x = m_gg, y = p_gg, label = paste0("(", round(m_gg, 2), ", ", round(p_gg, 2), ")"), hjust = -0.1, vjust = -0.5)
+  
+  if (!is.null(p_prohibitiv)) {
+    plot <- plot +
+      geom_hline(yintercept = p_prohibitiv, linetype = "dashed", color = "gray") +
+      annotate("text", x = 0, y = p_prohibitiv, label = "p_prohibitiv", hjust = -0.1, vjust = -0.5)
+  }
+  
+  if (!is.null(m_Sattigung)) {
+    plot <- plot +
+      geom_vline(xintercept = m_Sattigung, linetype = "dashed", color = "gray") +
+      annotate("text", x = m_Sattigung, y = 0, label = "m_Sättigung", hjust = -0.1, vjust = -0.5)
+  }
+  
+  return(plot)
+}
+```
+
 $\text{(a) }
 \left\{
 \begin{aligned}
@@ -1768,19 +1791,22 @@ $\text{(a) }
 > $-2\text{m}+700=-\frac{1}{2}\text{m}_\text{A}+125 \Rightarrow \text{m}_\text{gg}=230,\text{p}_\text{gg}=240,\text{m}_\text{v}=55200$
 
 ```{r}
-p <- seq(0, 700, length.out = 100)
-m_N <- -0.5 * p + 350
-m_A <- 2 * p - 250
+# (a)
+m <- seq(0, 700, length.out = 100)
+p_N <- -2 * m + 700
+p_A <- 0.5 * m + 125
 
-df <- data.frame(p = p, m_N = m_N, m_A = m_A)
+df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = p)) +
-  geom_line(aes(y = m_N, color = "Demand")) +
-  geom_line(aes(y = m_A, color = "Supply")) +
-  geom_point(aes(x = 240, y = 230), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Price", y = "Quantity", title = "Supply and Demand Curves (a)") +
+plot_a <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (a)") +
   theme_minimal()
+
+plot_a <- add_labels(plot_a, 230, 240, 350, 700)
+print(plot_a)
 ```
 
 $\text{(b) }
@@ -1796,19 +1822,21 @@ $\text{(b) }
 > $\text{m}_\text{A}+20=-\frac{1}{2}\text{m}_\text{N} +400 \Rightarrow \text{m}_\text{gg}=253,33;\text{p}_\text{gg}=273,33;\text{m}_\text{v}=69242,68$
 
 ```{r}
-m <- seq(0, 400, length.out = 100)
-p_N <- -0.5 * m + 400
-p_A <- m + 20
+p <- seq(0, 400, length.out = 100)
+m_N <- -2 * p + 800
+m_A <- p - 20
 
-df <- data.frame(m = m, p_N = p_N, p_A = p_A)
+df <- data.frame(p = p, m_N = m_N, m_A = m_A)
 
-ggplot(df, aes(x = m)) +
-  geom_line(aes(y = p_N, color = "Demand")) +
-  geom_line(aes(y = p_A, color = "Supply")) +
-  geom_point(aes(x = 253.33, y = 273.33), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Quantity", y = "Price", title = "Supply and Demand Curves (b)") +
+plot_b <- ggplot(df, aes(y = p)) +
+  geom_line(aes(x = m_N, color = "Nachfrage")) +
+  geom_line(aes(x = m_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(y = "Preis", x = "Menge", title = "Angebots- und Nachfragekurven (b)") +
   theme_minimal()
+
+plot_b <- add_labels(plot_b, 253.33, 273.33, 400, 800)
+print(plot_b)
 ```
 
 $\text{(c) }
@@ -1824,19 +1852,22 @@ $\text{(c) }
 > $30-\text{m}_\text{N}=\frac{1}{0,1}\text{m}_\text{A} \Rightarrow \text{m}_\text{gg}=2,73;\text{p}_\text{gg}=27,27;\text{m}_\text{v}=74,44$
 
 ```{r}
-p <- seq(0, 30, length.out = 100)
-m_N <- 30 - p
-m_A <- 0.1 * p
+# (c)
+m <- seq(0, 30, length.out = 100)
+p_N <- 30 - m
+p_A <- 10 * m
 
-df <- data.frame(p = p, m_N = m_N, m_A = m_A)
+df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = p)) +
-  geom_line(aes(y = m_N, color = "Demand")) +
-  geom_line(aes(y = m_A, color = "Supply")) +
-  geom_point(aes(x = 27.27, y = 2.73), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Price", y = "Quantity", title = "Supply and Demand Curves (c)") +
+plot_c <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (c)") +
   theme_minimal()
+
+plot_c <- add_labels(plot_c, 2.73, 27.27, 30, 30)
+print(plot_c)
 ```
 
 $\text{(d) }
@@ -1854,19 +1885,22 @@ $\text{(d) }
 > $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 5 \cdot 780 = 3900$
 
 ```{r}
+# (d)
 m <- seq(0, 10, length.out = 100)
 p_N <- 1080 - 12 * m^2
 p_A <- 405 + 15 * m^2
 
 df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = m)) +
-  geom_line(aes(y = p_N, color = "Demand")) +
-  geom_line(aes(y = p_A, color = "Supply")) +
-  geom_point(aes(x = 5, y = 780), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Quantity", y = "Price", title = "Supply and Demand Curves (d)") +
+plot_d <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (d)") +
   theme_minimal()
+
+plot_d <- add_labels(plot_d, 5, 780, 1080, sqrt(1080/12))
+print(plot_d)
 ```
 
 $\text{(e) }
@@ -1884,19 +1918,21 @@ $\text{(e) }
 > $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 12 \cdot 17 = 204$
 
 ```{r}
-p <- seq(0, 20, length.out = 100)
-m_N <- 80 - 4 * p
-m_A <- rep(12, 100)
+m <- seq(0, 80, length.out = 100)
+p_N <- (80 - m) / 4
+p_A <- rep(17, 100)
 
-df <- data.frame(p = p, m_N = m_N, m_A = m_A)
+df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = p)) +
-  geom_line(aes(y = m_N, color = "Demand")) +
-  geom_line(aes(y = m_A, color = "Supply")) +
-  geom_point(aes(x = 17, y = 12), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Price", y = "Quantity", title = "Supply and Demand Curves (e)") +
+plot_e <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (e)") +
   theme_minimal()
+
+plot_e <- add_labels(plot_e, 12, 17, 20, 80)
+print(plot_e)
 ```
 
 $\text{(f) }
@@ -1917,19 +1953,22 @@ $\text{(f) }
 > $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = 16 \cdot 7 = 112$
 
 ```{r}
-p <- seq(0, 15, length.out = 100)
-m_N <- -2 * p + 30
-m_A <- (p - 3)^2
+# (f)
+m <- seq(0, 30, length.out = 100)
+p_N <- (30 - m) / 2
+p_A <- sqrt(m) + 3
 
-df <- data.frame(p = p, m_N = m_N, m_A = m_A)
+df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = p)) +
-  geom_line(aes(y = m_N, color = "Demand")) +
-  geom_line(aes(y = m_A, color = "Supply")) +
-  geom_point(aes(x = 7, y = 16), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Price", y = "Quantity", title = "Supply and Demand Curves (f)") +
+plot_f <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (f)") +
   theme_minimal()
+
+plot_f <- add_labels(plot_f, 16, 7, 15, 30)
+print(plot_f)
 ```
 
 $\text{(g) }
@@ -1949,19 +1988,22 @@ $\text{(g) }
 > $\text{m}_\text{v} = \text{m}_\text{gg} \cdot \text{p}_\text{gg} = (100 + 20\sqrt{2})(480 + 80\sqrt{2}) = 76000 + 22400\sqrt{2} \approx 76080.61$
 
 ```{r}
-p <- seq(0, 600, length.out = 100)
-m_N <- 100 - 5 * sqrt(p)
-m_A <- -20 + 0.25 * p
+# (g)
+m <- seq(0, 100, length.out = 100)
+p_N <- ((100 - m) / 5)^2
+p_A <- 4 * m + 80
 
-df <- data.frame(p = p, m_N = m_N, m_A = m_A)
+df <- data.frame(m = m, p_N = p_N, p_A = p_A)
 
-ggplot(df, aes(x = p)) +
-  geom_line(aes(y = m_N, color = "Demand")) +
-  geom_line(aes(y = m_A, color = "Supply")) +
-  geom_point(aes(x = 593.14, y = 128.28), color = "red", size = 3) +
-  scale_color_manual(values = c("Demand" = "blue", "Supply" = "red")) +
-  labs(x = "Price", y = "Quantity", title = "Supply and Demand Curves (g)") +
+plot_g <- ggplot(df, aes(x = m)) +
+  geom_line(aes(y = p_N, color = "Nachfrage")) +
+  geom_line(aes(y = p_A, color = "Angebot")) +
+  scale_color_manual(values = c("Nachfrage" = "blue", "Angebot" = "red")) +
+  labs(x = "Menge", y = "Preis", title = "Angebots- und Nachfragekurven (g)") +
   theme_minimal()
+
+plot_g <- add_labels(plot_g, 128.28, 593.14, 400, 100)
+print(plot_g)
 ```
 
 ### 7.3 Marktversagen
