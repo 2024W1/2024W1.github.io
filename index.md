@@ -131,6 +131,7 @@ In der Allgemeinen Volkswirtschaftslehre ist die Unterscheidung von freien und k
 Im Gegensatz dazu stehen knappe Güter nicht in einem ausreichenden Maße zur Verfügung. Knappheit ist relativ. Sie bedeutet nicht absolute Seltenheit (eine kleine Menge oder nur ein Exemplar) wie z.B. ein komplettes Saurierskelett, sondern sie beschreibt nur das Verhältnis von Angebots- und Nachfragemenge. Wenn die Nachfragemenge größer als die Angebotsmenge ist, dann handelt es sich um ein knappes Gut. Bei knappen Gütern müssen Nachfrage und Angebot durch Wirtschaft zum Ausgleich gebracht werden. Aus diesem Grund nennt man diese Art von Gütern wirtschaftliche Güter. Sie haben einen Preis. Je knapper ein Gut ist, desto höher ist sein Preis, d.h., wenn bei gleichbleibendem Angebot die Zahl der Nachfrager oder die nachgefragte Menge steigt, steigt auch der Preis. Der Preis ist damit Indikator für die Knappheit des Gutes.
 
 Güter, die ursprünglich als frei betrachtet wurden, können aus verschiedenen Gründen knapp werden. Zum Beispiel: 
+
 1. durch die Umweltverschmutzung oder Übernutzung
 2. durch die Schaffung von Eigentumsrechten
 3. allerdings auch durch Veränderungen der Umweltbedingungen, die der Mensch nicht beziehungsweise nicht direkt verursacht hat, z.B. Naturkatastrophen.
@@ -144,6 +145,7 @@ Man unterscheidet in der wirtschaftswissenschaftlichen Fachsprache materielle G�
 ![ ](./assets/pictures/242UE1.svg)
 
 Typische Dienstleistungen unterscheiden sich aufgrund folgender Eigenschaften von materiellen Gütern:
+
 1. Sie sind nicht lagerbar.
 2. Sie können nicht als Eigentum erworben werden.
 3. Produktion und Konsum erfolgen zur gleichen Zeit, also unmittelbar.
