@@ -1,7 +1,7 @@
 --- 
 title: "Wirschaftswissenschaft für 2024-25W1"
 author: "Klinkicht, Begonia"
-date: "2024-12-21"
+date: "2024-12-23"
 output: pdf_document
 site: bookdown::bookdown_site
 documentclass: book
@@ -103,7 +103,7 @@ Unter zwei Voraussetzungen wird der Bedarf schließlich zur Nachfrage. Erstens, 
 
 ## Güter {#chapter-2.4}
 
-Das Objekt der Verteilung sind Güter. Die Eigenschaft des Gutes haftet einem Gegenstand nicht von Natur aus an. Als Gut bezeichnet man in der Wirtschaftswissenschaft alle Mittel oder Leistungen, die der Bedürfnisbefriedigung dienen. (Siehe oben) Das Fachwort ist zentrales Element in der Wissenschaftssprache der Wirtschaftswissenschaften und hat einen großen Bedeutungsumfang. Als „Gut" wird de facto alles erfasst, was irgendeinem Wirtschaftsakteur irgendeinen Nutzen stiftet. Da alles, philosophisch gesehen, irgendeinen Nutzen hat, kann somit alles zum Gut werden. Güter, die aus der Sicht des Betrachters unerwünscht sind, wie z.B. Luftverschmutzung, Lärm, eine Krankheit, werden als „Schlecht" (Ungut oder Bad) bezeichnet.
+Das Objekt der Verteilung sind Güter. Die Eigenschaft des Gutes haftet einem Gegenstand nicht von Natur aus an. Als Gut bezeichnet man in der Wirtschaftswissenschaft alle Mittel oder Leistungen, die der Bedürfnisbefriedigung dienen. (Siehe oben) Das Fachwort ist zentrales Element in der Wissenschaftssprache der Wirtschaftswissenschaften und hat einen großen Bedeutungsumfang. Als "Gut" wird de facto alles erfasst, was irgendeinem Wirtschaftsakteur irgendeinen Nutzen stiftet. Da alles, philosophisch gesehen, irgendeinen Nutzen hat, kann somit alles zum Gut werden. Güter, die aus der Sicht des Betrachters unerwünscht sind, wie z.B. Luftverschmutzung, Lärm, eine Krankheit, werden als "Schlecht" (Ungut oder Bad) bezeichnet.
 
 Ebenso wie Bedürfnisse und der Bedarf können auch Güter nach der Dringlichkeit in Existenzgüter und Luxusgüter eingeteilt werden. Dieser Klassifikation liegt allerdings ein eindeutiges mathematisches Kriterium zugrunde. Diese Klassifikation wird in der Lektion "Elastizität" dargestellt.
 
@@ -151,7 +151,7 @@ Typische Dienstleistungen unterscheiden sich aufgrund folgender Eigenschaften vo
 3. Produktion und Konsum erfolgen zur gleichen Zeit, also unmittelbar.
 4. Sie können nicht als Wertspeicher genutzt werden.
 
-Diese Klassifizierung zeigt ein Definitionsproblem auf. Der Begriff „Gut bedeutet in der Allgemeinsprache ein materielles Gut, auch "Besitz". In der Fachsprache der Wirtschaftswissenschaft versteht man unter einem Gut alles, was Bedürfnisse befriedigen kann. Der Bedeutungsumfang des Begriffes ist in der Fachsprache also viel größer als in der Allgemeinsprache.
+Diese Klassifizierung zeigt ein Definitionsproblem auf. Der Begriff "Gut" bedeutet in der Allgemeinsprache ein materielles Gut, auch "Besitz". In der Fachsprache der Wirtschaftswissenschaft versteht man unter einem Gut alles, was Bedürfnisse befriedigen kann. Der Bedeutungsumfang des Begriffes ist in der Fachsprache also viel größer als in der Allgemeinsprache.
 
 ### Verwendungszweck und Nutzungsdauer {#chapter-2.4.3}
 
@@ -171,7 +171,7 @@ Im Haushalt, also in der Verwendung als Konsumgut, spielt diese Klassifikation k
 
 Da auch hier Übergänge fließend sind, werden im Rechnungswesen zwei Vereinfachungen vorgenommen. Als Verbrauchsgüter gelten über die obere Definition hinaus alle Güter, die weniger als ein Jahr lang nutzbar sind, und alle Güter, die weniger als 150 € netto (ohne Umsatzsteuer) gekostet haben. Diese Güter werden sofort als aufwand betrachtet und sie müssen nicht abgeschrieben werden, auch wenn man sie lange im Unternehmen einsetzen kann.
 
-Das Kriterium der „Nutzungsdauer" spiegeln sich auf der Aktivseite und auf der Passivseite der Bilanz wider, als Beispiel ist eine stark vereinfachte Übungsbilanz zu sehen:
+Das Kriterium der "Nutzungsdauer" spiegeln sich auf der Aktivseite und auf der Passivseite der Bilanz wider, als Beispiel ist eine stark vereinfachte Übungsbilanz zu sehen:
 
 Bilanz zum 31.12.01
 
@@ -204,3 +204,46 @@ Berechnung ergibt: $\text{AV} + \text{UV} - \text{FK} = \text{EK}$. Die Bilanzsu
 |----|----|----|
 |langfristig|Investitionsgut|Gebrauchsgut|
 |kurzfristig|Roh-, Hilfs-, Betriebsstoffe|Verbrauchsgut|
+
+### Nutzen für den Konsumenten / Nachfrager {#chapter-2.4.4}
+
+Unterschieden werden nur drei Merkmalsausprägungen: das Gut hat einen Nutzen für den Konsumenten (Good), das Gut ist neutral, es hat keinen Nutzen und verursacht keinen Schaden (neutrales Gut) und das Gut ist schädlich für den Konsumenten (Ungut oder Bad).
+
+Die Höhe des Nutzens kann als Funktion der Nachfragemenge dargestellt werden. Dabei bedient sich die Wirtschaftswissenschaft der Sprache der Mathematik. Es wird ein funktionaler Zusammenhang zwischen einer unabhängigen Größe = Abszisse = x-Achse und einer abhängigen Größe = Ordinate = y-Achse dargestellt und der funktionale Zusammenhang kann berechnet werden. Das Ergebnis ist die Nutzenfunktion, die in der Haushaltstheorie näher analysiert wird. Mit dem Verlauf der Funktionen können Güter klassifiziert werden. Die Klassifikation spielt eine große Rolle in der Mikroökonomik.
+
+Beispiele: Ein Gut (Good) ist für einen Kaffeetrinker Kaffee, ein neutrales Gut für einen Kaffeetrinker ist z.B. Tee. Der Kaffeetrinker fragt keinen Tee nach und erleidet normalerweise keinen Schaden durch einen Teetrinker. Ein Bad für einen Nichtraucher ist z.B. Zigarettenrauch, ein Bad für einen Stille liebenden Menschen kann laute Musik sein.
+
+### Substituierbarkeit {#chapter-2.4.5}
+
+Eine Unterscheidung, die ebenfalls in der Mikroökonomik eine große Rolle spielt, ist die Klassifizierung der Güter danach, ob sie für den Nachfrager als gleichartig (homogene Güter) betrachtet werden oder nicht (heterogene Güter). Heterogene Güter betrachtet der Nachfrager dann also als verschiedenartige Güter. Die Klassifikation erfolgt immer aus der Sicht des Nachfragers.
+Zwei Güter können objektiv unterschiedlich (Größe, Zweck, Qualität, Service) oder subjektiv unterschiedlich sein. Dann handelt es sich um die gleichen Güter, aber z.B. wird eines als Markenprodukt, das andere als No-name-Produkt verkauft. Aber auch vollkommen gleichartige Güter können von einem Nachfrager als heterogen wahrgenommen werden. Ein Beispiel dafür ist ein Buch in einem Bücherstapel eines Buchladens. Welches würden Sie kaufen?
+
+Es handelt sich also um eine subjektive Entscheidung des Nachfragers, ob zwei Güter für ihn homogen oder heterogen sind. Wenn er zwei Güter als heterogen betrachtet, sind sie für ihn nicht beliebig austauschbar (substituierbar). Das mindert den Wettbewerb zwischen den Anbietern. Deshalb sind Anbieter austauschbarer Produkte immer bestrebt, die Unterschiede ihres Angebotes von dem der Konkurrenten sehr deutlich zu kommunizieren, damit die Konsumenten eine möglichst hohe Produkttreue entwickeln.
+
+Homogene Güter sind für den Nachfrager dagegen vollkommen austauschbar. Objektive als auch subjektive Produktunterschiede sind für den Kunden nicht relevant. Die Kaufentscheidung wird allein durch den Preis bestimmt. Aufgrund dieser Bedingung sind homogene Güter de facto nur Teil eines Marktmodells, dem vollkommenen Markt. Reale Güter, die am ehesten als Beispiele für homogene Güter gelten können, sind z.B. Elektroenergie, verschiedene Aktien eines Unternehmens, Banknoten der gleichen Währung oder in Deutschland Bananen.
+
+Von der Substituierbarkeit eines Gutes ist abhängig, auf welchem Markt der Nachfrager auf-tritt. Wenn der Nachfrager "Jeans" kaufen möchte, dann ist er Nachfrager auf einem Jeansmarkt. Es gibt viele Anbieter für Jeans, der Markt ist ein Polypolmarkt (viele Nachfrager, viele Anbieter). Wenn der Nachfrager "Levis" kaufen möchte, dann ist er Nachfrager auf dem "Levismarkt", also auf einem Monopolmarkt (viele Nachfrager, ein Anbieter). Für diesen Nachfrager sind andere Jeans nicht gleichartig, also nicht substituierbar. Diese Unterscheidung ist wichtig für die Charakterisierung der Marktformen in der Mikroökonomik.
+
+![ ](./assets/pictures/245AB1.svg)
+
+### Nachfragerverhalten {#chapter-2.4.6}
+
+Die Nachfrage nach einem bestimmten Gut ist nicht nur abhängig vom Preis des Gutes, sondern von sehr vielen Faktoren wie Alter des Nachfragers, Geschlecht, Bildungsstand, Familienstand, familiärer Hintergrund, Arbeitsplatz, Anzahl der Kinder usw. Diese Einflüsse auf das Nachfragerverhalten sind Gegenstand der Psychologie bzw. psychologischer Betrachtungen innerhalb der Wirtschaftswissenschaften wie etwa im Marketing oder in der Finanzierung.
+
+In der Mikroökonomik werden folgende Zusammenhänge in den Mittelpunkt der Analyse gestellt: der funktionale Zusammenhang:
+
+1. zwischen dem Preis des Gutes und der nachgefragten Menge des Gutes
+2. zwischen dem Preis anderer Güter und der nachgefragten Menge des Gutes
+3. zwischen dem Einkommen des Nachfragers und der nachgefragten Menge des Gutes.
+
+#### Der Zusammenhang zwischen dem Preis des Gutes und der Nachfrage/ Nachfragemenge des Gutes {#chapter-2.4.6.1}
+
+Empirisch nachvollziehbar ist der Zusammenhang, der auch als Gesetz der Nachfrage oder normale Nachfrage bezeichnet wird: Wenn der Preis des Gutes hoch ist, ist die Nachfrage gering und wenn der Preis des Gutes niedrig ist, ist die Nachfrage hoch. Das heißt, wenn der Preis des Gutes steigt, sinkt die Nachfrage und wenn der Preis des Gutes sinkt, steigt die Nachfrage. Es handelt sich hierbei um eine normale Nachfragefunktion, die Güter sind normale Güter. Die unabhängige Größe ist der Preis, die abhängige Größe die Menge. In der grafischen Darstellung werden die beiden Achsen jedoch üblicherweise vertauscht. Das ist mathematisch unkorrekt.
+
+Beispiel: Ein Händler hat beobachtet, dass er bei einem Preis von 1 € pro kg eines Gutes 4 kg verkauft hat, bei einem Preis von 5 € pro kg dagegen verkaufte er nur 2 kg. Stellen Sie diese zwei Preis-Mengen-Kombinationen in einem mathematisch korrekten Preis-Mengen-Diagramm dar. (Maßstab: 1 € und 1 kg entsprechen 1 cm).
+
+Mathematische Darstellung:
+
+Ökonomische Darstellung:
+
+Berechnung einer liniearen Nachfragefunktion bei zwei gegebenen Punkten:
