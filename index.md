@@ -25,7 +25,7 @@ Keine Ahnung.
 
 ### Der 1. Semester
 
-1. [Gegenstand der Wirtschaftswissenschaft](#chapter-2.1)
+1. [Gegenstand der Wirtschaftswissenschaft](#chapter-2)
 2. Modelltheorie: Wirtschaftsmodelle
   - Modelltheorie
   - Homo oeconomicus
@@ -246,4 +246,192 @@ Mathematische Darstellung:
 
 Ökonomische Darstellung:
 
-Berechnung einer liniearen Nachfragefunktion bei zwei gegebenen Punkten:
+Berechnung einer linearen Nachfragefunktion bei zwei gegebenen Punkten:
+
+Zu beobachten sind in der Realität jedoch auch andere Verläufe der Nachfragefunktionen: Wenn der Preis eines Gutes steigt, die Nachfrage jedoch konstant bleibt, bezeichnet man die Nachfrage nach diesen Gütern als unelastisch, auch **unelastische Nachfrage**, das Gut nennt man **vollkommen unelastisches Gut**. Dieser Effekt ist ein Modellfall, kann aber in bestimmten Preisbereichen bei lebensnotwendigen Gütern auftreten. Die Nachfrager sind z.B. bei einem lebensrettenden Medikament gezwungen, jeden Preis für das Gut zu zahlen, den der Anbieter verlangt.
+
+Wenn der Preis eines Gutes und auch die Nachfrage steigen, so handelt es sich um eine anomale Nachfrage. Das Gut mit einer anomalen Nachfrage wird manchmal nur nach einem Erklärungsansatz "Giffengut" genannt.
+
+Es gibt dafür unterschiedliche Erklärungsansätze, von denen hier einige vorgestellt werden sollen:
+
+1. Qualitätsvermutungseffekt
+
+    Steigende Nachfrage bei steigendem Preis kann in der Vermutung begründet sein, dass sich die Qualität des Gutes verbessert hat und deshalb mehr nachgefragt wird. Das ist möglich bei Gütern, deren Qualität erst nach dem Kauf eingeschätzt werden kann.
+
+2. Snob-Effekt
+
+    Steigende Preise sind eine Möglichkeit, anderen Menschen das eigene hohe Einkommen und die Unabhängigkeit von steigenden Preisen zu demonstrieren. Bei steigendem Preis wird also mehr von diesem Gut (deutlich sichtbar) konsumiert. Der Effekt kann bei Luxusgütern auftreten.
+
+3. Giffen-Effekt
+
+    Der Effekt wurde im 19. Jh. von dem englischen Ökonomen Giffen beschrieben. Der Brot-preis stieg und die Leute mussten mehr Brot nachfragen, weil sie sich "bessere" Güter wie z.B. Fleisch nicht mehr leisten konnten. Dieser Effekt kann bei extremen Existenzgütern auftreten.
+
+4. Kleinanlegereffekt
+
+    Bei steigenden Aktienpreisen an der Börse (Kursen) versuchen insbesondere Anleger mit wenig Markteinfluss, mit steigenden Aktien Gewinn zu machen. Sie kaufen oft zu spät, nämlich dann, wenn die Preise schon stark gestiegen sind.
+
+5. Inflationseffekt
+
+    Wenn die Nachfrager infolge einer Inflation steigende Preise erwarten, ziehen sie ihren Konsum trotz steigender Preise jetzt vor, um später nicht noch mehr dafür bezahlen zu müssen.Der Effekt kann bei lagerfähigen Gütern oder Gebrauchsgütern auftreten.
+
+#### Der Zusammenhang zwischen dem Preis eines anderen Gutes und der Nachfragemenge des betrachteten Gutes {#chapter-2.4.6.2}
+
+Auch hier werden im Wesentlichen drei Fälle unterschieden: Wenn der Konsum von Gütern in typischen Situationen nur als Gemeinsamkeit sinnvoll ist, handelt es sich um **Komplementärgüter (Komplemente / komplementäre Güter)**. Steigt der Preis des einen Gutes, dann sinkt die Nachfrage nach beiden Gütern. Es lassen sich verschiedene Grade unterscheiden.
+Bei perfekten Komplementen ist der Kauf eines Gutes ohne Kauf des anderen Gutes sinnlos, z.B. linker und rechter Schuh. Unvollständige Komplemente ergänzen sich im Konsum, können aber auch zu unterschiedlichen Zeiten am Markt nachgefragt werden oder in unterschiedlichen Mengen kombiniert werden. Eine Preissteigerung bei Gut 1 wirkt sich dann mit einer Verzögerung auf die Nachfrage des Gutes 2 aus, z.B. Computer, Drucker, Monitor oder Auto und Benzin.
+
+**Substitutionsgüter (Substitute / substitutive / substitutionale Güter)** zeichnen sich dadurch aus, dass sie aus der Sicht des Nachfragers ähnliche oder sogar dieselben Bedürfnisse befriedigen und damit miteinander im Wettbewerb stehen. Für den Nachfrager sind sie homogen oder zumindest weniger heterogen. Folglich steigt bei einem Substitutionsgut die Nachfrage, wenn sich der Preis des anderen Gutes erhöht.
+
+Auch hier lassen sich verschiedene Grade unterscheiden. Kann ein Gut das andere vollständig ersetzen, ohne dass zusätzliche Kosten entstehen, spricht man von perfekten Substituten (also homogenen Gütern). Z.B. kann es dem Nachfrager vollkommen gleichgültig sein, ob er seine Zeichnungen mit einem roten oder blauen Bleistift anfertigt. Wenn der Preis von roten Bleistiften auch nur gering steigt, kauft der Nachfrager nur noch blaue. Kann ein Gut ein anderes bei der Befriedigung eines Bedürfnisses nur unvollkommen ersetzten, so spricht man von unvollkommenen Substituten. Bei kleinen Preisveränderungen werden sich die Konsumgewohnheiten des Nachfragers nicht ändern, wenn jedoch die Preisänderungen hinreichend groß sind, wird der Nachfrager das Gut durch ein anderes Gut, ein Substitut, ersetzen, z.B. bewirkt die starke Erhöhung des Benzinpreises, dass mehr Menschen mit der Bahn fahren.
+
+Wenn eine Preisveränderung bei einem Gut keinerlei Nachfrageveränderung bei einem anderen Gut hervorruft, so existieren keine Konsumbeziehungen zwischen beiden Gütern. Diese Güter verhalten sich indifferent zueinander, man nennt sie **indifferente Güter**.
+
+#### Der Zusammenhang zwischen dem Einkommen des Nachfragers und der Nachfragemenge des Gutes {#chapter-2.4.6.3}
+
+Zu erwarten ist der Fall, dass die Nachfrage nach dem Gut steigt, wenn das Einkommen steigt. Diese Güter befinden sich im superioren Bereich der Nachfragefunktion, auch (absolut) superiore Güter. Unterschieden werden können relativ superiore Güter und relativ inferiore Güter. Bei relativ superioren Gütern steigt die Nachfrage schneller als das Einkommen, bei relativ inferioren Gütern steigt die Nachfrage langsamer als das Einkommen. Das ist typisch für normale Nahrungsmittel und die Kennzahl dient dazu, den Wohlstand eines Landes zu beschreiben (Engelkoeffizient). Wenn die Nachfrage bei steigendem Einkommen bis zu einer bestimmten Sättigungsmenge steigt und dann auf diesem Niveau bleibt, spricht man von einer gesättigten Nachfrage (oder von Sättigungsgütern). Wenn die Nachfrage bei weiter steigendem Einkommen sinkt, das Gut also vermutlich durch ein "besseres" substituiert wird, dann befindet sich das Gut im inferioren Bereich, auch (absolut) inferiore Güter. Die Klassifikation dieser Güter wird in den Lehrbüchern unterschiedlich dargestellt. Ein Beispiel für ein typisches Sättigungsgut ist Salz. Jeder Mensch benötigt eine bestimmte Menge, unabhängig vom Einkommen. Typische Beispiele für inferiore Güter sind Güter, die man mit einem niedrigen oder mittleren Einkommen kauft, bei einem höheren Einkommen jedoch nicht mehr, z.B. Bekleidung von *H&M*, *Primark*.
+
+### Ausschließbarkeit und Rivalität {#chapter-2.4.7}
+
+Die folgenden drei Klassifikationsansätze nach den Kriterien Ausschließbarkeit, Rivalität und Wohlfahrtswirkung beschäftigen sich mit der grundlegenden Frage "Markt oder Staat?", d.h., ob diese Güter über einen Markt verteilt werden können oder ob ihre Verteilung durch eine übergeordnete Instanz organisiert werden muss. Dabei kann es sich um einen Diktator, eine Regierung, ein Parlament oder Ähnliches handeln, wir nennen diese sehr stark verkürzt "Staat". Diese Klassifikationen spielen in der Finanzwissenschaft eine bedeutende Rolle.
+
+Bei diesen Kriterien geht es um die Art der Verteilung. Güter können auf verschiedene Arten verteilt werden. Wir wollen hier nur drei Gruppen unterscheiden:
+
+1. Anarchie
+2. Verteilung durch einen übergeordneten Willen(willkürlich oder nach bestimmten Regeln), sehr kurz und vereinfachend: Staat
+3. Verteilung durch das freie Spiel von Angebot und Nachfrage innerhalb eines mehr oder weniger geschützten Rahmens, aber ohne eine übergeordnete Instanz, kurz: Markt.
+
+Eine grundlegende Frage der Finanzwissenschaft ist, ob die Güter über einen Markt verteilt werden können (Sind die Güter marktfähig?) oder ob die Verteilung durch den Staat zu einem besseren Ergebnis führt (Markt oder Staat?). Die Antwort ist unter anderem davon abhängig, um welche Art von Gütern es sich handelt und welche Bedürfnisstruktur die betrachtete Menschengruppe hat. Es gibt keine Gesellschaftsform, die Güter nur durch eine Verteilungsmethode verteilt. Die Geschichte hat gezeigt, dass Verteilungen durch übergeordnete Instanzen vorgenommen wurden, wenn Märkte zusammengebrochen sind oder zu nicht optimalen Verteilungen führten und dass sich trotz staatlicher Regulierung Märkte entwickelten, die andere Verteilungsergebnisse erzielten, als der Staat wünschte, z.B. Schwarzmärkte.
+
+#### Ausschließbarkeit {#chapter-2.4.7.1}
+
+Güter können in **ausschließbare und in nicht ausschließbare Güter** eingeteilt werden. Ein Gut ist ausschließbar, wenn ein Wirtschaftsakteur alle anderen daran hindern kann, das Gut zu konsumieren. Die Nutzung dieses Gutes ist nur möglich, wenn ein bestimmter Preis an den Besitzer oder Anbieter des Gutes gezahlt wird. Die Ausschließbarkeit eines Gutes ist u.a. abhängig von technologischen Eigenschaften des Gutes, von den Kosten des Ausschlusses, von den vorherrschenden Eigentumsverhältnissen.
+
+|||
+|---|---|
+|ausschließbar|Brötchen, Möbel in der eigenen Wohnung, Kinobesuch|
+|Übergang|Open-Air-Konzert|
+|nicht ausschließbar|Landesverteidigung, Deich|
+|früher nicht ausschließbar, heute ausschließbar|Fernsehempfang (Pay-TV)|
+
+Der Marktmechanismus funktioniert nur bei ausschließbaren Gütern. Wenn man nicht aus-schließbare Güter versuchen würde, über einen Markt zu verteilen, dann würden die meisten Wirtschaftsakteure darauf vertrauen, dass andere dieses Gut dringender benötigen und bereit sind, die Kosten für ihre Bereitstellung zu tragen, und dass sie das Gut auch konsumieren können, ohne einen Preis dafür zu zahlen, da sie von der Nutzung des Gutes nicht ausgeschlossen werden können. Diese Nutzer werden zu Trittbrettfahrern oder free riders(Englisch: Free riders). Das individuell rationale Verhalten führt dazu, dass diese Güter nicht oder nicht in ausreichender Menge vom Markt bereitgestellt werden. Es kommt zu einer Unterversorgung bzw. zum Marktzusammenbruch.
+
+#### Rivalität {#chapter-2.4.7.2}
+
+Rivalität im Konsum bedeutet, dass das gleiche Gut nicht von mehreren Konsumenten zur gleichen Zeit konsumiert werden kann, ohne dass sich die Qualität des Gutes verschlechtert.
+Güter, die beim Konsum untergehen, sind also immer **rivale Güter**. Die Qualität des Gutes bleibt bei einigen rivalen Gütern unabhängig von der Zahl der Konsumenten immer gleich, bei anderen nur bis zu einer bestimmten Kapazitätsgrenze annähernd gleich. Wenn die Kapazitätsgrenze überschritten wird, dann werden die Güter rival.
+
+Frage:
+
+1. Wo liegt die Kapitalzitätsgrenze für das Gut Wirtschaftslehreunterricht in diesem Semester?
+2. Wo liegt die Kapazitätsgrenze für eine W-Gruppe am Studienkolleg Sachsen?
+
+|||
+|---|---|
+|rival|Brötchen, Erdöl|
+|Übergang|eine Straße, auf der es manchmal Stau gibt, Schule an der Kapazitätsgrenze|
+|nicht rival|Fernsehempfang, auch Pay-TV, Landesverteidigung, Deich|
+|früher nicht rival, heute rival|Fischbestand der Weltmeere, sauberes Trinkwasser|
+
+Wenn die Güter nach beiden Kriterien klassifiziert werden sollen, entsteht folgende Übersicht:
+
+|Rivalität\\Ausschließbarkeit|ja|nein|
+|---|---|---|
+|ja|Individualgut / privates Gut z.B. Brötchen|Allmendegut z.B. Parks, Fischbestand der Weltmeere|
+|nein|Mautgut z.B. Mobilfunknetz, Stromnetz|öffentliches Gut im engeren Sinne z.B. Landesverteidigung, Deich|
+
+Das **Individualgut/ das private Gut** kann am besten über einen Markt verteilt werden. Bei funktionierenden Märkten ist eine Marktverteilung immer besser als eine Staatsverteilung.
+Das ist die zentrale Aussage der Neoklassik. Sie wird größtenteils von der Realität bestätigt.
+
+Ein **Allmendegut** ist ein Begriff aus der Besiedlungsgeschichte. Ein Dorf bestand aus Bauernhöfen, denen jeweils eine bestimmte Menge Land für den Anbau von Pflanzen zugeteilt war. Daneben besaßen die Bauern des Dorfes eine Landfläche als Tierweide gemeinsam. Sie gehörte "allen Männern" = Allmendegut. Diese Fläche konnten alle Bauern nutzen. Allmendegüter sind meistens von der Natur bereitgestellte, also zunächst freie Güter. Sie müssen nicht hergestellt werden, somit besteht nicht die Gefahr des Unterangebotes, sondern aufgrund der wachsenden Bevölkerung sind sie von der Gefahr der Übernutzung und des Untergangs bedroht. Aufgrund der fehlenden Ausschließbarkeit ist es besonders bei globalen Allmendegütern wie den Fischbeständen oder dem Regenwaldgürtel der Erde sehr schwierig, eine Übernutzung zu verhindern, da die Nutzer als Trittbrettfahrer nicht bereit sind, Kosten zu übernehmen. Aufgrund der Nichtausschließbarkeit ist eine Marktverteilung von Allmendegütern eigentlich nicht möglich, man sagt auch, Nichtausschließbarkeit führt zu Unterangebot und Marktzusammenbruch. Eine Verteilung durch den Staat ist notwendig. An Marktverteilungen wird gearbeitet. Das setzt allerdings die Schaffung von Eigentum voraus.
+
+Ein öffentliches Gut i.e.S. ist per Definition ein Ausschluss nicht(oder nur schwer) ermöglichendes, nicht (oder nur bedingt) rivales Gut. Seine Nutzung ist für den einzelnen Wirtschaftsakteur ebenfalls kostenlos. Es ist allerdings auch kein freies Gut, da es nicht unbegrenzt zur Verfügung steht, seine Herstellung Kosten verursacht und der Preis von einer Gruppe potentieller und tatsächlicher Nutzer getragen werden muss. Bei einer Marktverteilung besteht ebenfalls die Gefahr des Unterangebotes und des Marktzusammenbruchs. Auch hier ist eine Staatsverteilung notwendig.
+Namensgeber für das Mautgut ist die Maut, eine Gebühr für die Nutzung einer Straße bzw.
+
+Autobahn. Ein Beispiel für ein Mautgut ist eine Straße, auf der Autofahrer von der Nutzung durch Kontrollen o.ä. ausgeschlossen werden können (Ausschließbarkeit) und auf der es keinen Stau gibt( keine Rivalität). Wenn diese Straße von einem privaten Unternehmen gebaut wurde, dann muss dieses Unternehmen eine Maut erheben, um die Kosten für den Bau, die bei Mautgütern oft sehr hoch sind, zu decken. Damit hält es aber Autofahrer, die nicht bereit sind, die Maut zu bezahlen und die einen anderen Weg nehmen können, davon ab, die Straße zu nutzen. Wenn der Staat die Straße baut, dann kann er auf die Maut verzichten und damit mehr Fahrern die Nutzung der Straße ermöglichen. Der Markt verteilt in diesem Fall suboptimal, die Staatsverteilung ist besser. In einigen Ländern erheben aber auch Staaten eine Maut für die Nutzung von Autobahnen, hauptsächlich aber dann, wenn die Straßen schon rival sind, um sie für die Fahrer frei zu halten, die große Entfernungen in begrenzter Zeit zurücklegen müssen.
+
+Die Produktion von Mautgütern verursacht zunächst oft hohe Fixkosten. Das Anlagevermögen solcher Unternehmen ist oft hoch. Wenn die Güter allerdings produziert/ bereitgestellt worden sind, dann verursacht ein weiterer Nachfrager kaum oder keine weiteren Kosten. Mathematisch bedeutet das, die Grenzkosten, die ein weiterer Nachfrager verursacht, gehen gegen Null. Branchen, in denen solche Kostenstrukturen herrschen, werden natürliche Monopole genannt. Typische Beispiele sind Infrastrukturgüter wie ein Telefonnetz, ein Mobilfunknetz, ein Stromnetz usw. Diese Güter werden in manchen Ländern von Unternehmen, in manchen Ländern vom Staat hergestellt und verteilt. Solange die Güter nicht rival sind, ist die Staatsverteilung besser.
+
+### Wohlfahrtswirkung {#chapter-2.4.8}
+
+Jeder einzelne Nachfrager eines Gutes misst diesem einen bestimmten individuellen Nutzen zu, der in der Finanzwissenschaft über den Preis, den der Nachfrager zu zahlen bereit ist (= marginale Zahlungsbereitschaft) bestimmt wird. Neben dem individuell bestimmbaren Nutzen, welcher bei jedem Nachfrager unterschiedlich ist, kann dem Gut durch die Gesellschaft auch ein allgemeiner Nutzen(= gesellschaftliche Wohlfahrtswirkung) zugewiesen werden.
+
+Wenn der individuelle Nutzen geringer ist als der gesellschaftliche Nutzen, dann kommt es durch eine Marktverteilung zu einer Unterversorgung mit diesen Gütern, wenn jedoch der individuelle Nutzen höher ist als der gesellschaftliche Nutzen, dann führt die Marktverteilung zu einer Überversorgung mit diesen Gütern. In beiden Fällen versucht der Staat einzugreifen und das Verteilungsergebnis zu beeinflussen.
+
+Bei der ersten Gruppe handelt es sich um meritorische Güter. Hauptsächlich durch die Senkung des Preises versucht der Staat, die Nachfrage nach dem Gut zu erhöhen. Typische Beispiele sind die Förderung der Bildung und der Kunst, also wenn der Staat selbst Schulen baut oder private Schulen bezuschusst oder wenn er Zuschüsse an eine Oper zahlt.
+
+Ein **demeritorisches Gut** hingegen ist ein Gut, dessen Konsum der Staat beschränken will (Zigaretten durch Besteuerung) oder verbieten will (Drogen), da er diese Güter für schädlich hält. Die marginale Zahlungsbereitschaft der Bewohner als auch die Höhe der gesellschaftlichen Wohlfahrt sind von Land zu Land unterschiedlich und führen zu unterschiedlichen Staatsaktivitäten.
+
+Diese Güterklassifikationen zeigen eine Auswahl unterschiedlicher Sichten auf die Definition des Begriffs "Gut", sind jedoch keineswegs erschöpfend.
+
+## Das Knappheitsproblem {#chapter-2.5}
+
+Wenn alle Güter zur Befriedigung der menschlichen Bedürfnisse im Überfluss vorhanden wären, wenn also alle Güter freie Güter wären, gäbe es keine Wirtschaft. Man brauchte weder Geld noch Preise, es gäbe keine Löhne, keine Mieten, keine Zinsen, keinen Reichtum und keine Armut. Unternehmen wären mit ihren Produktionsgebäuden und Maschinen ebenso überflüssig wie Geschäfte oder Märkte. Die meisten Güter sind jedoch knapp. **Die Notwendigkeit des Wirtschaftens ergibt sich aus der unbegrenzten Anzahl von Bedürfnissen, zu deren Befriedigung nur eine begrenzte Menge an Gütern zur Verfügung steht.** Güterknappheit ist also Ausdruck einer Spannung zwischen Bedürfnissen und Gütern. Unter Wirtschaften kann man somit alle rationalen menschlichen Handlungen zur Verringerung der Knappheit von Gütern verstehen.
+
+Nicht nur die meisten Güter, auch die Mittel zu ihrer Herstellung, die Produktionsfaktoren, sind knapp. Der Boden ist nicht vermehrbar, das Arbeitsangebot in einer Volkswirtschaft ist begrenzt und die Ausstattung der Volkswirtschaft mit Realkapital, also mit Maschinen, Ausrüstungen, Fahrzeugen usw. kann nur langsam durch Sparen und Investieren gesteigert werden. Deshalb beschäftigt sich die Wirtschaftswissenschaft zunächst mit den Fragen, wie die Faktoren kombiniert werden sollen, um sie möglichst effizient im Produktionsprozess einzusetzen, und, welche Güter aus den eingesetzten Faktoren hergestellt und angeboten werden sollen. Die Zuteilung der Faktoren auf die Unternehmen nennt man Allokation. Wenn eine bestimmte Gütermenge produziert wurde, so beschäftigt sich die Wirtschaftswissenschaft weiterhin mit den Fragen, wie die Güter und wie die Faktoreinkommen so auf die Haushalte zu verteilen sind, dass sie den größtmöglichen Nutzen erzielen können. Die Zuteilung der Güter und Faktoreinkommen auf die Haushalte nennt man Distribution. Der dritte Problemkreis besteht in der Koordination der Produktionspläne der einzelnen Unternehmen und der Konsumpläne der einzelnen Haushalte.
+
+## Wiederholungsaufgaben {#chapter-2.6}
+
+1. Nennen Sie einen Bedarf, an dem man erkennen kann, dass die Bedürfnisse und damit auch der Bedarf eines Menschen von der natürlichen Umwelt abhängig sind.
+
+2. Es gibt zahlreiche Bedürfnisse, deren Befriedigung unter den heutigen technischen, wissenschaftlichen und wirtschaftlichen Verhältnissen noch nicht möglich ist, wohl aber in einer näher oder weiter entfernten Zukunft, z.B. eine zuverlässige Prognose des Wetters für einen Monat. Suchen Sie ein weiteres Beispiel. Versuchen Sie, den entsprechenden Bedarf zu beschreiben.
+
+3. Bedarfsklassifikation
+    - (a) Füllen Sie bitte die folgende Tabelle aus. Gehen Sie bei Ihren Beispielen zunächst von der Bedarfsstruktur eines privaten Haushalts mit durchschnittlichem Einkommen in einem Industrieland aus.
+    - (b)Suchen Sie weitere Beispiele, an denen Sie Unterschiede zwischen Deutschland / Mitteleuropa und Ihren Herkunftsländern erklären können.
+
+4. Ordnen Sie folgenden Ausspruch in die Maslowsche Bedürfnispyramide ein, "Man kauft, was man nicht braucht, mit dem Geld, was man nicht hat, um dem zu imponieren, den man nicht t mag." (Ortlieb-Dröge: Wirtschaftsordnung und Strukturpolitik, Opladen 1970, S. 213.)
+
+5. Vergleichen Sie folgende Definitionen von **Bedürfnis - Bedarf - Nachfrage** und finden Sie die Unterschiede zur Definition in diesem Lehrmaterial heraus.
+nach *Gabler-Wirtschaftslexikon*, 15. vollst. überarb. u. akt. Aufl., Wiesbaden 2000
+
+|Begriff|Erklärung|
+|---|---|
+|Bedürfnis|Wunsch, der aus dem Empfinden eines Mangels herrührt.|
+|Bedarf|Ergebnis objektivierbarer Bedürfnisse, die messbar und in Zahlen ausdrückbar sind.|
+|Nachfrage|Bedarf, dessen Befriedigung durch ein Einkommen möglich wird.|
+
+nach *Kotler, Philip/ Bliemel, Friedhelm*: *Marketingmanagement*, 8. vollst. neu bearb. u. erw. Auflage, Stuttgart 1995
+
+|Begriff|Erklärung|
+|---|---|
+|Bedürfnis|Ausdruck eines empfundenen Mangels an Zufriedenstellung.|
+|Bedarf|Verlangen nach konkreter Befriedigung.|
+|Nachfrage|Bedarf nach spezifischen Produkten, begleitet von der Fähigkeit und der Bereitschaft zum Kauf.|
+
+nach *Seidel, Horst/ Temmen, Rudolf*: *Grundlagen der Volkswirtschaftslehre*, 19. überarb. u. erweit. Auflage, Bad Homburg vor der Höhe 2001
+
+|Begriff|Erklärung|
+|---|---|
+|Bedürfnis|Empfindung eines Mangels mit dem Bestreben, ihn zu beseitigen.|
+|Bedarf|konkretisierte und mit Kaufkraft ausgestattete Bedürfnisse.|
+|Nachfrage|marktwirksamer Bedarf.|
+
+6. Ein Unternehmen hat folgende Vermögensgegenstände und Schulden (FK): Fahrzeuge $23.000$ €, BGA $14.500$ €, Lieferantenverbindlichkeit $5.000$ €, Rohstoffe $20.000$ €, Kassenbestand $800$ €, Bankdarlehen(Kredit) in Höhe von $30000$ €, ein Gebäude $120.000$ € und ein Bankguthaben von $2.000$ €.
+Schreiben Sie eine Bilanz, berechnen Sie das Eigenkapital und die Bilanzsumme.
+
+7. Konsum- und Produktionsgüter können Ge- oder Verbrauchsgüter sein.
+    - (a) Suchen Sie nach dem Beispiel der Tabelle im Text der Lektion weitere vier Beispiele.
+    - (b) Geben Sie ein Beispiel für ein Gut, das als Produktionsgut und als Konsumgut eingesetzt werden kann.
+    - (c) Geben Sie je ein Beispiel für ein Gut, das nach seiner Beschaffenheit entweder nur als Produktionsgut oder nur als Konsumgut geeignet ist.
+
+8. Ein Händler verkauft ein Produkt. Der Prohibitivpreis p beträgt 12 GE (Geldeinheiten), die Sättigungsmenge m beträgt 22 ME (Mengeneinheiten). Berechnen Sie die Nachfragefunktion und stellen Sie sie ökonomisch korrekt grafisch dar.
+
+9. Ein Händler verkauft bei einem Preis von $2$ € $32$ kg eines Gutes. Wenn er den Preis um $2$ € erhöht, kann er 24 kg des Gutes verkaufen.
+    - (a) Berechnen Sie die Nachfragefunktion $m(p)$.
+    - (b) Wie viel kg des Gutes könnte der Händler verkaufen, wenn er den Preis, bei dem er 24 Kg des Gutes verkaufen kann, noch einmal um $2$ € erhöht?
+    - (c) Stellen Sie die Nachfragefunktion ökonomisch korrekt grafisch dar.( Maßstab: $2$ € = $1$ cm; $4$ kg = $1$ cm). Markieren Sie die zwei gegebenen und die in (b) berechneten Preis-Mengen-Kombinationen.
+
+10. Welche Eigenschaften haben freie und öffentliche Güter im engeren Sinne gemeinsam und wodurch unterscheiden sie sich?
+
+11. Richtig oder falsch? Wenn Sie sich für "falsch" entschieden haben, begründen Sie bitte, warum.
+    - (a) Die Straßenbeleuchtung ist ein freies Gut, da sie kostenlos ist.
+    - (b) Ein Mobilfunknetz ist ein typisches Allmendegut.
+    - (c) Altpapier ist kein Wirtschaftsgut.
+    - (d) Es handelt sich um ein freies Gut, wenn die Nachfrage danach bei einem Preis von $0,00$ GE (Geldeinheiten) kleiner als das Angebot ist.
+    - (e) Die Intensität von Bedürfnissen ist objektiv messbar.
+    - (f) Homogene Güter betrachtet ein Nachfrager als gleichartig.
+    - (g) Der Fischbestand der Weltmeere ist ein öffentliches Gut i.e.S. (im engeren Sinne).
+    - (h) Ob ein Gut frei oder knapp ist, kann von den Umständen abhängen.
+    - (i) Ein Open-Air-Konzert ist ausschließbar, wenn es auf einer Insel stattfindet.
+    - (j) Heroin ist ein meritorisches Gut, weil sein gesellschaftlicher Nutzen sehr hoch ist.
+    - (k) Die Notwendigkeit des Wirtschaftens ergibt sich aus der begrenzten Anzahl von Bedürfnissen, zu deren Befriedigung eine unbegrenzte Menge an Gütern zur Verfügung steht.
+
