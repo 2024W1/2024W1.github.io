@@ -378,7 +378,7 @@ Nicht nur die meisten Güter, auch die Mittel zu ihrer Herstellung, die Produkti
     - (a) Füllen Sie bitte die folgende Tabelle aus. Gehen Sie bei Ihren Beispielen zunächst von der Bedarfsstruktur eines privaten Haushalts mit durchschnittlichem Einkommen in einem Industrieland aus.
     - (b) Suchen Sie weitere Beispiele, an denen Sie Unterschiede zwischen Deutschland/ Mitteleuropa und Ihren Herkunftsländern erklären können.
 
-4. Ordnen Sie folgenden Ausspruch in die Maslowsche Bedürfnispyramide ein, "Man kauft, was man nicht braucht, mit dem Geld, was man nicht hat, um dem zu imponieren, den man nicht t mag." (Ortlieb-Dröge: Wirtschaftsordnung und Strukturpolitik, Opladen 1970, S. 213.)
+4. Ordnen Sie folgenden Ausspruch in die Maslowsche Bedürfnispyramide ein, "Man kauft, was man nicht braucht, mit dem Geld, was man nicht hat, um dem zu imponieren, den man nicht mag." (*Ortlieb-Dröge*: *Wirtschaftsordnung und Strukturpolitik*, Opladen 1970, S. 213.)
 
 5. Vergleichen Sie folgende Definitionen von **Bedürfnis - Bedarf - Nachfrage** und finden Sie die Unterschiede zur Definition in diesem Lehrmaterial heraus.
 nach *Gabler-Wirtschaftslexikon*, 15. vollst. überarb. u. akt. Aufl., Wiesbaden 2000
