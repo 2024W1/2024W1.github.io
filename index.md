@@ -376,7 +376,7 @@ Nicht nur die meisten Güter, auch die Mittel zu ihrer Herstellung, die Produkti
 
 3. Bedarfsklassifikation
     - (a) Füllen Sie bitte die folgende Tabelle aus. Gehen Sie bei Ihren Beispielen zunächst von der Bedarfsstruktur eines privaten Haushalts mit durchschnittlichem Einkommen in einem Industrieland aus.
-    - (b)Suchen Sie weitere Beispiele, an denen Sie Unterschiede zwischen Deutschland / Mitteleuropa und Ihren Herkunftsländern erklären können.
+    - (b) Suchen Sie weitere Beispiele, an denen Sie Unterschiede zwischen Deutschland/ Mitteleuropa und Ihren Herkunftsländern erklären können.
 
 4. Ordnen Sie folgenden Ausspruch in die Maslowsche Bedürfnispyramide ein, "Man kauft, was man nicht braucht, mit dem Geld, was man nicht hat, um dem zu imponieren, den man nicht t mag." (Ortlieb-Dröge: Wirtschaftsordnung und Strukturpolitik, Opladen 1970, S. 213.)
 
@@ -405,7 +405,7 @@ nach *Seidel, Horst/ Temmen, Rudolf*: *Grundlagen der Volkswirtschaftslehre*, 19
 |Bedarf|konkretisierte und mit Kaufkraft ausgestattete Bedürfnisse.|
 |Nachfrage|marktwirksamer Bedarf.|
 
-6. Ein Unternehmen hat folgende Vermögensgegenstände und Schulden (FK): Fahrzeuge $23.000$ €, BGA $14.500$ €, Lieferantenverbindlichkeit $5.000$ €, Rohstoffe $20.000$ €, Kassenbestand $800$ €, Bankdarlehen(Kredit) in Höhe von $30000$ €, ein Gebäude $120.000$ € und ein Bankguthaben von $2.000$ €.
+6. Ein Unternehmen hat folgende Vermögensgegenstände und Schulden (FK): Fahrzeuge $23.000$ €, BGA $14.500$ €, Lieferantenverbindlichkeit $5.000$ €, Rohstoffe $20.000$ €, Kassenbestand $800$ €, Bankdarlehen(Kredit) in Höhe von $30.000$ €, ein Gebäude $120.000$ € und ein Bankguthaben von $2.000$ €.
 Schreiben Sie eine Bilanz, berechnen Sie das Eigenkapital und die Bilanzsumme.
 
 7. Konsum- und Produktionsgüter können Ge- oder Verbrauchsgüter sein.
