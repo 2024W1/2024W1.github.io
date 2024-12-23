@@ -120,7 +120,7 @@ Gegenstand der Klassifizierung: Apfel
 |Herstellungsort|Europa, Asien|eine Kunde|
 |Verwendungszweck|essen, Alkohol produzieren|ein Hersteller|
 
-Güterklassifikationen tauchen im realen Alltag in vielen Formen auf. Wenn man sich z.B. in einem Supermarkt umschaut, so kann man sehen, dass Güter nach verschiedenen Zwecken gruppiert werden. Aus Gründen der Übersichtlichkeit teilt man Güter in Nahrungsmittelgruppen ein: Obst, Gemüse, Getränke, Fleisch, Käse, Backwaren usw. Aufgrund ihrer Lagereigen-schaften findet man Güter, die gekühlt werden müssen, im Kühlregal, andere nicht. Güter, die eine hohe Gewinnspanne versprechen, werden in Augenhöhe oder in der Nähe der Kasse präsentiert, andere ganz unten oder ganz oben usw.
+Güterklassifikationen tauchen im realen Alltag in vielen Formen auf. Wenn man sich z.B. in einem Supermarkt umschaut, so kann man sehen, dass Güter nach verschiedenen Zwecken gruppiert werden. Aus Gründen der Übersichtlichkeit teilt man Güter in Nahrungsmittelgruppen ein: Obst, Gemüse, Getränke, Fleisch, Käse, Backwaren usw. Aufgrund ihrer Lagereigenschaften findet man Güter, die gekühlt werden müssen, im Kühlregal, andere nicht. Güter, die eine hohe Gewinnspanne versprechen, werden in Augenhöhe oder in der Nähe der Kasse präsentiert, andere ganz unten oder ganz oben usw.
 
 Im Folgenden sollen Güterklassifikationen dargestellt werden, die für die wirtschaftswissenschaftliche Betrachtung von Gütern eine Bedeutung haben.
 
@@ -175,7 +175,7 @@ Das Kriterium der "Nutzungsdauer" spiegeln sich auf der Aktivseite und auf der P
 
 Bilanz zum 31.12.01
 
-|Aktiva|Aktiva|Passiva|Passiva|
+| |Aktiva| |Passiva|
 |:------|-------:|:-------|-------:|
 |**Anlagevermögen(AV)**||**Eigenkapital(EK)**||
 |Grundstücke und Gebäude|$50.000$|||
@@ -189,7 +189,86 @@ Bilanz zum 31.12.01
 |Forderungen aus Lieferung und Leistungen(Ford LuL)|$2.000$|||
 |Bank|$4.000$|||
 |Kasse|$800$|||
-|**Bilanzsumme**||**Bilanzsumme**||
+|**Bilanzsumme**|<select id="bilanzsumme"><option value="">Wählen Sie eine Option</option><option value="1">= AV + FK = 104.800</option><option value="2">= AV + FK = 128.000</option><option value="3">= EK + FK = 149.800</option><option value="4">= AV + UV = 149.800</option></select>|**Bilanzsumme**||
+
+> Versuchen Sie biite, die richtige Auswahl oben zu wählen
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script>
+
+<div id="result"></div>
+
+<button id="submitButton">Antwort einreichen</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const submitButton = document.getElementById('submitButton');
+  submitButton.onclick = checkAnswer;
+});
+
+function checkAnswer() {
+  const bilanzsumme = document.getElementById('bilanzsumme');
+  const result = document.getElementById('result');
+  
+  if (bilanzsumme.value === '4') {
+    result.innerHTML = 'Richtig';
+    result.style.color = 'green';
+    bilanzsumme.style.backgroundColor = 'lightgreen';
+  } else if (bilanzsumme.value === '') {
+    result.innerHTML = 'Bitte wählen Sie eine Option aus.';
+    result.style.color = 'black';
+  } else if (bilanzsumme.value === '3'){
+    result.innerHTML = 'Hinweis: In der Reihe von Aktiva haben wir keine EK und FK.';
+    result.style.color = 'grey';
+    bilanzsumme.style.backgroundColor = 'lightpink';
+  }else if (bilanzsumme.value === '2'){
+    result.innerHTML = 'Hinweis: ';
+    const formula = document.createElement('span');
+    formula.textContent = '\\text{Bilanzsumme}=\\text{AV}+\\text{UV}=\\text{EK}+\\text{FK}';
+    result.appendChild(formula);
+    katex.render(formula.textContent, formula);
+    result.style.color = 'grey';
+    bilanzsumme.style.backgroundColor = 'lightpink';
+  }else if (bilanzsumme.value === '1'){
+    result.innerHTML = 'Hinweis: Bitte berechnen Sie noch einmal.';
+    result.style.color = 'grey';
+    bilanzsumme.style.backgroundColor = 'lightpink';
+  }
+}
+document.addEventListener('DOMContentLoaded', function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false}
+    ]
+  });
+});
+
+</script>
+
+<style>
+select, button {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+</style>
 
 Prinzipiell kann man für die Aktivseite sagen, je weiter oben der Posten in der Bilanz steht, desto höher ist die geplante Nutzungsdauer und desto niedriger ist die Liquidität des Postens.
 Die Kasse ist also bereits liquide, wogegen es sehr viel länger dauert, ein Gebäude oder ein Fahrzeug zu verkaufen, bis das Unternehmen wieder liquide ist.
@@ -197,7 +276,7 @@ Die Kasse ist also bereits liquide, wogegen es sehr viel länger dauert, ein Geb
 Für die Passivseite gilt, je weiter oben der Posten steht, desto höher ist die Fristigkeit des Kapitals, d.h., desto länger soll der Posten im Unternehmen verbleiben. Das Eigenkapital soll über die gesamte Lebensdauer (Totalperiode) im Unternehmen sein, die Darlehensverbindlichkeiten laufen je nach Kreditvertrag einige Jahre und eine Verbindlichkeit aus Lieferungen und Leistungen / Lieferantenverbindlichkeit besteht je nach Liefervertrag einige Wochen, bis sie fällig ist. Dabei werden die Darlehensverbindlichkeiten verzinst, Lieferantenverbindlichkeiten im Normalfall nicht.
 
 Die Passivseite liefert Informationen darüber, woher das Kapital im Unternehmen kommt (Kapitalherkunft) und die Aktivseite darüber, wofür das Kapital verwendet wurde (Kapitalverwendung).
-Die Reihenfolge der Bilanzposten ist gesetzlich vorgeschrieben im § 266 HGB. Deshalb darf die Reihenfolge auch in der Übungsbilanz nicht variiert werden. Das EK ist nur bei Unternehmensgründung eine bestimmte Geldmenge, die dazu eingesetzt wird, um AV und UV zu kaufen. Später kann das EK nur noch als Differenz betrachtet werden, die sich aus folgender
+Die Reihenfolge der Bilanzposten ist gesetzlich vorgeschrieben im *§ 266 HGB*. **Deshalb darf die Reihenfolge auch in der Übungsbilanz nicht variiert werden.** Das EK ist nur bei Unternehmensgründung eine bestimmte Geldmenge, die dazu eingesetzt wird, um AV und UV zu kaufen. Später kann das EK nur noch als Differenz betrachtet werden, die sich aus folgender
 Berechnung ergibt: $\text{AV} + \text{UV} - \text{FK} = \text{EK}$. Die Bilanzsummen sind also auf beiden Seiten immer gleich groß. In den Buchungsübungen ist es erlaubt und erwünscht, Abkürzungen zu verwenden. Beide Kriterien können in Tabellenform dargestellt werden:
 
 |Nutzungsdauer\\Verwendungszweck|für Produktion|für Konsum|
