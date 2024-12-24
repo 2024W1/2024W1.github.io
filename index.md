@@ -1,8 +1,9 @@
 --- 
 title: "Wirschaftswissenschaft für 2024-25W1"
 author: "Klinkicht, Begonia"
-date: "2024-12-23"
-output: pdf_document
+date: "2024-12-24"
+output:
+  bookdown::gitbook
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
@@ -273,7 +274,7 @@ button:hover {
 Prinzipiell kann man für die Aktivseite sagen, je weiter oben der Posten in der Bilanz steht, desto höher ist die geplante Nutzungsdauer und desto niedriger ist die Liquidität des Postens.
 Die Kasse ist also bereits liquide, wogegen es sehr viel länger dauert, ein Gebäude oder ein Fahrzeug zu verkaufen, bis das Unternehmen wieder liquide ist.
 
-Für die Passivseite gilt, je weiter oben der Posten steht, desto höher ist die Fristigkeit des Kapitals, d.h., desto länger soll der Posten im Unternehmen verbleiben. Das Eigenkapital soll über die gesamte Lebensdauer (Totalperiode) im Unternehmen sein, die Darlehensverbindlichkeiten laufen je nach Kreditvertrag einige Jahre und eine Verbindlichkeit aus Lieferungen und Leistungen / Lieferantenverbindlichkeit besteht je nach Liefervertrag einige Wochen, bis sie fällig ist. Dabei werden die Darlehensverbindlichkeiten verzinst, Lieferantenverbindlichkeiten im Normalfall nicht.
+Für die Passivseite gilt, je weiter oben der Posten steht, desto höher ist die Fristigkeit des Kapitals, d.h., desto länger soll der Posten im Unternehmen verbleiben. Das Eigenkapital soll über die gesamte Lebensdauer (Totalperiode) im Unternehmen sein, die Darlehensverbindlichkeiten laufen je nach Kreditvertrag einige Jahre und eine Verbindlichkeit aus Lieferungen und Leistungen/ Lieferantenverbindlichkeit besteht je nach Liefervertrag einige Wochen, bis sie fällig ist. Dabei werden die Darlehensverbindlichkeiten verzinst, Lieferantenverbindlichkeiten im Normalfall nicht.
 
 Die Passivseite liefert Informationen darüber, woher das Kapital im Unternehmen kommt (Kapitalherkunft) und die Aktivseite darüber, wofür das Kapital verwendet wurde (Kapitalverwendung).
 Die Reihenfolge der Bilanzposten ist gesetzlich vorgeschrieben im *§ 266 HGB*. **Deshalb darf die Reihenfolge auch in der Übungsbilanz nicht variiert werden.** Das EK ist nur bei Unternehmensgründung eine bestimmte Geldmenge, die dazu eingesetzt wird, um AV und UV zu kaufen. Später kann das EK nur noch als Differenz betrachtet werden, die sich aus folgender
@@ -513,4 +514,13 @@ Schreiben Sie eine Bilanz, berechnen Sie das Eigenkapital und die Bilanzsumme.
     - (i) Ein Open-Air-Konzert ist ausschließbar, wenn es auf einer Insel stattfindet.
     - (j) Heroin ist ein meritorisches Gut, weil sein gesellschaftlicher Nutzen sehr hoch ist.
     - (k) Die Notwendigkeit des Wirtschaftens ergibt sich aus der begrenzten Anzahl von Bedürfnissen, zu deren Befriedigung eine unbegrenzte Menge an Gütern zur Verfügung steht.
+
+## Tipps für [Kapitel 2](#chapter-2)
+
+1. Bilanz ist die **Wichtigste** in diesem Kapitel
+2. Bitte nutzen Sie die "Einsatz-Ansatz-Ergebnis" Form, wenn Sie die Aufgabe( insbesonders im Klausur) lösen.
+
+    Hier ist ein Beispiel für die "Einsatz-Ansatz-Ergebnis" Form:
+    $\begin{align} \text{FK} &= \text{Summe} - \text{EK} \space \text{// Einsatz}\\&= 100.000 - 70.000 \space \text{// Ansatz}\\&= 30.000 \space \text{GE} \space \text{//Ergeibnis}\end{align}$
+    $\text{Antwortsatz: Der FK ist i.h.v. }30.000\text{ GE.}$
 

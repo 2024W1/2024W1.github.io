@@ -25,3 +25,4 @@ chapter-2.4.7.2
 chapter-2.4.8
 chapter-2.5
 chapter-2.6
+tipps-für-kapitel-2
