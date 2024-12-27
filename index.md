@@ -1,7 +1,7 @@
 --- 
 title: "Wirschaftswissenschaft für 2024-25W1"
 author: "Klinkicht, Begonia"
-date: "2024-12-24"
+date: "2024-12-27"
 output:
   bookdown::gitbook
 site: bookdown::bookdown_site
@@ -27,7 +27,7 @@ Keine Ahnung.
 ### Der 1. Semester
 
 1. [Gegenstand der Wirtschaftswissenschaft](#chapter-2)
-2. Modelltheorie: Wirtschaftsmodelle
+2. [Modelltheorie: Wirtschaftsmodelle](#chapter-3)
   - Modelltheorie
   - Homo oeconomicus
   - Wirtschaftskreislauf
@@ -51,13 +51,14 @@ Keine Ahnung.
   - Klassifikation nach Karl Bücher
   - Arbeitsteilung im Unternehmen (Adam Smith)
   - Arbeitsteilung in der Volkswirtschaft (Jean Fourastie)
-  - Arbeitsleitung zwischen den Volkswirtschaften (absoluter und komparativer Kostenvorteil nach Smith, Ricardo)
+  - Arbeitsleitung zwischen den Volkswirtschaften (absoluter und komparativer Kostenvorteil nach *Smith, Ricardo*)
 7. Markt
   - Marktklassifikation
   - Prämissen des vorkommenden Marktes
   - Marktgleichgewicht
   - Funktion des Preises
 8. Geld
+9. [MK-Problem](#chapter-9)
 
 ### Der 2. Semester
 
@@ -524,3 +525,275 @@ Schreiben Sie eine Bilanz, berechnen Sie das Eigenkapital und die Bilanzsumme.
     $\begin{align} \text{FK} &= \text{Summe} - \text{EK} \space \text{// Einsatz}\\&= 100.000 - 70.000 \space \text{// Ansatz}\\&= 30.000 \space \text{GE} \space \text{//Ergeibnis}\end{align}$
     $\text{Antwortsatz: Der FK ist i.h.v. }30.000\text{ GE.}$
 
+# Wirtschaftswissenschaftliche Arbeitsmethoden {#chapter-3}
+
+## Die Modellbildung in den Wirtschaftswissenschaften {#chapter-3.1}
+
+Da die in der Realität sehr vielfältigen und komplizierten Zusammenhänge und Abhängigkeiten wirtschaftlicher Prozesse unüberschaubar sind, erarbeitet man zur Beschreibung und Untersuchung ökonomischer Strukturen und Prozesse abstrakte Modelle. Diese Denkmodelle stellen vereinfachte Abbilder der Wirklichkeit dar, die sich zum Zwecke der Analyse und Lösung eines bestimmten Problems auf die dafür wesentlichen Strukturen des Originals beschränken. Modelle können also niemals mit der Realität übereinstimmen, sie haben gar nicht den Zweck, mit der Realität übereinzustimmen, denn welche Funktion hätte etwa eine Straßenkarte im Maßstab 1:1?
+
+Bei der Konstruktion eines Modells ist zunächst der **Zweck** festzulegen:
+
+| | |
+|---|---|
+|Zweck|Die Straßenkarte soll Autofahrern dazu dienen, einen bestimmten Ort über mit Fahrzeugen zu befahrende Straßen zu erreichen.|
+
+Vom Zweck hängen die **Art der Darstellung** und die **Prämissen** des Modells ab:
+
+| | |
+|---|---|
+|Darstellung|10 Kilometern in der Realität entsprechen einem Zentimeter auf der Karte, Darstellung erfolgt starr als Druck auf Papier oder dynamisch als Softwareprogramm für einen Navigationscomputer.|
+|Vereinfachung|Orte werden als Punkte, Straßen als Linien mit unterschiedlichen Farben und unterschiedlicher Dicke dargestellt.|
+|Vernachlässigung|1. Einzelne Gebäude, Wanderwege, Bäume, Straßenschilder usw. werden nicht eingezeichnet. <br> 2. Menschen, Tiere, Fahrzeuge werden nicht eingezeichnet. <br> Berge und Täler werden nicht eingezeichnet.|
+
+Zu den wichtigsten Modellen in den Wirtschaftswissenschaften gehören das Menschenbild des *Homo economicus*, Kreislaufmodelle und funktionale Zusammenhänge zwischen einer, zwei oder mehreren unabhängigen Größen und einer abhängigen Größe. Das Modell einer idealtypischen Angebotsfunktion und einer idealtypischen Nachfragefunktion sind dann Bestandteile des Modells vom vollkommenen Markt, einem grundlegenden Modell der Wirtschaftswissenschaft.
+
+## Das Modell des *Homo oeconomicus* {#chapter-3.2}
+
+Das grundlegende Menschenbild der klassischen und neoklassischen Wirtschaftstheorie ist der *homo economicus* (der ökonomische Mensch). Er geht zurück auf die Idee Adam Smith, dass der Wohlstand einer Gesellschaft maximiert werden kann, wenn jedes Mitglied der Gesellschaft seinen Eigennutz (seinen eigenen Nutzen) maximiert. Der *homo oeconomicus* ist also ein **rational** handelndes, seinen Eigennutz maximierendes Wirtschaftssubjekt. Rationales Handeln bedeutet, dass er in Entscheidungssituationen immer die Alternative wählt, mit der er sein Ziel am besten erreichen kann. Dabei kann er nur nach einer Zielfunktion optimieren.
+Z.B. hat ein Nachfrager die Möglichkeit:
+
+1. ein Brot in einer 100 m entfernten Bäckerei für 1,90 € 
+2. ein Brot in einer 2 km entfernten Bäckerei für 1,50 € zu kaufen. 
+
+Wenn er das Brot so billig wie möglich kaufen möchte, wählt er Alternative .... Wenn er für den Kauf des Brotes so wenig wie möglich Körperkraft einsetzen möchte, dann wählt er Alternative....
+
+Nutzenmaximierung kann also allgemein definiert werden, hauptsächlich geht es in der Wirtschaftswissenschaft jedoch um die Maximierung materieller Ziele, d.h. ein typisch wirtschaftliches Problem wäre also die Frage, wo das Wirtschaftssubjekt das billigste Brot kaufen kann.
+
+Dieses Modell unterscheidet sich von einem realen Menschen hauptsächlich dadurch, dass ein realer Mensch stets mehrere, sich z.T. widersprechende Ziele nicht nur materieller Art verfolgt und dass er auch wenn er seine Handlungsalternativen nur an einem Ziel ausrichtet, aus verschiedenen Gründen nicht zwingend die Alternative wählt, die ihm den höchsten Nutzen stiftet. Im Extremfall kann er sogar eine Alternative wählen, die ihm schadet.
+
+Das Modell des *homo economicus* dient dazu, das Entscheidungsverhalten in wirtschaftlichen Entscheidungsmodellen zu analysieren. Dieses Menschenbild erfährt sehr oft Kritik, da es den Menschen angeblich auf einen emotionslosen Rationalisten, der sich ausschließlich an materiellen Anreizen ausrichte, reduziere. Das Modell besagt jedoch nur, dass der Entscheidende seine Entscheidung ausschließlich an einem Ziel, also eindimensional ausrichtet und versucht, das Ziel so gut wie möglich zu erreichen. Das Ziel ist in den neoklassischen Modellen für Haushalte meist die Maximierung des Nutzens, für Unternehmen meist die Maximierung des Gewinns. Modelle zur Erreichung anderer Ziele können allerdings auch geschaffen werden. Denkbar sind neben wirtschaftlich bedeutsamen oder einfach nur materiellen Zielen natürlich auch emotionale oder moralische Ziele. Diese sind aber nicht Gegenstand der Wirtschaftswissenschaft.
+
+## Wirtschaftskreisläufe {#chapter-3.3}
+
+Die Wirtschaftswissenschaft analysiert Entscheidungen von Wirtschaftssubjekten oder Wirtschaftsakteuren. Wirtschaftssubjekte sind alle Einheiten einer Volkswirtschaft, die ökonomische Entscheidungen treffen, selbständig Wirtschaftspläne aufstellen und danach handeln. Eine einzelne Person kann Wirtschaftssubjekt sein, aber auch mehrere Personen, bei denen eine gemeinsame Willensbildung erfolgt, wie z.B. eine Familie, der Vorstand einer Aktiengesellschaft oder ein Parlament.
+
+Zwischen Wirtschaftssubjekten besteht eine sehr große Anzahl von unterschiedlichen Beziehungen. Unternehmen produzieren, investieren und kaufen Faktoren von anderen Unternehmen und verkaufen Produkte an private Haushalte. Private Haushalte konsumieren und sparen, indem sie Geld auf die Bank bringen, der Staat erhebt Steuern, Strafen oder nimmt Kredite bei Banken oder bei Haushalten auf, um den Kollektivbedarf zu decken, also Schulen und Straßen zu bauen, bzw. Verwaltungsbeamte oder eine Armee zu bezahlen, Unternehmen importieren und exportieren usw. Um diese Vielzahl von Wirtschaftsakteuren und die zwischen ihnen ablaufenden Transaktionen (Vorgänge, bei denen Güter oder Geld den Eigentümer wechseln) zu erfassen, schafft die Wirtschaftslehre ein Modell.
+
+Im Modell vom Wirtschaftskreislauf wird die Anzahl der Wirtschaftsakteure auf maximal fünf Gruppen (Sektoren) reduziert: private Haushalte, Unternehmen, Kapitalsammelstellen/ Finanzsammelstellen (kurz: Banken), den Staat (öffentliche Haushalte und öffentliche Unternehmen) und das Ausland. Die Vielzahl an Transaktionen wird in nur zwei klassifiziert, in Güterströme und Geldströme.
+
+Analysiert werden nun die Entscheidungen und die Ziele der Wirtschaftsakteure und die Beziehungen untereinander. Die Bezeichnung dieser Modelle als Wirtschaftskreislauf geht auf einen von dem französischen Arzt und Ökonomen *Francois Quesnay* im Jahr 1758 geprägten Begriff zurück, der sich auf das Zirkulieren von Realkapital (Gütern / Dienstleistungen) und Finanzkapital (Geld) in einer Wirtschaft bezieht.
+
+### Der einfache Wirtschaftskreislauf {#chapter-3.3.1}
+
+In einem grundlegenden Modell der Wirtschaftswissenschaft geht man zunächst von zwei Gruppen von Wirtschaftsakteuren, also von zwei Sektoren, aus. Der einfache Wirtschaftskreislauf untersucht die Beziehungen der privaten Haushalte zu den privaten Unternehmen.
+
+**Private Haushalte** sind die historisch ältesten Wirtschaftsakteure. Ein privater Haushalt wird als Mensch oder Menschengruppe interpretiert, die einem Willen folgt. Die Produktion eines Haushaltes erfolgt ausschließlich zur Befriedigung des Eigenbedarfes. Der Haushalt verfolgt das Ziel der Nutzenmaximierung. Im einfachen Wirtschaftskreislauf muss er folgende Entscheidungen treffen: Welche Faktoren stelle ich den Unternehmen zur Verfügung? Welche Güter kaufe ich? Im erweiterten Wirtschaftskreislauf muss er außerdem noch entscheiden, wie viel seines Einkommens der Haushalt konsumiert und wie viel er spart.
+
+**Private Unternehmen** entwickelten sich aus Haushalten als Folge der Arbeitsteilung. Es handelt sich auch bei Unternehmen um Menschen oder Menschengruppen, die einem Willen folgen. Die Produktion eines Unternehmens erfolgt zur Befriedigung des Fremdbedarfes. Ein privates Unternehmen verfolgt im Modell das Ziel der Gewinnmaximierung. Im einfachen Wirtschaftskreislauf muss das Unternehmen die Entscheidungen treffen: Welche Faktoren setzt es in der Produktion ein? Welche Güter produziert es? Im erweiterten Wirtschaftskreislauf ergeben sich weitere Entscheidungssituationen.
+
+#### Prämissen des Modells des einfachen Wirtschaftskreislaufes {#chapter-3.3.1.1}
+
+1. Im einfachen Wirtschaftskreislauf gibt es nur zwei Sektoren, Haushalte und Unternehmen.
+(Der Staat greift nicht in den Wirtschaftsprozess ein, es gibt keine Banken oder andere Kapitalsammelstellen, Beziehungen zum Ausland bestehen nicht.)
+2. Zwischen beiden Sektoren fließen zwei Güterströme und zwei Geldströme.
+3. Das gesamte Einkommen der Haushalte wird konsumiert, es wird nichts gespart.
+4. Der Kapitalstock der Unternehmen verändert sich nicht, d.h. die Wirtschaft ist stationär.
+5. Güter- und Geldströme von Unternehmen zu Unternehmen und von Haushalt zu Haushalt
+werden vernachlässigt.
+
+In einem **Güterstrom** stellen Haushalte den Unternehmen über die Faktormärkte die Faktoren Boden, Arbeit, Kapital (als Realkapital) zur Verfügung. Die Unternehmen kombinieren die Faktoren in einem Produktionsprozess und geben die produzierten Konsumgüter in einem zweiten Güterstrom über den Konsumgütermarkt an die Haushalte ab. Der Güterkreislauf besteht damit aus den Faktorleistungen der Haushalte und der Konsumgüterbereitstellung durch die Unternehmen.
+
+Als **Geldstrom** fließen die Entgelte für die Faktoren (für den Boden = Bodenrente/ Miete oder Pacht, für die Arbeit = Arbeitseinkommen/ Lohn oder Gehalt, für das Geldkapital = Zins) von den Unternehmen an die Haushalte und in einem zweiten Geldstrom fließt dieses Einkommen von den Haushalten an die Unternehmen zurück. Aus der Position des Haushaltes nennt man den Geldstrom "Konsumausgaben", aus der Position des Unternehmens wird dieser Geldstrom "Erlöse" genannt. Im einfachen Wirtschaftskreislauf ist ein Geldstrom immer an einen gegenläufigen Güterstrom gekoppelt. Alle vier Ströme werden in der grafischen Darstellung berücksichtigt.
+
+### Der erweiterte Wirtschaftskreislauf {#chpater-3.3.2}
+
+Um zu einem realitätsnäheren Modell zu gelangen, wird der einfache Wirtschaftskreislauf zunächst um den Sektor "Vermögensveränderung", dann um den Sektor „Staat" und als letztes um den Sektor „Ausland" erweitert. Grundlage des volkswirtschaftlichen Rechnungswesens (der Volkswirtschaftlichen Gesamtrechnung) ist dann der erweiterte Wirtschaftskreislauf mit 5 Wirtschaftsakteuren/ Sektoren. Die folgenden drei Sektoren sollen nun erläutert werden:
+
+#### Vermögensveränderung oder kurz: Bank {#chpater-3.3.2.1}
+
+Bei diesem Sektor handelt es sich um einen nur im Modell vorhandenen Sektor, der die Höhe des Konsumverzichtes zeigt, den eine Volkswirtschaft leistet. Wie man in der Realität beobachten kann, stellen sowohl Haushalte als auch Unternehmen den Banken und Versicherungen nicht verwendete Teile ihres Einkommens bzw. ihrer Gewinne zur Verfügung und bekommen dafür Guthabenzinsen. Diese Ersparnisse wiederum verwenden Banken und andere Finanzsammelstellen, um damit anderen Haushalten und Unternehmen Geld zur Verfügung zu stellen, die für die Kredite Schuldzinsen entrichten müssen. Der Sektor zeigt also die Ersparnisse der Haushalte und die Höhe der Investitionen im Unternehmen. Erst durch die Ergänzung des einfachen Wirtschaftskreislaufes mit diesem Sektor kann das Sparen dargestellt werden. Der Sektor hat sehr unterschiedliche Bezeichnungen, u.a. auch Kapitalsammelstelle oder Finanzsammelstelle. Er kann sehr verkürzt als "Bank" bezeichnet werden, da er eine der wichtigsten Aufgaben einer Bank, Geld annehmen und verleihen, wahrnimmt. Andere Aufgaben einer Bank werden allerdings vernachlässigt, insbesondere die, dass Banken als Fristentransformatoren das kurzfristige Sparen und das langfristige Investieren transformieren müssen, oder dass sie selbst spekulieren. Das wird im Modell vernachlässigt.
+
+#### Staat {#chpater-3.3.2.2}
+
+Der Staat erhält von den Haushalten Steuern, Gebühren, Beiträge; von den Unternehmen Steuern; von allen anderen Wirtschaftsakteuren, hauptsächlich von den Banken jedoch Kredite; aus dem Ausland Transferzahlungen (EU, UNO...). Diese Einnahmen verwendet er u.a. für Investitionen, Gehaltszahlungen an Mitarbeiter des öffentlichen Dienstes, Transferzahlungen (soziale Leistungen) an Haushalte (z.B. Sozialhilfe, Wohngeld), Transferzahlungen an Unternehmen in Form von Subventionen, Transferzahlungen ans Ausland. In diesem Sinne wird der Staat als (Staats)haushalt interpretiert. Der Staat kann als Wirtschaftsakteur aber auch selbst Unternehmer sein. Staatliche bzw. öffentliche Unternehmen müssen nicht wie private Unternehmen das Ziel der Gewinnmaximierung verfolgen. Sie dienen überwiegend dazu, Versorgungsaufgaben zu erfüllen. Ziele, die verfolgt werden können, sind beispielsweise die Bedarfsdeckung, die Erreichung eines bestimmten Umsatzzieles, Kostendeckung oder die Erreichung eines bestimmten Gewinns. Der Staat als Unternehmer wird im erweiterten Wirtschaftskreislauf jedoch vernachlässigt.
+
+#### Ausland {#chpater-3.3.2.3}
+
+Im Modell des Wirtschaftskreislaufs gibt es nur ein Inland mit den Sektoren Haushalt, Unter-nehmen, Kapitalsammelstellen und Staat und ein Ausland. Die wichtigsten Geld- und Güterströme zwischen In- und Ausland sind Export und Import. Durch den Verkauf von Sachgütern und Dienstleistungen (Güterstrom) von inländischen Unternehmen in das Ausland erhalten die Exporteure Devisen (Geldstrom).
+
+Die Beziehungen der privaten und öffentlichen Haushalte zum Ausland bestehen zum großen Teil aus Transferzahlungen, die sie erhalten oder zahlen, z.B. Überweisungen von Mitgliedern privater Haushalte an ihre Familienmitglieder im Ausland, Unterstützungszahlungen an Entwicklungsländer, Reparationen.
+
+Die korrekte grafische Darstellung dieser Beziehungen ist nur in einem fünfdimensionalen Raum möglich. Eine Vereinfachung stellt die folgende Grafik dar:
+
+Worin bestehen Vereinfachungen?
+In der Grafik sind Logikfehler. Suchen Sie diese:
+
+Bereits mit der Erweiterung durch den dritten Sektor Kapitalsammelstellen kann sich der Wirtschaftskreislauf verändern. Durch das Sparen kann die Bildung und Veränderung des Kapitalstocks überhaupt erst erklärt werden. Damit wird der Kreislauf dynamisch. Wenn die Haushalte mehr sparen, können die Investitionen der Unternehmen steigen. Die Wirtschaft expandiert z.B., wenn sich die Nachfrage des Staates nach Gütern erhöht, wenn sich die Nachfrage der Unternehmen nach Krediten für Investitionen erhöht usw. Auch ein schrumpfender Wirtschaftskreislauf kann simuliert werden, z.B. wenn dem Kreislauf Geld entzogen wird, etwa, wenn die Banken keine Kredite vergeben oder die Nachfrage der Haushalte sinkt. Die Veränderung in einem Sektor hat Auswirkungen auf alle anderen Sektoren. Die Analyse dieser Auswirkungen ist das Ziel, das mit der Bildung dieser Modelle verfolgt wird.
+
+## Funktionale Zusammenhänge {#chapter-3.4}
+
+Die Wirtschaftswissenschaft ist eine Wissenschaft vom Menschen. Sie setzt jedoch zur Darstellung von Zusammenhängen zwischen zwei, drei oder mehreren Größen häufig die mathematische Form eines funktionalen Zusammenhangs ein. Die einfachste Form ist eine Funktion mit einer unabhängigen und einer abhängigen Variablen. Aus der vorherigen Lektion sind bereits die Nutzenfunktion und die Nachfragefunktionen für ein Gut bekannt.
+
+Typischer sind jedoch Zusammenhänge zwischen mehreren unabhängigen und einer abhängigen Variablen. Grafisch dargestellt werden können jedoch höchstens der Zusammenhang zwischen zwei unabhängigen und einer abhängigen Variablen. Deshalb stehen sie im Mittelpunkt der neoklassischen Wirtschaftstheorie. Im Kurs beschäftigen wir uns mit folgenden Funktionen:
+
+# MK-Problem {#chapter-9}
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  displayAlign: "center"
+});
+</script>
+
+## Eingabeparameter
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: { 
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  "HTML-CSS": {
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  SVG: {
+    scale: 100,
+    minScaleAdjust: 100
+  }
+});
+</script>
+
+<div class="math">
+  <style>
+    .MJX-TEX,
+    .MJX-TEX * {
+      font-family: inherit !important;
+    }
+    .mjx-i {
+      font-family: inherit !important;
+    }
+  </style>
+  <div>K(v<sub>1</sub>,v<sub>2</sub>) = q<sub>1</sub> · v<sub>1</sub> + q<sub>2</sub> · v<sub>2</sub></div>
+  <div>O(v<sub>1</sub>,v<sub>2</sub>) = Cv<sub>1</sub><sup>α</sup>v<sub>2</sub><sup>β</sup> = C<sub>0</sub></div>
+</div>
+
+
+
+
+Bitte geben Sie die folgenden Parameter ein:
+
+<div>
+  <label for="alpha">α:</label>
+  <input type="number" id="alpha" value="1" step="0.1" min="0" max="1"><br>
+  
+  <label for="beta">β:</label>
+  <input type="number" id="beta" value="1" step="0.1" min="0" max="1"><br>
+  
+  <label for="C0">C<sub>0</sub>:</label>
+  <input type="number" id="C0" value="100" min="0"><br>
+  
+  <label for="q1">q<sub>1</sub>:</label>
+  <input type="number" id="q1" value="1" min="0"><br>
+  
+  <label for="q2">q<sub>2</sub>:</label>
+  <input type="number" id="q2" value="1" min="0"><br>
+  
+  <label for="C">C:</label>
+  <input type="number" id="C" value="1" min="0"><br>
+  
+  <button onclick="calculate()">Berechnen</button>
+</div>
+
+## Ergebnisse und Lösungsweg
+
+<div id="results"></div>
+
+<script>
+function calculate() {
+  var alpha = parseFloat(document.getElementById('alpha').value);
+  var beta = parseFloat(document.getElementById('beta').value);
+  var C0 = parseFloat(document.getElementById('C0').value);
+  var q1 = parseFloat(document.getElementById('q1').value);
+  var q2 = parseFloat(document.getElementById('q2').value);
+  var C = parseFloat(document.getElementById('C').value);
+  
+  var v1exp = alpha -1;
+  var v2exp = beta -1;
+  
+  var zaehler = beta*q1;
+  var nenner = alpha*q2;
+  
+  var bruchwert = zaehler/nenner;
+  
+  var v1 = Math.pow((C0/C * Math.pow((nenner)/(zaehler), beta)), 1/(alpha + beta));
+  var v2 = (zaehler)/(nenner) * v1;
+  var K = q1 * v1 + q2 * v2;
+
+  var resultsDiv = document.getElementById('results');
+  resultsDiv.innerHTML = `
+    <h4>Minimalkostenkombination und Höhe der Kosten</h4>
+    
+    <p>
+    Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = ${C}v_1^{${alpha}}v_2^{${beta}}$.
+    </p>
+    <p>
+    Es soll zunächst ein Output von $C_0=${C0}$ Stück produziert werden. 
+    </p>
+    <p>
+    Der Preis des Faktors $v_1$ beträgt $q_1 = ${q1}$ GE, der Preis des Faktors $v_2$ beträgt $q_2 = ${q2}$ GE.
+    </p>
+
+    <p>(a) Berechnung der Minimalkostenkombination für dieses Output und die Höhe der Kosten.</p>
+
+    <div class="math">
+    $ 
+    \\left\\{
+    \\begin{aligned}
+    K(v_1,v_2) &= ${q1} \\cdot v_1 + ${q2} \\cdot v_2 \\\\
+    O(v_1,v_2) &= ${C}v_1^{${alpha}}v_2^{${beta}}=${C0}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+
+    <div class="math">
+    $
+    \\text{Sei }O_0(v_1,v_2)=${C}v_1^{${alpha}}v_2^{${beta}}-${C0}=0,\\mathbb{L}=k(v_1,v_2)-\\lambda \\cdot O_0(v_1,v_2) \\\\
+    \\because q_1=${q1},q_2=${q2} \\\\
+    \\text{K}(v_1,v_2)=${q1}v_1+${q2}v_2 \\\\
+    \\left\\{
+    \\begin{aligned}
+    \\frac{\\partial \\mathbb{L}}{\\partial v_1} &= ${q1}-\\lambda\\cdot${alpha}\\cdot${C}\\cdot v_1^{${alpha}-1}v_2^{${beta}}=0 \\\\
+    \\frac{\\partial \\mathbb{L}}{\\partial v_2} &= ${q2}-\\lambda\\cdot${beta}\\cdot${C}\\cdot v_1^{${alpha}}v_2^{${beta}-1}=0
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    
+    <div class="math">
+    $
+    \\therefore
+    \\left\\{
+    \\begin{aligned}
+    ${q1} &= \\lambda\\cdot${alpha}\\cdot${C}\\cdot v_1^{${v1exp}}v_2^{${beta}} \\\\
+    ${q2} &= \\lambda\\cdot${beta}\\cdot${C}\\cdot v_1^{${alpha}}v_2^{${v2exp}}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    
+    <div class="math">
+    $
+    \\frac{v_2}{v_1}=\\frac{${zaehler}}{${nenner}} \\Rightarrow v_2 = ${bruchwert.toFixed(2)} \\cdot v_1
+    $
+    </div>
+
+    <p>Die optimale Kombination der Produktionsfaktoren ist:</p>
+    <div class="math">$v_1 = ${v1.toFixed(2)}$</div>
+    <div class="math">$v_2 = ${v2.toFixed(2)}$</div>
+    <p>Die minimalen Kosten betragen:</p>
+    <div class="math">$\\text{K} = q_1 v_1 + q_2 v_2 = ${q1} \\times ${v1.toFixed(2)} + ${q2} \\times ${v2.toFixed(2)}= ${K.toFixed(2)}$</div>
+  `;
+
+  // 渲染LaTeX公式
+  if (typeof MathJax !== 'undefined') {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  }
+}
+</script>

@@ -4,20 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Page not found | Wirschaftswissenschaft für 2024-25W1</title>
+  <title>Kapitel 4 MK-Problem | Wirschaftswissenschaft für 2024-25W1</title>
 
     <meta name="author" content="Klinkicht, Begonia" />
   
    <meta name="description" content="Es erfolgt keine Trennung in VWL und BWL." />
    <meta name="generator" content="placeholder" />
-  <meta property="og:title" content="Page not found | Wirschaftswissenschaft für 2024-25W1" />
+  <meta property="og:title" content="Kapitel 4 MK-Problem | Wirschaftswissenschaft für 2024-25W1" />
   <meta property="og:type" content="book" />
   
   
   <meta property="og:description" content="Es erfolgt keine Trennung in VWL und BWL." />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Wirschaftswissenschaft für 2024-25W1" />
+  <meta name="twitter:title" content="Kapitel 4 MK-Problem | Wirschaftswissenschaft für 2024-25W1" />
   
   <meta name="twitter:description" content="Es erfolgt keine Trennung in VWL und BWL." />
   
@@ -78,11 +78,171 @@
   </header>
 
   <main class="col-sm-12 col-md-9 col-lg-7" id="content">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="chapter-9" class="section level1" number="4">
+<h1><span class="header-section-number">Kapitel 4</span> MK-Problem</h1>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  displayAlign: "center"
+});
+</script>
+<div id="eingabeparameter" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Eingabeparameter</h2>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: { 
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  "HTML-CSS": {
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  SVG: {
+    scale: 100,
+    minScaleAdjust: 100
+  }
+});
+</script>
+<div class="math">
+<style>
+    .MJX-TEX,
+    .MJX-TEX * {
+      font-family: inherit !important;
+    }
+    .mjx-i {
+      font-family: inherit !important;
+    }
+  </style>
+<div>
+K(v<sub>1</sub>,v<sub>2</sub>) = q<sub>1</sub> · v<sub>1</sub> + q<sub>2</sub> · v<sub>2</sub>
+</div>
+<div>
+O(v<sub>1</sub>,v<sub>2</sub>) = Cv<sub>1</sub><sup>α</sup>v<sub>2</sub><sup>β</sup> = C<sub>0</sub>
+</div>
+</div>
+<p>Bitte geben Sie die folgenden Parameter ein:</p>
+<div>
+<p><label for="alpha">α:</label>
+<input type="number" id="alpha" value="1" step="0.1" min="0" max="1"><br></p>
+<p><label for="beta">β:</label>
+<input type="number" id="beta" value="1" step="0.1" min="0" max="1"><br></p>
+<p><label for="C0">C<sub>0</sub>:</label>
+<input type="number" id="C0" value="100" min="0"><br></p>
+<p><label for="q1">q<sub>1</sub>:</label>
+<input type="number" id="q1" value="1" min="0"><br></p>
+<p><label for="q2">q<sub>2</sub>:</label>
+<input type="number" id="q2" value="1" min="0"><br></p>
+<p><label for="C">C:</label>
+<input type="number" id="C" value="1" min="0"><br></p>
+<p><button onclick="calculate()">Berechnen</button></p>
+</div>
+</div>
+<div id="ergebnisse-und-lösungsweg" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Ergebnisse und Lösungsweg</h2>
+<div id="results">
+
+</div>
+<script>
+function calculate() {
+  var alpha = parseFloat(document.getElementById('alpha').value);
+  var beta = parseFloat(document.getElementById('beta').value);
+  var C0 = parseFloat(document.getElementById('C0').value);
+  var q1 = parseFloat(document.getElementById('q1').value);
+  var q2 = parseFloat(document.getElementById('q2').value);
+  var C = parseFloat(document.getElementById('C').value);
+  
+  var v1exp = alpha -1;
+  var v2exp = beta -1;
+  
+  var zaehler = beta*q1;
+  var nenner = alpha*q2;
+  
+  var bruchwert = zaehler/nenner;
+  
+  var v1 = Math.pow((C0/C * Math.pow((nenner)/(zaehler), beta)), 1/(alpha + beta));
+  var v2 = (zaehler)/(nenner) * v1;
+  var K = q1 * v1 + q2 * v2;
+
+  var resultsDiv = document.getElementById('results');
+  resultsDiv.innerHTML = `
+    <h4>Minimalkostenkombination und Höhe der Kosten</h4>
+    
+    <p>
+    Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = ${C}v_1^{${alpha}}v_2^{${beta}}$.
+    </p>
+    <p>
+    Es soll zunächst ein Output von $C_0=${C0}$ Stück produziert werden. 
+    </p>
+    <p>
+    Der Preis des Faktors $v_1$ beträgt $q_1 = ${q1}$ GE, der Preis des Faktors $v_2$ beträgt $q_2 = ${q2}$ GE.
+    </p>
+
+    <p>(a) Berechnung der Minimalkostenkombination für dieses Output und die Höhe der Kosten.</p>
+
+    <div class="math">
+    $ 
+    \\left\\{
+    \\begin{aligned}
+    K(v_1,v_2) &= ${q1} \\cdot v_1 + ${q2} \\cdot v_2 \\\\
+    O(v_1,v_2) &= ${C}v_1^{${alpha}}v_2^{${beta}}=${C0}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+
+    <div class="math">
+    $
+    \\text{Sei }O_0(v_1,v_2)=${C}v_1^{${alpha}}v_2^{${beta}}-${C0}=0,\\mathbb{L}=k(v_1,v_2)-\\lambda \\cdot O_0(v_1,v_2) \\\\
+    \\because q_1=${q1},q_2=${q2} \\\\
+    \\text{K}(v_1,v_2)=${q1}v_1+${q2}v_2 \\\\
+    \\left\\{
+    \\begin{aligned}
+    \\frac{\\partial \\mathbb{L}}{\\partial v_1} &= ${q1}-\\lambda\\cdot${alpha}\\cdot${C}\\cdot v_1^{${alpha}-1}v_2^{${beta}}=0 \\\\
+    \\frac{\\partial \\mathbb{L}}{\\partial v_2} &= ${q2}-\\lambda\\cdot${beta}\\cdot${C}\\cdot v_1^{${alpha}}v_2^{${beta}-1}=0
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    
+    <div class="math">
+    $
+    \\therefore
+    \\left\\{
+    \\begin{aligned}
+    ${q1} &= \\lambda\\cdot${alpha}\\cdot${C}\\cdot v_1^{${v1exp}}v_2^{${beta}} \\\\
+    ${q2} &= \\lambda\\cdot${beta}\\cdot${C}\\cdot v_1^{${alpha}}v_2^{${v2exp}}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    
+    <div class="math">
+    $
+    \\frac{v_2}{v_1}=\\frac{${zaehler}}{${nenner}} \\Rightarrow v_2 = ${bruchwert.toFixed(2)} \\cdot v_1
+    $
+    </div>
+
+    <p>Die optimale Kombination der Produktionsfaktoren ist:</p>
+    <div class="math">$v_1 = ${v1.toFixed(2)}$</div>
+    <div class="math">$v_2 = ${v2.toFixed(2)}$</div>
+    <p>Die minimalen Kosten betragen:</p>
+    <div class="math">$\\text{K} = q_1 v_1 + q_2 v_2 = ${q1} \\times ${v1.toFixed(2)} + ${q2} \\times ${v2.toFixed(2)}= ${K.toFixed(2)}$</div>
+  `;
+
+  // 渲染LaTeX公式
+  if (typeof MathJax !== 'undefined') {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  }
+}
+</script>
+
+</div>
 </div>
   </main>
 
