@@ -140,7 +140,8 @@ O(v<sub>1</sub>,v<sub>2</sub>) = Cv<sub>1</sub><sup>α</sup>v<sub>2</sub><sup>β
 <input type="number" id="q2" value="1" min="0"><br></p>
 <p><label for="C">C:</label>
 <input type="number" id="C" value="1" min="0"><br></p>
-<p><button onclick="calculate()">Berechnen</button></p>
+<p><button onclick="calculateMitLgr()">Berechnen<sub>lgr</sub></button>
+<button onclick="calculateMitFormel()">Berechnen<sub>fml</sub></button></p>
 </div>
 </div>
 <div id="ergebnisse-und-lösungsweg" class="section level2" number="4.2">
@@ -149,7 +150,7 @@ O(v<sub>1</sub>,v<sub>2</sub>) = Cv<sub>1</sub><sup>α</sup>v<sub>2</sub><sup>β
 
 </div>
 <script>
-function calculate() {
+function calculateMitLgr() {
   var alpha = parseFloat(document.getElementById('alpha').value);
   var beta = parseFloat(document.getElementById('beta').value);
   var C0 = parseFloat(document.getElementById('C0').value);
@@ -171,8 +172,7 @@ function calculate() {
 
   var resultsDiv = document.getElementById('results');
   resultsDiv.innerHTML = `
-    <h4>Minimalkostenkombination und Höhe der Kosten</h4>
-    
+
     <p>
     Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = ${C}v_1^{${alpha}}v_2^{${beta}}$.
     </p>
@@ -182,8 +182,6 @@ function calculate() {
     <p>
     Der Preis des Faktors $v_1$ beträgt $q_1 = ${q1}$ GE, der Preis des Faktors $v_2$ beträgt $q_2 = ${q2}$ GE.
     </p>
-
-    <p>(a) Berechnung der Minimalkostenkombination für dieses Output und die Höhe der Kosten.</p>
 
     <div class="math">
     $ 
@@ -235,7 +233,79 @@ function calculate() {
     <div class="math">$\\text{K} = q_1 v_1 + q_2 v_2 = ${q1} \\times ${v1.toFixed(2)} + ${q2} \\times ${v2.toFixed(2)}= ${K.toFixed(2)}$</div>
   `;
 
-  // 渲染LaTeX公式
+  // Render Latex
+  if (typeof MathJax !== 'undefined') {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  }
+}
+function calculateMitFormel(){
+  //
+  var alpha = parseFloat(document.getElementById('alpha').value);
+  var beta = parseFloat(document.getElementById('beta').value);
+  var C0 = parseFloat(document.getElementById('C0').value);
+  var q1 = parseFloat(document.getElementById('q1').value);
+  var q2 = parseFloat(document.getElementById('q2').value);
+  var C = parseFloat(document.getElementById('C').value);
+  var resultsDiv = document.getElementById('results');
+   
+  var v1exp = alpha -1;
+  var v2exp = beta -1;
+  var qbruchwert = q1 / q2;
+  var v1coe = (beta*q1) / (alpha*q2);
+  
+  
+  var v1 = Math.pow((C0/C * Math.pow(1/v1coe, beta)), 1/(alpha + beta));
+  var v2 = v1coe * v1;
+  var K = q1 * v1 + q2 * v2;
+   
+  resultsDiv.innerHTML = `
+    <p>
+    Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = ${C}v_1^{${alpha}}v_2^{${beta}}$.
+    </p>
+    <p>
+    Es soll zunächst ein Output von $C_0=${C0}$ Stück produziert werden. 
+    </p>
+    <p>
+    Der Preis des Faktors $v_1$ beträgt $q_1 = ${q1}$ GE, der Preis des Faktors $v_2$ beträgt $q_2 = ${q2}$ GE.
+    </p>
+    <div class = "math">
+    $
+    \\text{Sei } \\theta(v_1,v_2) = O(v_1,v_2)
+    $
+    </div>
+    <div class = "math">
+    $
+    \\because \\theta(v_1,v_2) = C \\cdot v_1^{\\alpha}v_2^{\\beta}
+    $
+    </div>
+    <div class = "math">
+    $ 
+    \\therefore
+    \\left\\{
+    \\begin{aligned}
+    \\frac{\\partial \\theta}{\\partial v_1} &= C \\cdot \\alpha \\cdot v_1^{\\alpha -1}v_2^{\\beta} \\\\
+    \\frac{\\partial \\theta}{\\partial v_2} &= C \\cdot v_1^{\\alpha} \\cdot \\beta \\cdot v_2^{\\beta -1}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    <div class = "math">
+    $ 
+    \\therefore
+    \\frac{\\frac{\\partial \\theta}{\\partial v_1}}{\\frac{\\partial \\theta}{\\partial v_2}} = \\frac{C \\cdot \\alpha \\cdot v_1^{\\alpha -1} v_2^{\\beta}}{C \\cdot v_1^{\\alpha} \\cdot \\beta \\cdot v_2^{\\beta -1}} = \\frac{${C} \\cdot ${alpha} \\cdot v_1^{${v1exp}} v_2^{${beta}}}{${C} \\cdot v_1^{${alpha}} \\cdot ${beta} \\cdot v_2 ^{${v2exp}}} = \\frac{${alpha} \\cdot v_2}{${beta} \\cdot v_1}=  \\frac{q_1}{q_2} = \\frac{${q1}}{${q2}} = ${qbruchwert.toFixed(2)}
+    $
+    </div>
+    <div class = "math">
+    $
+    \\therefore v_2 = \\frac{${qbruchwert.toFixed(2)} \\cdot ${beta} \\cdot v_1 }{${alpha}} = ${v1coe.toFixed(2)} \\cdot v_1
+    $
+    </div>
+    <p>Die optimale Kombination der Produktionsfaktoren ist:</p>
+    <div class="math">$v_1 = ${v1.toFixed(2)}$</div>
+    <div class="math">$v_2 = ${v2.toFixed(2)}$</div>
+    <p>Die minimalen Kosten betragen:</p>
+    <div class="math">$\\text{K} = q_1 v_1 + q_2 v_2 = ${q1} \\times ${v1.toFixed(2)} + ${q2} \\times ${v2.toFixed(2)}= ${K.toFixed(2)}$</div>
+  `;
   if (typeof MathJax !== 'undefined') {
     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
   }
