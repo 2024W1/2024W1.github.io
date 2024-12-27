@@ -516,7 +516,7 @@ Schreiben Sie eine Bilanz, berechnen Sie das Eigenkapital und die Bilanzsumme.
     - (j) Heroin ist ein meritorisches Gut, weil sein gesellschaftlicher Nutzen sehr hoch ist.
     - (k) Die Notwendigkeit des Wirtschaftens ergibt sich aus der begrenzten Anzahl von Bedürfnissen, zu deren Befriedigung eine unbegrenzte Menge an Gütern zur Verfügung steht.
 
-## Tipps für [Kapitel 2](#chapter-2)
+## Tipps für [Kapitel 2](#chapter-2) {#chapter-2.7}
 
 1. Bilanz ist die **Wichtigste** in diesem Kapitel
 2. Bitte nutzen Sie die "Einsatz-Ansatz-Ergebnis" Form, wenn Sie die Aufgabe( insbesonders im Klausur) lösen.

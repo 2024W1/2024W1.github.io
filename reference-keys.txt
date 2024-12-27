@@ -1,8 +1,3 @@
-chapter-1
-vorwort
-einführung-in-die-wirtschaftslehre
-der-1.-semester
-der-2.-semester
 chapter-2
 chapter-2.1
 chapter-2.2
@@ -25,7 +20,7 @@ chapter-2.4.7.2
 chapter-2.4.8
 chapter-2.5
 chapter-2.6
-tipps-für-kapitel-2
+chapter-2.7
 chapter-3
 chapter-3.1
 chapter-3.2
@@ -37,6 +32,14 @@ chpater-3.3.2.1
 chpater-3.3.2.2
 chpater-3.3.2.3
 chapter-3.4
+chapter-MKProblem
+chapter-MKProblem.Eingabeparameter
+chapter-MKProblem.Ergebnisse
+chapter-1
+vorwort
+einführung-in-die-wirtschaftslehre
+der-1.-semester
+der-2.-semester
 chapter-9
 eingabeparameter
 ergebnisse-und-lösungsweg
