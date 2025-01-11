@@ -1,7 +1,7 @@
 --- 
 title: "Wirschaftswissenschaft für 2024-25W1"
 author: "Klinkicht, Begonia"
-date: "2024-12-27"
+date: "2025-01-11"
 output:
   bookdown::gitbook
 site: bookdown::bookdown_site
@@ -59,6 +59,7 @@ Keine Ahnung.
   - Funktion des Preises
 8. Geld
 9. [MK-Problem](#chapter-9)
+10. [K(O)-Problem](#chapter-10)
 
 ### Der 2. Semester
 
@@ -628,18 +629,6 @@ Typischer sind jedoch Zusammenhänge zwischen mehreren unabhängigen und einer a
 
 # MK-Problem {#chapter-9}
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$']],
-    displayMath: [['$$','$$']],
-    processEscapes: true,
-    processEnvironments: true
-  },
-  displayAlign: "center"
-});
-</script>
-
 ## Eingabeparameter
 
 <script type="text/x-mathjax-config">
@@ -866,4 +855,219 @@ function calculateMitFormel(){
     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
   }
 }
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  displayAlign: "center"
+});
+</script>
+
+
+# K(O)-Problem {#chapter-10}
+
+## Eingabeparameter
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: { 
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  "HTML-CSS": {
+    scale: 100,
+    minScaleAdjust: 100
+  },
+  SVG: {
+    scale: 100,
+    minScaleAdjust: 100
+  }
+});
+</script>
+
+<div class="math">
+  <style>
+    .MJX-TEX,
+    .MJX-TEX * {
+      font-family: inherit !important;
+    }
+    .mjx-i {
+      font-family: inherit !important;
+    }
+  </style>
+  <div>K(v<sub>1</sub>,v<sub>2</sub>) = q<sub>1</sub> · v<sub>1</sub> + q<sub>2</sub> · v<sub>2</sub></div>
+  <div>O(v<sub>1</sub>,v<sub>2</sub>) = Cv<sub>1</sub><sup>α</sup>v<sub>2</sub><sup>β</sup></div>
+</div>
+
+
+
+
+Bitte geben Sie die folgenden Parameter ein:
+
+<div>
+  <label for="alpha">α:</label>
+  <input type="number" id="alpha" value="1" step="0.1" min="0" max="1"><br>
+  
+  <label for="beta">β:</label>
+  <input type="number" id="beta" value="1" step="0.1" min="0" max="1"><br>
+  
+  <label for="q1">q<sub>1</sub>:</label>
+  <input type="number" id="q1" value="1" min="0"><br>
+  
+  <label for="q2">q<sub>2</sub>:</label>
+  <input type="number" id="q2" value="1" min="0"><br>
+  
+  <label for="C">C:</label>
+  <input type="number" id="C" value="1" min="0"><br>
+  
+  <button onclick="calculateKO()">Berechnen<sub>K(O)</sub></button>
+</div>
+
+## Ergebnisse und Lösungsweg
+
+<div id="results"></div>
+
+<script>
+function customRound(num) {
+  // num2str
+  let str = num.toString();
+  
+  // check point
+  if (str.indexOf('.') === -1) {
+    return num; 
+    }
+  
+  // spilt
+  let parts = str.split('.');
+  let decimalPart = parts[1];
+  
+  if (decimalPart.length <= 3) {
+    return num; // keep original
+  } else {
+    // to .xxx
+    return Number(num.toFixed(3));
+  }
+}
+
+function calculateKO() {
+  var alpha = parseFloat(document.getElementById('alpha').value);
+  var beta = parseFloat(document.getElementById('beta').value);
+  var q1 = parseFloat(document.getElementById('q1').value);
+  var q2 = parseFloat(document.getElementById('q2').value);
+  var C = parseFloat(document.getElementById('C').value);
+  
+  //schritt 1
+  var Oexp_r = alpha + beta;
+  var Oexp = 1 / Oexp_r;
+  var v1exp = alpha -1;
+  var v2exp = beta -1;
+  var qbruchwert = q1 / q2;
+  
+  // schritt 2
+  var v2durchv1zaehler = q1 * beta;
+  var v2durchv1nenner = q2 * alpha;
+  var v2durchv1wert = v2durchv1zaehler / v2durchv1nenner;
+  
+  // schritt 3
+  var Otermcoe = q1 * Math.pow(1 / (C * Math.pow(v2durchv1zaehler / v2durchv1nenner, beta)), 1/Oexp_r) + q2 * Math.pow(1 / (C * Math.pow(v2durchv1nenner / v2durchv1zaehler, alpha)), 1/Oexp_r);
+  
+  
+
+  var resultsDiv = document.getElementById('results');
+  resultsDiv.innerHTML = `
+    <p>
+    Das Unternehmen produziert gemäß folgender Produktionsfunktion: $O (v_1, v_2) = ${C}v_1^{${alpha}}v_2^{${beta}}$.
+    </p>
+    <div class = "math">
+    $
+    \\text{Sei } \\theta(v_1,v_2) = O(v_1,v_2)
+    $
+    </div>
+    <div class = "math">
+    $
+    \\because \\theta(v_1,v_2) = C \\cdot v_1^{\\alpha}v_2^{\\beta}
+    $
+    </div>
+    <div class = "math">
+    $ 
+    \\therefore
+    \\left\\{
+    \\begin{aligned}
+    \\frac{\\partial \\theta}{\\partial v_1} &= C \\cdot \\alpha \\cdot v_1^{\\alpha -1}v_2^{\\beta} \\\\
+    \\frac{\\partial \\theta}{\\partial v_2} &= C \\cdot v_1^{\\alpha} \\cdot \\beta \\cdot v_2^{\\beta -1}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    
+    <div class = "math">
+    $ 
+    \\therefore
+    \\frac{\\frac{\\partial \\theta}{\\partial v_1}}{\\frac{\\partial \\theta}{\\partial v_2}} = \\frac{C \\cdot \\alpha \\cdot v_1^{\\alpha -1} v_2^{\\beta}}{C \\cdot v_1^{\\alpha} \\cdot \\beta \\cdot v_2^{\\beta -1}} = \\frac{${C} \\cdot ${alpha} \\cdot v_1^{${v1exp}} v_2^{${beta}}}{${C} \\cdot v_1^{${alpha}} \\cdot ${beta} \\cdot v_2 ^{${v2exp}}} = \\frac{${alpha} \\cdot v_2}{${beta} \\cdot v_1}=  \\frac{q_1}{q_2} = \\frac{${q1}}{${q2}} = ${qbruchwert.toFixed(2)}
+    $
+    </div>
+    <div class = "math">
+    $
+    \\therefore \\frac{v_2}{v_1} = \\frac{${v2durchv1zaehler.toFixed(2)}}{${v2durchv1nenner.toFixed(2)}}
+    $
+    </div>
+    <div class="math">
+    $
+    \\therefore
+    \\left\\{
+    \\begin{aligned}
+    O(v_1) &= ${C} \\cdot (\\frac{${customRound(v2durchv1zaehler)}}{${customRound(v2durchv1nenner)}} \\cdot v_1)^{${beta}} \\cdot v_1^{${alpha}} \\\\
+    O(v_2) &= ${C} \\cdot (\\frac{${customRound(v2durchv1nenner)}}{${customRound(v2durchv1zaehler)}} \\cdot v_2)^{${alpha}} \\cdot v_2^{${beta}}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    <div class="math">
+    $
+    \\Rightarrow
+    \\left\\{
+    \\begin{aligned}
+    v_1^{${Oexp_r}} &= \\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1zaehler)}}{${customRound(v2durchv1nenner)}})^{${beta}}} \\\\
+    v_2^{${Oexp_r}} &= \\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1nenner)}}{${customRound(v2durchv1zaehler)}})^{${alpha}}}
+    \\end{aligned}
+    \\right.
+    $
+    </div>
+    <div class="math">
+    $
+    \\because K= q_1 \\cdot v_1 + q_2 \\cdot v_2
+    $
+    </div>
+    <div class="math">
+    $
+    \\therefore K= q_1 \\cdot \\sqrt[${Oexp_r}]{\\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1zaehler)}}{${customRound(v2durchv1nenner)}})^{${beta}}}} + q_2 \\cdot \\sqrt[${Oexp_r}]{\\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1nenner)}}{${customRound(v2durchv1zaehler)}})^{${alpha}}}}=${q1} \\cdot \\sqrt[${Oexp_r}]{\\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1zaehler)}}{${customRound(v2durchv1nenner)}})^{${beta}}}} + ${q2} \\cdot \\sqrt[${Oexp_r}]{\\frac{O}{${C} \\times (\\frac{${customRound(v2durchv1nenner)}}{${customRound(v2durchv1zaehler)}})^{${alpha}}}} \\\\
+    \\Rightarrow K = (${q1} \\cdot \\sqrt[${Oexp_r}]{\\frac{1}{${C} \\times (\\frac{${customRound(v2durchv1zaehler)}}{${customRound(v2durchv1nenner)}})^{${beta}}}}+${q2} \\cdot \\sqrt[${Oexp_r}]{\\frac{1}{${C} \\times (\\frac{${customRound(v2durchv1nenner)}}{${customRound(v2durchv1zaehler)}})^{${alpha}}}}) \\cdot O^{${customRound(Oexp)}}
+    = ${customRound(Otermcoe)} O^{${customRound(Oexp)}}
+    $
+    </div>
+  `;
+
+  // Render Latex
+  if (typeof MathJax !== 'undefined') {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  }
+}
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  displayAlign: "center"
+});
 </script>

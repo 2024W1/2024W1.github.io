@@ -43,3 +43,6 @@ der-2.-semester
 chapter-9
 eingabeparameter
 ergebnisse-und-lösungsweg
+chapter-10
+eingabeparameter-1
+ergebnisse-und-lösungsweg-1
